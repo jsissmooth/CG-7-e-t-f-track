@@ -15,6 +15,8 @@ ETFS = {
     "CGXU": "https://www.capitalgroup.com/api/investments/investment-service/v1/etfs/cgxu/download/daily-holdings?audience=advisor&redirect=true",
     "CGGO": "https://www.capitalgroup.com/api/investments/investment-service/v1/etfs/cggo/download/daily-holdings?audience=advisor&redirect=true",
     "CGNG": "https://www.capitalgroup.com/api/investments/investment-service/v1/etfs/cgng/download/daily-holdings?audience=advisor&redirect=true",
+    "CGGR": "https://www.capitalgroup.com/api/investments/investment-service/v1/etfs/cggr/download/daily-holdings?audience=advisor&redirect=true",
+    "CGDV": "https://www.capitalgroup.com/api/investments/investment-service/v1/etfs/cgdv/download/daily-holdings?audience=advisor&redirect=true",
 }
 
 SHEET_NAME = "Daily Fund Holdings"
