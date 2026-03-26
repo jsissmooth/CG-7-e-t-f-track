@@ -111,17 +111,36 @@ def save_snapshot(records, today_str, ticker):
     print("  [{}] Saved {} holdings".format(ticker, len(records)), file=sys.stderr)
 
 
-def find_prior_snapshot(today_str, ticker):
+def find_nth_prior_snapshot(today_str, ticker, n):
+    """Return path to the nth most recent snapshot before today (n=1 is yesterday)."""
     data_dir = get_data_dir(ticker)
     files = sorted(
         f for f in os.listdir(data_dir)
         if f.endswith(".json") and f not in ("latest.json", "diff.json", "history.json")
     )
     prior = [f for f in files if f.replace(".json", "") < today_str]
-    return os.path.join(data_dir, prior[-1]) if prior else None
+    if len(prior) >= n:
+        return os.path.join(data_dir, prior[-n])
+    return None
 
 
-def compute_diff(today_records, prior_records, today_str, prior_date_str, ticker):
+def load_snapshot_map(path):
+    """Load a snapshot file and return a dict keyed by ticker."""
+    if not path:
+        return None
+    with open(path) as f:
+        data = json.load(f)
+    return {r["ticker"]: r for r in data["holdings"]}
+
+
+def shares_pct_change(today_shares, prior_shares):
+    if prior_shares and prior_shares != 0:
+        return round((today_shares - prior_shares) / prior_shares * 100, 4)
+    return None
+
+
+def compute_diff(today_records, prior_records, today_str, prior_date_str, ticker,
+                 map_5d=None, map_10d=None, map_30d=None):
     today_map   = {r["ticker"]: r for r in today_records}
     prior_map   = {r["ticker"]: r for r in prior_records}
     all_tickers = sorted(set(today_map) | set(prior_map))
@@ -131,32 +150,42 @@ def compute_diff(today_records, prior_records, today_str, prior_date_str, ticker
         td = today_map.get(t)
         pr = prior_map.get(t)
 
+        s_today = (td["shares"] or 0) if td else None
+        s_prior = (pr["shares"] or 0) if pr else None
+
+        s_5d  = (map_5d[t]["shares"]  or 0) if map_5d  and t in map_5d  else None
+        s_10d = (map_10d[t]["shares"] or 0) if map_10d and t in map_10d else None
+        s_30d = (map_30d[t]["shares"] or 0) if map_30d and t in map_30d else None
+
         if td and pr:
-            s_today   = td["shares"] or 0
-            s_prior   = pr["shares"] or 0
+            raw_chg = ((s_today - s_prior) / s_prior * 100) if s_prior != 0 else 0
             pct_today = td["pct_net_assets"] or 0
             pct_prior = pr["pct_net_assets"] or 0
-            shares_chg = ((s_today - s_prior) / s_prior * 100) if s_prior != 0 else 0
-            pct_chg    = round(pct_today - pct_prior, 4)
             rows.append({
                 "ticker":                t,
                 "name":                  td.get("name") or pr.get("name") or "",
-                "status":                "changed" if shares_chg != 0 else "unchanged",
+                "status":                "changed" if raw_chg != 0 else "unchanged",
                 "shares_today":          s_today,
                 "shares_prior":          s_prior,
-                "shares_pct_change":     round(shares_chg, 4),
+                "shares_pct_change":     round(raw_chg, 4),
+                "shares_5d_change":      shares_pct_change(s_today, s_5d),
+                "shares_10d_change":     shares_pct_change(s_today, s_10d),
+                "shares_30d_change":     shares_pct_change(s_today, s_30d),
                 "pct_net_assets_today":  pct_today,
                 "pct_net_assets_prior":  pct_prior,
-                "pct_net_assets_change": pct_chg,
+                "pct_net_assets_change": round(pct_today - pct_prior, 4),
             })
         elif td:
             rows.append({
                 "ticker":                t,
                 "name":                  td.get("name") or "",
                 "status":                "added",
-                "shares_today":          td["shares"] or 0,
+                "shares_today":          s_today,
                 "shares_prior":          None,
                 "shares_pct_change":     None,
+                "shares_5d_change":      shares_pct_change(s_today, s_5d),
+                "shares_10d_change":     shares_pct_change(s_today, s_10d),
+                "shares_30d_change":     shares_pct_change(s_today, s_30d),
                 "pct_net_assets_today":  td["pct_net_assets"] or 0,
                 "pct_net_assets_prior":  None,
                 "pct_net_assets_change": None,
@@ -167,8 +196,11 @@ def compute_diff(today_records, prior_records, today_str, prior_date_str, ticker
                 "name":                  pr.get("name") or "",
                 "status":                "removed",
                 "shares_today":          None,
-                "shares_prior":          pr["shares"] or 0,
+                "shares_prior":          s_prior,
                 "shares_pct_change":     None,
+                "shares_5d_change":      None,
+                "shares_10d_change":     None,
+                "shares_30d_change":     None,
                 "pct_net_assets_today":  None,
                 "pct_net_assets_prior":  pr["pct_net_assets"] or 0,
                 "pct_net_assets_change": None,
@@ -200,7 +232,7 @@ def process_etf(ticker, url, today_str):
         records = parse_holdings(content, ticker)
         save_snapshot(records, today_str, ticker)
 
-        prior_path = find_prior_snapshot(today_str, ticker)
+        prior_path = find_nth_prior_snapshot(today_str, ticker, 1)
         if not prior_path:
             print("  [{}] No prior snapshot -- skipping diff.".format(ticker), file=sys.stderr)
             diff = {"date": today_str, "ticker": ticker, "prior_date": None, "diff": []}
@@ -208,7 +240,15 @@ def process_etf(ticker, url, today_str):
             with open(prior_path) as f:
                 prior_data = json.load(f)
             prior_date_str = prior_data["date"]
-            diff = compute_diff(records, prior_data["holdings"], today_str, prior_date_str, ticker)
+
+            map_5d  = load_snapshot_map(find_nth_prior_snapshot(today_str, ticker, 5))
+            map_10d = load_snapshot_map(find_nth_prior_snapshot(today_str, ticker, 10))
+            map_30d = load_snapshot_map(find_nth_prior_snapshot(today_str, ticker, 30))
+
+            diff = compute_diff(
+                records, prior_data["holdings"], today_str, prior_date_str, ticker,
+                map_5d=map_5d, map_10d=map_10d, map_30d=map_30d
+            )
 
         data_dir = get_data_dir(ticker)
         with open(os.path.join(data_dir, "diff.json"), "w") as f:
