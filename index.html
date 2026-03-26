@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>American Funds ETF Holdings Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg:        #0b0e14;
+      --surface:   #111520;
+      --border:    #1e2535;
+      --text:      #c8d0e0;
+      --muted:     #4a5568;
+      --accent:    #3b82f6;
+      --green:     #22c55e;
+      --green-bg:  rgba(34,197,94,0.08);
+      --red:       #ef4444;
+      --red-bg:    rgba(239,68,68,0.08);
+      --yellow:    #f59e0b;
+      --yellow-bg: rgba(245,158,11,0.07);
+      --mono:      'IBM Plex Mono', monospace;
+      --sans:      'IBM Plex Sans', sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: var(--sans); min-height: 100vh; }
+
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 20px 32px; border-bottom: 1px solid var(--border); background: var(--surface);
+    }
+    .logo { font-family: var(--mono); font-size: 18px; font-weight: 600; color: #fff; letter-spacing: 0.06em; }
+    .logo span { color: var(--accent); }
+    .header-right { display: flex; align-items: center; gap: 16px; }
+    .date-badge { font-family: var(--mono); font-size: 11px; color: var(--muted); }
+    .refresh-btn {
+      padding: 6px 14px; border: 1px solid var(--border); background: transparent;
+      color: var(--text); font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em;
+      cursor: pointer; border-radius: 3px; transition: border-color .2s, color .2s;
+    }
+    .refresh-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+    .tab-bar {
+      display: flex; gap: 2px; padding: 0 32px;
+      background: var(--surface); border-bottom: 1px solid var(--border);
+      overflow-x: auto;
+    }
+    .tab-btn {
+      padding: 12px 20px; background: transparent; border: none;
+      color: var(--muted); font-family: var(--mono); font-size: 12px;
+      letter-spacing: 0.08em; cursor: pointer; white-space: nowrap;
+      border-bottom: 2px solid transparent; transition: color .15s, border-color .15s;
+      margin-bottom: -1px;
+    }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: #fff; border-bottom-color: var(--accent); }
+
+    main { padding: 24px 32px; max-width: 1600px; margin: 0 auto; }
+
+    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 24px; }
+    .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 16px 18px; }
+    .stat-label { font-size: 10px; letter-spacing: 0.12em; color: var(--muted); text-transform: uppercase; margin-bottom: 7px; }
+    .stat-value { font-family: var(--mono); font-size: 26px; font-weight: 600; color: #fff; line-height: 1; }
+    .stat-value.green  { color: var(--green); }
+    .stat-value.red    { color: var(--red); }
+    .stat-value.yellow { color: var(--yellow); }
+
+    .toolbar { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+    .filter-group { display: flex; border: 1px solid var(--border); border-radius: 4px; overflow: hidden; }
+    .filter-btn {
+      padding: 6px 14px; background: transparent; border: none; color: var(--muted);
+      font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; cursor: pointer;
+      transition: background .15s, color .15s; border-right: 1px solid var(--border);
+    }
+    .filter-btn:last-child { border-right: none; }
+    .filter-btn.active { background: var(--accent); color: #fff; }
+    .filter-btn:not(.active):hover { background: var(--border); color: var(--text); }
+    .search-input {
+      padding: 6px 12px; background: var(--surface); border: 1px solid var(--border);
+      border-radius: 4px; color: var(--text); font-family: var(--mono); font-size: 12px;
+      width: 200px; outline: none; transition: border-color .2s;
+    }
+    .search-input::placeholder { color: var(--muted); }
+    .search-input:focus { border-color: var(--accent); }
+    .sort-select {
+      padding: 6px 12px; background: var(--surface); border: 1px solid var(--border);
+      border-radius: 4px; color: var(--text); font-family: var(--mono); font-size: 11px;
+      outline: none; cursor: pointer;
+    }
+    .diff-info { margin-left: auto; font-family: var(--mono); font-size: 11px; color: var(--muted); }
+
+    .table-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    thead th {
+      padding: 11px 14px; text-align: left; font-family: var(--mono); font-size: 10px;
+      letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase;
+      border-bottom: 1px solid var(--border); white-space: nowrap;
+      background: var(--surface); position: sticky; top: 0; z-index: 1;
+    }
+    thead th:hover { color: var(--text); cursor: pointer; }
+    tbody tr { border-bottom: 1px solid var(--border); transition: background .1s; }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: rgba(59,130,246,0.04); }
+    tbody tr.row-added    { background: var(--green-bg); }
+    tbody tr.row-removed  { background: var(--red-bg); }
+    tbody tr.row-changed  { background: var(--yellow-bg); }
+    td { padding: 10px 14px; font-family: var(--mono); white-space: nowrap; }
+    td.ticker-cell { font-weight: 600; font-size: 13px; color: #fff; }
+    td.name-cell { color: var(--text); font-size: 11px; max-width: 220px; overflow: hidden; text-overflow: ellipsis; font-family: var(--sans); }
+    td.num { text-align: right; }
+    .badge { display: inline-block; padding: 2px 6px; border-radius: 3px; font-size: 10px; font-weight: 500; }
+    .badge-added     { background: var(--green-bg);  color: var(--green);  border: 1px solid rgba(34,197,94,0.2); }
+    .badge-removed   { background: var(--red-bg);    color: var(--red);    border: 1px solid rgba(239,68,68,0.2); }
+    .badge-changed   { background: var(--yellow-bg); color: var(--yellow); border: 1px solid rgba(245,158,11,0.2); }
+    .badge-unchanged { background: transparent;      color: var(--muted);  border: 1px solid var(--border); }
+    .chg-pos { color: var(--green); }
+    .chg-neg { color: var(--red); }
+    .chg-zero { color: var(--muted); }
+    .na { color: var(--muted); font-size: 10px; }
+    .bar-wrap { display: flex; align-items: center; gap: 6px; justify-content: flex-end; }
+    .mini-bar { display: inline-block; height: 8px; min-width: 2px; border-radius: 2px; }
+    .state-msg {
+      text-align: center; padding: 60px 20px; color: var(--muted);
+      font-family: var(--mono); font-size: 13px;
+    }
+    .spinner {
+      display: inline-block; width: 18px; height: 18px;
+      border: 2px solid var(--border); border-top-color: var(--accent);
+      border-radius: 50%; animation: spin .7s linear infinite; margin-bottom: 12px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @media (max-width: 900px) {
+      header, main { padding-left: 16px; padding-right: 16px; }
+      .tab-bar { padding: 0 16px; }
+      .stats { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">American Funds <span>ETF</span> Holdings Tracker</div>
+  <div class="header-right">
+    <span class="date-badge" id="headerDate">--</span>
+    <button class="refresh-btn" onclick="loadCurrentTab()">↻ REFRESH</button>
+  </div>
+</header>
+
+<div class="tab-bar" id="tabBar"></div>
+
+<main>
+  <div class="stats">
+    <div class="stat"><div class="stat-label">Total Holdings</div><div class="stat-value" id="statTotal">--</div></div>
+    <div class="stat"><div class="stat-label">Changed</div><div class="stat-value yellow" id="statChanged">--</div></div>
+    <div class="stat"><div class="stat-label">Added</div><div class="stat-value green" id="statAdded">--</div></div>
+    <div class="stat"><div class="stat-label">Removed</div><div class="stat-value red" id="statRemoved">--</div></div>
+  </div>
+
+  <div class="toolbar">
+    <div class="filter-group">
+      <button class="filter-btn active" onclick="setFilter('all',this)">ALL</button>
+      <button class="filter-btn" onclick="setFilter('changed',this)">CHANGED</button>
+      <button class="filter-btn" onclick="setFilter('added',this)">ADDED</button>
+      <button class="filter-btn" onclick="setFilter('removed',this)">REMOVED</button>
+      <button class="filter-btn" onclick="setFilter('unchanged',this)">UNCHANGED</button>
+    </div>
+    <input class="search-input" id="searchInput" placeholder="Search ticker or name..." oninput="renderTable()" />
+    <select class="sort-select" id="sortSelect" onchange="renderTable()">
+      <option value="ticker_asc">Ticker A to Z</option>
+      <option value="ticker_desc">Ticker Z to A</option>
+      <option value="shares_chg_desc">Shares Change High to Low</option>
+      <option value="shares_chg_asc">Shares Change Low to High</option>
+      <option value="weight_desc">Weight High to Low</option>
+      <option value="status">Status</option>
+    </select>
+    <span class="diff-info" id="diffInfo"></span>
+  </div>
+
+  <div class="table-wrap" id="tableWrap">
+    <div class="state-msg"><div class="spinner"></div><br>Loading...</div>
+  </div>
+</main>
+
+<script>
+  var ETFS = ["CGBL","CGIE","CGUS","CGMM","CGXU","CGGO","CGNG"];
+  var currentTicker = ETFS[0];
+  var allRows = [];
+  var activeFilter = "all";
+
+  var tabBar = document.getElementById("tabBar");
+  ETFS.forEach(function(t) {
+    var btn = document.createElement("button");
+    btn.className = "tab-btn" + (t === currentTicker ? " active" : "");
+    btn.textContent = t;
+    btn.onclick = function() { switchTab(t); };
+    btn.id = "tab-" + t;
+    tabBar.appendChild(btn);
+  });
+
+  function switchTab(ticker) {
+    currentTicker = ticker;
+    ETFS.forEach(function(t) {
+      document.getElementById("tab-" + t).classList.toggle("active", t === ticker);
+    });
+    activeFilter = "all";
+    document.querySelectorAll(".filter-btn").forEach(function(b, i) {
+      b.classList.toggle("active", i === 0);
+    });
+    document.getElementById("searchInput").value = "";
+    loadCurrentTab();
+  }
+
+  function loadCurrentTab() {
+    document.getElementById("tableWrap").innerHTML =
+      '<div class="state-msg"><div class="spinner"></div><br>Loading ' + currentTicker + '...</div>';
+    document.getElementById("headerDate").textContent = "--";
+    ["statTotal","statChanged","statAdded","statRemoved"].forEach(function(id) {
+      document.getElementById(id).textContent = "--";
+    });
+
+    fetch("data/" + currentTicker + "/diff.json?t=" + Date.now())
+      .then(function(r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(function(data) {
+        document.getElementById("headerDate").textContent = data.date || "--";
+
+        if (!data.diff || data.diff.length === 0) {
+          document.getElementById("tableWrap").innerHTML =
+            '<div class="state-msg">No data yet for ' + currentTicker + '. Run the workflow first.</div>';
+          return;
+        }
+
+        allRows = data.diff;
+        updateStats();
+        renderTable();
+
+        document.getElementById("diffInfo").textContent = data.prior_date
+          ? "comparing " + data.date + " vs " + data.prior_date
+          : "no prior date to compare";
+      })
+      .catch(function(err) {
+        document.getElementById("tableWrap").innerHTML =
+          '<div class="state-msg">Could not load data/' + currentTicker + '/diff.json<br><small>' + err.message + '</small></div>';
+      });
+  }
+
+  function updateStats() {
+    var counts = { changed: 0, added: 0, removed: 0, unchanged: 0 };
+    allRows.forEach(function(r) { counts[r.status] = (counts[r.status] || 0) + 1; });
+    document.getElementById("statTotal").textContent   = allRows.length;
+    document.getElementById("statChanged").textContent = counts.changed;
+    document.getElementById("statAdded").textContent   = counts.added;
+    document.getElementById("statRemoved").textContent = counts.removed;
+  }
+
+  function setFilter(f, btn) {
+    activeFilter = f;
+    document.querySelectorAll(".filter-btn").forEach(function(b) { b.classList.remove("active"); });
+    btn.classList.add("active");
+    renderTable();
+  }
+
+  function getSortedFiltered() {
+    var query = document.getElementById("searchInput").value.trim().toUpperCase();
+    var sort  = document.getElementById("sortSelect").value;
+
+    var rows = allRows.filter(function(r) {
+      if (activeFilter !== "all" && r.status !== activeFilter) return false;
+      if (query) {
+        var inTicker = r.ticker.toUpperCase().indexOf(query) !== -1;
+        var inName   = r.name && r.name.toUpperCase().indexOf(query) !== -1;
+        if (!inTicker && !inName) return false;
+      }
+      return true;
+    });
+
+    var statusOrder = { added: 0, removed: 1, changed: 2, unchanged: 3 };
+    rows.sort(function(a, b) {
+      switch (sort) {
+        case "ticker_asc":      return a.ticker.localeCompare(b.ticker);
+        case "ticker_desc":     return b.ticker.localeCompare(a.ticker);
+        case "shares_chg_desc": return (b.shares_pct_change != null ? b.shares_pct_change : -1e9) - (a.shares_pct_change != null ? a.shares_pct_change : -1e9);
+        case "shares_chg_asc":  return (a.shares_pct_change != null ? a.shares_pct_change :  1e9) - (b.shares_pct_change != null ? b.shares_pct_change :  1e9);
+        case "weight_desc":     return (b.pct_net_assets_today || 0) - (a.pct_net_assets_today || 0);
+        case "status":          return (statusOrder[a.status] || 9) - (statusOrder[b.status] || 9);
+        default: return 0;
+      }
+    });
+    return rows;
+  }
+
+  function fmtShares(v) {
+    if (v == null) return '<span class="na">--</span>';
+    if (v >= 1000000) return (v / 1000000).toFixed(3) + "M";
+    if (v >= 1000)    return (v / 1000).toFixed(2) + "K";
+    return v.toFixed(0);
+  }
+
+  function fmtPct(v) {
+    if (v == null) return '<span class="na">--</span>';
+    return v.toFixed(4) + "%";
+  }
+
+  function fmtChange(v, isPercent) {
+    if (v == null) return '<span class="na">--</span>';
+    var cls  = v > 0 ? "chg-pos" : v < 0 ? "chg-neg" : "chg-zero";
+    var sign = v > 0 ? "+" : "";
+    var text = isPercent ? sign + v.toFixed(4) + "pp" : sign + v.toFixed(2) + "%";
+    var barMax   = isPercent ? 2 : 20;
+    var barW     = Math.min(Math.abs(v) / barMax * 36, 36);
+    var barColor = v > 0 ? "var(--green)" : v < 0 ? "var(--red)" : "var(--muted)";
+    return '<div class="bar-wrap"><span class="' + cls + '">' + text + '</span>' +
+           '<span class="mini-bar" style="width:' + barW + 'px;background:' + barColor + ';opacity:0.5;"></span></div>';
+  }
+
+  function badgeHtml(status) {
+    var labels = { added: "+ ADDED", removed: "- REMOVED", changed: "~ CHANGED", unchanged: ". same" };
+    return '<span class="badge badge-' + status + '">' + (labels[status] || status) + '</span>';
+  }
+
+  function renderTable() {
+    var rows = getSortedFiltered();
+    if (rows.length === 0) {
+      document.getElementById("tableWrap").innerHTML =
+        '<div class="state-msg">No holdings match the current filter.</div>';
+      return;
+    }
+
+    var tbody = "";
+    rows.forEach(function(r) {
+      tbody += '<tr class="row-' + r.status + '">';
+      tbody += '<td class="ticker-cell">' + r.ticker + '</td>';
+      tbody += '<td class="name-cell" title="' + (r.name || "") + '">' + (r.name || '<span class="na">--</span>') + '</td>';
+      tbody += '<td>' + badgeHtml(r.status) + '</td>';
+      tbody += '<td class="num">' + fmtShares(r.shares_prior) + '</td>';
+      tbody += '<td class="num">' + fmtShares(r.shares_today) + '</td>';
+      tbody += '<td class="num">' + fmtChange(r.shares_pct_change, false) + '</td>';
+      tbody += '<td class="num">' + fmtPct(r.pct_net_assets_prior) + '</td>';
+      tbody += '<td class="num">' + fmtPct(r.pct_net_assets_today) + '</td>';
+      tbody += '<td class="num">' + fmtChange(r.pct_net_assets_change, true) + '</td>';
+      tbody += '</tr>';
+    });
+
+    document.getElementById("tableWrap").innerHTML =
+      '<table><thead><tr>' +
+      '<th>Ticker</th><th>Name</th><th>Status</th>' +
+      '<th class="num">Shares (Prior)</th>' +
+      '<th class="num">Shares (Today)</th>' +
+      '<th class="num">Shares Delta %</th>' +
+      '<th class="num">Weight (Prior)</th>' +
+      '<th class="num">Weight (Today)</th>' +
+      '<th class="num">Weight Delta pp</th>' +
+      '</tr></thead><tbody>' + tbody + '</tbody></table>';
+  }
+
+  loadCurrentTab();
+</script>
+</body>
+</html>
