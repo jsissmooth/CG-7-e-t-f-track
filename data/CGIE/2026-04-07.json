@@ -5,7 +5,7 @@
     {
       "ticker": "ASML",
       "name": "ASML HOLDING NV COMMON STOCK EUR.09",
-      "pct_net_assets": 0.0426,
+      "pct_net_assets": 0.0425,
       "shares": 59890.0
     },
     {
@@ -23,7 +23,7 @@
     {
       "ticker": "RR.",
       "name": "ROLLS ROYCE HOLDINGS PLC COMMON STOCK GBP.2",
-      "pct_net_assets": 0.0263,
+      "pct_net_assets": 0.0262,
       "shares": 3145921.0
     },
     {
@@ -35,13 +35,13 @@
     {
       "ticker": "TSM",
       "name": "TAIWAN SEMICONDUCTOR SP ADR ADR",
-      "pct_net_assets": 0.0254,
+      "pct_net_assets": 0.0256,
       "shares": 141194.0
     },
     {
       "ticker": "RWE",
       "name": "RWE AG COMMON STOCK",
-      "pct_net_assets": 0.0245,
+      "pct_net_assets": 0.0244,
       "shares": 677127.0
     },
     {
@@ -51,15 +51,9 @@
       "shares": 1338117.0
     },
     {
-      "ticker": "CMQXX",
-      "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
-      "pct_net_assets": 0.0226,
-      "shares": 425678.2
-    },
-    {
       "ticker": "SEB A",
       "name": "SKANDINAVISKA ENSKILDA BAN A COMMON STOCK SEK10.0",
-      "pct_net_assets": 0.0215,
+      "pct_net_assets": 0.0214,
       "shares": 2167734.0
     },
     {
@@ -67,6 +61,12 @@
       "name": "BAE SYSTEMS PLC COMMON STOCK GBP.025",
       "pct_net_assets": 0.0211,
       "shares": 1314992.0
+    },
+    {
+      "ticker": "CMQXX",
+      "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
+      "pct_net_assets": 0.0205,
+      "shares": 386044.23
     },
     {
       "ticker": "UCG",
@@ -95,7 +95,7 @@
     {
       "ticker": "AIR",
       "name": "AIRBUS SE COMMON STOCK EUR1.0",
-      "pct_net_assets": 0.0173,
+      "pct_net_assets": 0.0172,
       "shares": 170696.0
     },
     {
@@ -113,7 +113,7 @@
     {
       "ticker": "IBE",
       "name": "IBERDROLA SA COMMON STOCK EUR.75",
-      "pct_net_assets": 0.0169,
+      "pct_net_assets": 0.0168,
       "shares": 1352120.0
     },
     {
@@ -125,19 +125,19 @@
     {
       "ticker": "8002",
       "name": "MARUBENI CORP COMMON STOCK",
-      "pct_net_assets": 0.0157,
+      "pct_net_assets": 0.0156,
       "shares": 800300.0
     },
     {
       "ticker": "8308",
       "name": "RESONA HOLDINGS INC COMMON STOCK",
-      "pct_net_assets": 0.0151,
+      "pct_net_assets": 0.0153,
       "shares": 2500300.0
     },
     {
       "ticker": "ABBN",
       "name": "ABB LTD REG COMMON STOCK CHF.12",
-      "pct_net_assets": 0.015,
+      "pct_net_assets": 0.0149,
       "shares": 341855.0
     },
     {
@@ -149,13 +149,13 @@
     {
       "ticker": "SAN",
       "name": "BANCO SANTANDER SA COMMON STOCK EUR.5",
-      "pct_net_assets": 0.0148,
+      "pct_net_assets": 0.0147,
       "shares": 2454958.0
     },
     {
       "ticker": "1299",
       "name": "AIA GROUP LTD COMMON STOCK",
-      "pct_net_assets": 0.0145,
+      "pct_net_assets": 0.0144,
       "shares": 2479800.0
     },
     {
@@ -167,7 +167,7 @@
     {
       "ticker": "6501",
       "name": "HITACHI LTD COMMON STOCK",
-      "pct_net_assets": 0.0132,
+      "pct_net_assets": 0.0133,
       "shares": 846000.0
     },
     {
@@ -185,7 +185,7 @@
     {
       "ticker": "NWG",
       "name": "NATWEST GROUP PLC COMMON STOCK GBP1.0769",
-      "pct_net_assets": 0.0126,
+      "pct_net_assets": 0.0125,
       "shares": 3107228.0
     },
     {
@@ -201,15 +201,9 @@
       "shares": 1061308.0
     },
     {
-      "ticker": "4519",
-      "name": "CHUGAI PHARMACEUTICAL CO LTD COMMON STOCK",
-      "pct_net_assets": 0.0122,
-      "shares": 398100.0
-    },
-    {
       "ticker": "8035",
       "name": "TOKYO ELECTRON LTD COMMON STOCK",
-      "pct_net_assets": 0.0121,
+      "pct_net_assets": 0.0122,
       "shares": 95700.0
     },
     {
@@ -231,21 +225,27 @@
       "shares": 390291.0
     },
     {
+      "ticker": "4519",
+      "name": "CHUGAI PHARMACEUTICAL CO LTD COMMON STOCK",
+      "pct_net_assets": 0.0117,
+      "shares": 398100.0
+    },
+    {
       "ticker": "8001",
       "name": "ITOCHU CORP COMMON STOCK",
-      "pct_net_assets": 0.0116,
+      "pct_net_assets": 0.0114,
       "shares": 1707800.0
     },
     {
       "ticker": "6758",
       "name": "SONY GROUP CORP COMMON STOCK",
-      "pct_net_assets": 0.0116,
+      "pct_net_assets": 0.0114,
       "shares": 1047600.0
     },
     {
       "ticker": "B",
       "name": "BARRICK MINING CORP COMMON STOCK",
-      "pct_net_assets": 0.0115,
+      "pct_net_assets": 0.0113,
       "shares": 520243.0
     },
     {
@@ -275,19 +275,19 @@
     {
       "ticker": "SIE",
       "name": "SIEMENS AG REG COMMON STOCK",
-      "pct_net_assets": 0.0105,
+      "pct_net_assets": 0.0104,
       "shares": 79972.0
     },
     {
       "ticker": "6367",
       "name": "DAIKIN INDUSTRIES LTD COMMON STOCK",
-      "pct_net_assets": 0.0099,
+      "pct_net_assets": 0.0098,
       "shares": 152100.0
     },
     {
       "ticker": "EL",
       "name": "ESSILORLUXOTTICA COMMON STOCK EUR.18",
-      "pct_net_assets": 0.0099,
+      "pct_net_assets": 0.0098,
       "shares": 84098.0
     },
     {
@@ -295,6 +295,12 @@
       "name": "SHOPIFY INC   CLASS A COMMON STOCK",
       "pct_net_assets": 0.0098,
       "shares": 155995.0
+    },
+    {
+      "ticker": "6861",
+      "name": "KEYENCE CORP COMMON STOCK",
+      "pct_net_assets": 0.0095,
+      "shares": 49000.0
     },
     {
       "ticker": "MC",
@@ -309,22 +315,22 @@
       "shares": 48698.0
     },
     {
-      "ticker": "6861",
-      "name": "KEYENCE CORP COMMON STOCK",
-      "pct_net_assets": 0.0093,
-      "shares": 49000.0
+      "ticker": "7741",
+      "name": "HOYA CORP COMMON STOCK",
+      "pct_net_assets": 0.0092,
+      "shares": 98800.0
     },
     {
       "ticker": "BN",
       "name": "DANONE COMMON STOCK EUR.25",
-      "pct_net_assets": 0.0091,
+      "pct_net_assets": 0.009,
       "shares": 213385.0
     },
     {
-      "ticker": "7741",
-      "name": "HOYA CORP COMMON STOCK",
+      "ticker": "4063",
+      "name": "SHIN ETSU CHEMICAL CO LTD COMMON STOCK",
       "pct_net_assets": 0.009,
-      "shares": 98800.0
+      "shares": 417700.0
     },
     {
       "ticker": "ABI",
@@ -337,12 +343,6 @@
       "name": "BNP PARIBAS COMMON STOCK EUR2.0",
       "pct_net_assets": 0.0089,
       "shares": 174574.0
-    },
-    {
-      "ticker": "4063",
-      "name": "SHIN ETSU CHEMICAL CO LTD COMMON STOCK",
-      "pct_net_assets": 0.0089,
-      "shares": 417700.0
     },
     {
       "ticker": "STAN",
@@ -365,7 +365,7 @@
     {
       "ticker": "6702",
       "name": "FUJITSU LIMITED COMMON STOCK",
-      "pct_net_assets": 0.0084,
+      "pct_net_assets": 0.0083,
       "shares": 772600.0
     },
     {
@@ -393,16 +393,22 @@
       "shares": 167736.0
     },
     {
+      "ticker": "A000660",
+      "name": "SK HYNIX INC COMMON STOCK KRW5000.0",
+      "pct_net_assets": 0.0073,
+      "shares": 23375.0
+    },
+    {
       "ticker": "RHM",
       "name": "RHEINMETALL AG COMMON STOCK",
       "pct_net_assets": 0.0071,
       "shares": 7396.0
     },
     {
-      "ticker": "A000660",
-      "name": "SK HYNIX INC COMMON STOCK KRW5000.0",
-      "pct_net_assets": 0.0068,
-      "shares": 23375.0
+      "ticker": "6146",
+      "name": "DISCO CORP COMMON STOCK",
+      "pct_net_assets": 0.0067,
+      "shares": 30300.0
     },
     {
       "ticker": "LSEG",
@@ -411,15 +417,9 @@
       "shares": 104162.0
     },
     {
-      "ticker": "6146",
-      "name": "DISCO CORP COMMON STOCK",
-      "pct_net_assets": 0.0064,
-      "shares": 30300.0
-    },
-    {
       "ticker": "6503",
       "name": "MITSUBISHI ELECTRIC CORP COMMON STOCK",
-      "pct_net_assets": 0.0061,
+      "pct_net_assets": 0.0062,
       "shares": 353000.0
     },
     {
@@ -431,7 +431,7 @@
     {
       "ticker": "ONC",
       "name": "BEONE MEDICINES LTD ADR ADR USD.0001",
-      "pct_net_assets": 0.0053,
+      "pct_net_assets": 0.0052,
       "shares": 32278.0
     },
     {
