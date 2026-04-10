@@ -83,11 +83,6 @@
     }
     .search-input::placeholder { color: var(--muted); }
     .search-input:focus { border-color: var(--accent); }
-    .sort-select {
-      padding: 6px 12px; background: var(--surface); border: 1px solid var(--border);
-      border-radius: 4px; color: var(--text); font-family: var(--mono); font-size: 11px;
-      outline: none; cursor: pointer;
-    }
     .diff-info { margin-left: auto; font-family: var(--mono); font-size: 11px; color: var(--muted); }
 
     .table-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: auto; }
@@ -97,8 +92,14 @@
       letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase;
       border-bottom: 1px solid var(--border); white-space: nowrap;
       background: var(--surface); position: sticky; top: 0; z-index: 1;
+      cursor: pointer; user-select: none; transition: color .15s;
     }
-    thead th:hover { color: var(--text); cursor: pointer; }
+    thead th:hover { color: var(--text); }
+    thead th.sort-active { color: var(--accent); }
+    thead th.num { text-align: right; }
+    .sort-arrow { display: inline-block; margin-left: 4px; opacity: 0.5; font-style: normal; }
+    thead th.sort-active .sort-arrow { opacity: 1; }
+
     tbody tr { border-bottom: 1px solid var(--border); transition: background .1s; }
     tbody tr:last-child { border-bottom: none; }
     tbody tr:hover { background: rgba(59,130,246,0.04); }
@@ -166,14 +167,6 @@
       <button class="filter-btn" onclick="setFilter('unchanged',this)">UNCHANGED</button>
     </div>
     <input class="search-input" id="searchInput" placeholder="Search ticker or name..." oninput="renderTable()" />
-    <select class="sort-select" id="sortSelect" onchange="renderTable()">
-      <option value="ticker_asc">Ticker A to Z</option>
-      <option value="ticker_desc">Ticker Z to A</option>
-      <option value="shares_chg_desc">Shares Change High to Low</option>
-      <option value="shares_chg_asc">Shares Change Low to High</option>
-      <option value="weight_desc">Weight High to Low</option>
-      <option value="status">Status</option>
-    </select>
     <span class="diff-info" id="diffInfo"></span>
   </div>
 
@@ -183,10 +176,30 @@
 </main>
 
 <script>
-  var ETFS = ["CGBL","CGIE","CGUS","CGMM","CGXU","CGGO","CGNG"];
+  var ETFS = ["CGBL","CGIE","CGUS","CGMM","CGXU","CGGO","CGNG","CGGR","CGDV"];
   var currentTicker = ETFS[0];
   var allRows = [];
   var activeFilter = "all";
+
+  // Sort state
+  var sortCol = "ticker";
+  var sortDir = 1; // 1 = asc, -1 = desc
+
+  // Column definitions: key, label, numeric, alignment
+  var COLUMNS = [
+    { key: "ticker",                label: "Ticker",          num: false },
+    { key: "name",                  label: "Name",            num: false },
+    { key: "status",                label: "Status",          num: false },
+    { key: "shares_prior",          label: "Shares (Prior)",  num: true  },
+    { key: "shares_today",          label: "Shares (Today)",  num: true  },
+    { key: "shares_pct_change",     label: "Shares 1D %",     num: true  },
+    { key: "shares_5d_change",      label: "Shares 5D %",     num: true  },
+    { key: "shares_10d_change",     label: "Shares 10D %",    num: true  },
+    { key: "shares_30d_change",     label: "Shares 30D %",    num: true  },
+    { key: "pct_net_assets_prior",  label: "Weight (Prior)",  num: true  },
+    { key: "pct_net_assets_today",  label: "Weight (Today)",  num: true  },
+    { key: "pct_net_assets_change", label: "Weight Delta pp", num: true  },
+  ];
 
   var tabBar = document.getElementById("tabBar");
   ETFS.forEach(function(t) {
@@ -263,9 +276,20 @@
     renderTable();
   }
 
+  function handleColSort(key) {
+    if (sortCol === key) {
+      sortDir *= -1;
+    } else {
+      sortCol = key;
+      sortDir = key === "ticker" || key === "name" || key === "status" ? 1 : -1;
+    }
+    renderTable();
+  }
+
+  var statusOrder = { added: 0, removed: 1, changed: 2, unchanged: 3 };
+
   function getSortedFiltered() {
     var query = document.getElementById("searchInput").value.trim().toUpperCase();
-    var sort  = document.getElementById("sortSelect").value;
 
     var rows = allRows.filter(function(r) {
       if (activeFilter !== "all" && r.status !== activeFilter) return false;
@@ -277,18 +301,29 @@
       return true;
     });
 
-    var statusOrder = { added: 0, removed: 1, changed: 2, unchanged: 3 };
     rows.sort(function(a, b) {
-      switch (sort) {
-        case "ticker_asc":      return a.ticker.localeCompare(b.ticker);
-        case "ticker_desc":     return b.ticker.localeCompare(a.ticker);
-        case "shares_chg_desc": return (b.shares_pct_change != null ? b.shares_pct_change : -1e9) - (a.shares_pct_change != null ? a.shares_pct_change : -1e9);
-        case "shares_chg_asc":  return (a.shares_pct_change != null ? a.shares_pct_change :  1e9) - (b.shares_pct_change != null ? b.shares_pct_change :  1e9);
-        case "weight_desc":     return (b.pct_net_assets_today || 0) - (a.pct_net_assets_today || 0);
-        case "status":          return (statusOrder[a.status] || 9) - (statusOrder[b.status] || 9);
-        default: return 0;
+      var av = a[sortCol];
+      var bv = b[sortCol];
+
+      if (sortCol === "status") {
+        av = statusOrder[a.status] != null ? statusOrder[a.status] : 9;
+        bv = statusOrder[b.status] != null ? statusOrder[b.status] : 9;
+        return (av - bv) * sortDir;
       }
+
+      if (typeof av === "string" || typeof bv === "string") {
+        av = av || "";
+        bv = bv || "";
+        return av.localeCompare(bv) * sortDir;
+      }
+
+      // Numeric: nulls always go to bottom regardless of direction
+      if (av == null && bv == null) return 0;
+      if (av == null) return 1;
+      if (bv == null) return -1;
+      return (av - bv) * sortDir;
     });
+
     return rows;
   }
 
@@ -316,6 +351,13 @@
            '<span class="mini-bar" style="width:' + barW + 'px;background:' + barColor + ';opacity:0.5;"></span></div>';
   }
 
+  function fmtHistChange(v) {
+    if (v == null) return '<span class="na">--</span>';
+    var cls  = v > 0 ? "chg-pos" : v < 0 ? "chg-neg" : "chg-zero";
+    var sign = v > 0 ? "+" : "";
+    return '<span class="' + cls + '">' + sign + v.toFixed(2) + '%</span>';
+  }
+
   function badgeHtml(status) {
     var labels = { added: "+ ADDED", removed: "- REMOVED", changed: "~ CHANGED", unchanged: ". same" };
     return '<span class="badge badge-' + status + '">' + (labels[status] || status) + '</span>';
@@ -329,7 +371,19 @@
       return;
     }
 
-    var tbody = "";
+    // Build header
+    var thead = '<thead><tr>';
+    COLUMNS.forEach(function(col) {
+      var isActive = sortCol === col.key;
+      var arrow    = isActive ? (sortDir === 1 ? " ↑" : " ↓") : " ↕";
+      var cls      = (col.num ? "num" : "") + (isActive ? " sort-active" : "");
+      thead += '<th class="' + cls.trim() + '" onclick="handleColSort(\'' + col.key + '\')">' +
+               col.label + '<span class="sort-arrow">' + arrow + '</span></th>';
+    });
+    thead += '</tr></thead>';
+
+    // Build body
+    var tbody = "<tbody>";
     rows.forEach(function(r) {
       tbody += '<tr class="row-' + r.status + '">';
       tbody += '<td class="ticker-cell">' + r.ticker + '</td>';
@@ -338,22 +392,18 @@
       tbody += '<td class="num">' + fmtShares(r.shares_prior) + '</td>';
       tbody += '<td class="num">' + fmtShares(r.shares_today) + '</td>';
       tbody += '<td class="num">' + fmtChange(r.shares_pct_change, false) + '</td>';
+      tbody += '<td class="num">' + fmtHistChange(r.shares_5d_change) + '</td>';
+      tbody += '<td class="num">' + fmtHistChange(r.shares_10d_change) + '</td>';
+      tbody += '<td class="num">' + fmtHistChange(r.shares_30d_change) + '</td>';
       tbody += '<td class="num">' + fmtPct(r.pct_net_assets_prior) + '</td>';
       tbody += '<td class="num">' + fmtPct(r.pct_net_assets_today) + '</td>';
       tbody += '<td class="num">' + fmtChange(r.pct_net_assets_change, true) + '</td>';
       tbody += '</tr>';
     });
+    tbody += "</tbody>";
 
     document.getElementById("tableWrap").innerHTML =
-      '<table><thead><tr>' +
-      '<th>Ticker</th><th>Name</th><th>Status</th>' +
-      '<th class="num">Shares (Prior)</th>' +
-      '<th class="num">Shares (Today)</th>' +
-      '<th class="num">Shares Delta %</th>' +
-      '<th class="num">Weight (Prior)</th>' +
-      '<th class="num">Weight (Today)</th>' +
-      '<th class="num">Weight Delta pp</th>' +
-      '</tr></thead><tbody>' + tbody + '</tbody></table>';
+      '<table>' + thead + tbody + '</table>';
   }
 
   loadCurrentTab();
