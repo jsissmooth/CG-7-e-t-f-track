@@ -77,6 +77,11 @@
     }
     .search-input::placeholder { color: var(--muted); }
     .search-input:focus { border-color: var(--accent); }
+    .sort-select {
+      padding: 6px 12px; background: var(--surface); border: 1px solid var(--border);
+      border-radius: 4px; color: var(--text); font-family: var(--mono); font-size: 11px;
+      outline: none; cursor: pointer;
+    }
     .diff-info { margin-left: auto; font-family: var(--mono); font-size: 11px; color: var(--muted); }
     .table-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: auto; }
     .state-msg { text-align: center; padding: 60px 20px; color: var(--muted); font-family: var(--mono); font-size: 13px; }
@@ -95,8 +100,7 @@
       cursor: pointer; user-select: none;
     }
     thead th:hover { color: var(--accent); }
-    thead th.sort-asc  { color: var(--accent); }
-    thead th.sort-desc { color: var(--accent); }
+    thead th.sort-asc, thead th.sort-desc { color: var(--accent); }
     thead th.num { text-align: right; }
     .sort-icon { margin-left: 4px; font-size: 9px; }
     tbody tr { border-bottom: 1px solid var(--border); transition: background .1s; }
@@ -155,10 +159,39 @@
       <button class="filter-btn" onclick="setFilter('unchanged',this)">UNCHANGED</button>
     </div>
     <input class="search-input" id="searchInput" placeholder="Search ticker or name..." oninput="renderTable()" />
+    <select class="sort-select" id="sortSelect" onchange="applyDropdownSort()">
+      <option value="">— Quick Sort —</option>
+      <optgroup label="Ticker">
+        <option value="ticker|asc">Ticker A → Z</option>
+        <option value="ticker|desc">Ticker Z → A</option>
+      </optgroup>
+      <optgroup label="1 Day Share Change">
+        <option value="shares_pct_change|desc">1D Change High → Low</option>
+        <option value="shares_pct_change|asc">1D Change Low → High</option>
+      </optgroup>
+      <optgroup label="5 Day Share Change">
+        <option value="shares_5d_change|desc">5D Change High → Low</option>
+        <option value="shares_5d_change|asc">5D Change Low → High</option>
+      </optgroup>
+      <optgroup label="10 Day Share Change">
+        <option value="shares_10d_change|desc">10D Change High → Low</option>
+        <option value="shares_10d_change|asc">10D Change Low → High</option>
+      </optgroup>
+      <optgroup label="30 Day Share Change">
+        <option value="shares_30d_change|desc">30D Change High → Low</option>
+        <option value="shares_30d_change|asc">30D Change Low → High</option>
+      </optgroup>
+      <optgroup label="Weight">
+        <option value="pct_net_assets_today|desc">Weight High → Low</option>
+        <option value="pct_net_assets_today|asc">Weight Low → High</option>
+      </optgroup>
+      <optgroup label="Status">
+        <option value="status|asc">Status</option>
+      </optgroup>
+    </select>
     <span class="diff-info" id="diffInfo"></span>
   </div>
 
-  <!-- Table is always present in DOM; only tbody gets replaced -->
   <div class="table-wrap" id="tableWrap">
     <div class="state-msg" id="stateMsg"><div class="spinner"></div><br>Loading...</div>
     <table id="mainTable" style="display:none">
@@ -197,7 +230,7 @@
     "pct_net_assets_prior","pct_net_assets_today","pct_net_assets_change"
   ];
 
-  // Wire up header clicks once — they stay live forever
+  // Wire header clicks once — permanent
   document.querySelectorAll("#mainTable thead th").forEach(function(th) {
     th.addEventListener("click", function() {
       var key = th.getAttribute("data-key");
@@ -205,13 +238,24 @@
         sortAsc = !sortAsc;
       } else {
         sortKey = key;
-        // Numeric cols default descending, text cols ascending
         sortAsc = NUMERIC_KEYS.indexOf(key) === -1;
       }
+      // Reset dropdown to blank when clicking a header
+      document.getElementById("sortSelect").value = "";
       updateHeaderArrows();
       renderTable();
     });
   });
+
+  function applyDropdownSort() {
+    var val = document.getElementById("sortSelect").value;
+    if (!val) return;
+    var parts = val.split("|");
+    sortKey = parts[0];
+    sortAsc = parts[1] === "asc";
+    updateHeaderArrows();
+    renderTable();
+  }
 
   function updateHeaderArrows() {
     document.querySelectorAll("#mainTable thead th").forEach(function(th) {
@@ -329,7 +373,6 @@
         av = a[sortKey];
         bv = b[sortKey];
       }
-      // Nulls always sink to bottom
       if (av == null && bv == null) return 0;
       if (av == null) return 1;
       if (bv == null) return -1;
@@ -377,7 +420,6 @@
 
   function renderTable() {
     var rows = getSortedFiltered();
-    var tbody = document.getElementById("mainTbody");
     if (rows.length === 0) {
       showMsg("No holdings match the current filter.");
       return;
@@ -400,7 +442,7 @@
       html += '<td class="num">' + fmtChange(r.pct_net_assets_change, true) + '</td>';
       html += '</tr>';
     });
-    tbody.innerHTML = html;
+    document.getElementById("mainTbody").innerHTML = html;
   }
 
   loadCurrentTab();
