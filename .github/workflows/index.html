@@ -25,7 +25,6 @@
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body { background: var(--bg); color: var(--text); font-family: var(--sans); min-height: 100vh; }
-
     header {
       display: flex; align-items: center; justify-content: space-between;
       padding: 20px 32px; border-bottom: 1px solid var(--border); background: var(--surface);
@@ -40,11 +39,9 @@
       cursor: pointer; border-radius: 3px; transition: border-color .2s, color .2s;
     }
     .refresh-btn:hover { border-color: var(--accent); color: var(--accent); }
-
     .tab-bar {
       display: flex; gap: 2px; padding: 0 32px;
-      background: var(--surface); border-bottom: 1px solid var(--border);
-      overflow-x: auto;
+      background: var(--surface); border-bottom: 1px solid var(--border); overflow-x: auto;
     }
     .tab-btn {
       padding: 12px 20px; background: transparent; border: none;
@@ -55,9 +52,7 @@
     }
     .tab-btn:hover { color: var(--text); }
     .tab-btn.active { color: #fff; border-bottom-color: var(--accent); }
-
     main { padding: 24px 32px; max-width: 1600px; margin: 0 auto; }
-
     .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 24px; }
     .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 16px 18px; }
     .stat-label { font-size: 10px; letter-spacing: 0.12em; color: var(--muted); text-transform: uppercase; margin-bottom: 7px; }
@@ -65,7 +60,6 @@
     .stat-value.green  { color: var(--green); }
     .stat-value.red    { color: var(--red); }
     .stat-value.yellow { color: var(--yellow); }
-
     .toolbar { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
     .filter-group { display: flex; border: 1px solid var(--border); border-radius: 4px; overflow: hidden; }
     .filter-btn {
@@ -84,7 +78,6 @@
     .search-input::placeholder { color: var(--muted); }
     .search-input:focus { border-color: var(--accent); }
     .diff-info { margin-left: auto; font-family: var(--mono); font-size: 11px; color: var(--muted); }
-
     .table-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: auto; }
     table { width: 100%; border-collapse: collapse; font-size: 12px; }
     thead th {
@@ -92,20 +85,18 @@
       letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase;
       border-bottom: 1px solid var(--border); white-space: nowrap;
       background: var(--surface); position: sticky; top: 0; z-index: 1;
-      cursor: pointer; user-select: none; transition: color .15s;
+      cursor: pointer; user-select: none;
     }
     thead th:hover { color: var(--text); }
     thead th.sort-active { color: var(--accent); }
     thead th.num { text-align: right; }
-    .sort-arrow { display: inline-block; margin-left: 4px; opacity: 0.5; font-style: normal; }
-    thead th.sort-active .sort-arrow { opacity: 1; }
-
+    .sort-arrow { margin-left: 5px; }
     tbody tr { border-bottom: 1px solid var(--border); transition: background .1s; }
     tbody tr:last-child { border-bottom: none; }
     tbody tr:hover { background: rgba(59,130,246,0.04); }
-    tbody tr.row-added    { background: var(--green-bg); }
-    tbody tr.row-removed  { background: var(--red-bg); }
-    tbody tr.row-changed  { background: var(--yellow-bg); }
+    tbody tr.row-added   { background: var(--green-bg); }
+    tbody tr.row-removed { background: var(--red-bg); }
+    tbody tr.row-changed { background: var(--yellow-bg); }
     td { padding: 10px 14px; font-family: var(--mono); white-space: nowrap; }
     td.ticker-cell { font-weight: 600; font-size: 13px; color: #fff; }
     td.name-cell { color: var(--text); font-size: 11px; max-width: 220px; overflow: hidden; text-overflow: ellipsis; font-family: var(--sans); }
@@ -121,10 +112,7 @@
     .na { color: var(--muted); font-size: 10px; }
     .bar-wrap { display: flex; align-items: center; gap: 6px; justify-content: flex-end; }
     .mini-bar { display: inline-block; height: 8px; min-width: 2px; border-radius: 2px; }
-    .state-msg {
-      text-align: center; padding: 60px 20px; color: var(--muted);
-      font-family: var(--mono); font-size: 13px;
-    }
+    .state-msg { text-align: center; padding: 60px 20px; color: var(--muted); font-family: var(--mono); font-size: 13px; }
     .spinner {
       display: inline-block; width: 18px; height: 18px;
       border: 2px solid var(--border); border-top-color: var(--accent);
@@ -157,7 +145,6 @@
     <div class="stat"><div class="stat-label">Added</div><div class="stat-value green" id="statAdded">--</div></div>
     <div class="stat"><div class="stat-label">Removed</div><div class="stat-value red" id="statRemoved">--</div></div>
   </div>
-
   <div class="toolbar">
     <div class="filter-group">
       <button class="filter-btn active" onclick="setFilter('all',this)">ALL</button>
@@ -169,7 +156,6 @@
     <input class="search-input" id="searchInput" placeholder="Search ticker or name..." oninput="renderTable()" />
     <span class="diff-info" id="diffInfo"></span>
   </div>
-
   <div class="table-wrap" id="tableWrap">
     <div class="state-msg"><div class="spinner"></div><br>Loading...</div>
   </div>
@@ -180,27 +166,27 @@
   var currentTicker = ETFS[0];
   var allRows = [];
   var activeFilter = "all";
+  var sortKey = "ticker";
+  var sortAsc = true;
 
-  // Sort state
-  var sortCol = "ticker";
-  var sortDir = 1; // 1 = asc, -1 = desc
+  var STATUS_ORDER = { added: 0, removed: 1, changed: 2, unchanged: 3 };
 
-  // Column definitions: key, label, numeric, alignment
-  var COLUMNS = [
+  var COLS = [
     { key: "ticker",                label: "Ticker",          num: false },
     { key: "name",                  label: "Name",            num: false },
     { key: "status",                label: "Status",          num: false },
-    { key: "shares_prior",          label: "Shares (Prior)",  num: true  },
-    { key: "shares_today",          label: "Shares (Today)",  num: true  },
+    { key: "shares_prior",          label: "Shares Prior",    num: true  },
+    { key: "shares_today",          label: "Shares Today",    num: true  },
     { key: "shares_pct_change",     label: "Shares 1D %",     num: true  },
     { key: "shares_5d_change",      label: "Shares 5D %",     num: true  },
     { key: "shares_10d_change",     label: "Shares 10D %",    num: true  },
     { key: "shares_30d_change",     label: "Shares 30D %",    num: true  },
-    { key: "pct_net_assets_prior",  label: "Weight (Prior)",  num: true  },
-    { key: "pct_net_assets_today",  label: "Weight (Today)",  num: true  },
-    { key: "pct_net_assets_change", label: "Weight Delta pp", num: true  },
+    { key: "pct_net_assets_prior",  label: "Weight Prior",    num: true  },
+    { key: "pct_net_assets_today",  label: "Weight Today",    num: true  },
+    { key: "pct_net_assets_change", label: "Weight Δpp",      num: true  },
   ];
 
+  // Build tabs
   var tabBar = document.getElementById("tabBar");
   ETFS.forEach(function(t) {
     var btn = document.createElement("button");
@@ -231,7 +217,6 @@
     ["statTotal","statChanged","statAdded","statRemoved"].forEach(function(id) {
       document.getElementById(id).textContent = "--";
     });
-
     fetch("data/" + currentTicker + "/diff.json?t=" + Date.now())
       .then(function(r) {
         if (!r.ok) throw new Error("HTTP " + r.status);
@@ -239,24 +224,22 @@
       })
       .then(function(data) {
         document.getElementById("headerDate").textContent = data.date || "--";
-
         if (!data.diff || data.diff.length === 0) {
           document.getElementById("tableWrap").innerHTML =
             '<div class="state-msg">No data yet for ' + currentTicker + '. Run the workflow first.</div>';
           return;
         }
-
         allRows = data.diff;
         updateStats();
         renderTable();
-
         document.getElementById("diffInfo").textContent = data.prior_date
           ? "comparing " + data.date + " vs " + data.prior_date
           : "no prior date to compare";
       })
       .catch(function(err) {
         document.getElementById("tableWrap").innerHTML =
-          '<div class="state-msg">Could not load data/' + currentTicker + '/diff.json<br><small>' + err.message + '</small></div>';
+          '<div class="state-msg">Could not load data/' + currentTicker +
+          '/diff.json<br><small>' + err.message + '</small></div>';
       });
   }
 
@@ -276,21 +259,25 @@
     renderTable();
   }
 
-  function handleColSort(key) {
-    if (sortCol === key) {
-      sortDir *= -1;
+  function setSort(key) {
+    if (sortKey === key) {
+      sortAsc = !sortAsc;
     } else {
-      sortCol = key;
-      sortDir = key === "ticker" || key === "name" || key === "status" ? 1 : -1;
+      sortKey = key;
+      // Default: text columns start ascending, numeric columns start descending
+      var col = COLS.find(function(c) { return c.key === key; });
+      sortAsc = col ? !col.num : true;
     }
     renderTable();
   }
 
-  var statusOrder = { added: 0, removed: 1, changed: 2, unchanged: 3 };
+  function getVal(row, key) {
+    if (key === "status") return STATUS_ORDER[row.status] != null ? STATUS_ORDER[row.status] : 9;
+    return row[key];
+  }
 
   function getSortedFiltered() {
     var query = document.getElementById("searchInput").value.trim().toUpperCase();
-
     var rows = allRows.filter(function(r) {
       if (activeFilter !== "all" && r.status !== activeFilter) return false;
       if (query) {
@@ -302,28 +289,15 @@
     });
 
     rows.sort(function(a, b) {
-      var av = a[sortCol];
-      var bv = b[sortCol];
-
-      if (sortCol === "status") {
-        av = statusOrder[a.status] != null ? statusOrder[a.status] : 9;
-        bv = statusOrder[b.status] != null ? statusOrder[b.status] : 9;
-        return (av - bv) * sortDir;
-      }
-
-      if (typeof av === "string" || typeof bv === "string") {
-        av = av || "";
-        bv = bv || "";
-        return av.localeCompare(bv) * sortDir;
-      }
-
-      // Numeric: nulls always go to bottom regardless of direction
+      var av = getVal(a, sortKey);
+      var bv = getVal(b, sortKey);
+      // Nulls always to bottom
       if (av == null && bv == null) return 0;
       if (av == null) return 1;
       if (bv == null) return -1;
-      return (av - bv) * sortDir;
+      var result = (typeof av === "string") ? av.localeCompare(bv) : av - bv;
+      return sortAsc ? result : -result;
     });
-
     return rows;
   }
 
@@ -371,39 +345,38 @@
       return;
     }
 
-    // Build header
-    var thead = '<thead><tr>';
-    COLUMNS.forEach(function(col) {
-      var isActive = sortCol === col.key;
-      var arrow    = isActive ? (sortDir === 1 ? " ↑" : " ↓") : " ↕";
-      var cls      = (col.num ? "num" : "") + (isActive ? " sort-active" : "");
-      thead += '<th class="' + cls.trim() + '" onclick="handleColSort(\'' + col.key + '\')">' +
-               col.label + '<span class="sort-arrow">' + arrow + '</span></th>';
+    var html = '<table><thead><tr>';
+    COLS.forEach(function(col) {
+      var active = sortKey === col.key;
+      var arrow  = active ? (sortAsc ? " ▲" : " ▼") : " ⇅";
+      var cls    = [];
+      if (col.num) cls.push("num");
+      if (active)  cls.push("sort-active");
+      html += '<th' + (cls.length ? ' class="' + cls.join(" ") + '"' : '') +
+              ' onclick="setSort(\'' + col.key + '\')">' +
+              col.label + '<span class="sort-arrow">' + arrow + '</span></th>';
     });
-    thead += '</tr></thead>';
+    html += '</tr></thead><tbody>';
 
-    // Build body
-    var tbody = "<tbody>";
     rows.forEach(function(r) {
-      tbody += '<tr class="row-' + r.status + '">';
-      tbody += '<td class="ticker-cell">' + r.ticker + '</td>';
-      tbody += '<td class="name-cell" title="' + (r.name || "") + '">' + (r.name || '<span class="na">--</span>') + '</td>';
-      tbody += '<td>' + badgeHtml(r.status) + '</td>';
-      tbody += '<td class="num">' + fmtShares(r.shares_prior) + '</td>';
-      tbody += '<td class="num">' + fmtShares(r.shares_today) + '</td>';
-      tbody += '<td class="num">' + fmtChange(r.shares_pct_change, false) + '</td>';
-      tbody += '<td class="num">' + fmtHistChange(r.shares_5d_change) + '</td>';
-      tbody += '<td class="num">' + fmtHistChange(r.shares_10d_change) + '</td>';
-      tbody += '<td class="num">' + fmtHistChange(r.shares_30d_change) + '</td>';
-      tbody += '<td class="num">' + fmtPct(r.pct_net_assets_prior) + '</td>';
-      tbody += '<td class="num">' + fmtPct(r.pct_net_assets_today) + '</td>';
-      tbody += '<td class="num">' + fmtChange(r.pct_net_assets_change, true) + '</td>';
-      tbody += '</tr>';
+      html += '<tr class="row-' + r.status + '">';
+      html += '<td class="ticker-cell">'  + r.ticker + '</td>';
+      html += '<td class="name-cell" title="' + (r.name || "") + '">' + (r.name || '<span class="na">--</span>') + '</td>';
+      html += '<td>'        + badgeHtml(r.status) + '</td>';
+      html += '<td class="num">' + fmtShares(r.shares_prior) + '</td>';
+      html += '<td class="num">' + fmtShares(r.shares_today) + '</td>';
+      html += '<td class="num">' + fmtChange(r.shares_pct_change, false) + '</td>';
+      html += '<td class="num">' + fmtHistChange(r.shares_5d_change) + '</td>';
+      html += '<td class="num">' + fmtHistChange(r.shares_10d_change) + '</td>';
+      html += '<td class="num">' + fmtHistChange(r.shares_30d_change) + '</td>';
+      html += '<td class="num">' + fmtPct(r.pct_net_assets_prior) + '</td>';
+      html += '<td class="num">' + fmtPct(r.pct_net_assets_today) + '</td>';
+      html += '<td class="num">' + fmtChange(r.pct_net_assets_change, true) + '</td>';
+      html += '</tr>';
     });
-    tbody += "</tbody>";
 
-    document.getElementById("tableWrap").innerHTML =
-      '<table>' + thead + tbody + '</table>';
+    html += '</tbody></table>';
+    document.getElementById("tableWrap").innerHTML = html;
   }
 
   loadCurrentTab();
