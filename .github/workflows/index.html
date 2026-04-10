@@ -79,6 +79,13 @@
     .search-input:focus { border-color: var(--accent); }
     .diff-info { margin-left: auto; font-family: var(--mono); font-size: 11px; color: var(--muted); }
     .table-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: auto; }
+    .state-msg { text-align: center; padding: 60px 20px; color: var(--muted); font-family: var(--mono); font-size: 13px; }
+    .spinner {
+      display: inline-block; width: 18px; height: 18px;
+      border: 2px solid var(--border); border-top-color: var(--accent);
+      border-radius: 50%; animation: spin .7s linear infinite; margin-bottom: 12px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
     table { width: 100%; border-collapse: collapse; font-size: 12px; }
     thead th {
       padding: 11px 14px; text-align: left; font-family: var(--mono); font-size: 10px;
@@ -87,10 +94,11 @@
       background: var(--surface); position: sticky; top: 0; z-index: 1;
       cursor: pointer; user-select: none;
     }
-    thead th:hover { color: var(--text); }
-    thead th.sort-active { color: var(--accent); }
+    thead th:hover { color: var(--accent); }
+    thead th.sort-asc  { color: var(--accent); }
+    thead th.sort-desc { color: var(--accent); }
     thead th.num { text-align: right; }
-    .sort-arrow { margin-left: 5px; }
+    .sort-icon { margin-left: 4px; font-size: 9px; }
     tbody tr { border-bottom: 1px solid var(--border); transition: background .1s; }
     tbody tr:last-child { border-bottom: none; }
     tbody tr:hover { background: rgba(59,130,246,0.04); }
@@ -112,13 +120,6 @@
     .na { color: var(--muted); font-size: 10px; }
     .bar-wrap { display: flex; align-items: center; gap: 6px; justify-content: flex-end; }
     .mini-bar { display: inline-block; height: 8px; min-width: 2px; border-radius: 2px; }
-    .state-msg { text-align: center; padding: 60px 20px; color: var(--muted); font-family: var(--mono); font-size: 13px; }
-    .spinner {
-      display: inline-block; width: 18px; height: 18px;
-      border: 2px solid var(--border); border-top-color: var(--accent);
-      border-radius: 50%; animation: spin .7s linear infinite; margin-bottom: 12px;
-    }
-    @keyframes spin { to { transform: rotate(360deg); } }
     @media (max-width: 900px) {
       header, main { padding-left: 16px; padding-right: 16px; }
       .tab-bar { padding: 0 16px; }
@@ -156,8 +157,29 @@
     <input class="search-input" id="searchInput" placeholder="Search ticker or name..." oninput="renderTable()" />
     <span class="diff-info" id="diffInfo"></span>
   </div>
+
+  <!-- Table is always present in DOM; only tbody gets replaced -->
   <div class="table-wrap" id="tableWrap">
-    <div class="state-msg"><div class="spinner"></div><br>Loading...</div>
+    <div class="state-msg" id="stateMsg"><div class="spinner"></div><br>Loading...</div>
+    <table id="mainTable" style="display:none">
+      <thead>
+        <tr>
+          <th data-key="ticker">Ticker <span class="sort-icon">⇅</span></th>
+          <th data-key="name">Name <span class="sort-icon">⇅</span></th>
+          <th data-key="status">Status <span class="sort-icon">⇅</span></th>
+          <th data-key="shares_prior" class="num">Shares Prior <span class="sort-icon">⇅</span></th>
+          <th data-key="shares_today" class="num">Shares Today <span class="sort-icon">⇅</span></th>
+          <th data-key="shares_pct_change" class="num">Shares 1D % <span class="sort-icon">⇅</span></th>
+          <th data-key="shares_5d_change" class="num">Shares 5D % <span class="sort-icon">⇅</span></th>
+          <th data-key="shares_10d_change" class="num">Shares 10D % <span class="sort-icon">⇅</span></th>
+          <th data-key="shares_30d_change" class="num">Shares 30D % <span class="sort-icon">⇅</span></th>
+          <th data-key="pct_net_assets_prior" class="num">Weight Prior <span class="sort-icon">⇅</span></th>
+          <th data-key="pct_net_assets_today" class="num">Weight Today <span class="sort-icon">⇅</span></th>
+          <th data-key="pct_net_assets_change" class="num">Weight Δpp <span class="sort-icon">⇅</span></th>
+        </tr>
+      </thead>
+      <tbody id="mainTbody"></tbody>
+    </table>
   </div>
 </main>
 
@@ -168,23 +190,42 @@
   var activeFilter = "all";
   var sortKey = "ticker";
   var sortAsc = true;
-
   var STATUS_ORDER = { added: 0, removed: 1, changed: 2, unchanged: 3 };
-
-  var COLS = [
-    { key: "ticker",                label: "Ticker",          num: false },
-    { key: "name",                  label: "Name",            num: false },
-    { key: "status",                label: "Status",          num: false },
-    { key: "shares_prior",          label: "Shares Prior",    num: true  },
-    { key: "shares_today",          label: "Shares Today",    num: true  },
-    { key: "shares_pct_change",     label: "Shares 1D %",     num: true  },
-    { key: "shares_5d_change",      label: "Shares 5D %",     num: true  },
-    { key: "shares_10d_change",     label: "Shares 10D %",    num: true  },
-    { key: "shares_30d_change",     label: "Shares 30D %",    num: true  },
-    { key: "pct_net_assets_prior",  label: "Weight Prior",    num: true  },
-    { key: "pct_net_assets_today",  label: "Weight Today",    num: true  },
-    { key: "pct_net_assets_change", label: "Weight Δpp",      num: true  },
+  var NUMERIC_KEYS = [
+    "shares_prior","shares_today","shares_pct_change",
+    "shares_5d_change","shares_10d_change","shares_30d_change",
+    "pct_net_assets_prior","pct_net_assets_today","pct_net_assets_change"
   ];
+
+  // Wire up header clicks once — they stay live forever
+  document.querySelectorAll("#mainTable thead th").forEach(function(th) {
+    th.addEventListener("click", function() {
+      var key = th.getAttribute("data-key");
+      if (sortKey === key) {
+        sortAsc = !sortAsc;
+      } else {
+        sortKey = key;
+        // Numeric cols default descending, text cols ascending
+        sortAsc = NUMERIC_KEYS.indexOf(key) === -1;
+      }
+      updateHeaderArrows();
+      renderTable();
+    });
+  });
+
+  function updateHeaderArrows() {
+    document.querySelectorAll("#mainTable thead th").forEach(function(th) {
+      var key = th.getAttribute("data-key");
+      var icon = th.querySelector(".sort-icon");
+      th.classList.remove("sort-asc","sort-desc");
+      if (key === sortKey) {
+        th.classList.add(sortAsc ? "sort-asc" : "sort-desc");
+        icon.textContent = sortAsc ? "▲" : "▼";
+      } else {
+        icon.textContent = "⇅";
+      }
+    });
+  }
 
   // Build tabs
   var tabBar = document.getElementById("tabBar");
@@ -210,9 +251,19 @@
     loadCurrentTab();
   }
 
+  function showMsg(html) {
+    document.getElementById("stateMsg").innerHTML = html;
+    document.getElementById("stateMsg").style.display = "";
+    document.getElementById("mainTable").style.display = "none";
+  }
+
+  function showTable() {
+    document.getElementById("stateMsg").style.display = "none";
+    document.getElementById("mainTable").style.display = "";
+  }
+
   function loadCurrentTab() {
-    document.getElementById("tableWrap").innerHTML =
-      '<div class="state-msg"><div class="spinner"></div><br>Loading ' + currentTicker + '...</div>';
+    showMsg('<div class="spinner"></div><br>Loading ' + currentTicker + '...');
     document.getElementById("headerDate").textContent = "--";
     ["statTotal","statChanged","statAdded","statRemoved"].forEach(function(id) {
       document.getElementById(id).textContent = "--";
@@ -225,21 +276,19 @@
       .then(function(data) {
         document.getElementById("headerDate").textContent = data.date || "--";
         if (!data.diff || data.diff.length === 0) {
-          document.getElementById("tableWrap").innerHTML =
-            '<div class="state-msg">No data yet for ' + currentTicker + '. Run the workflow first.</div>';
+          showMsg("No data yet for " + currentTicker + ". Run the workflow first.");
           return;
         }
         allRows = data.diff;
         updateStats();
+        updateHeaderArrows();
         renderTable();
         document.getElementById("diffInfo").textContent = data.prior_date
           ? "comparing " + data.date + " vs " + data.prior_date
           : "no prior date to compare";
       })
       .catch(function(err) {
-        document.getElementById("tableWrap").innerHTML =
-          '<div class="state-msg">Could not load data/' + currentTicker +
-          '/diff.json<br><small>' + err.message + '</small></div>';
+        showMsg("Could not load data/" + currentTicker + "/diff.json<br><small>" + err.message + "</small>");
       });
   }
 
@@ -259,23 +308,6 @@
     renderTable();
   }
 
-  function setSort(key) {
-    if (sortKey === key) {
-      sortAsc = !sortAsc;
-    } else {
-      sortKey = key;
-      // Default: text columns start ascending, numeric columns start descending
-      var col = COLS.find(function(c) { return c.key === key; });
-      sortAsc = col ? !col.num : true;
-    }
-    renderTable();
-  }
-
-  function getVal(row, key) {
-    if (key === "status") return STATUS_ORDER[row.status] != null ? STATUS_ORDER[row.status] : 9;
-    return row[key];
-  }
-
   function getSortedFiltered() {
     var query = document.getElementById("searchInput").value.trim().toUpperCase();
     var rows = allRows.filter(function(r) {
@@ -289,14 +321,20 @@
     });
 
     rows.sort(function(a, b) {
-      var av = getVal(a, sortKey);
-      var bv = getVal(b, sortKey);
-      // Nulls always to bottom
+      var av, bv;
+      if (sortKey === "status") {
+        av = STATUS_ORDER[a.status] != null ? STATUS_ORDER[a.status] : 9;
+        bv = STATUS_ORDER[b.status] != null ? STATUS_ORDER[b.status] : 9;
+      } else {
+        av = a[sortKey];
+        bv = b[sortKey];
+      }
+      // Nulls always sink to bottom
       if (av == null && bv == null) return 0;
       if (av == null) return 1;
       if (bv == null) return -1;
-      var result = (typeof av === "string") ? av.localeCompare(bv) : av - bv;
-      return sortAsc ? result : -result;
+      var cmp = (typeof av === "string") ? av.localeCompare(bv) : av - bv;
+      return sortAsc ? cmp : -cmp;
     });
     return rows;
   }
@@ -339,30 +377,18 @@
 
   function renderTable() {
     var rows = getSortedFiltered();
+    var tbody = document.getElementById("mainTbody");
     if (rows.length === 0) {
-      document.getElementById("tableWrap").innerHTML =
-        '<div class="state-msg">No holdings match the current filter.</div>';
+      showMsg("No holdings match the current filter.");
       return;
     }
-
-    var html = '<table><thead><tr>';
-    COLS.forEach(function(col) {
-      var active = sortKey === col.key;
-      var arrow  = active ? (sortAsc ? " ▲" : " ▼") : " ⇅";
-      var cls    = [];
-      if (col.num) cls.push("num");
-      if (active)  cls.push("sort-active");
-      html += '<th' + (cls.length ? ' class="' + cls.join(" ") + '"' : '') +
-              ' onclick="setSort(\'' + col.key + '\')">' +
-              col.label + '<span class="sort-arrow">' + arrow + '</span></th>';
-    });
-    html += '</tr></thead><tbody>';
-
+    showTable();
+    var html = "";
     rows.forEach(function(r) {
       html += '<tr class="row-' + r.status + '">';
-      html += '<td class="ticker-cell">'  + r.ticker + '</td>';
+      html += '<td class="ticker-cell">' + r.ticker + '</td>';
       html += '<td class="name-cell" title="' + (r.name || "") + '">' + (r.name || '<span class="na">--</span>') + '</td>';
-      html += '<td>'        + badgeHtml(r.status) + '</td>';
+      html += '<td>' + badgeHtml(r.status) + '</td>';
       html += '<td class="num">' + fmtShares(r.shares_prior) + '</td>';
       html += '<td class="num">' + fmtShares(r.shares_today) + '</td>';
       html += '<td class="num">' + fmtChange(r.shares_pct_change, false) + '</td>';
@@ -374,9 +400,7 @@
       html += '<td class="num">' + fmtChange(r.pct_net_assets_change, true) + '</td>';
       html += '</tr>';
     });
-
-    html += '</tbody></table>';
-    document.getElementById("tableWrap").innerHTML = html;
+    tbody.innerHTML = html;
   }
 
   loadCurrentTab();
