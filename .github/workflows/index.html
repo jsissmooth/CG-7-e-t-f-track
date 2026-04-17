@@ -8,126 +8,79 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --bg:        #0b0e14;
-      --surface:   #111520;
-      --border:    #1e2535;
-      --text:      #c8d0e0;
-      --muted:     #4a5568;
-      --accent:    #3b82f6;
-      --green:     #22c55e;
-      --green-bg:  rgba(34,197,94,0.08);
-      --red:       #ef4444;
-      --red-bg:    rgba(239,68,68,0.08);
-      --yellow:    #f59e0b;
-      --yellow-bg: rgba(245,158,11,0.07);
-      --mono:      'IBM Plex Mono', monospace;
-      --sans:      'IBM Plex Sans', sans-serif;
+      --bg:#0b0e14; --surface:#111520; --border:#1e2535; --text:#c8d0e0;
+      --muted:#4a5568; --accent:#3b82f6; --green:#22c55e;
+      --green-bg:rgba(34,197,94,0.08); --red:#ef4444;
+      --red-bg:rgba(239,68,68,0.08); --yellow:#f59e0b;
+      --yellow-bg:rgba(245,158,11,0.07);
+      --mono:'IBM Plex Mono',monospace; --sans:'IBM Plex Sans',sans-serif;
     }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: var(--bg); color: var(--text); font-family: var(--sans); min-height: 100vh; }
-    header {
-      display: flex; align-items: center; justify-content: space-between;
-      padding: 20px 32px; border-bottom: 1px solid var(--border); background: var(--surface);
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--text);font-family:var(--sans);min-height:100vh}
+    header{display:flex;align-items:center;justify-content:space-between;padding:20px 32px;border-bottom:1px solid var(--border);background:var(--surface)}
+    .logo{font-family:var(--mono);font-size:18px;font-weight:600;color:#fff;letter-spacing:.06em}
+    .logo span{color:var(--accent)}
+    .header-right{display:flex;align-items:center;gap:16px}
+    .date-badge{font-family:var(--mono);font-size:11px;color:var(--muted)}
+    .refresh-btn{padding:6px 14px;border:1px solid var(--border);background:transparent;color:var(--text);font-family:var(--mono);font-size:11px;cursor:pointer;border-radius:3px}
+    .refresh-btn:hover{border-color:var(--accent);color:var(--accent)}
+    .tab-bar{display:flex;gap:2px;padding:0 32px;background:var(--surface);border-bottom:1px solid var(--border);overflow-x:auto}
+    .tab-btn{padding:12px 20px;background:transparent;border:none;color:var(--muted);font-family:var(--mono);font-size:12px;cursor:pointer;white-space:nowrap;border-bottom:2px solid transparent;margin-bottom:-1px}
+    .tab-btn:hover{color:var(--text)}
+    .tab-btn.active{color:#fff;border-bottom-color:var(--accent)}
+    main{padding:24px 32px;max-width:1600px;margin:0 auto}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px}
+    .stat{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:16px 18px}
+    .stat-label{font-size:10px;letter-spacing:.12em;color:var(--muted);text-transform:uppercase;margin-bottom:7px}
+    .stat-value{font-family:var(--mono);font-size:26px;font-weight:600;color:#fff;line-height:1}
+    .stat-value.green{color:var(--green)} .stat-value.red{color:var(--red)} .stat-value.yellow{color:var(--yellow)}
+    .toolbar{display:flex;align-items:center;gap:12px;margin-bottom:16px;flex-wrap:wrap}
+    .filter-group{display:flex;border:1px solid var(--border);border-radius:4px;overflow:hidden}
+    .filter-btn{padding:6px 14px;background:transparent;border:none;color:var(--muted);font-family:var(--mono);font-size:11px;cursor:pointer;border-right:1px solid var(--border)}
+    .filter-btn:last-child{border-right:none}
+    .filter-btn.active{background:var(--accent);color:#fff}
+    .filter-btn:not(.active):hover{background:var(--border);color:var(--text)}
+    .search-input{padding:6px 12px;background:var(--surface);border:1px solid var(--border);border-radius:4px;color:var(--text);font-family:var(--mono);font-size:12px;width:200px;outline:none}
+    .search-input:focus{border-color:var(--accent)}
+    .diff-info{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--muted)}
+    .table-wrap{background:var(--surface);border:1px solid var(--border);border-radius:6px;overflow:auto}
+    .state-msg{text-align:center;padding:60px 20px;color:var(--muted);font-family:var(--mono);font-size:13px}
+    .spinner{display:inline-block;width:18px;height:18px;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite;margin-bottom:12px}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    table{width:100%;border-collapse:collapse;font-size:12px}
+    thead th{
+      padding:11px 14px;text-align:left;font-family:var(--mono);font-size:10px;
+      letter-spacing:.1em;color:var(--muted);text-transform:uppercase;
+      border-bottom:1px solid var(--border);white-space:nowrap;
+      background:var(--surface);position:sticky;top:0;z-index:1;
+      cursor:pointer;user-select:none;transition:color .15s;
     }
-    .logo { font-family: var(--mono); font-size: 18px; font-weight: 600; color: #fff; letter-spacing: 0.06em; }
-    .logo span { color: var(--accent); }
-    .header-right { display: flex; align-items: center; gap: 16px; }
-    .date-badge { font-family: var(--mono); font-size: 11px; color: var(--muted); }
-    .refresh-btn {
-      padding: 6px 14px; border: 1px solid var(--border); background: transparent;
-      color: var(--text); font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em;
-      cursor: pointer; border-radius: 3px; transition: border-color .2s, color .2s;
-    }
-    .refresh-btn:hover { border-color: var(--accent); color: var(--accent); }
-    .tab-bar {
-      display: flex; gap: 2px; padding: 0 32px;
-      background: var(--surface); border-bottom: 1px solid var(--border); overflow-x: auto;
-    }
-    .tab-btn {
-      padding: 12px 20px; background: transparent; border: none;
-      color: var(--muted); font-family: var(--mono); font-size: 12px;
-      letter-spacing: 0.08em; cursor: pointer; white-space: nowrap;
-      border-bottom: 2px solid transparent; transition: color .15s, border-color .15s;
-      margin-bottom: -1px;
-    }
-    .tab-btn:hover { color: var(--text); }
-    .tab-btn.active { color: #fff; border-bottom-color: var(--accent); }
-    main { padding: 24px 32px; max-width: 1600px; margin: 0 auto; }
-    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 24px; }
-    .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 16px 18px; }
-    .stat-label { font-size: 10px; letter-spacing: 0.12em; color: var(--muted); text-transform: uppercase; margin-bottom: 7px; }
-    .stat-value { font-family: var(--mono); font-size: 26px; font-weight: 600; color: #fff; line-height: 1; }
-    .stat-value.green  { color: var(--green); }
-    .stat-value.red    { color: var(--red); }
-    .stat-value.yellow { color: var(--yellow); }
-    .toolbar { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
-    .filter-group { display: flex; border: 1px solid var(--border); border-radius: 4px; overflow: hidden; }
-    .filter-btn {
-      padding: 6px 14px; background: transparent; border: none; color: var(--muted);
-      font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; cursor: pointer;
-      transition: background .15s, color .15s; border-right: 1px solid var(--border);
-    }
-    .filter-btn:last-child { border-right: none; }
-    .filter-btn.active { background: var(--accent); color: #fff; }
-    .filter-btn:not(.active):hover { background: var(--border); color: var(--text); }
-    .search-input {
-      padding: 6px 12px; background: var(--surface); border: 1px solid var(--border);
-      border-radius: 4px; color: var(--text); font-family: var(--mono); font-size: 12px;
-      width: 200px; outline: none; transition: border-color .2s;
-    }
-    .search-input::placeholder { color: var(--muted); }
-    .search-input:focus { border-color: var(--accent); }
-    .sort-select {
-      padding: 6px 12px; background: var(--surface); border: 1px solid var(--border);
-      border-radius: 4px; color: var(--text); font-family: var(--mono); font-size: 11px;
-      outline: none; cursor: pointer;
-    }
-    .diff-info { margin-left: auto; font-family: var(--mono); font-size: 11px; color: var(--muted); }
-    .table-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; overflow: auto; }
-    .state-msg { text-align: center; padding: 60px 20px; color: var(--muted); font-family: var(--mono); font-size: 13px; }
-    .spinner {
-      display: inline-block; width: 18px; height: 18px;
-      border: 2px solid var(--border); border-top-color: var(--accent);
-      border-radius: 50%; animation: spin .7s linear infinite; margin-bottom: 12px;
-    }
-    @keyframes spin { to { transform: rotate(360deg); } }
-    table { width: 100%; border-collapse: collapse; font-size: 12px; }
-    thead th {
-      padding: 11px 14px; text-align: left; font-family: var(--mono); font-size: 10px;
-      letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase;
-      border-bottom: 1px solid var(--border); white-space: nowrap;
-      background: var(--surface); position: sticky; top: 0; z-index: 1;
-      cursor: pointer; user-select: none;
-    }
-    thead th:hover { color: var(--accent); }
-    thead th.sort-asc, thead th.sort-desc { color: var(--accent); }
-    thead th.num { text-align: right; }
-    .sort-icon { margin-left: 4px; font-size: 9px; }
-    tbody tr { border-bottom: 1px solid var(--border); transition: background .1s; }
-    tbody tr:last-child { border-bottom: none; }
-    tbody tr:hover { background: rgba(59,130,246,0.04); }
-    tbody tr.row-added   { background: var(--green-bg); }
-    tbody tr.row-removed { background: var(--red-bg); }
-    tbody tr.row-changed { background: var(--yellow-bg); }
-    td { padding: 10px 14px; font-family: var(--mono); white-space: nowrap; }
-    td.ticker-cell { font-weight: 600; font-size: 13px; color: #fff; }
-    td.name-cell { color: var(--text); font-size: 11px; max-width: 220px; overflow: hidden; text-overflow: ellipsis; font-family: var(--sans); }
-    td.num { text-align: right; }
-    .badge { display: inline-block; padding: 2px 6px; border-radius: 3px; font-size: 10px; font-weight: 500; }
-    .badge-added     { background: var(--green-bg);  color: var(--green);  border: 1px solid rgba(34,197,94,0.2); }
-    .badge-removed   { background: var(--red-bg);    color: var(--red);    border: 1px solid rgba(239,68,68,0.2); }
-    .badge-changed   { background: var(--yellow-bg); color: var(--yellow); border: 1px solid rgba(245,158,11,0.2); }
-    .badge-unchanged { background: transparent;      color: var(--muted);  border: 1px solid var(--border); }
-    .chg-pos { color: var(--green); }
-    .chg-neg { color: var(--red); }
-    .chg-zero { color: var(--muted); }
-    .na { color: var(--muted); font-size: 10px; }
-    .bar-wrap { display: flex; align-items: center; gap: 6px; justify-content: flex-end; }
-    .mini-bar { display: inline-block; height: 8px; min-width: 2px; border-radius: 2px; }
-    @media (max-width: 900px) {
-      header, main { padding-left: 16px; padding-right: 16px; }
-      .tab-bar { padding: 0 16px; }
-      .stats { grid-template-columns: repeat(2, 1fr); }
+    thead th:hover{color:#fff}
+    thead th.th-active{color:var(--accent)}
+    thead th.num{text-align:right}
+    tbody tr{border-bottom:1px solid var(--border)}
+    tbody tr:last-child{border-bottom:none}
+    tbody tr:hover{background:rgba(59,130,246,.04)}
+    tbody tr.row-added{background:var(--green-bg)}
+    tbody tr.row-removed{background:var(--red-bg)}
+    tbody tr.row-changed{background:var(--yellow-bg)}
+    td{padding:10px 14px;font-family:var(--mono);white-space:nowrap}
+    td.ticker-cell{font-weight:600;font-size:13px;color:#fff}
+    td.name-cell{color:var(--text);font-size:11px;max-width:220px;overflow:hidden;text-overflow:ellipsis;font-family:var(--sans)}
+    td.num{text-align:right}
+    .badge{display:inline-block;padding:2px 6px;border-radius:3px;font-size:10px;font-weight:500}
+    .badge-added{background:var(--green-bg);color:var(--green);border:1px solid rgba(34,197,94,.2)}
+    .badge-removed{background:var(--red-bg);color:var(--red);border:1px solid rgba(239,68,68,.2)}
+    .badge-changed{background:var(--yellow-bg);color:var(--yellow);border:1px solid rgba(245,158,11,.2)}
+    .badge-unchanged{background:transparent;color:var(--muted);border:1px solid var(--border)}
+    .chg-pos{color:var(--green)} .chg-neg{color:var(--red)} .chg-zero{color:var(--muted)}
+    .na{color:var(--muted);font-size:10px}
+    .bar-wrap{display:flex;align-items:center;gap:6px;justify-content:flex-end}
+    .mini-bar{display:inline-block;height:8px;min-width:2px;border-radius:2px}
+    @media(max-width:900px){
+      header,main{padding-left:16px;padding-right:16px}
+      .tab-bar{padding:0 16px}
+      .stats{grid-template-columns:repeat(2,1fr)}
     }
   </style>
 </head>
@@ -158,57 +111,26 @@
       <button class="filter-btn" onclick="setFilter('removed',this)">REMOVED</button>
       <button class="filter-btn" onclick="setFilter('unchanged',this)">UNCHANGED</button>
     </div>
-    <input class="search-input" id="searchInput" placeholder="Search ticker or name..." oninput="renderTable()" />
-    <select class="sort-select" id="sortSelect" onchange="applyDropdownSort()">
-      <option value="">— Quick Sort —</option>
-      <optgroup label="Ticker">
-        <option value="ticker|asc">Ticker A → Z</option>
-        <option value="ticker|desc">Ticker Z → A</option>
-      </optgroup>
-      <optgroup label="1 Day Share Change">
-        <option value="shares_pct_change|desc">1D Change High → Low</option>
-        <option value="shares_pct_change|asc">1D Change Low → High</option>
-      </optgroup>
-      <optgroup label="5 Day Share Change">
-        <option value="shares_5d_change|desc">5D Change High → Low</option>
-        <option value="shares_5d_change|asc">5D Change Low → High</option>
-      </optgroup>
-      <optgroup label="10 Day Share Change">
-        <option value="shares_10d_change|desc">10D Change High → Low</option>
-        <option value="shares_10d_change|asc">10D Change Low → High</option>
-      </optgroup>
-      <optgroup label="30 Day Share Change">
-        <option value="shares_30d_change|desc">30D Change High → Low</option>
-        <option value="shares_30d_change|asc">30D Change Low → High</option>
-      </optgroup>
-      <optgroup label="Weight">
-        <option value="pct_net_assets_today|desc">Weight High → Low</option>
-        <option value="pct_net_assets_today|asc">Weight Low → High</option>
-      </optgroup>
-      <optgroup label="Status">
-        <option value="status|asc">Status</option>
-      </optgroup>
-    </select>
+    <input class="search-input" id="searchInput" placeholder="Search ticker or name..." oninput="applyFilters()" />
     <span class="diff-info" id="diffInfo"></span>
   </div>
-
   <div class="table-wrap" id="tableWrap">
     <div class="state-msg" id="stateMsg"><div class="spinner"></div><br>Loading...</div>
     <table id="mainTable" style="display:none">
-      <thead>
+      <thead id="mainThead">
         <tr>
-          <th data-key="ticker">Ticker <span class="sort-icon">⇅</span></th>
-          <th data-key="name">Name <span class="sort-icon">⇅</span></th>
-          <th data-key="status">Status <span class="sort-icon">⇅</span></th>
-          <th data-key="shares_prior" class="num">Shares Prior <span class="sort-icon">⇅</span></th>
-          <th data-key="shares_today" class="num">Shares Today <span class="sort-icon">⇅</span></th>
-          <th data-key="shares_pct_change" class="num">Shares 1D % <span class="sort-icon">⇅</span></th>
-          <th data-key="shares_5d_change" class="num">Shares 5D % <span class="sort-icon">⇅</span></th>
-          <th data-key="shares_10d_change" class="num">Shares 10D % <span class="sort-icon">⇅</span></th>
-          <th data-key="shares_30d_change" class="num">Shares 30D % <span class="sort-icon">⇅</span></th>
-          <th data-key="pct_net_assets_prior" class="num">Weight Prior <span class="sort-icon">⇅</span></th>
-          <th data-key="pct_net_assets_today" class="num">Weight Today <span class="sort-icon">⇅</span></th>
-          <th data-key="pct_net_assets_change" class="num">Weight Δpp <span class="sort-icon">⇅</span></th>
+          <th id="th-ticker"                             >Ticker <span id="arr-ticker">⇅</span></th>
+          <th id="th-name"                               >Name <span id="arr-name">⇅</span></th>
+          <th id="th-status"                             >Status <span id="arr-status">⇅</span></th>
+          <th id="th-shares_prior"          class="num"  >Shares Prior <span id="arr-shares_prior">⇅</span></th>
+          <th id="th-shares_today"          class="num"  >Shares Today <span id="arr-shares_today">⇅</span></th>
+          <th id="th-shares_pct_change"     class="num"  >1D % <span id="arr-shares_pct_change">⇅</span></th>
+          <th id="th-shares_5d_change"      class="num"  >5D % <span id="arr-shares_5d_change">⇅</span></th>
+          <th id="th-shares_10d_change"     class="num"  >10D % <span id="arr-shares_10d_change">⇅</span></th>
+          <th id="th-shares_30d_change"     class="num"  >30D % <span id="arr-shares_30d_change">⇅</span></th>
+          <th id="th-pct_net_assets_prior"  class="num"  >Weight Prior <span id="arr-pct_net_assets_prior">⇅</span></th>
+          <th id="th-pct_net_assets_today"  class="num"  >Weight Today <span id="arr-pct_net_assets_today">⇅</span></th>
+          <th id="th-pct_net_assets_change" class="num"  >Weight Δpp <span id="arr-pct_net_assets_change">⇅</span></th>
         </tr>
       </thead>
       <tbody id="mainTbody"></tbody>
@@ -217,235 +139,204 @@
 </main>
 
 <script>
-  var ETFS = ["CGBL","CGIE","CGUS","CGMM","CGXU","CGGO","CGNG","CGGR","CGDV"];
-  var currentTicker = ETFS[0];
-  var allRows = [];
-  var activeFilter = "all";
-  var sortKey = "ticker";
-  var sortAsc = true;
-  var STATUS_ORDER = { added: 0, removed: 1, changed: 2, unchanged: 3 };
-  var NUMERIC_KEYS = [
-    "shares_prior","shares_today","shares_pct_change",
-    "shares_5d_change","shares_10d_change","shares_30d_change",
-    "pct_net_assets_prior","pct_net_assets_today","pct_net_assets_change"
-  ];
+var ETFS = ["CGBL","CGIE","CGUS","CGMM","CGXU","CGGO","CGNG","CGGR","CGDV"];
+var currentTicker = ETFS[0];
+var allRows  = [];
+var activeFilter = "all";
+var sortKey  = "ticker";
+var sortAsc  = true;
+var STATUS_ORDER = {added:0, removed:1, changed:2, unchanged:3};
 
-  // Wire header clicks once — permanent
-  document.querySelectorAll("#mainTable thead th").forEach(function(th) {
-    th.addEventListener("click", function() {
-      var key = th.getAttribute("data-key");
-      if (sortKey === key) {
-        sortAsc = !sortAsc;
-      } else {
-        sortKey = key;
-        sortAsc = NUMERIC_KEYS.indexOf(key) === -1;
-      }
-      // Reset dropdown to blank when clicking a header
-      document.getElementById("sortSelect").value = "";
-      updateHeaderArrows();
-      renderTable();
-    });
-  });
+// ── Build tabs ──────────────────────────────────────────────
+var tabBar = document.getElementById("tabBar");
+ETFS.forEach(function(t){
+  var b = document.createElement("button");
+  b.className = "tab-btn" + (t===currentTicker?" active":"");
+  b.textContent = t;
+  b.id = "tab-"+t;
+  b.onclick = function(){ switchTab(t); };
+  tabBar.appendChild(b);
+});
 
-  function applyDropdownSort() {
-    var val = document.getElementById("sortSelect").value;
-    if (!val) return;
-    var parts = val.split("|");
-    sortKey = parts[0];
-    sortAsc = parts[1] === "asc";
-    updateHeaderArrows();
-    renderTable();
-  }
+// ── Wire column-header clicks ───────────────────────────────
+// Each th has id="th-FIELDNAME" and a span id="arr-FIELDNAME"
+var NUMERIC = {
+  shares_prior:1, shares_today:1, shares_pct_change:1,
+  shares_5d_change:1, shares_10d_change:1, shares_30d_change:1,
+  pct_net_assets_prior:1, pct_net_assets_today:1, pct_net_assets_change:1
+};
 
-  function updateHeaderArrows() {
-    document.querySelectorAll("#mainTable thead th").forEach(function(th) {
-      var key = th.getAttribute("data-key");
-      var icon = th.querySelector(".sort-icon");
-      th.classList.remove("sort-asc","sort-desc");
-      if (key === sortKey) {
-        th.classList.add(sortAsc ? "sort-asc" : "sort-desc");
-        icon.textContent = sortAsc ? "▲" : "▼";
-      } else {
-        icon.textContent = "⇅";
-      }
-    });
-  }
-
-  // Build tabs
-  var tabBar = document.getElementById("tabBar");
-  ETFS.forEach(function(t) {
-    var btn = document.createElement("button");
-    btn.className = "tab-btn" + (t === currentTicker ? " active" : "");
-    btn.textContent = t;
-    btn.onclick = function() { switchTab(t); };
-    btn.id = "tab-" + t;
-    tabBar.appendChild(btn);
-  });
-
-  function switchTab(ticker) {
-    currentTicker = ticker;
-    ETFS.forEach(function(t) {
-      document.getElementById("tab-" + t).classList.toggle("active", t === ticker);
-    });
-    activeFilter = "all";
-    document.querySelectorAll(".filter-btn").forEach(function(b, i) {
-      b.classList.toggle("active", i === 0);
-    });
-    document.getElementById("searchInput").value = "";
-    loadCurrentTab();
-  }
-
-  function showMsg(html) {
-    document.getElementById("stateMsg").innerHTML = html;
-    document.getElementById("stateMsg").style.display = "";
-    document.getElementById("mainTable").style.display = "none";
-  }
-
-  function showTable() {
-    document.getElementById("stateMsg").style.display = "none";
-    document.getElementById("mainTable").style.display = "";
-  }
-
-  function loadCurrentTab() {
-    showMsg('<div class="spinner"></div><br>Loading ' + currentTicker + '...');
-    document.getElementById("headerDate").textContent = "--";
-    ["statTotal","statChanged","statAdded","statRemoved"].forEach(function(id) {
-      document.getElementById(id).textContent = "--";
-    });
-    fetch("data/" + currentTicker + "/diff.json?t=" + Date.now())
-      .then(function(r) {
-        if (!r.ok) throw new Error("HTTP " + r.status);
-        return r.json();
-      })
-      .then(function(data) {
-        document.getElementById("headerDate").textContent = data.date || "--";
-        if (!data.diff || data.diff.length === 0) {
-          showMsg("No data yet for " + currentTicker + ". Run the workflow first.");
-          return;
-        }
-        allRows = data.diff;
-        updateStats();
-        updateHeaderArrows();
-        renderTable();
-        document.getElementById("diffInfo").textContent = data.prior_date
-          ? "comparing " + data.date + " vs " + data.prior_date
-          : "no prior date to compare";
-      })
-      .catch(function(err) {
-        showMsg("Could not load data/" + currentTicker + "/diff.json<br><small>" + err.message + "</small>");
-      });
-  }
-
-  function updateStats() {
-    var counts = { changed: 0, added: 0, removed: 0, unchanged: 0 };
-    allRows.forEach(function(r) { counts[r.status] = (counts[r.status] || 0) + 1; });
-    document.getElementById("statTotal").textContent   = allRows.length;
-    document.getElementById("statChanged").textContent = counts.changed;
-    document.getElementById("statAdded").textContent   = counts.added;
-    document.getElementById("statRemoved").textContent = counts.removed;
-  }
-
-  function setFilter(f, btn) {
-    activeFilter = f;
-    document.querySelectorAll(".filter-btn").forEach(function(b) { b.classList.remove("active"); });
-    btn.classList.add("active");
-    renderTable();
-  }
-
-  function getSortedFiltered() {
-    var query = document.getElementById("searchInput").value.trim().toUpperCase();
-    var rows = allRows.filter(function(r) {
-      if (activeFilter !== "all" && r.status !== activeFilter) return false;
-      if (query) {
-        var inTicker = r.ticker.toUpperCase().indexOf(query) !== -1;
-        var inName   = r.name && r.name.toUpperCase().indexOf(query) !== -1;
-        if (!inTicker && !inName) return false;
-      }
-      return true;
-    });
-
-    rows.sort(function(a, b) {
-      var av, bv;
-      if (sortKey === "status") {
-        av = STATUS_ORDER[a.status] != null ? STATUS_ORDER[a.status] : 9;
-        bv = STATUS_ORDER[b.status] != null ? STATUS_ORDER[b.status] : 9;
-      } else {
-        av = a[sortKey];
-        bv = b[sortKey];
-      }
-      if (av == null && bv == null) return 0;
-      if (av == null) return 1;
-      if (bv == null) return -1;
-      var cmp = (typeof av === "string") ? av.localeCompare(bv) : av - bv;
-      return sortAsc ? cmp : -cmp;
-    });
-    return rows;
-  }
-
-  function fmtShares(v) {
-    if (v == null) return '<span class="na">--</span>';
-    if (v >= 1000000) return (v / 1000000).toFixed(3) + "M";
-    if (v >= 1000)    return (v / 1000).toFixed(2) + "K";
-    return v.toFixed(0);
-  }
-
-  function fmtPct(v) {
-    if (v == null) return '<span class="na">--</span>';
-    return v.toFixed(4) + "%";
-  }
-
-  function fmtChange(v, isPercent) {
-    if (v == null) return '<span class="na">--</span>';
-    var cls  = v > 0 ? "chg-pos" : v < 0 ? "chg-neg" : "chg-zero";
-    var sign = v > 0 ? "+" : "";
-    var text = isPercent ? sign + v.toFixed(4) + "pp" : sign + v.toFixed(2) + "%";
-    var barMax   = isPercent ? 2 : 20;
-    var barW     = Math.min(Math.abs(v) / barMax * 36, 36);
-    var barColor = v > 0 ? "var(--green)" : v < 0 ? "var(--red)" : "var(--muted)";
-    return '<div class="bar-wrap"><span class="' + cls + '">' + text + '</span>' +
-           '<span class="mini-bar" style="width:' + barW + 'px;background:' + barColor + ';opacity:0.5;"></span></div>';
-  }
-
-  function fmtHistChange(v) {
-    if (v == null) return '<span class="na">--</span>';
-    var cls  = v > 0 ? "chg-pos" : v < 0 ? "chg-neg" : "chg-zero";
-    var sign = v > 0 ? "+" : "";
-    return '<span class="' + cls + '">' + sign + v.toFixed(2) + '%</span>';
-  }
-
-  function badgeHtml(status) {
-    var labels = { added: "+ ADDED", removed: "- REMOVED", changed: "~ CHANGED", unchanged: ". same" };
-    return '<span class="badge badge-' + status + '">' + (labels[status] || status) + '</span>';
-  }
-
-  function renderTable() {
-    var rows = getSortedFiltered();
-    if (rows.length === 0) {
-      showMsg("No holdings match the current filter.");
-      return;
+document.querySelectorAll("#mainThead th").forEach(function(th){
+  th.onclick = function(){
+    var key = th.id.replace("th-","");
+    if(sortKey === key){
+      sortAsc = !sortAsc;
+    } else {
+      sortKey = key;
+      sortAsc = !NUMERIC[key]; // text cols → asc first; numeric → desc first
     }
-    showTable();
-    var html = "";
-    rows.forEach(function(r) {
-      html += '<tr class="row-' + r.status + '">';
-      html += '<td class="ticker-cell">' + r.ticker + '</td>';
-      html += '<td class="name-cell" title="' + (r.name || "") + '">' + (r.name || '<span class="na">--</span>') + '</td>';
-      html += '<td>' + badgeHtml(r.status) + '</td>';
-      html += '<td class="num">' + fmtShares(r.shares_prior) + '</td>';
-      html += '<td class="num">' + fmtShares(r.shares_today) + '</td>';
-      html += '<td class="num">' + fmtChange(r.shares_pct_change, false) + '</td>';
-      html += '<td class="num">' + fmtHistChange(r.shares_5d_change) + '</td>';
-      html += '<td class="num">' + fmtHistChange(r.shares_10d_change) + '</td>';
-      html += '<td class="num">' + fmtHistChange(r.shares_30d_change) + '</td>';
-      html += '<td class="num">' + fmtPct(r.pct_net_assets_prior) + '</td>';
-      html += '<td class="num">' + fmtPct(r.pct_net_assets_today) + '</td>';
-      html += '<td class="num">' + fmtChange(r.pct_net_assets_change, true) + '</td>';
-      html += '</tr>';
-    });
-    document.getElementById("mainTbody").innerHTML = html;
-  }
+    refreshArrows();
+    renderRows();
+  };
+});
 
+function refreshArrows(){
+  document.querySelectorAll("#mainThead th").forEach(function(th){
+    var key = th.id.replace("th-","");
+    var span = document.getElementById("arr-"+key);
+    if(key === sortKey){
+      th.classList.add("th-active");
+      span.textContent = sortAsc ? " ▲" : " ▼";
+    } else {
+      th.classList.remove("th-active");
+      span.textContent = " ⇅";
+    }
+  });
+}
+
+// ── Tab switching ───────────────────────────────────────────
+function switchTab(ticker){
+  currentTicker = ticker;
+  ETFS.forEach(function(t){
+    document.getElementById("tab-"+t).classList.toggle("active", t===ticker);
+  });
+  activeFilter = "all";
+  document.querySelectorAll(".filter-btn").forEach(function(b,i){ b.classList.toggle("active",i===0); });
+  document.getElementById("searchInput").value = "";
   loadCurrentTab();
+}
+
+// ── Data loading ────────────────────────────────────────────
+function loadCurrentTab(){
+  showMsg('<div class="spinner"></div><br>Loading '+currentTicker+'...');
+  document.getElementById("headerDate").textContent = "--";
+  ["statTotal","statChanged","statAdded","statRemoved"].forEach(function(id){
+    document.getElementById(id).textContent = "--";
+  });
+  fetch("data/"+currentTicker+"/diff.json?t="+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(data){
+      document.getElementById("headerDate").textContent = data.date||"--";
+      if(!data.diff||data.diff.length===0){
+        showMsg("No data yet for "+currentTicker+". Run the workflow first."); return;
+      }
+      allRows = data.diff;
+      updateStats();
+      refreshArrows();
+      applyFilters();
+      document.getElementById("diffInfo").textContent = data.prior_date
+        ? "comparing "+data.date+" vs "+data.prior_date : "no prior date";
+    })
+    .catch(function(e){ showMsg("Could not load diff.json<br><small>"+e.message+"</small>"); });
+}
+
+function showMsg(h){ document.getElementById("stateMsg").innerHTML=h; document.getElementById("stateMsg").style.display=""; document.getElementById("mainTable").style.display="none"; }
+function showTable(){ document.getElementById("stateMsg").style.display="none"; document.getElementById("mainTable").style.display=""; }
+
+// ── Stats ───────────────────────────────────────────────────
+function updateStats(){
+  var c={changed:0,added:0,removed:0,unchanged:0};
+  allRows.forEach(function(r){ c[r.status]=(c[r.status]||0)+1; });
+  document.getElementById("statTotal").textContent   = allRows.length;
+  document.getElementById("statChanged").textContent = c.changed;
+  document.getElementById("statAdded").textContent   = c.added;
+  document.getElementById("statRemoved").textContent = c.removed;
+}
+
+// ── Filter + sort + render ──────────────────────────────────
+function setFilter(f,btn){
+  activeFilter = f;
+  document.querySelectorAll(".filter-btn").forEach(function(b){ b.classList.remove("active"); });
+  btn.classList.add("active");
+  applyFilters();
+}
+
+function applyFilters(){
+  var q = document.getElementById("searchInput").value.trim().toUpperCase();
+  var rows = allRows.filter(function(r){
+    if(activeFilter!=="all" && r.status!==activeFilter) return false;
+    if(q){
+      if(r.ticker.toUpperCase().indexOf(q)===-1 && !(r.name&&r.name.toUpperCase().indexOf(q)!==-1)) return false;
+    }
+    return true;
+  });
+  rows.sort(function(a,b){
+    var av,bv;
+    if(sortKey==="status"){
+      av=STATUS_ORDER[a.status]!=null?STATUS_ORDER[a.status]:9;
+      bv=STATUS_ORDER[b.status]!=null?STATUS_ORDER[b.status]:9;
+    } else {
+      av=a[sortKey]; bv=b[sortKey];
+    }
+    if(av==null&&bv==null) return 0;
+    if(av==null) return 1;
+    if(bv==null) return -1;
+    var cmp = typeof av==="string" ? av.localeCompare(bv) : av-bv;
+    return sortAsc ? cmp : -cmp;
+  });
+  renderRows(rows);
+}
+
+// ── Render ──────────────────────────────────────────────────
+function renderRows(rows){
+  if(!rows) rows=allRows;
+  if(rows.length===0){ showMsg("No holdings match the current filter."); return; }
+  showTable();
+  var html="";
+  rows.forEach(function(r){
+    html+='<tr class="row-'+r.status+'">';
+    html+='<td class="ticker-cell">'+r.ticker+'</td>';
+    html+='<td class="name-cell" title="'+(r.name||"")+'">'+fmtName(r.name)+'</td>';
+    html+='<td>'+badge(r.status)+'</td>';
+    html+='<td class="num">'+fmtShares(r.shares_prior)+'</td>';
+    html+='<td class="num">'+fmtShares(r.shares_today)+'</td>';
+    html+='<td class="num">'+fmtChg(r.shares_pct_change,false)+'</td>';
+    html+='<td class="num">'+fmtHist(r.shares_5d_change)+'</td>';
+    html+='<td class="num">'+fmtHist(r.shares_10d_change)+'</td>';
+    html+='<td class="num">'+fmtHist(r.shares_30d_change)+'</td>';
+    html+='<td class="num">'+fmtPct(r.pct_net_assets_prior)+'</td>';
+    html+='<td class="num">'+fmtPct(r.pct_net_assets_today)+'</td>';
+    html+='<td class="num">'+fmtChg(r.pct_net_assets_change,true)+'</td>';
+    html+='</tr>';
+  });
+  document.getElementById("mainTbody").innerHTML=html;
+}
+
+// ── Formatters ──────────────────────────────────────────────
+function fmtName(v){ return v?v:'<span class="na">--</span>'; }
+function fmtShares(v){
+  if(v==null) return '<span class="na">--</span>';
+  if(v>=1000000) return (v/1000000).toFixed(3)+"M";
+  if(v>=1000)    return (v/1000).toFixed(2)+"K";
+  return v.toFixed(0);
+}
+function fmtPct(v){
+  if(v==null) return '<span class="na">--</span>';
+  return v.toFixed(4)+"%";
+}
+function fmtChg(v,isPp){
+  if(v==null) return '<span class="na">--</span>';
+  var cls=v>0?"chg-pos":v<0?"chg-neg":"chg-zero";
+  var sign=v>0?"+":"";
+  var text=isPp?sign+v.toFixed(4)+"pp":sign+v.toFixed(2)+"%";
+  var barMax=isPp?2:20;
+  var barW=Math.min(Math.abs(v)/barMax*36,36);
+  var barCol=v>0?"var(--green)":v<0?"var(--red)":"var(--muted)";
+  return '<div class="bar-wrap"><span class="'+cls+'">'+text+'</span>'+
+         '<span class="mini-bar" style="width:'+barW+'px;background:'+barCol+';opacity:.5"></span></div>';
+}
+function fmtHist(v){
+  if(v==null) return '<span class="na">--</span>';
+  var cls=v>0?"chg-pos":v<0?"chg-neg":"chg-zero";
+  var sign=v>0?"+":"";
+  return '<span class="'+cls+'">'+sign+v.toFixed(2)+'%</span>';
+}
+function badge(s){
+  var L={added:"+ ADDED",removed:"- REMOVED",changed:"~ CHANGED",unchanged:". same"};
+  return '<span class="badge badge-'+s+'">'+(L[s]||s)+'</span>';
+}
+
+loadCurrentTab();
 </script>
 </body>
 </html>
