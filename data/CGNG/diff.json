@@ -1,21 +1,21 @@
 {
-  "date": "2026-04-21",
+  "date": "2026-04-22",
   "ticker": "CGNG",
-  "prior_date": "2026-04-20",
+  "prior_date": "2026-04-21",
   "diff": [
     {
       "ticker": "1060",
       "name": "SAUDI AWWAL BANK COMMON STOCK SAR10.0",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 589832.0,
-      "shares_prior": 586608.0,
-      "shares_pct_change": 0.5496,
+      "shares_prior": 589832.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": 0.5496,
       "shares_10d_change": 2.9512,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0029,
+      "pct_net_assets_today": 0.0028,
       "pct_net_assets_prior": 0.0029,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "1109",
@@ -27,9 +27,9 @@
       "shares_5d_change": 0.7086,
       "shares_10d_change": 3.8356,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0022,
+      "pct_net_assets_today": 0.0023,
       "pct_net_assets_prior": 0.0022,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "1113",
@@ -41,17 +41,17 @@
       "shares_5d_change": 0.5654,
       "shares_10d_change": 3.0413,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0021,
+      "pct_net_assets_today": 0.0022,
       "pct_net_assets_prior": 0.0021,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "1120",
       "name": "AL RAJHI BANK COMMON STOCK SAR10.0",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 222163.0,
-      "shares_prior": 147301.0,
-      "shares_pct_change": 50.8225,
+      "shares_prior": 222163.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": 28.2896,
       "shares_10d_change": 31.3517,
       "shares_30d_change": null,
@@ -62,10 +62,10 @@
     {
       "ticker": "1180",
       "name": "THE SAUDI NATIONAL BANK COMMON STOCK SAR10.0",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 350482.0,
-      "shares_prior": 333059.0,
-      "shares_pct_change": 5.2312,
+      "shares_prior": 350482.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": 29.9506,
       "shares_10d_change": 33.0491,
       "shares_30d_change": null,
@@ -111,9 +111,9 @@
       "shares_5d_change": 0.6066,
       "shares_10d_change": 12.2124,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.007,
-      "pct_net_assets_prior": 0.0068,
-      "pct_net_assets_change": 0.0002
+      "pct_net_assets_today": 0.0069,
+      "pct_net_assets_prior": 0.007,
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "1339",
@@ -153,37 +153,37 @@
       "shares_5d_change": 0.984,
       "shares_10d_change": 5.3915,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0024,
+      "pct_net_assets_today": 0.0023,
       "pct_net_assets_prior": 0.0024,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "1810",
       "name": "XIAOMI CORP CLASS B COMMON STOCK USD.0000025",
-      "status": "unchanged",
-      "shares_today": 1218600.0,
+      "status": "changed",
+      "shares_today": 1167000.0,
       "shares_prior": 1218600.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 0.528,
-      "shares_10d_change": -10.1062,
+      "shares_pct_change": -4.2344,
+      "shares_5d_change": -3.7288,
+      "shares_10d_change": -13.9127,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0025,
+      "pct_net_assets_today": 0.0024,
       "pct_net_assets_prior": 0.0025,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "2010",
       "name": "SAUDI BASIC INDUSTRIES CORP COMMON STOCK SAR10.0",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 226534.0,
-      "shares_prior": 225294.0,
-      "shares_pct_change": 0.5504,
+      "shares_prior": 226534.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": 0.5504,
       "shares_10d_change": 2.9546,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0018,
+      "pct_net_assets_today": 0.0017,
       "pct_net_assets_prior": 0.0018,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "2259",
@@ -207,11 +207,11 @@
       "shares_prior": 154000.0,
       "shares_pct_change": 0.0,
       "shares_5d_change": 38.7387,
-      "shares_10d_change": 516.0,
+      "shares_10d_change": 38.7387,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0046,
-      "pct_net_assets_prior": 0.0044,
-      "pct_net_assets_change": 0.0002
+      "pct_net_assets_today": 0.0049,
+      "pct_net_assets_prior": 0.0046,
+      "pct_net_assets_change": 0.0003
     },
     {
       "ticker": "2328",
@@ -244,15 +244,15 @@
     {
       "ticker": "2338",
       "name": "WEICHAI POWER CO LTD H COMMON STOCK CNY1.0",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 620000.0,
-      "shares_prior": 564000.0,
-      "shares_pct_change": 9.9291,
+      "shares_prior": 620000.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": 91.9505,
       "shares_10d_change": 174.3363,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0012,
-      "pct_net_assets_prior": 0.0011,
+      "pct_net_assets_today": 0.0013,
+      "pct_net_assets_prior": 0.0012,
       "pct_net_assets_change": 0.0001
     },
     {
@@ -263,11 +263,11 @@
       "shares_prior": 119000.0,
       "shares_pct_change": 0.0,
       "shares_5d_change": 2.5862,
-      "shares_10d_change": 4.386,
+      "shares_10d_change": 2.5862,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0037,
-      "pct_net_assets_prior": 0.0038,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_today": 0.0041,
+      "pct_net_assets_prior": 0.0037,
+      "pct_net_assets_change": 0.0004
     },
     {
       "ticker": "2371",
@@ -279,23 +279,23 @@
       "shares_5d_change": 1.34,
       "shares_10d_change": 39.0805,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0021,
+      "pct_net_assets_today": 0.002,
       "pct_net_assets_prior": 0.0021,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "2383",
       "name": "ELITE MATERIAL CO LTD COMMON STOCK TWD10.0",
-      "status": "unchanged",
-      "shares_today": 79000.0,
+      "status": "changed",
+      "shares_today": 75000.0,
       "shares_prior": 79000.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 0.0,
-      "shares_10d_change": -15.9574,
+      "shares_pct_change": -5.0633,
+      "shares_5d_change": -5.0633,
+      "shares_10d_change": -18.4783,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0048,
-      "pct_net_assets_prior": 0.0047,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_today": 0.0047,
+      "pct_net_assets_prior": 0.0048,
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "2454",
@@ -307,9 +307,9 @@
       "shares_5d_change": 20.2614,
       "shares_10d_change": 20.2614,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0055,
+      "pct_net_assets_today": 0.006,
       "pct_net_assets_prior": 0.0055,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0005
     },
     {
       "ticker": "27",
@@ -336,22 +336,22 @@
       "shares_10d_change": 2.7397,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0023,
-      "pct_net_assets_prior": 0.0022,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_prior": 0.0023,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "300308",
       "name": "ZHONGJI INNOLIGHT CO LTD A COMMON STOCK CNY1.0",
-      "status": "unchanged",
-      "shares_today": 13200.0,
+      "status": "changed",
+      "shares_today": 14900.0,
       "shares_prior": 13200.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 0.0,
+      "shares_pct_change": 12.8788,
+      "shares_5d_change": 12.8788,
       "shares_10d_change": null,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0008,
+      "pct_net_assets_today": 0.0009,
       "pct_net_assets_prior": 0.0008,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "300750",
@@ -363,23 +363,23 @@
       "shares_5d_change": 28.479,
       "shares_10d_change": 36.309,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0099,
-      "pct_net_assets_prior": 0.0102,
-      "pct_net_assets_change": -0.0003
+      "pct_net_assets_today": 0.0102,
+      "pct_net_assets_prior": 0.0099,
+      "pct_net_assets_change": 0.0003
     },
     {
       "ticker": "333",
       "name": "MIDEA GROUP CO LTD A COMMON STOCK CNY1.0",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 1660400.0,
-      "shares_prior": 1655100.0,
-      "shares_pct_change": 0.3202,
+      "shares_prior": 1660400.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": 1.5846,
       "shares_10d_change": 4.2899,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0096,
-      "pct_net_assets_prior": 0.0094,
-      "pct_net_assets_change": 0.0002
+      "pct_net_assets_prior": 0.0096,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "338",
@@ -391,9 +391,9 @@
       "shares_5d_change": 0.5399,
       "shares_10d_change": 2.9011,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0034,
+      "pct_net_assets_today": 0.0035,
       "pct_net_assets_prior": 0.0034,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "3529",
@@ -403,11 +403,11 @@
       "shares_prior": 44000.0,
       "shares_pct_change": 0.0,
       "shares_5d_change": 0.0,
-      "shares_10d_change": 2.3256,
+      "shares_10d_change": 0.0,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.003,
-      "pct_net_assets_prior": 0.0028,
-      "pct_net_assets_change": 0.0002
+      "pct_net_assets_prior": 0.003,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "3653",
@@ -419,8 +419,8 @@
       "shares_5d_change": 33.3333,
       "shares_10d_change": 33.3333,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0022,
-      "pct_net_assets_prior": 0.002,
+      "pct_net_assets_today": 0.0024,
+      "pct_net_assets_prior": 0.0022,
       "pct_net_assets_change": 0.0002
     },
     {
@@ -433,23 +433,23 @@
       "shares_5d_change": -19.7423,
       "shares_10d_change": -18.3106,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0008,
+      "pct_net_assets_today": 0.0009,
       "pct_net_assets_prior": 0.0008,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "3711",
       "name": "ASE TECHNOLOGY HOLDING CO LT COMMON STOCK TWD10.0",
-      "status": "unchanged",
-      "shares_today": 161000.0,
+      "status": "changed",
+      "shares_today": 193000.0,
       "shares_prior": 161000.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 0.0,
+      "shares_pct_change": 19.8758,
+      "shares_5d_change": 19.8758,
       "shares_10d_change": null,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0012,
-      "pct_net_assets_prior": 0.0011,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_today": 0.0014,
+      "pct_net_assets_prior": 0.0012,
+      "pct_net_assets_change": 0.0002
     },
     {
       "ticker": "388",
@@ -466,26 +466,12 @@
       "pct_net_assets_change": 0.0
     },
     {
-      "ticker": "3968",
-      "name": "CHINA MERCHANTS BANK H COMMON STOCK CNY1.0",
-      "status": "removed",
-      "shares_today": null,
-      "shares_prior": 265000.0,
-      "shares_pct_change": null,
-      "shares_5d_change": null,
-      "shares_10d_change": null,
-      "shares_30d_change": null,
-      "pct_net_assets_today": null,
-      "pct_net_assets_prior": 0.0008,
-      "pct_net_assets_change": null
-    },
-    {
       "ticker": "4013",
       "name": "DR SULAIMAN AL HABIB MEDICAL COMMON STOCK SAR10.0",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 30481.0,
-      "shares_prior": 30313.0,
-      "shares_pct_change": 0.5542,
+      "shares_prior": 30481.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": 0.5542,
       "shares_10d_change": 2.9798,
       "shares_30d_change": null,
@@ -524,16 +510,16 @@
     {
       "ticker": "600519",
       "name": "KWEICHOW MOUTAI CO LTD A COMMON STOCK CNY1.0",
-      "status": "unchanged",
-      "shares_today": 49200.0,
+      "status": "changed",
+      "shares_today": 41800.0,
       "shares_prior": 49200.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": -12.1429,
-      "shares_10d_change": -11.0307,
+      "shares_pct_change": -15.0407,
+      "shares_5d_change": -25.3571,
+      "shares_10d_change": -24.4123,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.005,
+      "pct_net_assets_today": 0.0043,
       "pct_net_assets_prior": 0.005,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0007
     },
     {
       "ticker": "601100",
@@ -560,36 +546,36 @@
       "shares_10d_change": -8.5526,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0019,
-      "pct_net_assets_prior": 0.0018,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_prior": 0.0019,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "6501",
       "name": "HITACHI LTD COMMON STOCK",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 380300.0,
-      "shares_prior": 391300.0,
-      "shares_pct_change": -2.8111,
+      "shares_prior": 380300.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -18.5653,
       "shares_10d_change": -16.7469,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0061,
-      "pct_net_assets_prior": 0.0063,
-      "pct_net_assets_change": -0.0002
+      "pct_net_assets_prior": 0.0061,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "6525",
       "name": "KOKUSAI ELECTRIC CORP COMMON STOCK",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 59500.0,
-      "shares_prior": 61000.0,
-      "shares_pct_change": -2.459,
+      "shares_prior": 59500.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -1.1628,
-      "shares_10d_change": 15.9844,
+      "shares_10d_change": 4.7535,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0012,
-      "pct_net_assets_prior": 0.0013,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_today": 0.0013,
+      "pct_net_assets_prior": 0.0012,
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "669",
@@ -601,8 +587,8 @@
       "shares_5d_change": 0.726,
       "shares_10d_change": 3.9326,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0039,
-      "pct_net_assets_prior": 0.0038,
+      "pct_net_assets_today": 0.004,
+      "pct_net_assets_prior": 0.0039,
       "pct_net_assets_change": 0.0001
     },
     {
@@ -615,17 +601,17 @@
       "shares_5d_change": 3.7732,
       "shares_10d_change": 6.4021,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0254,
-      "pct_net_assets_prior": 0.0248,
-      "pct_net_assets_change": 0.0006
+      "pct_net_assets_today": 0.0253,
+      "pct_net_assets_prior": 0.0254,
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "7011",
       "name": "MITSUBISHI HEAVY INDUSTRIES COMMON STOCK",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 93900.0,
-      "shares_prior": 96200.0,
-      "shares_pct_change": -2.3909,
+      "shares_prior": 93900.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -1.5723,
       "shares_10d_change": 2.0652,
       "shares_30d_change": null,
@@ -643,37 +629,37 @@
       "shares_5d_change": 0.5155,
       "shares_10d_change": 2.7668,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0031,
-      "pct_net_assets_prior": 0.003,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_today": 0.003,
+      "pct_net_assets_prior": 0.0031,
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "7453",
       "name": "RYOHIN KEIKAKU CO LTD COMMON STOCK",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 208000.0,
-      "shares_prior": 205500.0,
-      "shares_pct_change": 1.2165,
+      "shares_prior": 208000.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": 19.5402,
       "shares_10d_change": 21.9226,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0025,
+      "pct_net_assets_today": 0.0024,
       "pct_net_assets_prior": 0.0025,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "8031",
       "name": "MITSUI + CO LTD COMMON STOCK",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 147000.0,
-      "shares_prior": 152400.0,
-      "shares_pct_change": -3.5433,
+      "shares_prior": 147000.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -3.0343,
       "shares_10d_change": -0.8097,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0027,
+      "pct_net_assets_today": 0.0026,
       "pct_net_assets_prior": 0.0027,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "8035",
@@ -685,9 +671,9 @@
       "shares_5d_change": -7.4728,
       "shares_10d_change": -7.4728,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0094,
-      "pct_net_assets_prior": 0.0093,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_today": 0.0097,
+      "pct_net_assets_prior": 0.0094,
+      "pct_net_assets_change": 0.0003
     },
     {
       "ticker": "914",
@@ -720,15 +706,15 @@
     {
       "ticker": "9992",
       "name": "POP MART INTERNATIONAL GROUP COMMON STOCK USD.0001",
-      "status": "unchanged",
-      "shares_today": 242400.0,
+      "status": "changed",
+      "shares_today": 246800.0,
       "shares_prior": 242400.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 0.6645,
-      "shares_10d_change": 57.8125,
+      "shares_pct_change": 1.8152,
+      "shares_5d_change": 2.4917,
+      "shares_10d_change": 60.6771,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0025,
-      "pct_net_assets_prior": 0.0024,
+      "pct_net_assets_today": 0.0026,
+      "pct_net_assets_prior": 0.0025,
       "pct_net_assets_change": 0.0001
     },
     {
@@ -742,22 +728,22 @@
       "shares_10d_change": 2.5822,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0039,
-      "pct_net_assets_prior": 0.0038,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_prior": 0.0039,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "A000660",
       "name": "SK HYNIX INC COMMON STOCK KRW5000.0",
       "status": "changed",
-      "shares_today": 117560.0,
-      "shares_prior": 117893.0,
-      "shares_pct_change": -0.2825,
-      "shares_5d_change": 5.1944,
-      "shares_10d_change": 4.9493,
+      "shares_today": 116773.0,
+      "shares_prior": 117560.0,
+      "shares_pct_change": -0.6694,
+      "shares_5d_change": 4.4902,
+      "shares_10d_change": 4.2467,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0458,
-      "pct_net_assets_prior": 0.0442,
-      "pct_net_assets_change": 0.0016
+      "pct_net_assets_today": 0.0481,
+      "pct_net_assets_prior": 0.0458,
+      "pct_net_assets_change": 0.0023
     },
     {
       "ticker": "A000810",
@@ -770,22 +756,22 @@
       "shares_10d_change": null,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.001,
-      "pct_net_assets_prior": 0.0011,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.001,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "A005380",
       "name": "HYUNDAI MOTOR CO COMMON STOCK KRW5000.0",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 7168.0,
-      "shares_prior": 7591.0,
-      "shares_pct_change": -5.5724,
+      "shares_prior": 7168.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -10.2654,
-      "shares_10d_change": -23.7771,
+      "shares_10d_change": -7.9137,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0013,
-      "pct_net_assets_prior": 0.0014,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.0013,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "A005930",
@@ -795,11 +781,11 @@
       "shares_prior": 268394.0,
       "shares_pct_change": 0.0,
       "shares_5d_change": 28.7539,
-      "shares_10d_change": 35.3536,
+      "shares_10d_change": 31.0057,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0192,
-      "pct_net_assets_prior": 0.0193,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_today": 0.0198,
+      "pct_net_assets_prior": 0.0192,
+      "pct_net_assets_change": 0.0006
     },
     {
       "ticker": "A005935",
@@ -812,22 +798,22 @@
       "shares_10d_change": 2.348,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0023,
-      "pct_net_assets_prior": 0.0022,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_prior": 0.0023,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "A012450",
       "name": "HANWHA AEROSPACE CO LTD COMMON STOCK KRW5000.0",
-      "status": "unchanged",
-      "shares_today": 7770.0,
+      "status": "changed",
+      "shares_today": 7680.0,
       "shares_prior": 7770.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 73.515,
-      "shares_10d_change": 74.2934,
+      "shares_pct_change": -1.1583,
+      "shares_5d_change": 71.5051,
+      "shares_10d_change": 72.2746,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0037,
+      "pct_net_assets_today": 0.0036,
       "pct_net_assets_prior": 0.0037,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "A032830",
@@ -854,50 +840,50 @@
       "shares_10d_change": 3.0207,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0021,
-      "pct_net_assets_prior": 0.002,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_prior": 0.0021,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "A055550",
       "name": "SHINHAN FINANCIAL GROUP LTD COMMON STOCK KRW5000.0",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 123779.0,
-      "shares_prior": 122090.0,
-      "shares_pct_change": 1.3834,
+      "shares_prior": 123779.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": 7.2813,
-      "shares_10d_change": 20.4779,
+      "shares_10d_change": 9.8383,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0041,
-      "pct_net_assets_prior": 0.004,
+      "pct_net_assets_today": 0.0042,
+      "pct_net_assets_prior": 0.0041,
       "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "A086790",
       "name": "HANA FINANCIAL GROUP COMMON STOCK KRW5000.0",
-      "status": "unchanged",
-      "shares_today": 59254.0,
+      "status": "changed",
+      "shares_today": 99078.0,
       "shares_prior": 59254.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 0.5566,
-      "shares_10d_change": 2.9931,
+      "shares_pct_change": 67.209,
+      "shares_5d_change": 68.1397,
+      "shares_10d_change": 72.2137,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0024,
+      "pct_net_assets_today": 0.0041,
       "pct_net_assets_prior": 0.0024,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0017
     },
     {
       "ticker": "A105560",
       "name": "KB FINANCIAL GROUP INC COMMON STOCK KRW5000.0",
-      "status": "unchanged",
-      "shares_today": 105449.0,
+      "status": "changed",
+      "shares_today": 106602.0,
       "shares_prior": 105449.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 0.5492,
-      "shares_10d_change": 53.1176,
+      "shares_pct_change": 1.0934,
+      "shares_5d_change": 1.6487,
+      "shares_10d_change": 54.7918,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0057,
+      "pct_net_assets_today": 0.0058,
       "pct_net_assets_prior": 0.0057,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "A267250",
@@ -951,9 +937,9 @@
       "shares_5d_change": -11.8974,
       "shares_10d_change": -9.7972,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.002,
+      "pct_net_assets_today": 0.0019,
       "pct_net_assets_prior": 0.002,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "ABT",
@@ -972,15 +958,15 @@
     {
       "ticker": "AC",
       "name": "AYALA CORPORATION COMMON STOCK PHP50.0",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 178240.0,
-      "shares_prior": 149150.0,
-      "shares_pct_change": 19.5039,
+      "shares_prior": 178240.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": 52.6158,
-      "shares_10d_change": 164.8046,
+      "shares_10d_change": 56.2549,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0007,
-      "pct_net_assets_prior": 0.0006,
+      "pct_net_assets_today": 0.0008,
+      "pct_net_assets_prior": 0.0007,
       "pct_net_assets_change": 0.0001
     },
     {
@@ -993,9 +979,9 @@
       "shares_5d_change": -5.2107,
       "shares_10d_change": -2.9439,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0041,
-      "pct_net_assets_prior": 0.004,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_today": 0.004,
+      "pct_net_assets_prior": 0.0041,
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "ADIB",
@@ -1005,11 +991,11 @@
       "shares_prior": 2426449.0,
       "shares_pct_change": 0.0,
       "shares_5d_change": 0.5493,
-      "shares_10d_change": 4.4744,
+      "shares_10d_change": 2.952,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0077,
+      "pct_net_assets_today": 0.0075,
       "pct_net_assets_prior": 0.0077,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0002
     },
     {
       "ticker": "ADNOCDRILL",
@@ -1022,8 +1008,8 @@
       "shares_10d_change": 2.9536,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0019,
-      "pct_net_assets_prior": 0.002,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.0019,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "ADNOCGAS",
@@ -1036,22 +1022,22 @@
       "shares_10d_change": 2.954,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0018,
-      "pct_net_assets_prior": 0.0019,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.0018,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "ADVANC-F",
       "name": "ADVANCED INFO SERVICE FOREIG FOREIGN SH. THB1.0 A",
-      "status": "added",
+      "status": "unchanged",
       "shares_today": 165700.0,
-      "shares_prior": null,
-      "shares_pct_change": null,
+      "shares_prior": 165700.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": null,
       "shares_10d_change": null,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0009,
-      "pct_net_assets_prior": null,
-      "pct_net_assets_change": null
+      "pct_net_assets_prior": 0.0009,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "AGCO",
@@ -1070,16 +1056,16 @@
     {
       "ticker": "AIR",
       "name": "AIRBUS SE COMMON STOCK EUR1.0",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 105849.0,
-      "shares_prior": 107030.0,
-      "shares_pct_change": -1.1034,
+      "shares_prior": 105849.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": 4.3125,
-      "shares_10d_change": 4.5051,
+      "shares_10d_change": 5.1466,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0107,
-      "pct_net_assets_prior": 0.0111,
-      "pct_net_assets_change": -0.0004
+      "pct_net_assets_today": 0.0105,
+      "pct_net_assets_prior": 0.0107,
+      "pct_net_assets_change": -0.0002
     },
     {
       "ticker": "AKBNK",
@@ -1091,23 +1077,23 @@
       "shares_5d_change": 0.5494,
       "shares_10d_change": 2.9534,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0018,
+      "pct_net_assets_today": 0.0017,
       "pct_net_assets_prior": 0.0018,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "AMC",
       "name": "AMCOR PLC CDI CDI",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 149329.0,
-      "shares_prior": 150834.0,
-      "shares_pct_change": -0.9978,
+      "shares_prior": 149329.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -0.454,
       "shares_10d_change": 1.9255,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0031,
-      "pct_net_assets_prior": 0.003,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_today": 0.003,
+      "pct_net_assets_prior": 0.0031,
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "AMX",
@@ -1147,9 +1133,9 @@
       "shares_5d_change": 2.2078,
       "shares_10d_change": 4.6552,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0057,
-      "pct_net_assets_prior": 0.0056,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_today": 0.0056,
+      "pct_net_assets_prior": 0.0057,
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "APTV",
@@ -1173,11 +1159,11 @@
       "shares_prior": 757360.0,
       "shares_pct_change": 0.0,
       "shares_5d_change": 10.5963,
-      "shares_10d_change": 11.4638,
+      "shares_10d_change": 13.2387,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0034,
+      "pct_net_assets_today": 0.0033,
       "pct_net_assets_prior": 0.0034,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "ASML",
@@ -1189,9 +1175,9 @@
       "shares_5d_change": -6.3197,
       "shares_10d_change": -3.7118,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0026,
-      "pct_net_assets_prior": 0.0025,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_today": 0.0025,
+      "pct_net_assets_prior": 0.0026,
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "AUBANK",
@@ -1203,9 +1189,9 @@
       "shares_5d_change": 0.0,
       "shares_10d_change": 0.0,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0009,
+      "pct_net_assets_today": 0.001,
       "pct_net_assets_prior": 0.0009,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "AUGO",
@@ -1217,23 +1203,23 @@
       "shares_5d_change": 46.0309,
       "shares_10d_change": 49.5124,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0037,
-      "pct_net_assets_prior": 0.0038,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_today": 0.0034,
+      "pct_net_assets_prior": 0.0037,
+      "pct_net_assets_change": -0.0003
     },
     {
       "ticker": "AVGO",
       "name": "BROADCOM INC COMMON STOCK",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 109539.0,
-      "shares_prior": 110081.0,
-      "shares_pct_change": -0.4924,
+      "shares_prior": 109539.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": 8.7894,
       "shares_10d_change": 10.7159,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0216,
-      "pct_net_assets_prior": 0.022,
-      "pct_net_assets_change": -0.0004
+      "pct_net_assets_today": 0.0218,
+      "pct_net_assets_prior": 0.0216,
+      "pct_net_assets_change": 0.0002
     },
     {
       "ticker": "AXSB",
@@ -1245,9 +1231,9 @@
       "shares_5d_change": 11.4139,
       "shares_10d_change": 14.0796,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0043,
+      "pct_net_assets_today": 0.0044,
       "pct_net_assets_prior": 0.0043,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "AZN",
@@ -1259,9 +1245,9 @@
       "shares_5d_change": 0.5477,
       "shares_10d_change": 2.9441,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0063,
-      "pct_net_assets_prior": 0.0064,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_today": 0.0061,
+      "pct_net_assets_prior": 0.0063,
+      "pct_net_assets_change": -0.0002
     },
     {
       "ticker": "B",
@@ -1273,9 +1259,9 @@
       "shares_5d_change": -7.3874,
       "shares_10d_change": -5.1718,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0042,
+      "pct_net_assets_today": 0.004,
       "pct_net_assets_prior": 0.0042,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0002
     },
     {
       "ticker": "B3SA3",
@@ -1294,30 +1280,30 @@
     {
       "ticker": "BA.",
       "name": "BAE SYSTEMS PLC COMMON STOCK GBP.025",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 276999.0,
-      "shares_prior": 285731.0,
-      "shares_pct_change": -3.056,
+      "shares_prior": 276999.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -2.5238,
       "shares_10d_change": -1.1519,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0041,
-      "pct_net_assets_prior": 0.0043,
-      "pct_net_assets_change": -0.0002
+      "pct_net_assets_today": 0.004,
+      "pct_net_assets_prior": 0.0041,
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "BABA",
       "name": "ALIBABA GROUP HOLDING SP ADR ADR USD.000025",
-      "status": "unchanged",
-      "shares_today": 119857.0,
+      "status": "changed",
+      "shares_today": 120333.0,
       "shares_prior": 119857.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 0.2769,
-      "shares_10d_change": 2.6718,
+      "shares_pct_change": 0.3971,
+      "shares_5d_change": 0.6752,
+      "shares_10d_change": 3.0795,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0083,
+      "pct_net_assets_today": 0.0081,
       "pct_net_assets_prior": 0.0083,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0002
     },
     {
       "ticker": "BAF",
@@ -1329,8 +1315,8 @@
       "shares_5d_change": 0.5498,
       "shares_10d_change": 4.1741,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0035,
-      "pct_net_assets_prior": 0.0034,
+      "pct_net_assets_today": 0.0036,
+      "pct_net_assets_prior": 0.0035,
       "pct_net_assets_change": 0.0001
     },
     {
@@ -1343,9 +1329,9 @@
       "shares_5d_change": 0.5744,
       "shares_10d_change": 3.0911,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0026,
-      "pct_net_assets_prior": 0.0025,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_today": 0.0025,
+      "pct_net_assets_prior": 0.0026,
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "BAS",
@@ -1357,9 +1343,9 @@
       "shares_5d_change": 1.6264,
       "shares_10d_change": 4.0753,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0025,
+      "pct_net_assets_today": 0.0026,
       "pct_net_assets_prior": 0.0025,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "BATS",
@@ -1371,37 +1357,37 @@
       "shares_5d_change": -30.7136,
       "shares_10d_change": -29.0536,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0009,
-      "pct_net_assets_prior": 0.0008,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_today": 0.0008,
+      "pct_net_assets_prior": 0.0009,
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "BBVA",
       "name": "BANCO BILBAO VIZCAYA ARGENTA COMMON STOCK EUR.49",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 1097109.0,
-      "shares_prior": 1129936.0,
-      "shares_pct_change": -2.9052,
+      "shares_prior": 1097109.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -2.3716,
       "shares_10d_change": -0.3603,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0125,
-      "pct_net_assets_prior": 0.0133,
-      "pct_net_assets_change": -0.0008
+      "pct_net_assets_today": 0.0122,
+      "pct_net_assets_prior": 0.0125,
+      "pct_net_assets_change": -0.0003
     },
     {
       "ticker": "BELA",
       "name": "JUMBO SA COMMON STOCK EUR.88",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 158862.0,
-      "shares_prior": 161981.0,
-      "shares_pct_change": -1.9255,
-      "shares_5d_change": -0.2217,
+      "shares_prior": 158862.0,
+      "shares_pct_change": 0.0,
+      "shares_5d_change": -1.3849,
       "shares_10d_change": 0.975,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0023,
+      "pct_net_assets_today": 0.0022,
       "pct_net_assets_prior": 0.0023,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "BG",
@@ -1425,7 +1411,7 @@
       "shares_prior": 1335634.0,
       "shares_pct_change": 0.0,
       "shares_5d_change": 9.732,
-      "shares_10d_change": 11.6253,
+      "shares_10d_change": 12.3558,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0131,
       "pct_net_assets_prior": 0.0131,
@@ -1441,9 +1427,9 @@
       "shares_5d_change": 0.5555,
       "shares_10d_change": 2.9868,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0024,
-      "pct_net_assets_prior": 0.0023,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_today": 0.0023,
+      "pct_net_assets_prior": 0.0024,
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "BN",
@@ -1469,9 +1455,9 @@
       "shares_5d_change": null,
       "shares_10d_change": null,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0011,
+      "pct_net_assets_today": 0.0012,
       "pct_net_assets_prior": 0.0011,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "BPAC11",
@@ -1532,16 +1518,16 @@
     {
       "ticker": "CAP",
       "name": "CAPGEMINI SE COMMON STOCK EUR8.0",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 25352.0,
-      "shares_prior": 26772.0,
-      "shares_pct_change": -5.304,
+      "shares_prior": 25352.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -4.7919,
-      "shares_10d_change": 14.4302,
+      "shares_10d_change": -2.5523,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0016,
-      "pct_net_assets_prior": 0.0017,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.0016,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "CARL B",
@@ -1554,8 +1540,8 @@
       "shares_10d_change": 3.0022,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0023,
-      "pct_net_assets_prior": 0.0024,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.0023,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "CARR",
@@ -1574,30 +1560,30 @@
     {
       "ticker": "CBKD",
       "name": "COMMERCIAL INTL BANK GDR REG GDR EGP10.0",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 1148335.0,
-      "shares_prior": 1219853.0,
-      "shares_pct_change": -5.8628,
+      "shares_prior": 1148335.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -7.1959,
-      "shares_10d_change": -10.8466,
+      "shares_10d_change": -4.9765,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0015,
-      "pct_net_assets_prior": 0.0016,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.0015,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "CFR",
       "name": "CIE FINANCIERE RICHEMO A REG COMMON STOCK CHF1.0",
-      "status": "unchanged",
-      "shares_today": 46867.0,
+      "status": "changed",
+      "shares_today": 46332.0,
       "shares_prior": 46867.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 0.5492,
-      "shares_10d_change": 2.9524,
+      "shares_pct_change": -1.1415,
+      "shares_5d_change": -0.5986,
+      "shares_10d_change": 1.7771,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0047,
+      "pct_net_assets_today": 0.0046,
       "pct_net_assets_prior": 0.0047,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "CIFC",
@@ -1609,23 +1595,23 @@
       "shares_5d_change": 1.5647,
       "shares_10d_change": 3.9952,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0027,
-      "pct_net_assets_prior": 0.0028,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_today": 0.0028,
+      "pct_net_assets_prior": 0.0027,
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "status": "changed",
-      "shares_today": 476427.55,
-      "shares_prior": 321802.09,
-      "shares_pct_change": 48.0499,
-      "shares_5d_change": 6.6468,
-      "shares_10d_change": 0.967,
+      "shares_today": 418771.79,
+      "shares_prior": 476427.55,
+      "shares_pct_change": -12.1017,
+      "shares_5d_change": -5.1873,
+      "shares_10d_change": -12.7168,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0235,
-      "pct_net_assets_prior": 0.0159,
-      "pct_net_assets_change": 0.0076
+      "pct_net_assets_today": 0.0207,
+      "pct_net_assets_prior": 0.0235,
+      "pct_net_assets_change": -0.0028
     },
     {
       "ticker": "CPA",
@@ -1637,9 +1623,9 @@
       "shares_5d_change": -18.1129,
       "shares_10d_change": -16.1586,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0047,
+      "pct_net_assets_today": 0.0045,
       "pct_net_assets_prior": 0.0047,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0002
     },
     {
       "ticker": "CPI",
@@ -1652,8 +1638,8 @@
       "shares_10d_change": -7.0653,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0059,
-      "pct_net_assets_prior": 0.006,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.0059,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "DMART",
@@ -1693,9 +1679,9 @@
       "shares_5d_change": null,
       "shares_10d_change": null,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0011,
+      "pct_net_assets_today": 0.0012,
       "pct_net_assets_prior": 0.0011,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "DSV",
@@ -1714,16 +1700,16 @@
     {
       "ticker": "EIM",
       "name": "EICHER MOTORS LTD COMMON STOCK INR1.0",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 124082.0,
-      "shares_prior": 143375.0,
-      "shares_pct_change": -13.4563,
+      "shares_prior": 124082.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -12.9805,
       "shares_10d_change": -10.8984,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0048,
-      "pct_net_assets_prior": 0.0055,
-      "pct_net_assets_change": -0.0007
+      "pct_net_assets_prior": 0.0048,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "EL",
@@ -1736,8 +1722,8 @@
       "shares_10d_change": -4.2873,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0009,
-      "pct_net_assets_prior": 0.001,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.0009,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "EMAAR",
@@ -1750,8 +1736,8 @@
       "shares_10d_change": 2.9525,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0011,
-      "pct_net_assets_prior": 0.0012,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.0011,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "EMIRATESNBD",
@@ -1785,28 +1771,28 @@
       "ticker": "ETE",
       "name": "NATIONAL BANK OF GREECE COMMON STOCK EUR1.0",
       "status": "changed",
-      "shares_today": 347182.0,
-      "shares_prior": 353822.0,
-      "shares_pct_change": -1.8766,
-      "shares_5d_change": -1.1379,
-      "shares_10d_change": 0.0438,
+      "shares_today": 338536.0,
+      "shares_prior": 347182.0,
+      "shares_pct_change": -2.4903,
+      "shares_5d_change": -4.7228,
+      "shares_10d_change": -2.4476,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0029,
-      "pct_net_assets_prior": 0.0031,
-      "pct_net_assets_change": -0.0002
+      "pct_net_assets_today": 0.0028,
+      "pct_net_assets_prior": 0.0029,
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "EUROB",
       "name": "EUROBANK SA COMMON STOCK EUR.22",
       "status": "changed",
-      "shares_today": 2247316.0,
-      "shares_prior": 2260527.0,
-      "shares_pct_change": -0.5844,
-      "shares_5d_change": 1.1394,
-      "shares_10d_change": 2.3484,
+      "shares_today": 2213899.0,
+      "shares_prior": 2247316.0,
+      "shares_pct_change": -1.487,
+      "shares_5d_change": -1.5246,
+      "shares_10d_change": 0.8265,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0052,
-      "pct_net_assets_prior": 0.0053,
+      "pct_net_assets_today": 0.0051,
+      "pct_net_assets_prior": 0.0052,
       "pct_net_assets_change": -0.0001
     },
     {
@@ -1819,9 +1805,9 @@
       "shares_5d_change": 0.553,
       "shares_10d_change": 2.9733,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0028,
+      "pct_net_assets_today": 0.0027,
       "pct_net_assets_prior": 0.0028,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "FM",
@@ -1833,9 +1819,9 @@
       "shares_5d_change": -0.7947,
       "shares_10d_change": -0.7947,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.005,
+      "pct_net_assets_today": 0.0047,
       "pct_net_assets_prior": 0.005,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0003
     },
     {
       "ticker": "FSR",
@@ -1845,39 +1831,39 @@
       "shares_prior": 811015.0,
       "shares_pct_change": 0.0,
       "shares_5d_change": 3.53,
-      "shares_10d_change": 10.9182,
+      "shares_10d_change": 6.0053,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0022,
-      "pct_net_assets_prior": 0.0023,
+      "pct_net_assets_today": 0.0021,
+      "pct_net_assets_prior": 0.0022,
       "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "FUTU",
       "name": "FUTU HOLDINGS LTD ADR ADR USD.00001",
-      "status": "unchanged",
-      "shares_today": 23052.0,
+      "status": "changed",
+      "shares_today": 28418.0,
       "shares_prior": 23052.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 0.5584,
-      "shares_10d_change": 3.0027,
+      "shares_pct_change": 23.2778,
+      "shares_5d_change": 23.9661,
+      "shares_10d_change": 26.9794,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0019,
+      "pct_net_assets_today": 0.0023,
       "pct_net_assets_prior": 0.0019,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0004
     },
     {
       "ticker": "GE",
       "name": "GENERAL ELECTRIC COMMON STOCK USD.01",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 34647.0,
-      "shares_prior": 35369.0,
-      "shares_pct_change": -2.0413,
+      "shares_prior": 34647.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -1.5067,
       "shares_10d_change": -11.1524,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0052,
-      "pct_net_assets_prior": 0.0053,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_today": 0.0049,
+      "pct_net_assets_prior": 0.0052,
+      "pct_net_assets_change": -0.0003
     },
     {
       "ticker": "GEV",
@@ -1896,30 +1882,30 @@
     {
       "ticker": "GFNORTE O",
       "name": "GRUPO FINANCIERO BANORTE O COMMON STOCK MXN3.5",
-      "status": "unchanged",
-      "shares_today": 380320.0,
+      "status": "removed",
+      "shares_today": null,
       "shares_prior": 380320.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 0.5499,
-      "shares_10d_change": 2.9561,
+      "shares_pct_change": null,
+      "shares_5d_change": null,
+      "shares_10d_change": null,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0022,
-      "pct_net_assets_prior": 0.0021,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_today": null,
+      "pct_net_assets_prior": 0.0022,
+      "pct_net_assets_change": null
     },
     {
       "ticker": "GLEN",
       "name": "GLENCORE PLC COMMON STOCK USD.01",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 1535535.0,
-      "shares_prior": 1563235.0,
-      "shares_pct_change": -1.772,
+      "shares_prior": 1535535.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -4.0851,
       "shares_10d_change": -1.7908,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0056,
-      "pct_net_assets_prior": 0.0057,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.0056,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "GLW",
@@ -1945,23 +1931,23 @@
       "shares_5d_change": 11.3032,
       "shares_10d_change": 13.9648,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0106,
-      "pct_net_assets_prior": 0.0105,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_today": 0.01,
+      "pct_net_assets_prior": 0.0106,
+      "pct_net_assets_change": -0.0006
     },
     {
       "ticker": "GOOG",
       "name": "ALPHABET INC CL C COMMON STOCK USD.001",
-      "status": "unchanged",
-      "shares_today": 35234.0,
+      "status": "changed",
+      "shares_today": 34451.0,
       "shares_prior": 35234.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": -1.2223,
-      "shares_10d_change": 1.189,
+      "shares_pct_change": -2.2223,
+      "shares_5d_change": -3.4174,
+      "shares_10d_change": -1.0597,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0058,
-      "pct_net_assets_prior": 0.0059,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_today": 0.0056,
+      "pct_net_assets_prior": 0.0058,
+      "pct_net_assets_change": -0.0002
     },
     {
       "ticker": "GOOGL",
@@ -1973,8 +1959,8 @@
       "shares_5d_change": 10.2343,
       "shares_10d_change": 12.8931,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0103,
-      "pct_net_assets_prior": 0.0104,
+      "pct_net_assets_today": 0.0102,
+      "pct_net_assets_prior": 0.0103,
       "pct_net_assets_change": -0.0001
     },
     {
@@ -1994,16 +1980,16 @@
     {
       "ticker": "GULF/F",
       "name": "GULF DEVELOPMENT PCL FOREIGN FOREIGN SH. A",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 4319404.0,
-      "shares_prior": 4560104.0,
-      "shares_pct_change": -5.2784,
+      "shares_prior": 4319404.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": 2.7597,
       "shares_10d_change": 5.228,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0039,
-      "pct_net_assets_prior": 0.004,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.0039,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "HSBA",
@@ -2013,7 +1999,7 @@
       "shares_prior": 242563.0,
       "shares_pct_change": 0.0,
       "shares_5d_change": 0.5505,
-      "shares_10d_change": 34.2033,
+      "shares_10d_change": 2.9594,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0022,
       "pct_net_assets_prior": 0.0022,
@@ -2023,28 +2009,28 @@
       "ticker": "HTHT",
       "name": "H WORLD GROUP LTD ADR ADR",
       "status": "changed",
-      "shares_today": 168689.0,
-      "shares_prior": 170252.0,
-      "shares_pct_change": -0.9181,
-      "shares_5d_change": 0.2288,
-      "shares_10d_change": 2.6339,
+      "shares_today": 169782.0,
+      "shares_prior": 168689.0,
+      "shares_pct_change": 0.6479,
+      "shares_5d_change": 0.8782,
+      "shares_10d_change": 3.2989,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0047,
+      "pct_net_assets_today": 0.0046,
       "pct_net_assets_prior": 0.0047,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "ICICIBC",
       "name": "ICICI BANK LTD COMMON STOCK INR2.0",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 170530.0,
-      "shares_prior": 151816.0,
-      "shares_pct_change": 12.3268,
+      "shares_prior": 170530.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": null,
       "shares_10d_change": null,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0012,
-      "pct_net_assets_prior": 0.0011,
+      "pct_net_assets_today": 0.0013,
+      "pct_net_assets_prior": 0.0012,
       "pct_net_assets_change": 0.0001
     },
     {
@@ -2064,30 +2050,30 @@
     {
       "ticker": "III",
       "name": "3I GROUP PLC COMMON STOCK GBP.738636",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 128232.0,
-      "shares_prior": 37926.0,
-      "shares_pct_change": 238.1111,
+      "shares_prior": 128232.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": 239.9756,
       "shares_10d_change": 248.1349,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0024,
-      "pct_net_assets_prior": 0.0007,
-      "pct_net_assets_change": 0.0017
+      "pct_net_assets_prior": 0.0024,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "IMP",
       "name": "IMPALA PLATINUM HOLDINGS LTD COMMON STOCK",
       "status": "changed",
-      "shares_today": 359292.0,
-      "shares_prior": 370561.0,
-      "shares_pct_change": -3.0411,
-      "shares_5d_change": -1.4888,
-      "shares_10d_change": 4.8914,
+      "shares_today": 364750.0,
+      "shares_prior": 359292.0,
+      "shares_pct_change": 1.5191,
+      "shares_5d_change": 0.0077,
+      "shares_10d_change": 2.4038,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0029,
-      "pct_net_assets_prior": 0.0031,
-      "pct_net_assets_change": -0.0002
+      "pct_net_assets_today": 0.0028,
+      "pct_net_assets_prior": 0.0029,
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "INCH",
@@ -2097,7 +2083,7 @@
       "shares_prior": 261212.0,
       "shares_pct_change": 0.0,
       "shares_5d_change": 0.5512,
-      "shares_10d_change": 91.517,
+      "shares_10d_change": 2.9634,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0014,
       "pct_net_assets_prior": 0.0014,
@@ -2127,9 +2113,9 @@
       "shares_5d_change": 0.5499,
       "shares_10d_change": 2.9561,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0035,
+      "pct_net_assets_today": 0.0034,
       "pct_net_assets_prior": 0.0035,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "JBSS32",
@@ -2148,16 +2134,16 @@
     {
       "ticker": "KLAC",
       "name": "KLA CORP COMMON STOCK USD.001",
-      "status": "unchanged",
-      "shares_today": 8785.0,
+      "status": "changed",
+      "shares_today": 8739.0,
       "shares_prior": 8785.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 0.1482,
-      "shares_10d_change": 2.5327,
+      "shares_pct_change": -0.5236,
+      "shares_5d_change": -0.3762,
+      "shares_10d_change": 1.9958,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0078,
+      "pct_net_assets_today": 0.0077,
       "pct_net_assets_prior": 0.0078,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "KMB",
@@ -2167,7 +2153,7 @@
       "shares_prior": 2076521.0,
       "shares_pct_change": 0.0,
       "shares_5d_change": -15.7928,
-      "shares_10d_change": -15.7946,
+      "shares_10d_change": -13.779,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0042,
       "pct_net_assets_prior": 0.0042,
@@ -2183,23 +2169,23 @@
       "shares_5d_change": 3.5271,
       "shares_10d_change": 5.9795,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0012,
-      "pct_net_assets_prior": 0.0011,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_today": 0.0011,
+      "pct_net_assets_prior": 0.0012,
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "KT",
       "name": "KT CORP SP ADR ADR",
-      "status": "unchanged",
-      "shares_today": 450925.0,
+      "status": "changed",
+      "shares_today": 457631.0,
       "shares_prior": 450925.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 0.5494,
-      "shares_10d_change": 2.9535,
+      "shares_pct_change": 1.4872,
+      "shares_5d_change": 2.0448,
+      "shares_10d_change": 4.4846,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0049,
-      "pct_net_assets_prior": 0.005,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.0049,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "LAURUS",
@@ -2209,25 +2195,25 @@
       "shares_prior": 824665.0,
       "shares_pct_change": 0.0,
       "shares_5d_change": 0.5492,
-      "shares_10d_change": 2.1487,
+      "shares_10d_change": 3.8401,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0049,
-      "pct_net_assets_prior": 0.005,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.0049,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "LDO",
       "name": "LEONARDO SPA COMMON STOCK",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 93440.0,
-      "shares_prior": 94967.0,
-      "shares_pct_change": -1.6079,
+      "shares_prior": 93440.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -1.0662,
       "shares_10d_change": 1.3042,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0032,
+      "pct_net_assets_today": 0.003,
       "pct_net_assets_prior": 0.0032,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0002
     },
     {
       "ticker": "LIN",
@@ -2240,8 +2226,8 @@
       "shares_10d_change": -31.1312,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0012,
-      "pct_net_assets_prior": 0.0011,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_prior": 0.0012,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "LLY",
@@ -2253,9 +2239,9 @@
       "shares_5d_change": -44.2616,
       "shares_10d_change": -42.9427,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0019,
+      "pct_net_assets_today": 0.0018,
       "pct_net_assets_prior": 0.0019,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "LODHA",
@@ -2267,51 +2253,51 @@
       "shares_5d_change": -19.0425,
       "shares_10d_change": -17.107,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0046,
-      "pct_net_assets_prior": 0.0047,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_today": 0.0047,
+      "pct_net_assets_prior": 0.0046,
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "LT",
       "name": "LARSEN + TOUBRO LTD COMMON STOCK INR2.0",
-      "status": "added",
+      "status": "unchanged",
       "shares_today": 56818.0,
-      "shares_prior": null,
-      "shares_pct_change": null,
+      "shares_prior": 56818.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": null,
       "shares_10d_change": 12251.7391,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0012,
-      "pct_net_assets_prior": null,
-      "pct_net_assets_change": null
+      "pct_net_assets_prior": 0.0012,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "LUN",
       "name": "LUNDIN MINING CORP COMMON STOCK",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 236187.0,
-      "shares_prior": 223019.0,
-      "shares_pct_change": 5.9044,
+      "shares_prior": 236187.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": 6.485,
       "shares_10d_change": 9.0253,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0034,
-      "pct_net_assets_prior": 0.0032,
-      "pct_net_assets_change": 0.0002
+      "pct_net_assets_today": 0.0032,
+      "pct_net_assets_prior": 0.0034,
+      "pct_net_assets_change": -0.0002
     },
     {
       "ticker": "MA",
       "name": "MASTERCARD INC   A COMMON STOCK USD.0001",
-      "status": "unchanged",
-      "shares_today": 20442.0,
+      "status": "changed",
+      "shares_today": 22105.0,
       "shares_prior": 20442.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": -38.292,
-      "shares_10d_change": -36.8001,
+      "shares_pct_change": 8.1352,
+      "shares_5d_change": -33.272,
+      "shares_10d_change": -31.6587,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0052,
+      "pct_net_assets_today": 0.0056,
       "pct_net_assets_prior": 0.0052,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0004
     },
     {
       "ticker": "MAXHEALT",
@@ -2323,51 +2309,51 @@
       "shares_5d_change": -23.7561,
       "shares_10d_change": -21.9323,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0058,
+      "pct_net_assets_today": 0.0059,
       "pct_net_assets_prior": 0.0058,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "MC",
       "name": "LVMH MOET HENNESSY LOUIS VUI COMMON STOCK EUR.3",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 13222.0,
-      "shares_prior": 14229.0,
-      "shares_pct_change": -7.0771,
+      "shares_prior": 13222.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -26.6504,
       "shares_10d_change": -24.9518,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0038,
-      "pct_net_assets_prior": 0.0041,
-      "pct_net_assets_change": -0.0003
+      "pct_net_assets_today": 0.0037,
+      "pct_net_assets_prior": 0.0038,
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "MELI",
       "name": "MERCADOLIBRE INC COMMON STOCK USD.001",
-      "status": "unchanged",
-      "shares_today": 17835.0,
+      "status": "changed",
+      "shares_today": 17805.0,
       "shares_prior": 17835.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 2.9675,
-      "shares_10d_change": 4.8378,
+      "shares_pct_change": -0.1682,
+      "shares_5d_change": 2.7943,
+      "shares_10d_change": 4.6614,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0165,
-      "pct_net_assets_prior": 0.0163,
-      "pct_net_assets_change": 0.0002
+      "pct_net_assets_today": 0.0163,
+      "pct_net_assets_prior": 0.0165,
+      "pct_net_assets_change": -0.0002
     },
     {
       "ticker": "META",
       "name": "META PLATFORMS INC CLASS A COMMON STOCK USD.000006",
-      "status": "unchanged",
-      "shares_today": 33682.0,
+      "status": "changed",
+      "shares_today": 33765.0,
       "shares_prior": 33682.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 2.2836,
-      "shares_10d_change": 4.7717,
+      "shares_pct_change": 0.2464,
+      "shares_5d_change": 2.5357,
+      "shares_10d_change": 5.0299,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0111,
-      "pct_net_assets_prior": 0.0114,
-      "pct_net_assets_change": -0.0003
+      "pct_net_assets_today": 0.0112,
+      "pct_net_assets_prior": 0.0111,
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "MONC",
@@ -2380,8 +2366,8 @@
       "shares_10d_change": -10.4987,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0012,
-      "pct_net_assets_prior": 0.0011,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_prior": 0.0012,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "MSFT",
@@ -2393,9 +2379,9 @@
       "shares_5d_change": -10.4774,
       "shares_10d_change": -8.3311,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0142,
-      "pct_net_assets_prior": 0.0143,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_today": 0.0145,
+      "pct_net_assets_prior": 0.0142,
+      "pct_net_assets_change": 0.0003
     },
     {
       "ticker": "MSIL",
@@ -2419,11 +2405,11 @@
       "shares_prior": 1621819.0,
       "shares_pct_change": 0.0,
       "shares_5d_change": 6.1944,
-      "shares_10d_change": 11.1349,
+      "shares_10d_change": 8.7337,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0098,
+      "pct_net_assets_today": 0.0096,
       "pct_net_assets_prior": 0.0098,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0002
     },
     {
       "ticker": "MU",
@@ -2442,15 +2428,15 @@
     {
       "ticker": "NESN",
       "name": "NESTLE SA REG COMMON STOCK CHF.1",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 168327.0,
-      "shares_prior": 174713.0,
-      "shares_pct_change": -3.6551,
+      "shares_prior": 168327.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -6.5618,
-      "shares_10d_change": -3.7433,
+      "shares_10d_change": -4.3227,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0082,
-      "pct_net_assets_prior": 0.0084,
+      "pct_net_assets_today": 0.008,
+      "pct_net_assets_prior": 0.0082,
       "pct_net_assets_change": -0.0002
     },
     {
@@ -2470,16 +2456,16 @@
     {
       "ticker": "NOVOB",
       "name": "NOVO NORDISK A/S B COMMON STOCK DKK.1",
-      "status": "unchanged",
-      "shares_today": 48596.0,
+      "status": "changed",
+      "shares_today": 150747.0,
       "shares_prior": 48596.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 79.1029,
-      "shares_10d_change": 83.4711,
+      "shares_pct_change": 210.2045,
+      "shares_5d_change": 455.5854,
+      "shares_10d_change": 469.1358,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.001,
+      "pct_net_assets_today": 0.0029,
       "pct_net_assets_prior": 0.001,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0019
     },
     {
       "ticker": "NPN",
@@ -2505,9 +2491,9 @@
       "shares_5d_change": 24.6177,
       "shares_10d_change": 27.606,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0042,
+      "pct_net_assets_today": 0.0041,
       "pct_net_assets_prior": 0.0042,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "NTR",
@@ -2520,8 +2506,8 @@
       "shares_10d_change": 2.934,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0018,
-      "pct_net_assets_prior": 0.0017,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_prior": 0.0018,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "NU",
@@ -2534,22 +2520,22 @@
       "shares_10d_change": -10.8802,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0093,
-      "pct_net_assets_prior": 0.0094,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.0093,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA CORP COMMON STOCK USD.001",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 162311.0,
-      "shares_prior": 163469.0,
-      "shares_pct_change": -0.7084,
+      "shares_prior": 162311.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": 9.9117,
       "shares_10d_change": 11.8068,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0162,
+      "pct_net_assets_today": 0.0161,
       "pct_net_assets_prior": 0.0162,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "ODPV3",
@@ -2568,58 +2554,58 @@
     {
       "ticker": "ONC",
       "name": "BEONE MEDICINES LTD ADR ADR USD.0001",
-      "status": "unchanged",
-      "shares_today": 14511.0,
+      "status": "changed",
+      "shares_today": 14114.0,
       "shares_prior": 14511.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": -13.5736,
-      "shares_10d_change": -11.4211,
+      "shares_pct_change": -2.7359,
+      "shares_5d_change": -15.9381,
+      "shares_10d_change": -13.8445,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0023,
+      "pct_net_assets_today": 0.0022,
       "pct_net_assets_prior": 0.0023,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "OTP",
       "name": "OTP BANK PLC COMMON STOCK HUF100.0",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 38837.0,
-      "shares_prior": 40726.0,
-      "shares_pct_change": -4.6383,
+      "shares_prior": 38837.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -4.1109,
       "shares_10d_change": -1.8028,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0027,
-      "pct_net_assets_prior": 0.0029,
-      "pct_net_assets_change": -0.0002
+      "pct_net_assets_today": 0.0026,
+      "pct_net_assets_prior": 0.0027,
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "PAAS",
       "name": "PAN AMERICAN SILVER CORP COMMON STOCK",
-      "status": "unchanged",
-      "shares_today": 42726.0,
+      "status": "changed",
+      "shares_today": 45776.0,
       "shares_prior": 42726.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 0.546,
-      "shares_10d_change": 2.9344,
+      "shares_pct_change": 7.1385,
+      "shares_5d_change": 7.7234,
+      "shares_10d_change": 10.2824,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0012,
+      "pct_net_assets_today": 0.0013,
       "pct_net_assets_prior": 0.0012,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "PBR",
       "name": "PETROLEO BRASILEIRO SPON ADR ADR",
-      "status": "unchanged",
-      "shares_today": 807305.0,
+      "status": "changed",
+      "shares_today": 819208.0,
       "shares_prior": 807305.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": 15.8835,
-      "shares_10d_change": 18.6575,
+      "shares_pct_change": 1.4744,
+      "shares_5d_change": 17.5921,
+      "shares_10d_change": 20.407,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0083,
-      "pct_net_assets_prior": 0.0081,
-      "pct_net_assets_change": 0.0002
+      "pct_net_assets_today": 0.0086,
+      "pct_net_assets_prior": 0.0083,
+      "pct_net_assets_change": 0.0003
     },
     {
       "ticker": "PDD",
@@ -2666,16 +2652,16 @@
     {
       "ticker": "POLICYBZ",
       "name": "PB FINTECH LTD COMMON STOCK INR2.0",
-      "status": "changed",
-      "shares_today": 760.0,
-      "shares_prior": 139433.0,
-      "shares_pct_change": -99.4549,
-      "shares_5d_change": -99.4519,
-      "shares_10d_change": -99.6358,
+      "status": "removed",
+      "shares_today": null,
+      "shares_prior": 760.0,
+      "shares_pct_change": null,
+      "shares_5d_change": null,
+      "shares_10d_change": null,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0,
-      "pct_net_assets_prior": 0.0012,
-      "pct_net_assets_change": -0.0012
+      "pct_net_assets_today": null,
+      "pct_net_assets_prior": 0,
+      "pct_net_assets_change": null
     },
     {
       "ticker": "PRX",
@@ -2702,8 +2688,8 @@
       "shares_10d_change": 2.9531,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0039,
-      "pct_net_assets_prior": 0.0038,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_prior": 0.0039,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "RADL3",
@@ -2715,37 +2701,37 @@
       "shares_5d_change": 0.5493,
       "shares_10d_change": 2.9529,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.002,
+      "pct_net_assets_today": 0.0021,
       "pct_net_assets_prior": 0.002,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "RBLX",
       "name": "ROBLOX CORP  CLASS A COMMON STOCK USD.0001",
-      "status": "unchanged",
-      "shares_today": 34477.0,
+      "status": "changed",
+      "shares_today": 35362.0,
       "shares_prior": 34477.0,
-      "shares_pct_change": 0.0,
+      "shares_pct_change": 2.5669,
       "shares_5d_change": null,
       "shares_10d_change": null,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0011,
-      "pct_net_assets_prior": 0.001,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_prior": 0.0011,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "RCL",
       "name": "ROYAL CARIBBEAN CRUISES LTD COMMON STOCK USD.01",
-      "status": "unchanged",
-      "shares_today": 8258.0,
+      "status": "changed",
+      "shares_today": 9648.0,
       "shares_prior": 8258.0,
-      "shares_pct_change": 0.0,
+      "shares_pct_change": 16.8322,
       "shares_5d_change": null,
       "shares_10d_change": null,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0012,
+      "pct_net_assets_today": 0.0013,
       "pct_net_assets_prior": 0.0012,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "RELIANCE",
@@ -2755,7 +2741,7 @@
       "shares_prior": 833966.0,
       "shares_pct_change": 0.0,
       "shares_5d_change": 0.5498,
-      "shares_10d_change": -2.8945,
+      "shares_10d_change": 2.9555,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.006,
       "pct_net_assets_prior": 0.006,
@@ -2772,35 +2758,35 @@
       "shares_10d_change": 2.9525,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0048,
-      "pct_net_assets_prior": 0.0047,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_prior": 0.0048,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "RR.",
       "name": "ROLLS ROYCE HOLDINGS PLC COMMON STOCK GBP.2",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 1036855.0,
-      "shares_prior": 1050198.0,
-      "shares_pct_change": -1.2705,
+      "shares_prior": 1036855.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -0.7283,
-      "shares_10d_change": -4.5866,
+      "shares_10d_change": -0.5047,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0087,
-      "pct_net_assets_prior": 0.0092,
+      "pct_net_assets_today": 0.0082,
+      "pct_net_assets_prior": 0.0087,
       "pct_net_assets_change": -0.0005
     },
     {
       "ticker": "SAF",
       "name": "SAFRAN SA COMMON STOCK EUR.2",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 10827.0,
-      "shares_prior": 11200.0,
-      "shares_pct_change": -3.3304,
+      "shares_prior": 10827.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -50.2961,
       "shares_10d_change": -50.1909,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0019,
-      "pct_net_assets_prior": 0.002,
+      "pct_net_assets_today": 0.0018,
+      "pct_net_assets_prior": 0.0019,
       "pct_net_assets_change": -0.0001
     },
     {
@@ -2811,10 +2797,10 @@
       "shares_prior": 653977.0,
       "shares_pct_change": 0.0,
       "shares_5d_change": 0.5498,
-      "shares_10d_change": 179.2148,
+      "shares_10d_change": 5.2437,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0041,
-      "pct_net_assets_prior": 0.0042,
+      "pct_net_assets_today": 0.004,
+      "pct_net_assets_prior": 0.0041,
       "pct_net_assets_change": -0.0001
     },
     {
@@ -2828,8 +2814,8 @@
       "shares_10d_change": 2.9498,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0053,
-      "pct_net_assets_prior": 0.0051,
-      "pct_net_assets_change": 0.0002
+      "pct_net_assets_prior": 0.0053,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "SCC-F",
@@ -2855,23 +2841,23 @@
       "shares_5d_change": 11.5322,
       "shares_10d_change": 14.2483,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0039,
-      "pct_net_assets_prior": 0.004,
+      "pct_net_assets_today": 0.0038,
+      "pct_net_assets_prior": 0.0039,
       "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "SHEL",
       "name": "SHELL PLC COMMON STOCK EUR.07",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 65464.0,
-      "shares_prior": 68861.0,
-      "shares_pct_change": -4.9331,
+      "shares_prior": 65464.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -4.4112,
-      "shares_10d_change": null,
+      "shares_10d_change": -2.1275,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0014,
-      "pct_net_assets_prior": 0.0015,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.0014,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "SHFL",
@@ -2898,22 +2884,22 @@
       "shares_10d_change": 3.0294,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.002,
-      "pct_net_assets_prior": 0.0021,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.002,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "SLB",
       "name": "SLB LTD COMMON STOCK USD.01",
-      "status": "unchanged",
-      "shares_today": 108346.0,
+      "status": "changed",
+      "shares_today": 112127.0,
       "shares_prior": 108346.0,
-      "shares_pct_change": 0.0,
-      "shares_5d_change": -2.4516,
-      "shares_10d_change": -0.1281,
+      "shares_pct_change": 3.4897,
+      "shares_5d_change": 0.9526,
+      "shares_10d_change": 3.3571,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0028,
+      "pct_net_assets_today": 0.0029,
       "pct_net_assets_prior": 0.0028,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "STAN",
@@ -2923,7 +2909,7 @@
       "shares_prior": 386654.0,
       "shares_pct_change": 0.0,
       "shares_5d_change": 0.5492,
-      "shares_10d_change": -9.5838,
+      "shares_10d_change": -8.8091,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0047,
       "pct_net_assets_prior": 0.0047,
@@ -2932,16 +2918,16 @@
     {
       "ticker": "STX",
       "name": "SEAGATE TECHNOLOGY HOLDINGS COMMON STOCK USD.00001",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 5416.0,
-      "shares_prior": 5612.0,
-      "shares_pct_change": -3.4925,
+      "shares_prior": 5416.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -2.9391,
       "shares_10d_change": -4.4797,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0014,
-      "pct_net_assets_prior": 0.0015,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_today": 0.0015,
+      "pct_net_assets_prior": 0.0014,
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "SUZB3",
@@ -2960,16 +2946,16 @@
     {
       "ticker": "TBBB",
       "name": "BBB FOODS INC CLASS A COMMON STOCK",
-      "status": "unchanged",
-      "shares_today": 56192.0,
+      "status": "changed",
+      "shares_today": 68514.0,
       "shares_prior": 56192.0,
-      "shares_pct_change": 0.0,
+      "shares_pct_change": 21.9284,
       "shares_5d_change": null,
       "shares_10d_change": null,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0011,
+      "pct_net_assets_today": 0.0013,
       "pct_net_assets_prior": 0.0011,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0002
     },
     {
       "ticker": "TCB",
@@ -2995,9 +2981,9 @@
       "shares_5d_change": 33.9062,
       "shares_10d_change": 37.1194,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0042,
+      "pct_net_assets_today": 0.0041,
       "pct_net_assets_prior": 0.0042,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "TDG",
@@ -3009,9 +2995,9 @@
       "shares_5d_change": -1.0165,
       "shares_10d_change": 1.4004,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0018,
+      "pct_net_assets_today": 0.0017,
       "pct_net_assets_prior": 0.0018,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "TEVA",
@@ -3059,11 +3045,11 @@
       "ticker": "TRUE",
       "name": "TRUE CORP PCL/NEW NVDR NVDR THB4.0",
       "status": "changed",
-      "shares_today": 134300.0,
-      "shares_prior": 197500.0,
-      "shares_pct_change": -32.0,
-      "shares_5d_change": -50.0,
-      "shares_10d_change": -19.0476,
+      "shares_today": 63200.0,
+      "shares_prior": 134300.0,
+      "shares_pct_change": -52.9412,
+      "shares_5d_change": -76.4706,
+      "shares_10d_change": -20.0,
       "shares_30d_change": null,
       "pct_net_assets_today": 0,
       "pct_net_assets_prior": 0,
@@ -3073,11 +3059,11 @@
       "ticker": "TRUE-F",
       "name": "TRUE CORP PCL/NEW FOREIGN FOREIGN SH. THB4.0 A",
       "status": "changed",
-      "shares_today": 11393000.0,
-      "shares_prior": 11329800.0,
-      "shares_pct_change": 0.5578,
-      "shares_5d_change": 1.7641,
-      "shares_10d_change": 3.2948,
+      "shares_today": 11464100.0,
+      "shares_prior": 11393000.0,
+      "shares_pct_change": 0.6241,
+      "shares_5d_change": 2.3992,
+      "shares_10d_change": 3.1269,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0025,
       "pct_net_assets_prior": 0.0025,
@@ -3086,44 +3072,44 @@
     {
       "ticker": "TSLA",
       "name": "TESLA INC COMMON STOCK USD.001",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 7621.0,
-      "shares_prior": 8252.0,
-      "shares_pct_change": -7.6466,
+      "shares_prior": 7621.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -7.1063,
       "shares_10d_change": -4.7375,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0015,
-      "pct_net_assets_prior": 0.0016,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.0015,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "TSM",
       "name": "TAIWAN SEMICONDUCTOR SP ADR ADR",
       "status": "changed",
-      "shares_today": 490704.0,
-      "shares_prior": 486894.0,
-      "shares_pct_change": 0.7825,
-      "shares_5d_change": 2.1544,
-      "shares_10d_change": 4.5976,
+      "shares_today": 496133.0,
+      "shares_prior": 490704.0,
+      "shares_pct_change": 1.1064,
+      "shares_5d_change": 3.2847,
+      "shares_10d_change": 5.7548,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0887,
-      "pct_net_assets_prior": 0.0888,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_today": 0.0903,
+      "pct_net_assets_prior": 0.0887,
+      "pct_net_assets_change": 0.0016
     },
     {
       "ticker": "TTE",
       "name": "TOTALENERGIES SE COMMON STOCK EUR2.5",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 108751.0,
-      "shares_prior": 109417.0,
-      "shares_pct_change": -0.6087,
+      "shares_prior": 108751.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -9.525,
       "shares_10d_change": -7.3498,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0047,
-      "pct_net_assets_prior": 0.0046,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_prior": 0.0047,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "TVSL",
@@ -3135,37 +3121,37 @@
       "shares_5d_change": -3.5033,
       "shares_10d_change": -1.1896,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.003,
-      "pct_net_assets_prior": 0.0029,
-      "pct_net_assets_change": 0.0001
-    },
-    {
-      "ticker": "UBER",
-      "name": "UBER TECHNOLOGIES INC COMMON STOCK USD.00001",
-      "status": "changed",
-      "shares_today": 76658.0,
-      "shares_prior": 77786.0,
-      "shares_pct_change": -1.4501,
-      "shares_5d_change": -0.91,
-      "shares_10d_change": 1.4531,
-      "shares_30d_change": null,
       "pct_net_assets_today": 0.0029,
       "pct_net_assets_prior": 0.003,
       "pct_net_assets_change": -0.0001
     },
     {
+      "ticker": "UBER",
+      "name": "UBER TECHNOLOGIES INC COMMON STOCK USD.00001",
+      "status": "unchanged",
+      "shares_today": 76658.0,
+      "shares_prior": 76658.0,
+      "shares_pct_change": 0.0,
+      "shares_5d_change": -0.91,
+      "shares_10d_change": 1.4531,
+      "shares_30d_change": null,
+      "pct_net_assets_today": 0.0029,
+      "pct_net_assets_prior": 0.0029,
+      "pct_net_assets_change": 0.0
+    },
+    {
       "ticker": "UCG",
       "name": "UNICREDIT SPA COMMON STOCK",
-      "status": "changed",
+      "status": "unchanged",
       "shares_today": 66563.0,
-      "shares_prior": 71397.0,
-      "shares_pct_change": -6.7706,
+      "shares_prior": 66563.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": -6.2559,
-      "shares_10d_change": 0.0977,
+      "shares_10d_change": -4.0035,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0026,
-      "pct_net_assets_prior": 0.0029,
-      "pct_net_assets_change": -0.0003
+      "pct_net_assets_prior": 0.0026,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "UNITDSPR",
@@ -3177,9 +3163,9 @@
       "shares_5d_change": 0.5493,
       "shares_10d_change": 2.953,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0011,
+      "pct_net_assets_today": 0.0012,
       "pct_net_assets_prior": 0.0011,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "V",
@@ -3192,8 +3178,8 @@
       "shares_10d_change": -25.0063,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0018,
-      "pct_net_assets_prior": 0.0019,
-      "pct_net_assets_change": -0.0001
+      "pct_net_assets_prior": 0.0018,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "VAL",
@@ -3205,8 +3191,8 @@
       "shares_5d_change": 0.5476,
       "shares_10d_change": 2.9435,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0032,
-      "pct_net_assets_prior": 0.0033,
+      "pct_net_assets_today": 0.0031,
+      "pct_net_assets_prior": 0.0032,
       "pct_net_assets_change": -0.0001
     },
     {
@@ -3219,9 +3205,9 @@
       "shares_5d_change": 0.5493,
       "shares_10d_change": 2.9525,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0071,
+      "pct_net_assets_today": 0.007,
       "pct_net_assets_prior": 0.0071,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "VBBR3",
@@ -3234,8 +3220,8 @@
       "shares_10d_change": 2.9528,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0033,
-      "pct_net_assets_prior": 0.0032,
-      "pct_net_assets_change": 0.0001
+      "pct_net_assets_prior": 0.0033,
+      "pct_net_assets_change": 0.0
     },
     {
       "ticker": "VIST",
@@ -3247,9 +3233,9 @@
       "shares_5d_change": -2.5872,
       "shares_10d_change": -2.5872,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0019,
+      "pct_net_assets_today": 0.002,
       "pct_net_assets_prior": 0.0019,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": 0.0001
     },
     {
       "ticker": "WALMEX *",
@@ -3289,9 +3275,9 @@
       "shares_5d_change": 0.5458,
       "shares_10d_change": 2.9336,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0021,
+      "pct_net_assets_today": 0.002,
       "pct_net_assets_prior": 0.0021,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "WYNN",
@@ -3317,9 +3303,9 @@
       "shares_5d_change": 0.5507,
       "shares_10d_change": 2.9515,
       "shares_30d_change": null,
-      "pct_net_assets_today": 0.0041,
+      "pct_net_assets_today": 0.004,
       "pct_net_assets_prior": 0.0041,
-      "pct_net_assets_change": 0.0
+      "pct_net_assets_change": -0.0001
     },
     {
       "ticker": "YKBNK",
@@ -3338,16 +3324,16 @@
     {
       "ticker": "ZAB",
       "name": "ZABKA GROUP SA COMMON STOCK",
-      "status": "added",
+      "status": "unchanged",
       "shares_today": 370720.0,
-      "shares_prior": null,
-      "shares_pct_change": null,
+      "shares_prior": 370720.0,
+      "shares_pct_change": 0.0,
       "shares_5d_change": null,
       "shares_10d_change": null,
       "shares_30d_change": null,
       "pct_net_assets_today": 0.0013,
-      "pct_net_assets_prior": null,
-      "pct_net_assets_change": null
+      "pct_net_assets_prior": 0.0013,
+      "pct_net_assets_change": 0.0
     }
   ]
 }
