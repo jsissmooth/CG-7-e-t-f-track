@@ -5,26 +5,32 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA CORP COMMON STOCK USD.001",
-      "pct_net_assets": 0.0597,
+      "pct_net_assets": 0.0608,
       "shares": 10369090.0
-    },
-    {
-      "ticker": "MSFT",
-      "name": "MICROSOFT CORP COMMON STOCK USD.00000625",
-      "pct_net_assets": 0.0506,
-      "shares": 4743978.0
     },
     {
       "ticker": "AVGO",
       "name": "BROADCOM INC COMMON STOCK",
-      "pct_net_assets": 0.0499,
+      "pct_net_assets": 0.0516,
       "shares": 4512340.0
+    },
+    {
+      "ticker": "MSFT",
+      "name": "MICROSOFT CORP COMMON STOCK USD.00000625",
+      "pct_net_assets": 0.0501,
+      "shares": 4743978.0
     },
     {
       "ticker": "AMAT",
       "name": "APPLIED MATERIALS INC COMMON STOCK USD.01",
-      "pct_net_assets": 0.0405,
+      "pct_net_assets": 0.0417,
       "shares": 2429990.0
+    },
+    {
+      "ticker": "RCL",
+      "name": "ROYAL CARIBBEAN CRUISES LTD COMMON STOCK USD.01",
+      "pct_net_assets": 0.039,
+      "shares": 4488677.0
     },
     {
       "ticker": "GOOGL",
@@ -33,52 +39,52 @@
       "shares": 3729336.0
     },
     {
-      "ticker": "RCL",
-      "name": "ROYAL CARIBBEAN CRUISES LTD COMMON STOCK USD.01",
-      "pct_net_assets": 0.0381,
-      "shares": 4488677.0
-    },
-    {
       "ticker": "META",
       "name": "META PLATFORMS INC CLASS A COMMON STOCK USD.000006",
-      "pct_net_assets": 0.0342,
+      "pct_net_assets": 0.0344,
       "shares": 2142609.0
     },
     {
       "ticker": "GE",
       "name": "GENERAL ELECTRIC COMMON STOCK USD.01",
-      "pct_net_assets": 0.034,
+      "pct_net_assets": 0.0337,
       "shares": 3386381.0
     },
     {
       "ticker": "LLY",
       "name": "ELI LILLY + CO COMMON STOCK",
-      "pct_net_assets": 0.0317,
+      "pct_net_assets": 0.031,
       "shares": 1014625.0
-    },
-    {
-      "ticker": "RTX",
-      "name": "RTX CORP COMMON STOCK USD1.0",
-      "pct_net_assets": 0.0302,
-      "shares": 5575963.0
     },
     {
       "ticker": "CARR",
       "name": "CARRIER GLOBAL CORP COMMON STOCK USD.01",
-      "pct_net_assets": 0.0287,
+      "pct_net_assets": 0.0294,
       "shares": 14707795.0
     },
     {
       "ticker": "CSCO",
       "name": "CISCO SYSTEMS INC COMMON STOCK USD.001",
-      "pct_net_assets": 0.0287,
+      "pct_net_assets": 0.029,
       "shares": 8704141.0
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX CORP COMMON STOCK USD1.0",
+      "pct_net_assets": 0.0288,
+      "shares": 5575963.0
     },
     {
       "ticker": "BATS",
       "name": "BRITISH AMERICAN TOBACCO PLC COMMON STOCK",
-      "pct_net_assets": 0.0248,
+      "pct_net_assets": 0.024,
       "shares": 14860132.0
+    },
+    {
+      "ticker": "TSM",
+      "name": "TAIWAN SEMICONDUCTOR SP ADR ADR",
+      "pct_net_assets": 0.0238,
+      "shares": 1847578.0
     },
     {
       "ticker": "SBUX",
@@ -87,112 +93,112 @@
       "shares": 8098454.0
     },
     {
-      "ticker": "TSM",
-      "name": "TAIWAN SEMICONDUCTOR SP ADR ADR",
-      "pct_net_assets": 0.0225,
-      "shares": 1847578.0
+      "ticker": "AAPL",
+      "name": "APPLE INC COMMON STOCK USD.00001",
+      "pct_net_assets": 0.0212,
+      "shares": 2553344.0
     },
     {
       "ticker": "WFC",
       "name": "WELLS FARGO + CO COMMON STOCK USD1.666",
-      "pct_net_assets": 0.0217,
-      "shares": 9208555.0
-    },
-    {
-      "ticker": "AAPL",
-      "name": "APPLE INC COMMON STOCK USD.00001",
-      "pct_net_assets": 0.0213,
-      "shares": 2553344.0
-    },
-    {
-      "ticker": "JPM",
-      "name": "JPMORGAN CHASE + CO COMMON STOCK USD1.0",
       "pct_net_assets": 0.0211,
-      "shares": 2251479.0
+      "shares": 9208555.0
     },
     {
       "ticker": "UNP",
       "name": "UNION PACIFIC CORP COMMON STOCK USD2.5",
-      "pct_net_assets": 0.0208,
+      "pct_net_assets": 0.0205,
       "shares": 2866788.0
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMORGAN CHASE + CO COMMON STOCK USD1.0",
+      "pct_net_assets": 0.0204,
+      "shares": 2251479.0
     },
     {
       "ticker": "LIN",
       "name": "LINDE PLC COMMON STOCK",
-      "pct_net_assets": 0.0202,
+      "pct_net_assets": 0.0199,
       "shares": 1395446.0
     },
     {
       "ticker": "IP",
       "name": "INTERNATIONAL PAPER CO COMMON STOCK USD1.0",
-      "pct_net_assets": 0.0186,
+      "pct_net_assets": 0.0188,
       "shares": 18308174.0
-    },
-    {
-      "ticker": "STX",
-      "name": "SEAGATE TECHNOLOGY HOLDINGS COMMON STOCK USD.00001",
-      "pct_net_assets": 0.0167,
-      "shares": 556296.0
     },
     {
       "ticker": "AMZN",
       "name": "AMAZON.COM INC COMMON STOCK USD.01",
-      "pct_net_assets": 0.0165,
+      "pct_net_assets": 0.0168,
       "shares": 2468743.0
+    },
+    {
+      "ticker": "STX",
+      "name": "SEAGATE TECHNOLOGY HOLDINGS COMMON STOCK USD.00001",
+      "pct_net_assets": 0.0166,
+      "shares": 556296.0
     },
     {
       "ticker": "CMCSA",
       "name": "COMCAST CORP CLASS A COMMON STOCK USD.01",
-      "pct_net_assets": 0.016,
+      "pct_net_assets": 0.0157,
       "shares": 25092555.0
+    },
+    {
+      "ticker": "CMQXX",
+      "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
+      "pct_net_assets": 0.0152,
+      "shares": 5475411.03
     },
     {
       "ticker": "PM",
       "name": "PHILIP MORRIS INTERNATIONAL COMMON STOCK",
-      "pct_net_assets": 0.0142,
+      "pct_net_assets": 0.014,
       "shares": 2812628.0
     },
     {
       "ticker": "ABBV",
       "name": "ABBVIE INC COMMON STOCK USD.01",
-      "pct_net_assets": 0.0137,
+      "pct_net_assets": 0.0133,
       "shares": 2204945.0
-    },
-    {
-      "ticker": "MA",
-      "name": "MASTERCARD INC   A COMMON STOCK USD.0001",
-      "pct_net_assets": 0.013,
-      "shares": 939294.0
     },
     {
       "ticker": "ORCL",
       "name": "ORACLE CORP COMMON STOCK USD.01",
-      "pct_net_assets": 0.013,
+      "pct_net_assets": 0.0129,
       "shares": 2521524.0
+    },
+    {
+      "ticker": "MA",
+      "name": "MASTERCARD INC   A COMMON STOCK USD.0001",
+      "pct_net_assets": 0.0128,
+      "shares": 939294.0
     },
     {
       "ticker": "TRP",
       "name": "TC ENERGY CORP COMMON STOCK",
-      "pct_net_assets": 0.013,
+      "pct_net_assets": 0.0128,
       "shares": 6808472.0
+    },
+    {
+      "ticker": "INTC",
+      "name": "INTEL CORP COMMON STOCK USD.001",
+      "pct_net_assets": 0.0126,
+      "shares": 3369399.0
     },
     {
       "ticker": "XOM",
       "name": "EXXON MOBIL CORP COMMON STOCK",
-      "pct_net_assets": 0.0128,
+      "pct_net_assets": 0.0124,
       "shares": 3233570.0
     },
     {
       "ticker": "APO",
       "name": "APOLLO GLOBAL MANAGEMENT INC COMMON STOCK USD.0001",
-      "pct_net_assets": 0.012,
+      "pct_net_assets": 0.0118,
       "shares": 3074065.0
-    },
-    {
-      "ticker": "INTC",
-      "name": "INTEL CORP COMMON STOCK USD.001",
-      "pct_net_assets": 0.0115,
-      "shares": 3369399.0
     },
     {
       "ticker": "MDT",
@@ -203,20 +209,8 @@
     {
       "ticker": "SW",
       "name": "SMURFIT WESTROCK PLC COMMON STOCK",
-      "pct_net_assets": 0.0111,
+      "pct_net_assets": 0.0112,
       "shares": 9108028.0
-    },
-    {
-      "ticker": "PLD",
-      "name": "PROLOGIS INC REIT USD.01",
-      "pct_net_assets": 0.0102,
-      "shares": 2561841.0
-    },
-    {
-      "ticker": "MO",
-      "name": "ALTRIA GROUP INC COMMON STOCK USD.333",
-      "pct_net_assets": 0.01,
-      "shares": 5130693.0
     },
     {
       "ticker": "NEE",
@@ -225,87 +219,99 @@
       "shares": 4153784.0
     },
     {
+      "ticker": "PLD",
+      "name": "PROLOGIS INC REIT USD.01",
+      "pct_net_assets": 0.01,
+      "shares": 2561841.0
+    },
+    {
+      "ticker": "MO",
+      "name": "ALTRIA GROUP INC COMMON STOCK USD.333",
+      "pct_net_assets": 0.0099,
+      "shares": 5130693.0
+    },
+    {
       "ticker": "MCD",
       "name": "MCDONALD S CORP COMMON STOCK USD.01",
-      "pct_net_assets": 0.0095,
+      "pct_net_assets": 0.0092,
       "shares": 1186722.0
-    },
-    {
-      "ticker": "GD",
-      "name": "GENERAL DYNAMICS CORP COMMON STOCK USD1.0",
-      "pct_net_assets": 0.0087,
-      "shares": 856262.0
-    },
-    {
-      "ticker": "ITW",
-      "name": "ILLINOIS TOOL WORKS COMMON STOCK USD.01",
-      "pct_net_assets": 0.0087,
-      "shares": 1173705.0
-    },
-    {
-      "ticker": "TXN",
-      "name": "TEXAS INSTRUMENTS INC COMMON STOCK USD1.0",
-      "pct_net_assets": 0.0083,
-      "shares": 976014.0
     },
     {
       "ticker": "GLW",
       "name": "CORNING INC COMMON STOCK USD.5",
-      "pct_net_assets": 0.0082,
+      "pct_net_assets": 0.009,
       "shares": 1661773.0
+    },
+    {
+      "ticker": "TXN",
+      "name": "TEXAS INSTRUMENTS INC COMMON STOCK USD1.0",
+      "pct_net_assets": 0.0088,
+      "shares": 976014.0
+    },
+    {
+      "ticker": "ITW",
+      "name": "ILLINOIS TOOL WORKS COMMON STOCK USD.01",
+      "pct_net_assets": 0.0086,
+      "shares": 1173705.0
+    },
+    {
+      "ticker": "GD",
+      "name": "GENERAL DYNAMICS CORP COMMON STOCK USD1.0",
+      "pct_net_assets": 0.0083,
+      "shares": 856262.0
     },
     {
       "ticker": "UNH",
       "name": "UNITEDHEALTH GROUP INC COMMON STOCK USD.01",
-      "pct_net_assets": 0.0082,
+      "pct_net_assets": 0.0081,
       "shares": 728365.0
     },
     {
       "ticker": "VRTX",
       "name": "VERTEX PHARMACEUTICALS INC COMMON STOCK USD.01",
-      "pct_net_assets": 0.0082,
+      "pct_net_assets": 0.008,
       "shares": 638022.0
     },
     {
       "ticker": "AMGN",
       "name": "AMGEN INC COMMON STOCK USD.0001",
-      "pct_net_assets": 0.008,
+      "pct_net_assets": 0.0078,
       "shares": 834087.0
     },
     {
       "ticker": "ABT",
       "name": "ABBOTT LABORATORIES COMMON STOCK",
-      "pct_net_assets": 0.0078,
+      "pct_net_assets": 0.0077,
       "shares": 3134006.0
     },
     {
       "ticker": "FANG",
       "name": "DIAMONDBACK ENERGY INC COMMON STOCK USD.01",
-      "pct_net_assets": 0.0078,
+      "pct_net_assets": 0.0077,
       "shares": 1502483.0
     },
     {
       "ticker": "MDLZ",
       "name": "MONDELEZ INTERNATIONAL INC A COMMON STOCK",
-      "pct_net_assets": 0.0078,
+      "pct_net_assets": 0.0076,
       "shares": 4565082.0
     },
     {
       "ticker": "APD",
       "name": "AIR PRODUCTS + CHEMICALS INC COMMON STOCK USD1.0",
-      "pct_net_assets": 0.0075,
+      "pct_net_assets": 0.0074,
       "shares": 946244.0
     },
     {
       "ticker": "CNQ",
       "name": "CANADIAN NATURAL RESOURCES COMMON STOCK",
-      "pct_net_assets": 0.0075,
+      "pct_net_assets": 0.0073,
       "shares": 6413919.0
     },
     {
       "ticker": "CRM",
       "name": "SALESFORCE INC COMMON STOCK USD.001",
-      "pct_net_assets": 0.0075,
+      "pct_net_assets": 0.0073,
       "shares": 1715971.0
     },
     {
@@ -313,12 +319,6 @@
       "name": "UBER TECHNOLOGIES INC COMMON STOCK USD.00001",
       "pct_net_assets": 0.0068,
       "shares": 3399693.0
-    },
-    {
-      "ticker": "CMQXX",
-      "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
-      "pct_net_assets": 0.002,
-      "shares": 717276.85
     }
   ]
 }
