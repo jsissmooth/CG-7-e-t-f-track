@@ -147,3 +147,106 @@ def compute_diff(today_records, prior_records, today_str, prior_date_str, etf_ti
             })
         elif t:
             rows.append({
+                "ticker": t["ticker"], "name": t.get("name") or "",
+                "identifier": t.get("identifier") or "", "sector": t.get("sector") or "",
+                "status": "added",
+                "quantity_today": t["quantity"] or 0, "quantity_prior": None,
+                "quantity_pct_change": None,
+                "pct_of_fund_today": t["pct_of_fund"] or 0, "pct_of_fund_prior": None,
+                "pct_of_fund_change": None, "market_value_today": None,
+            })
+        else:
+            rows.append({
+                "ticker": p["ticker"], "name": p.get("name") or "",
+                "identifier": p.get("identifier") or "", "sector": p.get("sector") or "",
+                "status": "removed",
+                "quantity_today": None, "quantity_prior": p["quantity"] or 0,
+                "quantity_pct_change": None, "pct_of_fund_today": None,
+                "pct_of_fund_prior": p["pct_of_fund"] or 0,
+                "pct_of_fund_change": None, "market_value_today": None,
+            })
+    return {"date": today_str, "ticker": etf_ticker, "prior_date": prior_date_str, "diff": rows}
+
+
+def append_history(today_str, diff, etf_ticker):
+    data_dir = get_etf_data_dir(etf_ticker)
+    history_path = os.path.join(data_dir, "history.json")
+    history = []
+    if os.path.exists(history_path):
+        with open(history_path) as f:
+            history = json.load(f)
+    entry = {"date": today_str, "prior_date": diff["prior_date"]}
+    if entry not in history:
+        history.append(entry)
+        history.sort(key=lambda x: x["date"], reverse=True)
+    with open(history_path, "w") as f:
+        json.dump(history, f, indent=2)
+
+
+def process_etf(etf_ticker, url, today_str):
+    print("Fetching {}...".format(etf_ticker), file=sys.stderr)
+    try:
+        excel_bytes = download_excel(url)
+        records     = parse_holdings(excel_bytes)
+        if not records:
+            print("  No holdings parsed.", file=sys.stderr)
+            return
+        print("  {} holdings found.".format(len(records)), file=sys.stderr)
+        save_snapshot(records, today_str, etf_ticker)
+
+        prior_path = find_prior_snapshot(today_str, etf_ticker)
+        if not prior_path:
+            diff_rows = []
+            for r in records:
+                diff_rows.append({
+                    "ticker":              r["ticker"],
+                    "name":                r.get("name") or "",
+                    "identifier":          r.get("identifier") or "",
+                    "sector":              r.get("sector") or "",
+                    "status":              "unchanged",
+                    "quantity_today":      r["quantity"] or 0,
+                    "quantity_prior":      r["quantity"] or 0,
+                    "quantity_pct_change": 0,
+                    "pct_of_fund_today":   r["pct_of_fund"] or 0,
+                    "pct_of_fund_prior":   r["pct_of_fund"] or 0,
+                    "pct_of_fund_change":  0,
+                    "market_value_today":  None,
+                })
+            diff = {"date": today_str, "ticker": etf_ticker, "prior_date": None, "diff": diff_rows}
+        else:
+            with open(prior_path) as f:
+                prior_data = json.load(f)
+            diff = compute_diff(records, prior_data["holdings"], today_str, prior_data["date"], etf_ticker)
+
+        data_dir = get_etf_data_dir(etf_ticker)
+        with open(os.path.join(data_dir, "diff.json"), "w") as f:
+            json.dump(diff, f, indent=2)
+
+        append_history(today_str, diff, etf_ticker)
+
+        changed = sum(1 for r in diff["diff"] if r["status"] == "changed")
+        added   = sum(1 for r in diff["diff"] if r["status"] == "added")
+        removed = sum(1 for r in diff["diff"] if r["status"] == "removed")
+        print("  Done -- {} changed | {} added | {} removed".format(
+            changed, added, removed), file=sys.stderr)
+
+    except Exception as e:
+        print("  ERROR for {}: {}".format(etf_ticker, e), file=sys.stderr)
+
+
+def main():
+    today_str = date.today().isoformat()
+    today     = date.today()
+
+    if not is_nyse_trading_day(today):
+        print("{} is not a NYSE trading day -- skipping.".format(today_str), file=sys.stderr)
+        sys.exit(0)
+
+    print("Running for {}...".format(today_str), file=sys.stderr)
+    for etf_ticker, url in ETFS.items():
+        process_etf(etf_ticker, url, today_str)
+    print("All done.", file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()
