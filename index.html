@@ -244,29 +244,48 @@
     var keys = {};
     Object.keys(tMap).forEach(function(k) { keys[k]=1; });
     Object.keys(pMap).forEach(function(k) { keys[k]=1; });
+
+    // handle both old field names (shares/pct_net_assets) and new (quantity/pct_of_fund)
+    function getQty(r) {
+      if (r == null) return null;
+      if (r.quantity     != null) return r.quantity;
+      if (r.shares       != null) return r.shares;
+      return null;
+    }
+    function getPct(r) {
+      if (r == null) return null;
+      if (r.pct_of_fund    != null) return r.pct_of_fund;
+      if (r.pct_net_assets != null) return r.pct_net_assets;
+      return null;
+    }
+
     var rows = [];
     Object.keys(keys).sort().forEach(function(key) {
       var t = tMap[key], p = pMap[key];
       if (t && p) {
-        var qc = p.quantity ? (t.quantity - p.quantity) / p.quantity * 100 : 0;
+        var qt = getQty(t) || 0;
+        var qp = getQty(p) || 0;
+        var pt = getPct(t) || 0;
+        var pp = getPct(p) || 0;
+        var qc = qp !== 0 ? (qt - qp) / qp * 100 : 0;
         rows.push({
           ticker: t.ticker, name: t.name||p.name||"",
           status: Math.abs(qc) > 0.0001 ? "changed" : "unchanged",
-          quantity_today: t.quantity||0, quantity_prior: p.quantity||0,
+          quantity_today: qt, quantity_prior: qp,
           quantity_pct_change: Math.round(qc*10000)/10000,
-          pct_of_fund_today: t.pct_of_fund||0, pct_of_fund_prior: p.pct_of_fund||0,
-          pct_of_fund_change: Math.round(((t.pct_of_fund||0)-(p.pct_of_fund||0))*10000)/10000,
-          market_value_today: t.market_value,
+          pct_of_fund_today: pt, pct_of_fund_prior: pp,
+          pct_of_fund_change: Math.round((pt-pp)*10000)/10000,
+          market_value_today: t.market_value || null,
         });
       } else if (t) {
         rows.push({ ticker:t.ticker, name:t.name||"", status:"added",
-          quantity_today:t.quantity||0, quantity_prior:null, quantity_pct_change:null,
-          pct_of_fund_today:t.pct_of_fund||0, pct_of_fund_prior:null,
+          quantity_today:getQty(t)||0, quantity_prior:null, quantity_pct_change:null,
+          pct_of_fund_today:getPct(t)||0, pct_of_fund_prior:null,
           pct_of_fund_change:null, market_value_today:null });
       } else {
         rows.push({ ticker:p.ticker, name:p.name||"", status:"removed",
-          quantity_today:null, quantity_prior:p.quantity||0, quantity_pct_change:null,
-          pct_of_fund_today:null, pct_of_fund_prior:p.pct_of_fund||0,
+          quantity_today:null, quantity_prior:getQty(p)||0, quantity_pct_change:null,
+          pct_of_fund_today:null, pct_of_fund_prior:getPct(p)||0,
           pct_of_fund_change:null, market_value_today:null });
       }
     });
