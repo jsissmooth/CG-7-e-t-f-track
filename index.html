@@ -143,13 +143,15 @@
 <script>
   var ETFS = [
     "CGBL","CGIE","CGUS","CGMM","CGXU","CGGO","CGNG",
+    "CGGR","CGDV",
     "CGCV","CGDG","CGHY","CGMS","CGCP","CGHM","CGMU"
   ];
   var ETF_NAMES = {
     "CGBL":"Balanced","CGIE":"International Equity",
     "CGUS":"U.S. Equity","CGMM":"Municipal Money Market",
     "CGXU":"International Focus Equity","CGGO":"Global Growth Equity",
-    "CGNG":"New Geography Equity","CGCV":"Conservative Equity",
+    "CGNG":"New Geography Equity","CGGR":"Growth",
+    "CGDV":"Dividend Value","CGCV":"Conservative Equity",
     "CGDG":"Dividend Growers","CGHY":"High Yield Bond",
     "CGMS":"U.S. Multi-Sector Income","CGCP":"Core Plus Income",
     "CGHM":"Municipal High-Income","CGMU":"Municipal Income"
@@ -309,9 +311,8 @@
     if (sortCol === col) { sortDir = sortDir === "asc" ? "desc" : "asc"; }
     else {
       sortCol = col;
-      sortDir = ["quantity_pct_change","pct_of_fund_today","market_value_today",
-                 "quantity_today","quantity_prior","pct_of_fund_prior",
-                 "pct_of_fund_change"].indexOf(col) >= 0 ? "desc" : "asc";
+      sortDir = ["quantity_pct_change","pct_of_fund_today","quantity_today",
+                 "quantity_prior","pct_of_fund_prior","pct_of_fund_change"].indexOf(col) >= 0 ? "desc" : "asc";
     }
     renderTable();
   }
@@ -329,7 +330,7 @@
     });
     var so = {added:0,removed:1,changed:2,unchanged:3};
     var numCols = ["quantity_prior","quantity_today","quantity_pct_change",
-                   "pct_of_fund_prior","pct_of_fund_today","pct_of_fund_change","market_value_today"];
+                   "pct_of_fund_prior","pct_of_fund_today","pct_of_fund_change"];
     rows.sort(function(a, b) {
       var cmp;
       if (!sortCol) {
@@ -380,15 +381,15 @@
       return;
     }
     var cols = [
-      {key:"ticker",             label:"Ticker",        num:false},
-      {key:"name",               label:"Name",          num:false},
-      {key:"status",             label:"Status",        num:false},
-      {key:"quantity_prior",     label:"Qty (Prior)",   num:true},
-      {key:"quantity_today",     label:"Qty (Today)",   num:true},
-      {key:"quantity_pct_change",label:"Qty Delta %",   num:true},
-      {key:"pct_of_fund_prior",  label:"Wt (Prior)",    num:true},
-      {key:"pct_of_fund_today",  label:"Wt (Today)",    num:true},
-      {key:"pct_of_fund_change", label:"Wt Delta",      num:true},
+      {key:"ticker",             label:"Ticker",       num:false},
+      {key:"name",               label:"Name",         num:false},
+      {key:"status",             label:"Status",       num:false},
+      {key:"quantity_prior",     label:"Qty (Prior)",  num:true},
+      {key:"quantity_today",     label:"Qty (Today)",  num:true},
+      {key:"quantity_pct_change",label:"Qty Delta %",  num:true},
+      {key:"pct_of_fund_prior",  label:"Wt (Prior)",   num:true},
+      {key:"pct_of_fund_today",  label:"Wt (Today)",   num:true},
+      {key:"pct_of_fund_change", label:"Wt Delta",     num:true},
     ];
     var thead = "<thead><tr>";
     cols.forEach(function(c) {
