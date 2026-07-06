@@ -1,0 +1,35 @@
+{
+  "date": "2026-07-06",
+  "ticker": "CGHM",
+  "prior_date": null,
+  "diff": [
+    {
+      "ticker": "TUU26",
+      "name": "US 2YR NOTE (CBT) SEP26 XCBT 20260930",
+      "identifier": "TUU26",
+      "sector": "",
+      "status": "unchanged",
+      "quantity_today": 34200000.0,
+      "quantity_prior": 34200000.0,
+      "quantity_pct_change": 0,
+      "pct_of_fund_today": 0,
+      "pct_of_fund_prior": 0,
+      "pct_of_fund_change": 0,
+      "market_value_today": null
+    },
+    {
+      "ticker": "FVU26",
+      "name": "US 5YR NOTE (CBT) SEP26 XCBT 20260930",
+      "identifier": "FVU26",
+      "sector": "",
+      "status": "unchanged",
+      "quantity_today": 21200000.0,
+      "quantity_prior": 21200000.0,
+      "quantity_pct_change": 0,
+      "pct_of_fund_today": 0,
+      "pct_of_fund_prior": 0,
+      "pct_of_fund_change": 0,
+      "market_value_today": null
+    }
+  ]
+}
