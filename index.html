@@ -245,7 +245,6 @@
     Object.keys(tMap).forEach(function(k) { keys[k]=1; });
     Object.keys(pMap).forEach(function(k) { keys[k]=1; });
 
-    // handle both old field names (shares/pct_net_assets) and new (quantity/pct_of_fund)
     function getQty(r) {
       if (r == null) return null;
       if (r.quantity     != null) return r.quantity;
@@ -377,17 +376,25 @@
     if (v>=1000) return (v/1000).toFixed(2)+"K";
     return v.toFixed(0);
   }
-  function fmtPct(v) { return v==null?'<span class="na">--</span>':v.toFixed(4)+"%"; }
+
+  // Weight values are stored as decimals (e.g. 0.2304 = 23.04%) so multiply by 100
+  function fmtPct(v) {
+    return v==null ? '<span class="na">--</span>' : (v * 100).toFixed(4) + "%";
+  }
+
   function fmtChg(v, isPct) {
     if (v==null) return '<span class="na">--</span>';
-    var cls=v>0?"chg-pos":v<0?"chg-neg":"chg-zero";
-    var sign=v>0?"+":"";
-    var txt=isPct?sign+v.toFixed(4)+"pp":sign+v.toFixed(2)+"%";
-    var bw=Math.min(Math.abs(v)/(isPct?2:20)*36,36);
-    var bc=v>0?"var(--green)":v<0?"var(--red)":"var(--muted)";
+    // weight delta also stored as decimal so multiply by 100 for display
+    var display = isPct ? v * 100 : v;
+    var cls  = display>0 ? "chg-pos" : display<0 ? "chg-neg" : "chg-zero";
+    var sign = display>0 ? "+" : "";
+    var txt  = isPct ? sign+display.toFixed(4)+"pp" : sign+display.toFixed(2)+"%";
+    var bw   = Math.min(Math.abs(display)/(isPct?2:20)*36, 36);
+    var bc   = display>0 ? "var(--green)" : display<0 ? "var(--red)" : "var(--muted)";
     return '<div class="bar-wrap"><span class="'+cls+'">'+txt+'</span>'+
            '<span class="mini-bar" style="width:'+bw+'px;background:'+bc+';opacity:.5"></span></div>';
   }
+
   function badge(s) {
     var L={added:"+ ADDED",removed:"- REMOVED",changed:"~ CHANGED",unchanged:". same"};
     return '<span class="badge badge-'+s+'">'+(L[s]||s)+'</span>';
