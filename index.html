@@ -34,6 +34,22 @@
       transition:color .15s,border-color .15s;margin-bottom:-1px}
     .tab-btn:hover{color:var(--text)}
     .tab-btn.active{color:#fff;border-bottom-color:var(--accent)}
+    .etf-subtitle{
+      padding:10px 32px;
+      background:var(--surface);
+      border-bottom:1px solid var(--border);
+      font-family:var(--sans);
+      font-size:13px;
+      color:var(--muted);
+      letter-spacing:.02em;
+      min-height:38px;
+    }
+    .etf-subtitle strong{
+      color:var(--accent);
+      font-family:var(--mono);
+      font-size:12px;
+      margin-right:10px;
+    }
     main{padding:24px 32px;max-width:1800px;margin:0 auto}
     .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px}
     .stat{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:16px 18px}
@@ -98,7 +114,7 @@
     @keyframes spin{to{transform:rotate(360deg)}}
     @media(max-width:900px){
       header,main{padding-left:16px;padding-right:16px}
-      .tab-bar{padding:0 16px}
+      .tab-bar,.etf-subtitle{padding-left:16px;padding-right:16px}
       .stats{grid-template-columns:repeat(2,1fr)}
     }
   </style>
@@ -112,6 +128,7 @@
   </div>
 </header>
 <div class="tab-bar" id="tabBar"></div>
+<div class="etf-subtitle" id="etfSubtitle"></div>
 <main>
   <div class="stats">
     <div class="stat"><div class="stat-label">Total Holdings</div><div class="stat-value" id="statTotal">--</div></div>
@@ -147,14 +164,22 @@
     "CGCV","CGDG","CGHY","CGMS","CGCP","CGHM","CGMU"
   ];
   var ETF_NAMES = {
-    "CGBL":"Balanced","CGIE":"International Equity",
-    "CGUS":"U.S. Equity","CGMM":"Municipal Money Market",
-    "CGXU":"International Focus Equity","CGGO":"Global Growth Equity",
-    "CGNG":"New Geography Equity","CGGR":"Growth",
-    "CGDV":"Dividend Value","CGCV":"Conservative Equity",
-    "CGDG":"Dividend Growers","CGHY":"High Yield Bond",
-    "CGMS":"U.S. Multi-Sector Income","CGCP":"Core Plus Income",
-    "CGHM":"Municipal High-Income","CGMU":"Municipal Income"
+    "CGBL":"Balanced",
+    "CGIE":"International Equity",
+    "CGUS":"U.S. Equity",
+    "CGMM":"Municipal Money Market",
+    "CGXU":"International Focus Equity",
+    "CGGO":"Global Growth Equity",
+    "CGNG":"New Geography Equity",
+    "CGGR":"Growth",
+    "CGDV":"Dividend Value",
+    "CGCV":"Conservative Equity",
+    "CGDG":"Dividend Growers",
+    "CGHY":"High Yield Bond",
+    "CGMS":"U.S. Multi-Sector Income",
+    "CGCP":"Core Plus Income",
+    "CGHM":"Municipal High-Income",
+    "CGMU":"Municipal Income"
   };
 
   var currentTicker = ETFS[0];
@@ -163,6 +188,11 @@
   var activePeriod  = 1;
   var sortCol       = null;
   var sortDir       = "asc";
+
+  function updateSubtitle(ticker) {
+    document.getElementById("etfSubtitle").innerHTML =
+      '<strong>' + ticker + '</strong>' + (ETF_NAMES[ticker] || "");
+  }
 
   var tabBar = document.getElementById("tabBar");
   ETFS.forEach(function(t) {
@@ -185,6 +215,7 @@
     sortDir = "asc";
     document.querySelectorAll(".filter-btn").forEach(function(b, i) { b.classList.toggle("active", i===0); });
     document.getElementById("searchInput").value = "";
+    updateSubtitle(ticker);
     loadCurrentTab();
   }
 
@@ -262,11 +293,9 @@
     Object.keys(keys).sort().forEach(function(key) {
       var t = tMap[key], p = pMap[key];
       if (t && p) {
-        var qt = getQty(t) || 0;
-        var qp = getQty(p) || 0;
-        var pt = getPct(t) || 0;
-        var pp = getPct(p) || 0;
-        var qc = qp !== 0 ? (qt - qp) / qp * 100 : 0;
+        var qt = getQty(t)||0, qp = getQty(p)||0;
+        var pt = getPct(t)||0, pp = getPct(p)||0;
+        var qc = qp !== 0 ? (qt-qp)/qp*100 : 0;
         rows.push({
           ticker: t.ticker, name: t.name||p.name||"",
           status: Math.abs(qc) > 0.0001 ? "changed" : "unchanged",
@@ -274,7 +303,7 @@
           quantity_pct_change: Math.round(qc*10000)/10000,
           pct_of_fund_today: pt, pct_of_fund_prior: pp,
           pct_of_fund_change: Math.round((pt-pp)*10000)/10000,
-          market_value_today: t.market_value || null,
+          market_value_today: t.market_value||null,
         });
       } else if (t) {
         rows.push({ ticker:t.ticker, name:t.name||"", status:"added",
@@ -376,25 +405,20 @@
     if (v>=1000) return (v/1000).toFixed(2)+"K";
     return v.toFixed(0);
   }
-
-  // Weight values are stored as decimals (e.g. 0.2304 = 23.04%) so multiply by 100
   function fmtPct(v) {
-    return v==null ? '<span class="na">--</span>' : (v * 100).toFixed(4) + "%";
+    return v==null ? '<span class="na">--</span>' : (v*100).toFixed(4)+"%";
   }
-
   function fmtChg(v, isPct) {
     if (v==null) return '<span class="na">--</span>';
-    // weight delta also stored as decimal so multiply by 100 for display
-    var display = isPct ? v * 100 : v;
-    var cls  = display>0 ? "chg-pos" : display<0 ? "chg-neg" : "chg-zero";
-    var sign = display>0 ? "+" : "";
+    var display = isPct ? v*100 : v;
+    var cls  = display>0?"chg-pos":display<0?"chg-neg":"chg-zero";
+    var sign = display>0?"+":"";
     var txt  = isPct ? sign+display.toFixed(4)+"pp" : sign+display.toFixed(2)+"%";
-    var bw   = Math.min(Math.abs(display)/(isPct?2:20)*36, 36);
-    var bc   = display>0 ? "var(--green)" : display<0 ? "var(--red)" : "var(--muted)";
+    var bw   = Math.min(Math.abs(display)/(isPct?2:20)*36,36);
+    var bc   = display>0?"var(--green)":display<0?"var(--red)":"var(--muted)";
     return '<div class="bar-wrap"><span class="'+cls+'">'+txt+'</span>'+
            '<span class="mini-bar" style="width:'+bw+'px;background:'+bc+';opacity:.5"></span></div>';
   }
-
   function badge(s) {
     var L={added:"+ ADDED",removed:"- REMOVED",changed:"~ CHANGED",unchanged:". same"};
     return '<span class="badge badge-'+s+'">'+(L[s]||s)+'</span>';
@@ -441,6 +465,7 @@
     document.getElementById("tableWrap").innerHTML='<table>'+thead+tbody+'</table>';
   }
 
+  updateSubtitle(currentTicker);
   loadCurrentTab();
 </script>
 </body>
