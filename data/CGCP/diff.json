@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-07",
+  "date": "2026-07-08",
   "ticker": "CGCP",
-  "prior_date": "2026-07-06",
+  "prior_date": "2026-07-07",
   "diff": [
     {
       "ticker": "APA6201995",
@@ -37,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 6777940.89,
-      "quantity_prior": 6625825.68,
-      "quantity_pct_change": 2.2958,
-      "pct_of_fund_today": 0.0807,
-      "pct_of_fund_prior": 0.079,
-      "pct_of_fund_change": 0.0017,
+      "quantity_today": 7126505.75,
+      "quantity_prior": 6777940.89,
+      "quantity_pct_change": 5.1426,
+      "pct_of_fund_today": 0.0852,
+      "pct_of_fund_prior": 0.0807,
+      "pct_of_fund_change": 0.0045,
       "market_value_today": null
     },
     {
@@ -82,9 +82,23 @@
       "quantity_today": 490400000.0,
       "quantity_prior": 490400000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0001,
+      "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0.0001,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
+      "market_value_today": null
+    },
+    {
+      "ticker": "KRON5842154",
+      "name": "KRONOS ACQUISITION HOLDI SR UNSECURED 144A 06/32 10.75",
+      "identifier": "KRON5842154",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 905000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -124,9 +138,9 @@
       "quantity_today": 4924170.0,
       "quantity_prior": 4924170.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0005,
+      "pct_of_fund_today": 0.0006,
       "pct_of_fund_prior": 0.0005,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -134,13 +148,13 @@
       "name": "ACCENDRA HEALTH INC SECURED 144A 06/33 9.75",
       "identifier": "OMI6432138",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 7218425.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 7218425.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0006,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0006,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -172,34 +186,6 @@
       "market_value_today": null
     },
     {
-      "ticker": "PBH6443159",
-      "name": "PRESTIGE BRANDS INC COMPANY GUAR 144A 07/34 6.25",
-      "identifier": "PBH6443159",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 1555000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0002,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
-      "ticker": "SVC",
-      "name": "SERVICE PROPERTIES TRUST REIT USD.01",
-      "identifier": "SVC",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 1416667.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "TNU26",
       "name": "US 10YR ULTRA FUT SEP26 XCBT 20260921",
       "identifier": "TNU26",
@@ -208,9 +194,9 @@
       "quantity_today": -612100000.0,
       "quantity_prior": -612100000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": -0.0006,
+      "pct_of_fund_today": -0.0003,
       "pct_of_fund_prior": -0.0006,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0003,
       "market_value_today": null
     },
     {
@@ -222,9 +208,9 @@
       "quantity_today": 3148400000.0,
       "quantity_prior": 3148400000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0002,
+      "pct_of_fund_today": -0.0005,
       "pct_of_fund_prior": -0.0002,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0003,
       "market_value_today": null
     },
     {
@@ -236,9 +222,9 @@
       "quantity_today": 277200000.0,
       "quantity_prior": 277200000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0001,
+      "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0.0001,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
