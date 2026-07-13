@@ -1,22 +1,8 @@
 {
-  "date": "2026-07-10",
+  "date": "2026-07-13",
   "ticker": "CGMS",
-  "prior_date": "2026-07-09",
+  "prior_date": "2026-07-10",
   "diff": [
-    {
-      "ticker": "AMZN6448289",
-      "name": "AMAZON.COM INC SR UNSECURED 07/31 4.8",
-      "identifier": "AMZN6448289",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 2250000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0004,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
     {
       "ticker": "AMZN6448291",
       "name": "AMAZON.COM INC SR UNSECURED 07/36 5.3",
@@ -65,12 +51,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 1231337.84,
-      "quantity_prior": 1294894.2,
-      "quantity_pct_change": -4.9082,
-      "pct_of_fund_today": 0.0237,
-      "pct_of_fund_prior": 0.0249,
-      "pct_of_fund_change": -0.0012,
+      "quantity_today": 1264917.84,
+      "quantity_prior": 1231337.84,
+      "quantity_pct_change": 2.7271,
+      "pct_of_fund_today": 0.0243,
+      "pct_of_fund_prior": 0.0237,
+      "pct_of_fund_change": 0.0006,
       "market_value_today": null
     },
     {
@@ -83,8 +69,8 @@
       "quantity_prior": 3082.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0001,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -152,9 +138,9 @@
       "quantity_today": 441700000.0,
       "quantity_prior": 441700000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0,
-      "pct_of_fund_prior": -0.0002,
-      "pct_of_fund_change": 0.0002,
+      "pct_of_fund_today": -0.0002,
+      "pct_of_fund_prior": 0,
+      "pct_of_fund_change": -0.0002,
       "market_value_today": null
     },
     {
@@ -183,20 +169,6 @@
       "pct_of_fund_today": 0.0005,
       "pct_of_fund_prior": 0.0005,
       "pct_of_fund_change": 0.0,
-      "market_value_today": null
-    },
-    {
-      "ticker": "KRON5842154",
-      "name": "KRONOS ACQUISITION HOLDI SR UNSECURED 144A 06/32 10.75",
-      "identifier": "KRON5842154",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 535000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -270,6 +242,20 @@
       "market_value_today": null
     },
     {
+      "ticker": "SATS4486277",
+      "name": "HUGHES SATELLITE SYSTEMS COMPANY GUAR 08/26 6.625",
+      "identifier": "SATS4486277",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 3762000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0003,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
       "ticker": "SRA98L26",
       "name": "3 MONTH SOFR OPT  DEC26C 98 EXP 12/11/2026",
       "identifier": "SRA98L26",
@@ -284,6 +270,20 @@
       "market_value_today": null
     },
     {
+      "ticker": "SVC",
+      "name": "SERVICE PROPERTIES TRUST REIT USD.01",
+      "identifier": "SVC",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 340377.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0006,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
       "ticker": "TNU26",
       "name": "US 10YR ULTRA FUT SEP26 XCBT 20260921",
       "identifier": "TNU26",
@@ -292,9 +292,9 @@
       "quantity_today": -147900000.0,
       "quantity_prior": -147900000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": -0.0001,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0,
+      "pct_of_fund_prior": -0.0001,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -306,9 +306,9 @@
       "quantity_today": 398800000.0,
       "quantity_prior": 398800000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0001,
+      "pct_of_fund_today": -0.0002,
       "pct_of_fund_prior": -0.0001,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -320,9 +320,9 @@
       "quantity_today": -54000000.0,
       "quantity_prior": -54000000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0,
-      "pct_of_fund_prior": 0.0001,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.0001,
+      "pct_of_fund_prior": 0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -334,9 +334,9 @@
       "quantity_today": 70400000.0,
       "quantity_prior": 70400000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0001,
+      "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0.0001,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
