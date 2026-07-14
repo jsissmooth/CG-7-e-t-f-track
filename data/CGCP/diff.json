@@ -1,19 +1,19 @@
 {
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "ticker": "CGCP",
-  "prior_date": "2026-07-10",
+  "prior_date": "2026-07-13",
   "diff": [
     {
       "ticker": "AMZN6448291",
       "name": "AMAZON.COM INC SR UNSECURED 07/36 5.3",
       "identifier": "AMZN6448291",
       "sector": "",
-      "status": "added",
-      "quantity_today": 1050000.0,
-      "quantity_prior": null,
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 1050000.0,
       "quantity_pct_change": null,
-      "pct_of_fund_today": 0.0001,
-      "pct_of_fund_prior": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.0001,
       "pct_of_fund_change": null,
       "market_value_today": null
     },
@@ -51,12 +51,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 6954698.07,
-      "quantity_prior": 6949688.07,
-      "quantity_pct_change": 0.0721,
-      "pct_of_fund_today": 0.0829,
-      "pct_of_fund_prior": 0.083,
-      "pct_of_fund_change": -0.0001,
+      "quantity_today": 7719414.54,
+      "quantity_prior": 6954698.07,
+      "quantity_pct_change": 10.9957,
+      "pct_of_fund_today": 0.0922,
+      "pct_of_fund_prior": 0.0829,
+      "pct_of_fund_change": 0.0093,
       "market_value_today": null
     },
     {
@@ -96,9 +96,9 @@
       "quantity_today": 490400000.0,
       "quantity_prior": 490400000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0001,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": -0.0003,
+      "pct_of_fund_prior": -0.0001,
+      "pct_of_fund_change": -0.0002,
       "market_value_today": null
     },
     {
@@ -138,9 +138,9 @@
       "quantity_today": 4924170.0,
       "quantity_prior": 4924170.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0005,
+      "pct_of_fund_today": 0.0006,
       "pct_of_fund_prior": 0.0005,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -190,13 +190,13 @@
       "name": "SERVICE PROPERTIES TRUST REIT USD.01",
       "identifier": "SVC",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 283333.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 283333.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0003,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0003,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -208,9 +208,9 @@
       "quantity_today": -612100000.0,
       "quantity_prior": -612100000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": -0.0001,
-      "pct_of_fund_prior": -0.0002,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": 0.0002,
+      "pct_of_fund_prior": -0.0001,
+      "pct_of_fund_change": 0.0003,
       "market_value_today": null
     },
     {
@@ -222,9 +222,9 @@
       "quantity_today": 3148400000.0,
       "quantity_prior": 3148400000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0008,
-      "pct_of_fund_prior": -0.0005,
-      "pct_of_fund_change": -0.0003,
+      "pct_of_fund_today": -0.0012,
+      "pct_of_fund_prior": -0.0008,
+      "pct_of_fund_change": -0.0004,
       "market_value_today": null
     },
     {
@@ -236,8 +236,8 @@
       "quantity_today": 277200000.0,
       "quantity_prior": 277200000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0001,
-      "pct_of_fund_prior": 0,
+      "pct_of_fund_today": -0.0002,
+      "pct_of_fund_prior": -0.0001,
       "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },

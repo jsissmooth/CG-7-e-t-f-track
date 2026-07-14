@@ -1,20 +1,20 @@
 {
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "ticker": "CGMS",
-  "prior_date": "2026-07-10",
+  "prior_date": "2026-07-13",
   "diff": [
     {
       "ticker": "AMZN6448291",
       "name": "AMAZON.COM INC SR UNSECURED 07/36 5.3",
       "identifier": "AMZN6448291",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 3750000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 3750000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0007,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -51,12 +51,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 1264917.84,
-      "quantity_prior": 1231337.84,
-      "quantity_pct_change": 2.7271,
-      "pct_of_fund_today": 0.0243,
-      "pct_of_fund_prior": 0.0237,
-      "pct_of_fund_change": 0.0006,
+      "quantity_today": 1590460.4,
+      "quantity_prior": 1264917.84,
+      "quantity_pct_change": 25.7363,
+      "pct_of_fund_today": 0.0306,
+      "pct_of_fund_prior": 0.0243,
+      "pct_of_fund_change": 0.0063,
       "market_value_today": null
     },
     {
@@ -78,13 +78,13 @@
       "name": "DISCOVERY HOLDINGS INC COMPANY GUAR 03/29 4.054",
       "identifier": "DSGL6411607",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 150000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 150000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0,
-      "pct_of_fund_change": 0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -138,8 +138,8 @@
       "quantity_today": 441700000.0,
       "quantity_prior": 441700000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0002,
-      "pct_of_fund_prior": 0,
+      "pct_of_fund_today": -0.0004,
+      "pct_of_fund_prior": -0.0002,
       "pct_of_fund_change": -0.0002,
       "market_value_today": null
     },
@@ -246,13 +246,13 @@
       "name": "HUGHES SATELLITE SYSTEMS COMPANY GUAR 08/26 6.625",
       "identifier": "SATS4486277",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 3762000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 3762000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0003,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0003,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -274,13 +274,13 @@
       "name": "SERVICE PROPERTIES TRUST REIT USD.01",
       "identifier": "SVC",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 340377.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 340377.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0006,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0006,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -292,8 +292,8 @@
       "quantity_today": -147900000.0,
       "quantity_prior": -147900000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0,
-      "pct_of_fund_prior": -0.0001,
+      "pct_of_fund_today": 0.0001,
+      "pct_of_fund_prior": 0,
       "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
@@ -307,8 +307,8 @@
       "quantity_prior": 398800000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": -0.0002,
-      "pct_of_fund_prior": -0.0001,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": -0.0002,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -321,8 +321,8 @@
       "quantity_prior": -54000000.0,
       "quantity_pct_change": -0.0,
       "pct_of_fund_today": 0.0001,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -335,8 +335,8 @@
       "quantity_prior": 70400000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0,
-      "pct_of_fund_prior": 0.0001,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0,
+      "pct_of_fund_change": 0,
       "market_value_today": null
     },
     {

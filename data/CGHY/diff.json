@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "ticker": "CGHY",
-  "prior_date": "2026-07-10",
+  "prior_date": "2026-07-13",
   "diff": [
     {
       "ticker": "BApA",
@@ -12,9 +12,9 @@
       "quantity_today": 2000.0,
       "quantity_prior": 2000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0012,
+      "pct_of_fund_today": 0.0011,
       "pct_of_fund_prior": 0.0012,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -37,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 66930.14,
-      "quantity_prior": 69120.14,
-      "quantity_pct_change": -3.1684,
-      "pct_of_fund_today": 0.0566,
-      "pct_of_fund_prior": 0.0577,
-      "pct_of_fund_change": -0.0011,
+      "quantity_today": 78721.32,
+      "quantity_prior": 66930.14,
+      "quantity_pct_change": 17.6171,
+      "pct_of_fund_today": 0.0667,
+      "pct_of_fund_prior": 0.0566,
+      "pct_of_fund_change": 0.0101,
       "market_value_today": null
     },
     {
@@ -85,20 +85,6 @@
       "pct_of_fund_today": 0.0006,
       "pct_of_fund_prior": 0.0006,
       "pct_of_fund_change": 0.0,
-      "market_value_today": null
-    },
-    {
-      "ticker": "MTSI",
-      "name": "MACOM TECHNOLOGY SOLUTIONS H COMMON STOCK USD.001",
-      "identifier": "MTSI",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 666.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0018,
-      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -166,9 +152,9 @@
       "quantity_today": 2400.0,
       "quantity_prior": 2400.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0009,
+      "pct_of_fund_today": 0.0008,
       "pct_of_fund_prior": 0.0009,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -176,13 +162,13 @@
       "name": "HUGHES SATELLITE SYSTEMS COMPANY GUAR 08/26 6.625",
       "identifier": "SATS4486277",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 98000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 98000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0004,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0004,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -194,9 +180,9 @@
       "quantity_today": 71502.0,
       "quantity_prior": 71502.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0018,
+      "pct_of_fund_today": 0.0017,
       "pct_of_fund_prior": 0.0018,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -204,13 +190,13 @@
       "name": "SERVICE PROPERTIES TRUST REIT USD.01",
       "identifier": "SVC",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 23168.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 23168.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0017,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0017,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -239,20 +225,6 @@
       "pct_of_fund_today": 0.0005,
       "pct_of_fund_prior": 0.0005,
       "pct_of_fund_change": 0.0,
-      "market_value_today": null
-    },
-    {
-      "ticker": "WDC5933845",
-      "name": "WESTERN DIGITAL CORP COMPANY GUAR 11/28 3",
-      "identifier": "WDC5933845",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 18000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0023,
-      "pct_of_fund_change": null,
       "market_value_today": null
     }
   ]
