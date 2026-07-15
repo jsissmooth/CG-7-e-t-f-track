@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-14",
+  "date": "2026-07-15",
   "ticker": "CGHM",
-  "prior_date": "2026-07-13",
+  "prior_date": "2026-07-14",
   "diff": [
     {
       "ticker": "FVU26",
@@ -22,10 +22,10 @@
       "name": "US 2YR NOTE (CBT) SEP26 XCBT 20260930",
       "identifier": "TUU26",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 34200000.0,
+      "status": "changed",
+      "quantity_today": 34000000.0,
       "quantity_prior": 34200000.0,
-      "quantity_pct_change": 0.0,
+      "quantity_pct_change": -0.5848,
       "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0,
       "pct_of_fund_change": 0,

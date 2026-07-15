@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-14",
+  "date": "2026-07-15",
   "ticker": "CGHY",
-  "prior_date": "2026-07-13",
+  "prior_date": "2026-07-14",
   "diff": [
     {
       "ticker": "BApA",
@@ -13,8 +13,8 @@
       "quantity_prior": 2000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0011,
-      "pct_of_fund_prior": 0.0012,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0011,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -37,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 78721.32,
-      "quantity_prior": 66930.14,
-      "quantity_pct_change": 17.6171,
+      "quantity_today": 78751.33,
+      "quantity_prior": 78721.32,
+      "quantity_pct_change": 0.0381,
       "pct_of_fund_today": 0.0667,
-      "pct_of_fund_prior": 0.0566,
-      "pct_of_fund_change": 0.0101,
+      "pct_of_fund_prior": 0.0667,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -96,9 +96,9 @@
       "quantity_today": 3600.0,
       "quantity_prior": 3600.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0016,
+      "pct_of_fund_today": 0.0017,
       "pct_of_fund_prior": 0.0016,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -153,8 +153,8 @@
       "quantity_prior": 2400.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0008,
-      "pct_of_fund_prior": 0.0009,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0008,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -162,13 +162,13 @@
       "name": "HUGHES SATELLITE SYSTEMS COMPANY GUAR 08/26 6.625",
       "identifier": "SATS4486277",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 98000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 98000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0004,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0.0004,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -180,9 +180,9 @@
       "quantity_today": 71502.0,
       "quantity_prior": 71502.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0017,
-      "pct_of_fund_prior": 0.0018,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.0018,
+      "pct_of_fund_prior": 0.0017,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
