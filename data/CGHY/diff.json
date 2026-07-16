@@ -1,8 +1,22 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-07-16",
   "ticker": "CGHY",
-  "prior_date": "2026-07-14",
+  "prior_date": "2026-07-15",
   "diff": [
+    {
+      "ticker": "ALNY5653584",
+      "name": "ALNYLAM PHARMACEUTICALS SR UNSECURED 09/27 1",
+      "identifier": "ALNY5653584",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 118000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0011,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
     {
       "ticker": "BApA",
       "name": "BOEING CO/THE PREFERRED STOCK 10/27 6",
@@ -37,12 +51,26 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 78751.33,
-      "quantity_prior": 78721.32,
-      "quantity_pct_change": 0.0381,
-      "pct_of_fund_today": 0.0667,
+      "quantity_today": 83551.81,
+      "quantity_prior": 78751.33,
+      "quantity_pct_change": 6.0957,
+      "pct_of_fund_today": 0.0689,
       "pct_of_fund_prior": 0.0667,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0022,
+      "market_value_today": null
+    },
+    {
+      "ticker": "COIN6034335",
+      "name": "COINBASE GLOBAL INC SR UNSECURED 04/30 0.25",
+      "identifier": "COIN6034335",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 95000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0007,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -96,9 +124,9 @@
       "quantity_today": 3600.0,
       "quantity_prior": 3600.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0017,
-      "pct_of_fund_prior": 0.0016,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": 0.0016,
+      "pct_of_fund_prior": 0.0017,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -138,9 +166,9 @@
       "quantity_today": 132167.01,
       "quantity_prior": 132167.01,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0008,
+      "pct_of_fund_today": 0.0007,
       "pct_of_fund_prior": 0.0008,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -158,16 +186,16 @@
       "market_value_today": null
     },
     {
-      "ticker": "SATS4486277",
-      "name": "HUGHES SATELLITE SYSTEMS COMPANY GUAR 08/26 6.625",
-      "identifier": "SATS4486277",
+      "ticker": "SATS4486279",
+      "name": "HUGHES SATELLITE SYSTEMS SR SECURED 08/26 5.25",
+      "identifier": "SATS4486279",
       "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 98000.0,
+      "status": "added",
+      "quantity_today": 75000.0,
+      "quantity_prior": null,
       "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0004,
+      "pct_of_fund_today": 0.0005,
+      "pct_of_fund_prior": null,
       "pct_of_fund_change": null,
       "market_value_today": null
     },
@@ -181,8 +209,8 @@
       "quantity_prior": 71502.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0018,
-      "pct_of_fund_prior": 0.0017,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0018,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -194,9 +222,9 @@
       "quantity_today": 23168.0,
       "quantity_prior": 23168.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0017,
+      "pct_of_fund_today": 0.0016,
       "pct_of_fund_prior": 0.0017,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
