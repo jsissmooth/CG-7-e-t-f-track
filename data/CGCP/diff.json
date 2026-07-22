@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "ticker": "CGCP",
-  "prior_date": "2026-07-20",
+  "prior_date": "2026-07-21",
   "diff": [
     {
       "ticker": "AULU26",
@@ -22,13 +22,13 @@
       "name": "CARRIX INC SR SECURED 144A 08/33 6.125",
       "identifier": "CARC6455510",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 7175000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 7175000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0009,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0.0009,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -36,13 +36,13 @@
       "name": "CORELOGIC INC SR SECURED 144A 08/31 9",
       "identifier": "CLGX6458327",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 7000000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 7000000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0008,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0.0008,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -51,26 +51,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 7891589.14,
-      "quantity_prior": 7858815.86,
-      "quantity_pct_change": 0.417,
-      "pct_of_fund_today": 0.0938,
-      "pct_of_fund_prior": 0.0932,
-      "pct_of_fund_change": 0.0006,
-      "market_value_today": null
-    },
-    {
-      "ticker": "DSGL6411709",
-      "name": "DISCOVERY HOLDINGS INC COMPANY GUAR 03/52 5.141",
-      "identifier": "DSGL6411709",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 33000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": null,
+      "quantity_today": 7753585.34,
+      "quantity_prior": 7891589.14,
+      "quantity_pct_change": -1.7487,
+      "pct_of_fund_today": 0.0923,
+      "pct_of_fund_prior": 0.0938,
+      "pct_of_fund_change": -0.0015,
       "market_value_today": null
     },
     {
@@ -110,9 +96,9 @@
       "quantity_today": 490400000.0,
       "quantity_prior": 490400000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0002,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": -0.0002,
+      "pct_of_fund_today": -0.0003,
+      "pct_of_fund_prior": -0.0002,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -208,9 +194,9 @@
       "quantity_today": 71600.0,
       "quantity_prior": 71600.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0003,
+      "pct_of_fund_today": 0.0004,
       "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -236,9 +222,9 @@
       "quantity_today": -656100000.0,
       "quantity_prior": -656100000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0.0001,
-      "pct_of_fund_prior": -0.0003,
-      "pct_of_fund_change": 0.0004,
+      "pct_of_fund_today": 0.0003,
+      "pct_of_fund_prior": 0.0001,
+      "pct_of_fund_change": 0.0002,
       "market_value_today": null
     },
     {
@@ -250,8 +236,8 @@
       "quantity_today": 3254400000.0,
       "quantity_prior": 3254400000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0008,
-      "pct_of_fund_prior": -0.0005,
+      "pct_of_fund_today": -0.0011,
+      "pct_of_fund_prior": -0.0008,
       "pct_of_fund_change": -0.0003,
       "market_value_today": null
     },
@@ -264,8 +250,8 @@
       "quantity_today": 277200000.0,
       "quantity_prior": 277200000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0001,
-      "pct_of_fund_prior": 0,
+      "pct_of_fund_today": -0.0002,
+      "pct_of_fund_prior": -0.0001,
       "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },

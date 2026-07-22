@@ -1,22 +1,8 @@
 {
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "ticker": "CGHY",
-  "prior_date": "2026-07-20",
+  "prior_date": "2026-07-21",
   "diff": [
-    {
-      "ticker": "ALNY5653584",
-      "name": "ALNYLAM PHARMACEUTICALS SR UNSECURED 09/27 1",
-      "identifier": "ALNY5653584",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 118000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0011,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
     {
       "ticker": "BApA",
       "name": "BOEING CO/THE PREFERRED STOCK 10/27 6",
@@ -32,31 +18,17 @@
       "market_value_today": null
     },
     {
-      "ticker": "BESA6455480",
-      "name": "BEUSA INVESTMENTS LLC SR UNSECURED 144A 08/31 7",
-      "identifier": "BESA6455480",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 405000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0033,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "CARC6455510",
       "name": "CARRIX INC SR SECURED 144A 08/33 6.125",
       "identifier": "CARC6455510",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 620000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 620000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0051,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0.0051,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -78,27 +50,13 @@
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 82281.63,
-      "quantity_prior": 86292.03,
-      "quantity_pct_change": -4.6475,
-      "pct_of_fund_today": 0.0678,
-      "pct_of_fund_prior": 0.0712,
-      "pct_of_fund_change": -0.0034,
-      "market_value_today": null
-    },
-    {
-      "ticker": "COIN6034335",
-      "name": "COINBASE GLOBAL INC SR UNSECURED 04/30 0.25",
-      "identifier": "COIN6034335",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 95000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": null,
+      "quantity_prior": 82281.63,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": 0.0679,
+      "pct_of_fund_prior": 0.0678,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -251,8 +209,8 @@
       "quantity_prior": 23168.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0017,
-      "pct_of_fund_prior": 0.0016,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0017,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -278,9 +236,9 @@
       "quantity_today": 689.0,
       "quantity_prior": 689.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0005,
+      "pct_of_fund_today": 0.0006,
       "pct_of_fund_prior": 0.0005,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     }
   ]

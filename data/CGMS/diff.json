@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "ticker": "CGMS",
-  "prior_date": "2026-07-20",
+  "prior_date": "2026-07-21",
   "diff": [
     {
       "ticker": "AULU26",
@@ -22,13 +22,13 @@
       "name": "CARRIX INC SR SECURED 144A 08/33 6.125",
       "identifier": "CARC6455510",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 5455000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 5455000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0011,
-      "pct_of_fund_prior": 0.001,
-      "pct_of_fund_change": 0.0001,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.0011,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -36,13 +36,13 @@
       "name": "CORELOGIC INC SR SECURED 144A 08/31 9",
       "identifier": "CLGX6458327",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 8425000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 8425000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0016,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0.0016,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -50,13 +50,13 @@
       "name": "CORELOGIC INC SECURED 144A 02/32 12",
       "identifier": "CLGX6458329",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 1450000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 1450000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0003,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -65,12 +65,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 1678960.49,
-      "quantity_prior": 1653367.93,
-      "quantity_pct_change": 1.5479,
-      "pct_of_fund_today": 0.0321,
-      "pct_of_fund_prior": 0.0316,
-      "pct_of_fund_change": 0.0005,
+      "quantity_today": 1608123.4,
+      "quantity_prior": 1678960.49,
+      "quantity_pct_change": -4.2191,
+      "pct_of_fund_today": 0.0308,
+      "pct_of_fund_prior": 0.0321,
+      "pct_of_fund_change": -0.0013,
       "market_value_today": null
     },
     {
@@ -85,20 +85,6 @@
       "pct_of_fund_today": 0.0001,
       "pct_of_fund_prior": 0.0001,
       "pct_of_fund_change": 0.0,
-      "market_value_today": null
-    },
-    {
-      "ticker": "DSGL6411709",
-      "name": "DISCOVERY HOLDINGS INC COMPANY GUAR 03/52 5.141",
-      "identifier": "DSGL6411709",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 204000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -152,8 +138,8 @@
       "quantity_today": 441700000.0,
       "quantity_prior": 441700000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0002,
-      "pct_of_fund_prior": 0,
+      "pct_of_fund_today": -0.0004,
+      "pct_of_fund_prior": -0.0002,
       "pct_of_fund_change": -0.0002,
       "market_value_today": null
     },
@@ -223,8 +209,8 @@
       "quantity_prior": 5791578.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0011,
-      "pct_of_fund_prior": 0.001,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0011,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -236,9 +222,9 @@
       "quantity_today": 8939775.0,
       "quantity_prior": 8939775.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0012,
+      "pct_of_fund_today": 0.0011,
       "pct_of_fund_prior": 0.0012,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -264,9 +250,9 @@
       "quantity_today": 147600.0,
       "quantity_prior": 147600.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0011,
+      "pct_of_fund_today": 0.0012,
       "pct_of_fund_prior": 0.0011,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -321,8 +307,8 @@
       "quantity_prior": -155900000.0,
       "quantity_pct_change": -0.0,
       "pct_of_fund_today": 0.0001,
-      "pct_of_fund_prior": -0.0001,
-      "pct_of_fund_change": 0.0002,
+      "pct_of_fund_prior": 0.0001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -330,13 +316,13 @@
       "name": "US 2YR NOTE (CBT) SEP26 XCBT 20260930",
       "identifier": "TUU26",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 398800000.0,
+      "status": "changed",
+      "quantity_today": 241000000.0,
       "quantity_prior": 398800000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0002,
-      "pct_of_fund_prior": -0.0001,
-      "pct_of_fund_change": -0.0001,
+      "quantity_pct_change": -39.5687,
+      "pct_of_fund_today": -0.0001,
+      "pct_of_fund_prior": -0.0002,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -349,8 +335,8 @@
       "quantity_prior": -54000000.0,
       "quantity_pct_change": -0.0,
       "pct_of_fund_today": 0.0001,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -362,8 +348,8 @@
       "quantity_today": 70400000.0,
       "quantity_prior": 70400000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0,
-      "pct_of_fund_prior": 0.0001,
+      "pct_of_fund_today": -0.0001,
+      "pct_of_fund_prior": 0,
       "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
