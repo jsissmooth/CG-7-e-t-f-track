@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-22",
+  "date": "2026-07-23",
   "ticker": "CGHY",
-  "prior_date": "2026-07-21",
+  "prior_date": "2026-07-22",
   "diff": [
     {
       "ticker": "BApA",
@@ -15,20 +15,6 @@
       "pct_of_fund_today": 0.0011,
       "pct_of_fund_prior": 0.0011,
       "pct_of_fund_change": 0.0,
-      "market_value_today": null
-    },
-    {
-      "ticker": "CARC6455510",
-      "name": "CARRIX INC SR SECURED 144A 08/33 6.125",
-      "identifier": "CARC6455510",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 620000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0051,
-      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -50,13 +36,13 @@
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 82281.63,
+      "status": "changed",
+      "quantity_today": 83021.7,
       "quantity_prior": 82281.63,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0679,
-      "pct_of_fund_prior": 0.0678,
-      "pct_of_fund_change": 0.0001,
+      "quantity_pct_change": 0.8994,
+      "pct_of_fund_today": 0.0686,
+      "pct_of_fund_prior": 0.0679,
+      "pct_of_fund_change": 0.0007,
       "market_value_today": null
     },
     {
@@ -172,6 +158,20 @@
       "market_value_today": null
     },
     {
+      "ticker": "SATS4486277",
+      "name": "HUGHES SATELLITE SYSTEMS COMPANY GUAR 08/26 6.625",
+      "identifier": "SATS4486277",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 98000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0004,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
       "ticker": "SATS4486279",
       "name": "HUGHES SATELLITE SYSTEMS SR SECURED 08/26 5.25",
       "identifier": "SATS4486279",
@@ -208,9 +208,9 @@
       "quantity_today": 23168.0,
       "quantity_prior": 23168.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0017,
+      "pct_of_fund_today": 0.0016,
       "pct_of_fund_prior": 0.0017,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -237,8 +237,8 @@
       "quantity_prior": 689.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0006,
-      "pct_of_fund_prior": 0.0005,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0006,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     }
   ]
