@@ -1,20 +1,20 @@
 {
-  "date": "2026-07-23",
+  "date": "2026-07-24",
   "ticker": "CGMS",
-  "prior_date": "2026-07-22",
+  "prior_date": "2026-07-23",
   "diff": [
     {
       "ticker": "AULU26",
       "name": "US ULTRA BOND CBT SEP26 XCBT 20260921",
       "identifier": "AULU26",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": -2900000.0,
-      "quantity_prior": -9900000.0,
-      "quantity_pct_change": -70.7071,
+      "quantity_prior": -2900000.0,
+      "quantity_pct_change": -0.0,
       "pct_of_fund_today": 0,
-      "pct_of_fund_prior": 0.0001,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0,
+      "pct_of_fund_change": 0,
       "market_value_today": null
     },
     {
@@ -23,12 +23,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 1329325.52,
-      "quantity_prior": 1608123.4,
-      "quantity_pct_change": -17.3368,
-      "pct_of_fund_today": 0.0251,
-      "pct_of_fund_prior": 0.0308,
-      "pct_of_fund_change": -0.0057,
+      "quantity_today": 1801700.0,
+      "quantity_prior": 1329325.52,
+      "quantity_pct_change": 35.5349,
+      "pct_of_fund_today": 0.0341,
+      "pct_of_fund_prior": 0.0251,
+      "pct_of_fund_change": 0.009,
       "market_value_today": null
     },
     {
@@ -92,13 +92,13 @@
       "name": "US 5YR NOTE (CBT) SEP26 XCBT 20260930",
       "identifier": "FVU26",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 476700000.0,
-      "quantity_prior": 441700000.0,
-      "quantity_pct_change": 7.9239,
-      "pct_of_fund_today": -0.0005,
-      "pct_of_fund_prior": -0.0004,
-      "pct_of_fund_change": -0.0001,
+      "quantity_prior": 476700000.0,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": -0.0007,
+      "pct_of_fund_prior": -0.0005,
+      "pct_of_fund_change": -0.0002,
       "market_value_today": null
     },
     {
@@ -152,9 +152,9 @@
       "quantity_today": 32947714.0,
       "quantity_prior": 32947714.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0022,
+      "pct_of_fund_today": 0.0021,
       "pct_of_fund_prior": 0.0022,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -167,8 +167,8 @@
       "quantity_prior": 5791578.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.001,
-      "pct_of_fund_prior": 0.0011,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -209,8 +209,22 @@
       "quantity_prior": 147600.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0011,
-      "pct_of_fund_prior": 0.0012,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0011,
+      "pct_of_fund_change": 0.0,
+      "market_value_today": null
+    },
+    {
+      "ticker": "QGOG6461587",
+      "name": "CONSTELLATION OIL SA SR SECURED 144A 08/33 7.7",
+      "identifier": "QGOG6461587",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 3255000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0006,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -218,13 +232,13 @@
       "name": "HUGHES SATELLITE SYSTEMS COMPANY GUAR 08/26 6.625",
       "identifier": "SATS4486277",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 3762000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 3762000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0003,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0003,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -264,9 +278,9 @@
       "quantity_today": 340377.0,
       "quantity_prior": 340377.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0005,
-      "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.0006,
+      "pct_of_fund_prior": 0.0005,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -275,12 +289,26 @@
       "identifier": "TNU26",
       "sector": "",
       "status": "changed",
-      "quantity_today": -147900000.0,
-      "quantity_prior": -155900000.0,
-      "quantity_pct_change": -5.1315,
-      "pct_of_fund_today": 0.0002,
-      "pct_of_fund_prior": 0.0001,
+      "quantity_today": -165900000.0,
+      "quantity_prior": -147900000.0,
+      "quantity_pct_change": 12.1704,
+      "pct_of_fund_today": 0.0003,
+      "pct_of_fund_prior": 0.0002,
       "pct_of_fund_change": 0.0001,
+      "market_value_today": null
+    },
+    {
+      "ticker": "TPGE6461626",
+      "name": "MAGNOLIA OIL GAS/MAG FIN COMPANY GUAR 144A 08/34 6.625",
+      "identifier": "TPGE6461626",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 1205000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0002,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -293,8 +321,8 @@
       "quantity_prior": 241000000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": -0.0002,
-      "pct_of_fund_prior": -0.0001,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": -0.0002,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -320,9 +348,9 @@
       "quantity_today": 70400000.0,
       "quantity_prior": 70400000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0001,
+      "pct_of_fund_today": -0.0002,
       "pct_of_fund_prior": -0.0001,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
