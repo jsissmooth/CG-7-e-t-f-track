@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-24",
+  "date": "2026-07-27",
   "ticker": "CGMS",
-  "prior_date": "2026-07-23",
+  "prior_date": "2026-07-24",
   "diff": [
     {
       "ticker": "AULU26",
@@ -23,12 +23,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 1801700.0,
-      "quantity_prior": 1329325.52,
-      "quantity_pct_change": 35.5349,
-      "pct_of_fund_today": 0.0341,
-      "pct_of_fund_prior": 0.0251,
-      "pct_of_fund_change": 0.009,
+      "quantity_today": 1803990.0,
+      "quantity_prior": 1801700.0,
+      "quantity_pct_change": 0.1271,
+      "pct_of_fund_today": 0.0339,
+      "pct_of_fund_prior": 0.0341,
+      "pct_of_fund_change": -0.0002,
       "market_value_today": null
     },
     {
@@ -96,9 +96,9 @@
       "quantity_today": 476700000.0,
       "quantity_prior": 476700000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0007,
-      "pct_of_fund_prior": -0.0005,
-      "pct_of_fund_change": -0.0002,
+      "pct_of_fund_today": -0.0006,
+      "pct_of_fund_prior": -0.0007,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -134,13 +134,13 @@
       "name": "KRONOS ACQUISITION HOLDI SR UNSECURED 144A 06/32 10.75",
       "identifier": "KRON5842154",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 535000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 535000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0,
-      "pct_of_fund_change": 0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -153,8 +153,8 @@
       "quantity_prior": 32947714.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0021,
-      "pct_of_fund_prior": 0.0022,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0021,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -218,13 +218,13 @@
       "name": "CONSTELLATION OIL SA SR SECURED 144A 08/33 7.7",
       "identifier": "QGOG6461587",
       "sector": "",
-      "status": "added",
-      "quantity_today": 3255000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": 0.0006,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "status": "changed",
+      "quantity_today": 3455000.0,
+      "quantity_prior": 3255000.0,
+      "quantity_pct_change": 6.1444,
+      "pct_of_fund_today": 0.0007,
+      "pct_of_fund_prior": 0.0006,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -278,9 +278,9 @@
       "quantity_today": 340377.0,
       "quantity_prior": 340377.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0006,
-      "pct_of_fund_prior": 0.0005,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": 0.0005,
+      "pct_of_fund_prior": 0.0006,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -288,13 +288,13 @@
       "name": "US 10YR ULTRA FUT SEP26 XCBT 20260921",
       "identifier": "TNU26",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": -165900000.0,
-      "quantity_prior": -147900000.0,
-      "quantity_pct_change": 12.1704,
-      "pct_of_fund_today": 0.0003,
-      "pct_of_fund_prior": 0.0002,
-      "pct_of_fund_change": 0.0001,
+      "quantity_prior": -165900000.0,
+      "quantity_pct_change": -0.0,
+      "pct_of_fund_today": 0.0002,
+      "pct_of_fund_prior": 0.0003,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -302,13 +302,13 @@
       "name": "MAGNOLIA OIL GAS/MAG FIN COMPANY GUAR 144A 08/34 6.625",
       "identifier": "TPGE6461626",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 1205000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 1205000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0002,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0002,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -348,9 +348,9 @@
       "quantity_today": 70400000.0,
       "quantity_prior": 70400000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0002,
-      "pct_of_fund_prior": -0.0001,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": -0.0001,
+      "pct_of_fund_prior": -0.0002,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
