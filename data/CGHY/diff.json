@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "ticker": "CGHY",
-  "prior_date": "2026-07-27",
+  "prior_date": "2026-07-28",
   "diff": [
     {
       "ticker": "BApA",
@@ -26,9 +26,9 @@
       "quantity_today": 4580.0,
       "quantity_prior": 4580.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.001,
+      "pct_of_fund_today": 0.0011,
       "pct_of_fund_prior": 0.001,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -37,12 +37,26 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 66519.53,
-      "quantity_prior": 73330.89,
-      "quantity_pct_change": -9.2885,
-      "pct_of_fund_today": 0.0551,
-      "pct_of_fund_prior": 0.0608,
-      "pct_of_fund_change": -0.0057,
+      "quantity_today": 67689.65,
+      "quantity_prior": 66519.53,
+      "quantity_pct_change": 1.7591,
+      "pct_of_fund_today": 0.0553,
+      "pct_of_fund_prior": 0.0551,
+      "pct_of_fund_change": 0.0002,
+      "market_value_today": null
+    },
+    {
+      "ticker": "COIN6034335",
+      "name": "COINBASE GLOBAL INC SR UNSECURED 04/30 0.25",
+      "identifier": "COIN6034335",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 95000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0007,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -134,10 +148,10 @@
       "name": "ACCENDRA HEALTH INC SECURED 144A 06/33 9.75",
       "identifier": "OMI6438243",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 132167.0,
-      "quantity_prior": 132167.01,
-      "quantity_pct_change": -0.0,
+      "quantity_prior": 132167.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0007,
       "pct_of_fund_prior": 0.0007,
       "pct_of_fund_change": 0.0,
@@ -176,13 +190,13 @@
       "name": "HUGHES SATELLITE SYSTEMS SR SECURED 08/26 5.25",
       "identifier": "SATS4486279",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 75000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 75000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0005,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0.0005,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -228,20 +242,6 @@
       "market_value_today": null
     },
     {
-      "ticker": "TPGE6461626",
-      "name": "MAGNOLIA OIL GAS/MAG FIN COMPANY GUAR 144A 08/34 6.625",
-      "identifier": "TPGE6461626",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 95000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0008,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "TUU26",
       "name": "US 2YR NOTE (CBT) SEP26 XCBT 20260930",
       "identifier": "TUU26",
@@ -251,8 +251,8 @@
       "quantity_prior": 1400000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0,
-      "pct_of_fund_prior": -0.0001,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0,
+      "pct_of_fund_change": 0,
       "market_value_today": null
     },
     {
