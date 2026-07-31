@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-30",
+  "date": "2026-07-31",
   "ticker": "CGMS",
-  "prior_date": "2026-07-29",
+  "prior_date": "2026-07-30",
   "diff": [
     {
       "ticker": "AULU26",
@@ -23,12 +23,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 1992423.8,
-      "quantity_prior": 1949389.5,
-      "quantity_pct_change": 2.2076,
-      "pct_of_fund_today": 0.0373,
-      "pct_of_fund_prior": 0.0365,
-      "pct_of_fund_change": 0.0008,
+      "quantity_today": 1987783.34,
+      "quantity_prior": 1992423.8,
+      "quantity_pct_change": -0.2329,
+      "pct_of_fund_today": 0.0372,
+      "pct_of_fund_prior": 0.0373,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -41,8 +41,8 @@
       "quantity_prior": 3082.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0,
-      "pct_of_fund_prior": 0.0001,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0,
+      "pct_of_fund_change": 0,
       "market_value_today": null
     },
     {
@@ -120,13 +120,13 @@
       "name": "SYNCHRONY FINANCIAL SR UNSECURED 07/37 VAR",
       "identifier": "GE6467712",
       "sector": "",
-      "status": "changed",
-      "quantity_today": 1646000.0,
-      "quantity_prior": 685000.0,
-      "quantity_pct_change": 140.292,
-      "pct_of_fund_today": 0.0003,
-      "pct_of_fund_prior": 0.0001,
-      "pct_of_fund_change": 0.0002,
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 1646000.0,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.0003,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -166,9 +166,9 @@
       "quantity_today": 32947714.0,
       "quantity_prior": 32947714.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0021,
+      "pct_of_fund_today": 0.002,
       "pct_of_fund_prior": 0.0021,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -292,8 +292,8 @@
       "quantity_today": -165900000.0,
       "quantity_prior": -165900000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0.0001,
-      "pct_of_fund_prior": 0,
+      "pct_of_fund_today": 0.0002,
+      "pct_of_fund_prior": 0.0001,
       "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
@@ -334,8 +334,8 @@
       "quantity_today": 70400000.0,
       "quantity_prior": 70400000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0001,
-      "pct_of_fund_prior": 0,
+      "pct_of_fund_today": -0.0002,
+      "pct_of_fund_prior": -0.0001,
       "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },

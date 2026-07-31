@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-30",
+  "date": "2026-07-31",
   "ticker": "CGHY",
-  "prior_date": "2026-07-29",
+  "prior_date": "2026-07-30",
   "diff": [
     {
       "ticker": "BApA",
@@ -27,8 +27,8 @@
       "quantity_prior": 4580.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.001,
-      "pct_of_fund_prior": 0.0011,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -37,26 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 68529.73,
-      "quantity_prior": 67689.65,
-      "quantity_pct_change": 1.2411,
-      "pct_of_fund_today": 0.0561,
-      "pct_of_fund_prior": 0.0553,
-      "pct_of_fund_change": 0.0008,
-      "market_value_today": null
-    },
-    {
-      "ticker": "COIN6034335",
-      "name": "COINBASE GLOBAL INC SR UNSECURED 04/30 0.25",
-      "identifier": "COIN6034335",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 95000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": null,
+      "quantity_today": 61789.06,
+      "quantity_prior": 68529.73,
+      "quantity_pct_change": -9.8361,
+      "pct_of_fund_today": 0.0508,
+      "pct_of_fund_prior": 0.0561,
+      "pct_of_fund_change": -0.0053,
       "market_value_today": null
     },
     {
@@ -124,9 +110,9 @@
       "quantity_today": 348677.0,
       "quantity_prior": 348677.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.001,
+      "pct_of_fund_today": 0.0009,
       "pct_of_fund_prior": 0.001,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -194,23 +180,9 @@
       "quantity_today": 71502.0,
       "quantity_prior": 71502.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0015,
-      "pct_of_fund_prior": 0.0016,
-      "pct_of_fund_change": -0.0001,
-      "market_value_today": null
-    },
-    {
-      "ticker": "STX6455478",
-      "name": "SEAGATE DATA STOR COMPANY GUAR 06/29 4.091",
-      "identifier": "STX6455478",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 190000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
+      "pct_of_fund_today": 0.0016,
       "pct_of_fund_prior": 0.0015,
-      "pct_of_fund_change": null,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -223,8 +195,8 @@
       "quantity_prior": 23168.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0015,
-      "pct_of_fund_prior": 0.0016,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0015,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -250,9 +222,9 @@
       "quantity_today": 689.0,
       "quantity_prior": 689.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0006,
+      "pct_of_fund_today": 0.0005,
       "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     }
   ]
