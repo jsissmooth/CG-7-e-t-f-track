@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "ticker": "CGMU",
-  "prior_date": "2026-08-03",
+  "prior_date": "2026-08-04",
   "diff": [
     {
       "ticker": "FVU26",
@@ -12,9 +12,9 @@
       "quantity_today": 117900000.0,
       "quantity_prior": 117900000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0001,
+      "pct_of_fund_today": 0,
       "pct_of_fund_prior": -0.0001,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {

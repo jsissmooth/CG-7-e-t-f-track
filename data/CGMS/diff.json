@@ -1,8 +1,50 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "ticker": "CGMS",
-  "prior_date": "2026-08-03",
+  "prior_date": "2026-08-04",
   "diff": [
+    {
+      "ticker": "ABBV6474384",
+      "name": "ABBVIE INC SR UNSECURED 09/36 5.3",
+      "identifier": "ABBV6474384",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 1220000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0002,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
+      "ticker": "ABBV6474594",
+      "name": "ABBVIE INC SR UNSECURED 09/33 5.05",
+      "identifier": "ABBV6474594",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 1142000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0002,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
+      "ticker": "ABBV6474596",
+      "name": "ABBVIE INC SR UNSECURED 09/56 6",
+      "identifier": "ABBV6474596",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 631000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0001,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
     {
       "ticker": "AULU26",
       "name": "US ULTRA BOND CBT SEP26 XCBT 20260921",
@@ -22,13 +64,13 @@
       "name": "BAT CAPITAL CORP COMPANY GUAR 08/33 5.3",
       "identifier": "BTI6473655",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 887000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 887000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0002,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0002,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -37,12 +79,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 2292176.4,
-      "quantity_prior": 2456116.5,
-      "quantity_pct_change": -6.6748,
-      "pct_of_fund_today": 0.0425,
-      "pct_of_fund_prior": 0.0457,
-      "pct_of_fund_change": -0.0032,
+      "quantity_today": 2374864.67,
+      "quantity_prior": 2292176.4,
+      "quantity_pct_change": 3.6074,
+      "pct_of_fund_today": 0.0439,
+      "pct_of_fund_prior": 0.0425,
+      "pct_of_fund_change": 0.0014,
       "market_value_today": null
     },
     {
@@ -110,9 +152,9 @@
       "quantity_today": 504700000.0,
       "quantity_prior": 504700000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0004,
-      "pct_of_fund_prior": -0.0007,
-      "pct_of_fund_change": 0.0003,
+      "pct_of_fund_today": -0.0002,
+      "pct_of_fund_prior": -0.0004,
+      "pct_of_fund_change": 0.0002,
       "market_value_today": null
     },
     {
@@ -166,9 +208,9 @@
       "quantity_today": 12286818.0,
       "quantity_prior": 12286818.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0021,
+      "pct_of_fund_today": 0.002,
       "pct_of_fund_prior": 0.0021,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -237,8 +279,8 @@
       "quantity_prior": 147600.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0012,
-      "pct_of_fund_prior": 0.0011,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0012,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -246,13 +288,13 @@
       "name": "CONSTELLATION OIL SA SR SECURED 144A 08/33 7.7",
       "identifier": "QGOG6461587",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 3455000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 3455000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0006,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -306,9 +348,9 @@
       "quantity_today": -179900000.0,
       "quantity_prior": -179900000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0.0002,
-      "pct_of_fund_prior": 0.0004,
-      "pct_of_fund_change": -0.0002,
+      "pct_of_fund_today": 0.0001,
+      "pct_of_fund_prior": 0.0002,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -321,8 +363,8 @@
       "quantity_prior": 269000000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": -0.0001,
-      "pct_of_fund_prior": -0.0002,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": -0.0001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -348,8 +390,8 @@
       "quantity_today": 75400000.0,
       "quantity_prior": 75400000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0002,
-      "pct_of_fund_prior": -0.0003,
+      "pct_of_fund_today": -0.0001,
+      "pct_of_fund_prior": -0.0002,
       "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },

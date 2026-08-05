@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "ticker": "CGHY",
-  "prior_date": "2026-08-03",
+  "prior_date": "2026-08-04",
   "diff": [
     {
       "ticker": "BApA",
@@ -13,8 +13,8 @@
       "quantity_prior": 2000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0012,
-      "pct_of_fund_prior": 0.0011,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0012,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -27,8 +27,8 @@
       "quantity_prior": 4580.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0011,
-      "pct_of_fund_prior": 0.001,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0011,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -37,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 59053.84,
-      "quantity_prior": 62299.01,
-      "quantity_pct_change": -5.209,
-      "pct_of_fund_today": 0.0484,
-      "pct_of_fund_prior": 0.0512,
-      "pct_of_fund_change": -0.0028,
+      "quantity_today": 61724.11,
+      "quantity_prior": 59053.84,
+      "quantity_pct_change": 4.5218,
+      "pct_of_fund_today": 0.0504,
+      "pct_of_fund_prior": 0.0484,
+      "pct_of_fund_change": 0.002,
       "market_value_today": null
     },
     {
@@ -167,8 +167,8 @@
       "quantity_prior": 2400.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0009,
-      "pct_of_fund_prior": 0.0008,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0009,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -194,8 +194,8 @@
       "quantity_today": 71502.0,
       "quantity_prior": 71502.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0016,
-      "pct_of_fund_prior": 0.0015,
+      "pct_of_fund_today": 0.0017,
+      "pct_of_fund_prior": 0.0016,
       "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
