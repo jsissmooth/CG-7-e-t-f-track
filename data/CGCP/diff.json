@@ -1,20 +1,20 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "ticker": "CGCP",
-  "prior_date": "2026-08-04",
+  "prior_date": "2026-08-05",
   "diff": [
     {
       "ticker": "ABBV6474384",
       "name": "ABBVIE INC SR UNSECURED 09/36 5.3",
       "identifier": "ABBV6474384",
       "sector": "",
-      "status": "added",
-      "quantity_today": 1109000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": 0.0001,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "status": "changed",
+      "quantity_today": 2682000.0,
+      "quantity_prior": 1109000.0,
+      "quantity_pct_change": 141.8395,
+      "pct_of_fund_today": 0.0003,
+      "pct_of_fund_prior": 0.0001,
+      "pct_of_fund_change": 0.0002,
       "market_value_today": null
     },
     {
@@ -22,11 +22,25 @@
       "name": "ABBVIE INC SR UNSECURED 09/56 6",
       "identifier": "ABBV6474596",
       "sector": "",
+      "status": "changed",
+      "quantity_today": 822000.0,
+      "quantity_prior": 386000.0,
+      "quantity_pct_change": 112.9534,
+      "pct_of_fund_today": 0.0001,
+      "pct_of_fund_prior": 0,
+      "pct_of_fund_change": 0.0001,
+      "market_value_today": null
+    },
+    {
+      "ticker": "ATHU6475887",
+      "name": "ATHENE HOLDING LTD SR UNSECURED 08/36 6.15",
+      "identifier": "ATHU6475887",
+      "sector": "",
       "status": "added",
-      "quantity_today": 386000.0,
+      "quantity_today": 2278000.0,
       "quantity_prior": null,
       "quantity_pct_change": null,
-      "pct_of_fund_today": 0,
+      "pct_of_fund_today": 0.0003,
       "pct_of_fund_prior": null,
       "pct_of_fund_change": null,
       "market_value_today": null
@@ -51,12 +65,26 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 8563521.75,
-      "quantity_prior": 8486104.01,
-      "quantity_pct_change": 0.9123,
-      "pct_of_fund_today": 0.1005,
-      "pct_of_fund_prior": 0.1003,
-      "pct_of_fund_change": 0.0002,
+      "quantity_today": 8635648.96,
+      "quantity_prior": 8563521.75,
+      "quantity_pct_change": 0.8423,
+      "pct_of_fund_today": 0.1012,
+      "pct_of_fund_prior": 0.1005,
+      "pct_of_fund_change": 0.0007,
+      "market_value_today": null
+    },
+    {
+      "ticker": "ETR6474315",
+      "name": "ENTERGY CORP JR SUBORDINA 12/56 VAR",
+      "identifier": "ETR6474315",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 1133000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0001,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -97,8 +125,8 @@
       "quantity_prior": 546400000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": -0.0001,
-      "pct_of_fund_prior": -0.0003,
-      "pct_of_fund_change": 0.0002,
+      "pct_of_fund_prior": -0.0001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -167,8 +195,8 @@
       "quantity_prior": 4924170.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0005,
-      "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0005,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -181,8 +209,8 @@
       "quantity_prior": 7218425.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0005,
-      "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0005,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -214,20 +242,6 @@
       "market_value_today": null
     },
     {
-      "ticker": "QGOG6461587",
-      "name": "CONSTELLATION OIL SA SR SECURED 144A 08/33 7.7",
-      "identifier": "QGOG6461587",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 2460000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "SVC",
       "name": "SERVICE PROPERTIES TRUST REIT USD.01",
       "identifier": "SVC",
@@ -250,9 +264,9 @@
       "quantity_today": -644100000.0,
       "quantity_prior": -644100000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0.0003,
-      "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": -0.0004,
+      "pct_of_fund_today": 0.0002,
+      "pct_of_fund_prior": 0.0003,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -264,9 +278,9 @@
       "quantity_today": 3358400000.0,
       "quantity_prior": 3358400000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0006,
-      "pct_of_fund_prior": -0.001,
-      "pct_of_fund_change": 0.0004,
+      "pct_of_fund_today": -0.0004,
+      "pct_of_fund_prior": -0.0006,
+      "pct_of_fund_change": 0.0002,
       "market_value_today": null
     },
     {
@@ -279,8 +293,8 @@
       "quantity_prior": 299200000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": -0.0001,
-      "pct_of_fund_prior": -0.0003,
-      "pct_of_fund_change": 0.0002,
+      "pct_of_fund_prior": -0.0001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -293,8 +307,8 @@
       "quantity_prior": 24500000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0,
-      "pct_of_fund_prior": -0.0001,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0,
+      "pct_of_fund_change": 0,
       "market_value_today": null
     },
     {
