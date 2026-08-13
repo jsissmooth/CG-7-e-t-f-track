@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "ticker": "CGMU",
-  "prior_date": "2026-08-11",
+  "prior_date": "2026-08-12",
   "diff": [
     {
       "ticker": "FVU26",
@@ -15,20 +15,6 @@
       "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0,
       "pct_of_fund_change": 0,
-      "market_value_today": null
-    },
-    {
-      "ticker": "TUU26",
-      "name": "US 2YR NOTE (CBT) SEP26 XCBT 20260930",
-      "identifier": "TUU26",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 20000000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": null,
       "market_value_today": null
     }
   ]
