@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "ticker": "CGHY",
-  "prior_date": "2026-08-12",
+  "prior_date": "2026-08-13",
   "diff": [
     {
       "ticker": "BApA",
@@ -37,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 45544.07,
-      "quantity_prior": 41883.71,
-      "quantity_pct_change": 8.7393,
-      "pct_of_fund_today": 0.0363,
-      "pct_of_fund_prior": 0.0334,
-      "pct_of_fund_change": 0.0029,
+      "quantity_today": 42823.8,
+      "quantity_prior": 45544.07,
+      "quantity_pct_change": -5.9728,
+      "pct_of_fund_today": 0.0341,
+      "pct_of_fund_prior": 0.0363,
+      "pct_of_fund_change": -0.0022,
       "market_value_today": null
     },
     {
@@ -64,13 +64,13 @@
       "name": "DIGITAL REALTY TRUST LP COMPANY GUAR 144A 11/29 1.875",
       "identifier": "DLR5936409",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 170000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 170000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0015,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0015,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -78,13 +78,13 @@
       "name": "DUKE ENERGY CORP PREFERRED STOCK 08/29 7.75",
       "identifier": "DUUKU",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 3700.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 3700.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0015,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0015,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -130,31 +130,17 @@
       "market_value_today": null
     },
     {
-      "ticker": "KEHE6475957",
-      "name": "KEHE DIST/FIN / NEXTWAVE SR SECURED 144A 08/34 7",
-      "identifier": "KEHE6475957",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 220000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0018,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "MGLL6111140",
       "name": "DISCOVERY HOLDINGS INC COMPANY GUAR 03/32 4.279",
       "identifier": "MGLL6111140",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 145000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 145000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.001,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -209,8 +195,8 @@
       "quantity_prior": 294265.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0017,
-      "pct_of_fund_prior": 0.0019,
-      "pct_of_fund_change": -0.0002,
+      "pct_of_fund_prior": 0.0017,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -274,13 +260,13 @@
       "name": "HUGHES SATELLITE SYSTEMS SR SECURED 08/26 5.25",
       "identifier": "SATS4486279",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 75000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 75000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0005,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0005,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -306,9 +292,9 @@
       "quantity_today": 23168.0,
       "quantity_prior": 23168.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0016,
-      "pct_of_fund_prior": 0.0015,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": 0.0015,
+      "pct_of_fund_prior": 0.0016,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -344,13 +330,13 @@
       "name": "WELLTOWER OP LLC COMPANY GUAR 144A 05/28 2.75",
       "identifier": "WLTR5585487",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 79000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 79000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0015,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0015,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     }
   ]
