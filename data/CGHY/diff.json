@@ -1,8 +1,22 @@
 {
-  "date": "2026-08-14",
+  "date": "2026-08-17",
   "ticker": "CGHY",
-  "prior_date": "2026-08-13",
+  "prior_date": "2026-08-14",
   "diff": [
+    {
+      "ticker": "ALLVF6195589",
+      "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
+      "identifier": "ALLVF6195589",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 267387.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0021,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
     {
       "ticker": "BApA",
       "name": "BOEING CO/THE PREFERRED STOCK 10/27 6",
@@ -37,12 +51,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 42823.8,
-      "quantity_prior": 45544.07,
-      "quantity_pct_change": -5.9728,
-      "pct_of_fund_today": 0.0341,
-      "pct_of_fund_prior": 0.0363,
-      "pct_of_fund_change": -0.0022,
+      "quantity_today": 45383.55,
+      "quantity_prior": 42823.8,
+      "quantity_pct_change": 5.9774,
+      "pct_of_fund_today": 0.0361,
+      "pct_of_fund_prior": 0.0341,
+      "pct_of_fund_change": 0.002,
       "market_value_today": null
     },
     {
@@ -293,8 +307,8 @@
       "quantity_prior": 23168.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0015,
-      "pct_of_fund_prior": 0.0016,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0015,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -326,6 +340,20 @@
       "market_value_today": null
     },
     {
+      "ticker": "VVV6485114",
+      "name": "VALVOLINE INC COMPANY GUAR 144A 08/34 6.125",
+      "identifier": "VVV6485114",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 200000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0016,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
       "ticker": "WLTR5585487",
       "name": "WELLTOWER OP LLC COMPANY GUAR 144A 05/28 2.75",
       "identifier": "WLTR5585487",
@@ -334,9 +362,9 @@
       "quantity_today": 79000.0,
       "quantity_prior": 79000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0015,
+      "pct_of_fund_today": 0.0016,
       "pct_of_fund_prior": 0.0015,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     }
   ]
