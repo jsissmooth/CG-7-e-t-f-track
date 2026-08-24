@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-24",
   "ticker": "CGHM",
-  "prior_date": "2026-08-20",
+  "prior_date": "2026-08-21",
   "diff": [
     {
       "ticker": "FVU26",
@@ -9,9 +9,9 @@
       "identifier": "FVU26",
       "sector": "",
       "status": "changed",
-      "quantity_today": 4600000.0,
-      "quantity_prior": 5600000.0,
-      "quantity_pct_change": -17.8571,
+      "quantity_today": 3800000.0,
+      "quantity_prior": 4600000.0,
+      "quantity_pct_change": -17.3913,
       "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0,
       "pct_of_fund_change": 0,
@@ -22,13 +22,13 @@
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
       "sector": "",
-      "status": "added",
-      "quantity_today": 900000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "status": "changed",
+      "quantity_today": 1700000.0,
+      "quantity_prior": 900000.0,
+      "quantity_pct_change": 88.8889,
       "pct_of_fund_today": 0,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0,
+      "pct_of_fund_change": 0,
       "market_value_today": null
     }
   ]
