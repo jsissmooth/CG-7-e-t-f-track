@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "ticker": "CGHY",
-  "prior_date": "2026-08-25",
+  "prior_date": "2026-08-26",
   "diff": [
     {
       "ticker": "ALLVF6195589",
@@ -51,12 +51,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 39692.89,
-      "quantity_prior": 43413.26,
-      "quantity_pct_change": -8.5697,
-      "pct_of_fund_today": 0.0304,
-      "pct_of_fund_prior": 0.0334,
-      "pct_of_fund_change": -0.003,
+      "quantity_today": 40442.96,
+      "quantity_prior": 39692.89,
+      "quantity_pct_change": 1.8897,
+      "pct_of_fund_today": 0.031,
+      "pct_of_fund_prior": 0.0304,
+      "pct_of_fund_change": 0.0006,
       "market_value_today": null
     },
     {
@@ -78,13 +78,13 @@
       "name": "US 5YR NOTE (CBT) SEP26 XCBT 20260930",
       "identifier": "FVU26",
       "sector": "",
-      "status": "changed",
-      "quantity_today": 100000.0,
-      "quantity_prior": 300000.0,
-      "quantity_pct_change": -66.6667,
-      "pct_of_fund_today": 0,
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 100000.0,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0,
-      "pct_of_fund_change": 0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -93,9 +93,9 @@
       "identifier": "FVZ26",
       "sector": "",
       "status": "changed",
-      "quantity_today": 500000.0,
-      "quantity_prior": 300000.0,
-      "quantity_pct_change": 66.6667,
+      "quantity_today": 600000.0,
+      "quantity_prior": 500000.0,
+      "quantity_pct_change": 20.0,
       "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0,
       "pct_of_fund_change": 0,
@@ -152,9 +152,9 @@
       "quantity_today": 3600.0,
       "quantity_prior": 3600.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0015,
-      "pct_of_fund_prior": 0.0014,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": 0.0014,
+      "pct_of_fund_prior": 0.0015,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -194,9 +194,9 @@
       "quantity_today": 2400.0,
       "quantity_prior": 2400.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0008,
+      "pct_of_fund_today": 0.0009,
       "pct_of_fund_prior": 0.0008,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -208,9 +208,9 @@
       "quantity_today": 98000.0,
       "quantity_prior": 98000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0003,
+      "pct_of_fund_today": 0.0004,
       "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -260,13 +260,13 @@
       "name": "US 2YR NOTE (CBT) SEP26 XCBT 20260930",
       "identifier": "TUU26",
       "sector": "",
-      "status": "changed",
-      "quantity_today": 200000.0,
-      "quantity_prior": 800000.0,
-      "quantity_pct_change": -75.0,
-      "pct_of_fund_today": 0,
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 200000.0,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0,
-      "pct_of_fund_change": 0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -275,9 +275,9 @@
       "identifier": "TUZ26",
       "sector": "",
       "status": "changed",
-      "quantity_today": 1000000.0,
-      "quantity_prior": 600000.0,
-      "quantity_pct_change": 66.6667,
+      "quantity_today": 1200000.0,
+      "quantity_prior": 1000000.0,
+      "quantity_pct_change": 20.0,
       "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0,
       "pct_of_fund_change": 0,
@@ -295,6 +295,20 @@
       "pct_of_fund_today": 0.0005,
       "pct_of_fund_prior": 0.0005,
       "pct_of_fund_change": 0.0,
+      "market_value_today": null
+    },
+    {
+      "ticker": "WLTR5585487",
+      "name": "WELLTOWER OP LLC COMPANY GUAR 144A 05/28 2.75",
+      "identifier": "WLTR5585487",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 79000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0015,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     }
   ]
