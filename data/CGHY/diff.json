@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-31",
   "ticker": "CGHY",
-  "prior_date": "2026-08-27",
+  "prior_date": "2026-08-28",
   "diff": [
     {
       "ticker": "ALLVF6195589",
@@ -51,12 +51,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 41193.04,
-      "quantity_prior": 40442.96,
-      "quantity_pct_change": 1.8547,
-      "pct_of_fund_today": 0.0316,
-      "pct_of_fund_prior": 0.031,
-      "pct_of_fund_change": 0.0006,
+      "quantity_today": 39953.16,
+      "quantity_prior": 41193.04,
+      "quantity_pct_change": -3.0099,
+      "pct_of_fund_today": 0.0308,
+      "pct_of_fund_prior": 0.0316,
+      "pct_of_fund_change": -0.0008,
       "market_value_today": null
     },
     {
@@ -113,6 +113,20 @@
       "pct_of_fund_today": 0.0006,
       "pct_of_fund_prior": 0.0006,
       "pct_of_fund_change": 0.0,
+      "market_value_today": null
+    },
+    {
+      "ticker": "GTN5818151",
+      "name": "GRAY MEDIA INC SR SECURED 144A 07/29 10.5",
+      "identifier": "GTN5818151",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 94000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0008,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -267,20 +281,6 @@
       "pct_of_fund_today": 0.0005,
       "pct_of_fund_prior": 0.0005,
       "pct_of_fund_change": 0.0,
-      "market_value_today": null
-    },
-    {
-      "ticker": "WLTR5585487",
-      "name": "WELLTOWER OP LLC COMPANY GUAR 144A 05/28 2.75",
-      "identifier": "WLTR5585487",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 79000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0015,
-      "pct_of_fund_change": null,
       "market_value_today": null
     }
   ]
