@@ -1,20 +1,20 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "ticker": "CGIE",
-  "prior_date": "2026-08-28",
+  "prior_date": "2026-08-31",
   "diff": [
     {
       "ticker": "1299",
       "name": "AIA GROUP LTD COMMON STOCK",
       "identifier": "1299",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 2481000.0,
-      "quantity_prior": 2397400.0,
-      "quantity_pct_change": 3.4871,
-      "pct_of_fund_today": 0.0096,
-      "pct_of_fund_prior": 0.0092,
-      "pct_of_fund_change": 0.0004,
+      "quantity_prior": 2481000.0,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": 0.0097,
+      "pct_of_fund_prior": 0.0096,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -22,13 +22,13 @@
       "name": "HONG KONG EXCHANGES + CLEAR COMMON STOCK",
       "identifier": "388",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 780600.0,
-      "quantity_prior": 769400.0,
-      "quantity_pct_change": 1.4557,
-      "pct_of_fund_today": 0.0169,
-      "pct_of_fund_prior": 0.0166,
-      "pct_of_fund_change": 0.0003,
+      "quantity_prior": 780600.0,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": 0.0167,
+      "pct_of_fund_prior": 0.0169,
+      "pct_of_fund_change": -0.0002,
       "market_value_today": null
     },
     {
@@ -40,9 +40,9 @@
       "quantity_today": 355500.0,
       "quantity_prior": 355500.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0053,
-      "pct_of_fund_prior": 0.0054,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.0054,
+      "pct_of_fund_prior": 0.0053,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -50,13 +50,13 @@
       "name": "CHUGAI PHARMACEUTICAL CO LTD COMMON STOCK",
       "identifier": "4519",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 602300.0,
-      "quantity_prior": 592700.0,
-      "quantity_pct_change": 1.6197,
-      "pct_of_fund_today": 0.0106,
-      "pct_of_fund_prior": 0.0104,
-      "pct_of_fund_change": 0.0002,
+      "quantity_prior": 602300.0,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": 0.0105,
+      "pct_of_fund_prior": 0.0106,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -68,9 +68,9 @@
       "quantity_today": 472200.0,
       "quantity_prior": 472200.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.021,
-      "pct_of_fund_prior": 0.0202,
-      "pct_of_fund_change": 0.0008,
+      "pct_of_fund_today": 0.0216,
+      "pct_of_fund_prior": 0.021,
+      "pct_of_fund_change": 0.0006,
       "market_value_today": null
     },
     {
@@ -78,13 +78,13 @@
       "name": "DISCO CORP COMMON STOCK",
       "identifier": "6146",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 28800.0,
-      "quantity_prior": 28100.0,
-      "quantity_pct_change": 2.4911,
-      "pct_of_fund_today": 0.0043,
-      "pct_of_fund_prior": 0.0042,
-      "pct_of_fund_change": 0.0001,
+      "quantity_prior": 28800.0,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": 0.0042,
+      "pct_of_fund_prior": 0.0043,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -96,9 +96,9 @@
       "quantity_today": 117000.0,
       "quantity_prior": 117000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0061,
+      "pct_of_fund_today": 0.0062,
       "pct_of_fund_prior": 0.0061,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -106,13 +106,13 @@
       "name": "HITACHI LTD COMMON STOCK",
       "identifier": "6501",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 1234200.0,
-      "quantity_prior": 1202100.0,
-      "quantity_pct_change": 2.6703,
-      "pct_of_fund_today": 0.0171,
-      "pct_of_fund_prior": 0.0164,
-      "pct_of_fund_change": 0.0007,
+      "quantity_prior": 1234200.0,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": 0.0169,
+      "pct_of_fund_prior": 0.0171,
+      "pct_of_fund_change": -0.0002,
       "market_value_today": null
     },
     {
@@ -120,13 +120,13 @@
       "name": "MITSUBISHI ELECTRIC CORP COMMON STOCK",
       "identifier": "6503",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 517200.0,
-      "quantity_prior": 482600.0,
-      "quantity_pct_change": 7.1695,
+      "quantity_prior": 517200.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0073,
-      "pct_of_fund_prior": 0.0068,
-      "pct_of_fund_change": 0.0005,
+      "pct_of_fund_prior": 0.0073,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -139,8 +139,8 @@
       "quantity_prior": 572900.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0056,
-      "pct_of_fund_prior": 0.0054,
-      "pct_of_fund_change": 0.0002,
+      "pct_of_fund_prior": 0.0056,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -152,9 +152,9 @@
       "quantity_today": 562200.0,
       "quantity_prior": 562200.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0062,
+      "pct_of_fund_today": 0.0064,
       "pct_of_fund_prior": 0.0062,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0002,
       "market_value_today": null
     },
     {
@@ -162,13 +162,13 @@
       "name": "SONY GROUP CORP COMMON STOCK",
       "identifier": "6758",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 1271600.0,
-      "quantity_prior": 1244900.0,
-      "quantity_pct_change": 2.1448,
-      "pct_of_fund_today": 0.0125,
-      "pct_of_fund_prior": 0.0121,
-      "pct_of_fund_change": 0.0004,
+      "quantity_prior": 1271600.0,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": 0.0128,
+      "pct_of_fund_prior": 0.0125,
+      "pct_of_fund_change": 0.0003,
       "market_value_today": null
     },
     {
@@ -176,13 +176,13 @@
       "name": "KEYENCE CORP COMMON STOCK",
       "identifier": "6861",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 58400.0,
-      "quantity_prior": 54300.0,
-      "quantity_pct_change": 7.5506,
-      "pct_of_fund_today": 0.0121,
-      "pct_of_fund_prior": 0.0112,
-      "pct_of_fund_change": 0.0009,
+      "quantity_prior": 58400.0,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": 0.0123,
+      "pct_of_fund_prior": 0.0121,
+      "pct_of_fund_change": 0.0002,
       "market_value_today": null
     },
     {
@@ -195,8 +195,8 @@
       "quantity_prior": 284500.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0066,
-      "pct_of_fund_prior": 0.0065,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0066,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -204,13 +204,13 @@
       "name": "JAPAN POST BANK CO LTD COMMON STOCK",
       "identifier": "7182",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 1238100.0,
-      "quantity_prior": 1145700.0,
-      "quantity_pct_change": 8.0649,
-      "pct_of_fund_today": 0.0103,
-      "pct_of_fund_prior": 0.0095,
-      "pct_of_fund_change": 0.0008,
+      "quantity_prior": 1238100.0,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": 0.0106,
+      "pct_of_fund_prior": 0.0103,
+      "pct_of_fund_change": 0.0003,
       "market_value_today": null
     },
     {
@@ -222,9 +222,9 @@
       "quantity_today": 119600.0,
       "quantity_prior": 119600.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0073,
-      "pct_of_fund_prior": 0.0074,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.0074,
+      "pct_of_fund_prior": 0.0073,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -232,13 +232,13 @@
       "name": "NINTENDO CO LTD COMMON STOCK",
       "identifier": "7974",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 426100.0,
-      "quantity_prior": 360900.0,
-      "quantity_pct_change": 18.0659,
-      "pct_of_fund_today": 0.0096,
-      "pct_of_fund_prior": 0.0079,
-      "pct_of_fund_change": 0.0017,
+      "quantity_prior": 426100.0,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": 0.0097,
+      "pct_of_fund_prior": 0.0096,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -264,9 +264,9 @@
       "quantity_today": 547900.0,
       "quantity_prior": 547900.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0067,
-      "pct_of_fund_prior": 0.0068,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.0068,
+      "pct_of_fund_prior": 0.0067,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -274,12 +274,12 @@
       "name": "TOKYO ELECTRON LTD COMMON STOCK",
       "identifier": "8035",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 104300.0,
-      "quantity_prior": 103500.0,
-      "quantity_pct_change": 0.7729,
-      "pct_of_fund_today": 0.0147,
-      "pct_of_fund_prior": 0.0146,
+      "quantity_prior": 104300.0,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": 0.0148,
+      "pct_of_fund_prior": 0.0147,
       "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
@@ -288,13 +288,13 @@
       "name": "MITSUBISHI CORP COMMON STOCK",
       "identifier": "8058",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 1313300.0,
-      "quantity_prior": 1277700.0,
-      "quantity_pct_change": 2.7863,
-      "pct_of_fund_today": 0.0157,
-      "pct_of_fund_prior": 0.0152,
-      "pct_of_fund_change": 0.0005,
+      "quantity_prior": 1313300.0,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": 0.0159,
+      "pct_of_fund_prior": 0.0157,
+      "pct_of_fund_change": 0.0002,
       "market_value_today": null
     },
     {
@@ -306,9 +306,9 @@
       "quantity_today": 3040900.0,
       "quantity_prior": 3040900.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0191,
-      "pct_of_fund_prior": 0.0187,
-      "pct_of_fund_change": 0.0004,
+      "pct_of_fund_today": 0.0193,
+      "pct_of_fund_prior": 0.0191,
+      "pct_of_fund_change": 0.0002,
       "market_value_today": null
     },
     {
@@ -316,13 +316,13 @@
       "name": "TOKIO MARINE HOLDINGS INC COMMON STOCK",
       "identifier": "8766",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 564000.0,
-      "quantity_prior": 550500.0,
-      "quantity_pct_change": 2.4523,
+      "quantity_prior": 564000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0109,
-      "pct_of_fund_prior": 0.0106,
-      "pct_of_fund_change": 0.0003,
+      "pct_of_fund_prior": 0.0109,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -330,13 +330,13 @@
       "name": "SK HYNIX INC COMMON STOCK KRW5000.0",
       "identifier": "A000660",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 17781.0,
-      "quantity_prior": 17581.0,
-      "quantity_pct_change": 1.1376,
-      "pct_of_fund_today": 0.0086,
-      "pct_of_fund_prior": 0.0088,
-      "pct_of_fund_change": -0.0002,
+      "quantity_prior": 17781.0,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": 0.0087,
+      "pct_of_fund_prior": 0.0086,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -348,9 +348,9 @@
       "quantity_today": 367799.0,
       "quantity_prior": 367799.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0146,
+      "pct_of_fund_today": 0.0144,
       "pct_of_fund_prior": 0.0146,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0002,
       "market_value_today": null
     },
     {
@@ -363,8 +363,8 @@
       "quantity_prior": 283750.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.009,
-      "pct_of_fund_prior": 0.0089,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.009,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -376,9 +376,9 @@
       "quantity_today": 214261.0,
       "quantity_prior": 214261.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0202,
-      "pct_of_fund_prior": 0.0204,
-      "pct_of_fund_change": -0.0002,
+      "pct_of_fund_today": 0.0197,
+      "pct_of_fund_prior": 0.0202,
+      "pct_of_fund_change": -0.0005,
       "market_value_today": null
     },
     {
@@ -390,9 +390,9 @@
       "quantity_today": 478325.0,
       "quantity_prior": 478325.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0129,
-      "pct_of_fund_prior": 0.013,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.013,
+      "pct_of_fund_prior": 0.0129,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -418,9 +418,9 @@
       "quantity_today": 69415.0,
       "quantity_prior": 69415.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0482,
+      "pct_of_fund_today": 0.047,
       "pct_of_fund_prior": 0.0482,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0012,
       "market_value_today": null
     },
     {
@@ -433,8 +433,8 @@
       "quantity_prior": 239847.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0156,
-      "pct_of_fund_prior": 0.0158,
-      "pct_of_fund_change": -0.0002,
+      "pct_of_fund_prior": 0.0156,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -442,13 +442,13 @@
       "name": "BARRICK MINING CORP COMMON STOCK",
       "identifier": "B",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 710256.0,
+      "status": "changed",
+      "quantity_today": 715734.0,
       "quantity_prior": 710256.0,
-      "quantity_pct_change": 0.0,
+      "quantity_pct_change": 0.7713,
       "pct_of_fund_today": 0.0129,
-      "pct_of_fund_prior": 0.0135,
-      "pct_of_fund_change": -0.0006,
+      "pct_of_fund_prior": 0.0129,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -460,9 +460,9 @@
       "quantity_today": 1650897.0,
       "quantity_prior": 1650897.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0183,
-      "pct_of_fund_prior": 0.0188,
-      "pct_of_fund_change": -0.0005,
+      "pct_of_fund_today": 0.0184,
+      "pct_of_fund_prior": 0.0183,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -474,9 +474,9 @@
       "quantity_today": 559393.0,
       "quantity_prior": 559393.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0125,
-      "pct_of_fund_prior": 0.0127,
-      "pct_of_fund_change": -0.0002,
+      "pct_of_fund_today": 0.0126,
+      "pct_of_fund_prior": 0.0125,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -489,8 +489,8 @@
       "quantity_prior": 1228610.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0143,
-      "pct_of_fund_prior": 0.0142,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0143,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -503,8 +503,8 @@
       "quantity_prior": 281733.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0084,
-      "pct_of_fund_prior": 0.0085,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0084,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -512,13 +512,13 @@
       "name": "BNP PARIBAS COMMON STOCK EUR2.0",
       "identifier": "BNP",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 255666.0,
+      "status": "changed",
+      "quantity_today": 291848.0,
       "quantity_prior": 255666.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0122,
-      "pct_of_fund_prior": 0.012,
-      "pct_of_fund_change": 0.0002,
+      "quantity_pct_change": 14.1521,
+      "pct_of_fund_today": 0.014,
+      "pct_of_fund_prior": 0.0122,
+      "pct_of_fund_change": 0.0018,
       "market_value_today": null
     },
     {
@@ -527,12 +527,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 650792.24,
-      "quantity_prior": 683778.94,
-      "quantity_pct_change": -4.8242,
-      "pct_of_fund_today": 0.0261,
-      "pct_of_fund_prior": 0.0274,
-      "pct_of_fund_change": -0.0013,
+      "quantity_today": 648321.99,
+      "quantity_prior": 650792.24,
+      "quantity_pct_change": -0.3796,
+      "pct_of_fund_today": 0.026,
+      "pct_of_fund_prior": 0.0261,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -544,9 +544,9 @@
       "quantity_today": 687200.0,
       "quantity_prior": 687200.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0164,
+      "pct_of_fund_today": 0.0168,
       "pct_of_fund_prior": 0.0164,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0004,
       "market_value_today": null
     },
     {
@@ -558,9 +558,9 @@
       "quantity_today": 94419.0,
       "quantity_prior": 94419.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0128,
-      "pct_of_fund_prior": 0.0127,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": 0.0127,
+      "pct_of_fund_prior": 0.0128,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -568,13 +568,13 @@
       "name": "DSV A/S COMMON STOCK DKK1.0",
       "identifier": "DSV",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 176161.0,
+      "status": "changed",
+      "quantity_today": 177342.0,
       "quantity_prior": 176161.0,
-      "quantity_pct_change": 0.0,
+      "quantity_pct_change": 0.6704,
       "pct_of_fund_today": 0.015,
-      "pct_of_fund_prior": 0.0149,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.015,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -586,8 +586,8 @@
       "quantity_today": 1785971.0,
       "quantity_prior": 1785971.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0203,
-      "pct_of_fund_prior": 0.0201,
+      "pct_of_fund_today": 0.0205,
+      "pct_of_fund_prior": 0.0203,
       "pct_of_fund_change": 0.0002,
       "market_value_today": null
     },
@@ -596,13 +596,13 @@
       "name": "EURONEXT NV COMMON STOCK EUR1.6",
       "identifier": "ENX",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 236021.0,
+      "status": "changed",
+      "quantity_today": 230594.0,
       "quantity_prior": 236021.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.018,
-      "pct_of_fund_prior": 0.0182,
-      "pct_of_fund_change": -0.0002,
+      "quantity_pct_change": -2.2994,
+      "pct_of_fund_today": 0.0175,
+      "pct_of_fund_prior": 0.018,
+      "pct_of_fund_change": -0.0005,
       "market_value_today": null
     },
     {
@@ -629,8 +629,8 @@
       "quantity_prior": 502277.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0099,
-      "pct_of_fund_prior": 0.0101,
-      "pct_of_fund_change": -0.0002,
+      "pct_of_fund_prior": 0.0099,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -670,9 +670,9 @@
       "quantity_today": 522755.0,
       "quantity_prior": 522755.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0142,
-      "pct_of_fund_prior": 0.0141,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": 0.0141,
+      "pct_of_fund_prior": 0.0142,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -684,9 +684,9 @@
       "quantity_today": 198712.0,
       "quantity_prior": 198712.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0094,
-      "pct_of_fund_prior": 0.0097,
-      "pct_of_fund_change": -0.0003,
+      "pct_of_fund_today": 0.0095,
+      "pct_of_fund_prior": 0.0094,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -694,13 +694,13 @@
       "name": "LVMH MOET HENNESSY LOUIS VUI COMMON STOCK EUR.3",
       "identifier": "MC",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 84640.0,
+      "status": "changed",
+      "quantity_today": 85347.0,
       "quantity_prior": 84640.0,
-      "quantity_pct_change": 0.0,
+      "quantity_pct_change": 0.8353,
       "pct_of_fund_today": 0.018,
-      "pct_of_fund_prior": 0.0177,
-      "pct_of_fund_change": 0.0003,
+      "pct_of_fund_prior": 0.018,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -712,23 +712,9 @@
       "quantity_today": 9698.0,
       "quantity_prior": 9698.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0076,
-      "pct_of_fund_prior": 0.0075,
-      "pct_of_fund_change": 0.0001,
-      "market_value_today": null
-    },
-    {
-      "ticker": "MTX",
-      "name": "MTU AERO ENGINES AG COMMON STOCK",
-      "identifier": "MTX",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 30466.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0051,
-      "pct_of_fund_change": null,
+      "pct_of_fund_today": 0.0075,
+      "pct_of_fund_prior": 0.0076,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -740,9 +726,9 @@
       "quantity_today": 239619.0,
       "quantity_prior": 239619.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0093,
-      "pct_of_fund_prior": 0.0094,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.0094,
+      "pct_of_fund_prior": 0.0093,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -754,9 +740,9 @@
       "quantity_today": 553872.0,
       "quantity_prior": 553872.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0102,
+      "pct_of_fund_today": 0.0101,
       "pct_of_fund_prior": 0.0102,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -782,8 +768,8 @@
       "quantity_today": 40021.0,
       "quantity_prior": 40021.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0059,
-      "pct_of_fund_prior": 0.006,
+      "pct_of_fund_today": 0.0058,
+      "pct_of_fund_prior": 0.0059,
       "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
@@ -792,13 +778,13 @@
       "name": "L OREAL COMMON STOCK EUR.2",
       "identifier": "OR",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 81167.0,
+      "status": "changed",
+      "quantity_today": 82027.0,
       "quantity_prior": 81167.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0146,
+      "quantity_pct_change": 1.0595,
+      "pct_of_fund_today": 0.0147,
       "pct_of_fund_prior": 0.0146,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -810,9 +796,9 @@
       "quantity_today": 437285.0,
       "quantity_prior": 437285.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0063,
+      "pct_of_fund_today": 0.0064,
       "pct_of_fund_prior": 0.0063,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -820,13 +806,13 @@
       "name": "RHEINMETALL AG COMMON STOCK",
       "identifier": "RHM",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 9508.0,
+      "status": "changed",
+      "quantity_today": 9907.0,
       "quantity_prior": 9508.0,
-      "quantity_pct_change": 0.0,
+      "quantity_pct_change": 4.1965,
       "pct_of_fund_today": 0.0051,
-      "pct_of_fund_prior": 0.0052,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0051,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -838,9 +824,9 @@
       "quantity_today": 3065670.0,
       "quantity_prior": 3065670.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0254,
-      "pct_of_fund_prior": 0.0256,
-      "pct_of_fund_change": -0.0002,
+      "pct_of_fund_today": 0.0255,
+      "pct_of_fund_prior": 0.0254,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -853,8 +839,8 @@
       "quantity_prior": 719784.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0197,
-      "pct_of_fund_prior": 0.0194,
-      "pct_of_fund_change": 0.0003,
+      "pct_of_fund_prior": 0.0197,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -862,13 +848,13 @@
       "name": "RYANAIR HOLDINGS PLC SP ADR ADR",
       "identifier": "RYAAY",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 507776.0,
+      "status": "changed",
+      "quantity_today": 513615.0,
       "quantity_prior": 507776.0,
-      "quantity_pct_change": 0.0,
+      "quantity_pct_change": 1.1499,
       "pct_of_fund_today": 0.0114,
-      "pct_of_fund_prior": 0.0113,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0114,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -880,9 +866,9 @@
       "quantity_today": 129476.0,
       "quantity_prior": 129476.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0207,
-      "pct_of_fund_prior": 0.0208,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.0204,
+      "pct_of_fund_prior": 0.0207,
+      "pct_of_fund_change": -0.0003,
       "market_value_today": null
     },
     {
@@ -895,8 +881,8 @@
       "quantity_prior": 2300408.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0136,
-      "pct_of_fund_prior": 0.0135,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0136,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -908,9 +894,9 @@
       "quantity_today": 262911.0,
       "quantity_prior": 262911.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0233,
+      "pct_of_fund_today": 0.0234,
       "pct_of_fund_prior": 0.0233,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -922,9 +908,9 @@
       "quantity_today": 2568118.0,
       "quantity_prior": 2568118.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0239,
-      "pct_of_fund_prior": 0.024,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.0242,
+      "pct_of_fund_prior": 0.0239,
+      "pct_of_fund_change": 0.0003,
       "market_value_today": null
     },
     {
@@ -936,8 +922,8 @@
       "quantity_today": 235609.0,
       "quantity_prior": 235609.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0087,
-      "pct_of_fund_prior": 0.0088,
+      "pct_of_fund_today": 0.0086,
+      "pct_of_fund_prior": 0.0087,
       "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
@@ -950,9 +936,9 @@
       "quantity_today": 215022.0,
       "quantity_prior": 215022.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0132,
-      "pct_of_fund_prior": 0.0133,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.0127,
+      "pct_of_fund_prior": 0.0132,
+      "pct_of_fund_change": -0.0005,
       "market_value_today": null
     },
     {
@@ -964,9 +950,9 @@
       "quantity_today": 103519.0,
       "quantity_prior": 103519.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0139,
+      "pct_of_fund_today": 0.0138,
       "pct_of_fund_prior": 0.0139,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -992,9 +978,9 @@
       "quantity_today": 96851.0,
       "quantity_prior": 96851.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0136,
-      "pct_of_fund_prior": 0.0135,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": 0.0133,
+      "pct_of_fund_prior": 0.0136,
+      "pct_of_fund_change": -0.0003,
       "market_value_today": null
     },
     {
@@ -1006,9 +992,9 @@
       "quantity_today": 138674.0,
       "quantity_prior": 138674.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0232,
-      "pct_of_fund_prior": 0.0238,
-      "pct_of_fund_change": -0.0006,
+      "pct_of_fund_today": 0.0231,
+      "pct_of_fund_prior": 0.0232,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -1020,9 +1006,9 @@
       "quantity_today": 765639.0,
       "quantity_prior": 765639.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0265,
-      "pct_of_fund_prior": 0.0266,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.027,
+      "pct_of_fund_prior": 0.0265,
+      "pct_of_fund_change": 0.0005,
       "market_value_today": null
     },
     {
@@ -1035,8 +1021,8 @@
       "quantity_prior": 552105.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0217,
-      "pct_of_fund_prior": 0.0215,
-      "pct_of_fund_change": 0.0002,
+      "pct_of_fund_prior": 0.0217,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     }
   ]
