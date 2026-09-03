@@ -1,22 +1,8 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "ticker": "CGMS",
-  "prior_date": "2026-09-01",
+  "prior_date": "2026-09-02",
   "diff": [
-    {
-      "ticker": "ALLVF6195589",
-      "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
-      "identifier": "ALLVF6195589",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 6339736.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0011,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
     {
       "ticker": "AULZ26",
       "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
@@ -27,8 +13,8 @@
       "quantity_prior": 28900000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": -0.0001,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": -0.0001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -36,13 +22,13 @@
       "name": "SM ENERGY CO COMPANY GUAR 144A 07/28 8.375",
       "identifier": "CIVI5606956",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 2526000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 2526000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0005,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0.0005,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -51,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 2226646.56,
-      "quantity_prior": 2420179.12,
-      "quantity_pct_change": -7.9966,
-      "pct_of_fund_today": 0.041,
-      "pct_of_fund_prior": 0.0445,
-      "pct_of_fund_change": -0.0035,
+      "quantity_today": 2244608.36,
+      "quantity_prior": 2226646.56,
+      "quantity_pct_change": 0.8067,
+      "pct_of_fund_today": 0.0413,
+      "pct_of_fund_prior": 0.041,
+      "pct_of_fund_change": 0.0003,
       "market_value_today": null
     },
     {
@@ -78,13 +64,27 @@
       "name": "EURO-BUND FUTURE  SEP26 XEUR 20260908",
       "identifier": "FGBLU26",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": -2800000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": -2800000.0,
-      "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0,
-      "pct_of_fund_change": 0,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
+      "ticker": "FGBLZ26",
+      "name": "EURO-BUND FUTURE  DEC26 XEUR 20261208",
+      "identifier": "FGBLZ26",
+      "sector": "",
+      "status": "added",
+      "quantity_today": -2800000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -293,8 +293,8 @@
       "quantity_prior": 147600.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0012,
-      "pct_of_fund_prior": 0.0013,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0012,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -377,8 +377,8 @@
       "quantity_prior": -359400000.0,
       "quantity_pct_change": -0.0,
       "pct_of_fund_today": 0.0001,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -405,8 +405,8 @@
       "quantity_prior": 32700000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": -0.0001,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": -0.0001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
