@@ -1,8 +1,22 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-08",
   "ticker": "CGHY",
-  "prior_date": "2026-09-03",
+  "prior_date": "2026-09-04",
   "diff": [
+    {
+      "ticker": "ALLVF6195589",
+      "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
+      "identifier": "ALLVF6195589",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 267387.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0019,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
     {
       "ticker": "BApA",
       "name": "BOEING CO/THE PREFERRED STOCK 10/27 6",
@@ -37,12 +51,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 47376.39,
-      "quantity_prior": 45316.19,
-      "quantity_pct_change": 4.5463,
-      "pct_of_fund_today": 0.0354,
-      "pct_of_fund_prior": 0.0339,
-      "pct_of_fund_change": 0.0015,
+      "quantity_today": 45946.53,
+      "quantity_prior": 47376.39,
+      "quantity_pct_change": -3.0181,
+      "pct_of_fund_today": 0.0343,
+      "pct_of_fund_prior": 0.0354,
+      "pct_of_fund_change": -0.0011,
       "market_value_today": null
     },
     {
@@ -167,8 +181,8 @@
       "quantity_prior": 348677.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0007,
-      "pct_of_fund_prior": 0.0008,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0007,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -181,8 +195,8 @@
       "quantity_prior": 2400.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0009,
-      "pct_of_fund_prior": 0.0008,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0009,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -223,8 +237,8 @@
       "quantity_prior": 71502.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0015,
-      "pct_of_fund_prior": 0.0014,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0015,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {

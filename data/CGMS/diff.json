@@ -1,20 +1,34 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-08",
   "ticker": "CGMS",
-  "prior_date": "2026-09-03",
+  "prior_date": "2026-09-04",
   "diff": [
+    {
+      "ticker": "ALLVF6195589",
+      "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
+      "identifier": "ALLVF6195589",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 6339736.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0011,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
     {
       "ticker": "AULZ26",
       "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
       "identifier": "AULZ26",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 32900000.0,
-      "quantity_prior": 28900000.0,
-      "quantity_pct_change": 13.8408,
+      "quantity_prior": 32900000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0,
-      "pct_of_fund_prior": -0.0001,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0,
+      "pct_of_fund_change": 0,
       "market_value_today": null
     },
     {
@@ -23,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 2209994.9,
-      "quantity_prior": 2244608.36,
-      "quantity_pct_change": -1.5421,
-      "pct_of_fund_today": 0.0407,
-      "pct_of_fund_prior": 0.0413,
-      "pct_of_fund_change": -0.0006,
+      "quantity_today": 2187987.1,
+      "quantity_prior": 2209994.9,
+      "quantity_pct_change": -0.9958,
+      "pct_of_fund_today": 0.0403,
+      "pct_of_fund_prior": 0.0407,
+      "pct_of_fund_change": -0.0004,
       "market_value_today": null
     },
     {
@@ -209,8 +223,8 @@
       "quantity_prior": 32947714.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0015,
-      "pct_of_fund_prior": 0.0019,
-      "pct_of_fund_change": -0.0004,
+      "pct_of_fund_prior": 0.0015,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -237,8 +251,8 @@
       "quantity_prior": 8939775.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0007,
-      "pct_of_fund_prior": 0.0008,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0007,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -265,8 +279,8 @@
       "quantity_prior": 147600.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0013,
-      "pct_of_fund_prior": 0.0012,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0013,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -274,13 +288,13 @@
       "name": "HUGHES SATELLITE SYSTEMS COMPANY GUAR 08/26 6.625",
       "identifier": "SATS4486277",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 3952000.0,
-      "quantity_prior": 3762000.0,
-      "quantity_pct_change": 5.0505,
+      "quantity_prior": 3952000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0004,
-      "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0004,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -295,6 +309,20 @@
       "pct_of_fund_today": 0.0002,
       "pct_of_fund_prior": 0.0002,
       "pct_of_fund_change": 0.0,
+      "market_value_today": null
+    },
+    {
+      "ticker": "SGMS5355862",
+      "name": "SC GAMES HOLDIN/US FINCO SR UNSECURED 144A 03/30 6.625",
+      "identifier": "SGMS5355862",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 2000000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0002,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -348,9 +376,9 @@
       "quantity_today": -359400000.0,
       "quantity_prior": -359400000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0,
-      "pct_of_fund_prior": 0.0001,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.0001,
+      "pct_of_fund_prior": 0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -377,8 +405,8 @@
       "quantity_prior": 32700000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0,
-      "pct_of_fund_prior": -0.0001,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0,
+      "pct_of_fund_change": 0,
       "market_value_today": null
     },
     {
