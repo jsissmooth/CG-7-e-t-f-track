@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "ticker": "CGHY",
-  "prior_date": "2026-09-09",
+  "prior_date": "2026-09-10",
   "diff": [
     {
       "ticker": "BApA",
@@ -37,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 57357.68,
-      "quantity_prior": 57367.68,
-      "quantity_pct_change": -0.0174,
-      "pct_of_fund_today": 0.0429,
-      "pct_of_fund_prior": 0.0428,
-      "pct_of_fund_change": 0.0001,
+      "quantity_today": 57637.73,
+      "quantity_prior": 57357.68,
+      "quantity_pct_change": 0.4883,
+      "pct_of_fund_today": 0.0433,
+      "pct_of_fund_prior": 0.0429,
+      "pct_of_fund_change": 0.0004,
       "market_value_today": null
     },
     {
@@ -68,9 +68,9 @@
       "quantity_today": 600000.0,
       "quantity_prior": 600000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0,
+      "pct_of_fund_today": -0.0001,
       "pct_of_fund_prior": 0,
-      "pct_of_fund_change": 0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -106,13 +106,13 @@
       "name": "GROUP 1 AUTOMOTIVE INC SR UNSECURED 144A 02/35 6.625",
       "identifier": "GPI6508365",
       "sector": "",
-      "status": "changed",
-      "quantity_today": 185000.0,
-      "quantity_prior": 150000.0,
-      "quantity_pct_change": 23.3333,
-      "pct_of_fund_today": 0.0014,
-      "pct_of_fund_prior": 0.0011,
-      "pct_of_fund_change": 0.0003,
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 185000.0,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.0014,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -120,13 +120,13 @@
       "name": "GROUP 1 AUTOMOTIVE INC SR UNSECURED 144A 02/32 6.25",
       "identifier": "GPI6508366",
       "sector": "",
-      "status": "changed",
-      "quantity_today": 110000.0,
-      "quantity_prior": 80000.0,
-      "quantity_pct_change": 37.5,
-      "pct_of_fund_today": 0.0008,
-      "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": 0.0002,
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 110000.0,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.0008,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -181,8 +181,8 @@
       "quantity_prior": 348677.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0005,
-      "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": -0.0002,
+      "pct_of_fund_prior": 0.0005,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -222,9 +222,9 @@
       "quantity_today": 75000.0,
       "quantity_prior": 75000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0004,
+      "pct_of_fund_today": 0.0005,
       "pct_of_fund_prior": 0.0004,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -237,8 +237,8 @@
       "quantity_prior": 71502.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0015,
-      "pct_of_fund_prior": 0.0016,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0015,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -251,8 +251,8 @@
       "quantity_prior": 23168.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0012,
-      "pct_of_fund_prior": 0.0013,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0012,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -260,12 +260,12 @@
       "name": "TENET HEALTHCARE CORP SR UNSECURED 144A 09/34 6.25",
       "identifier": "THC6508429",
       "sector": "",
-      "status": "added",
-      "quantity_today": 475000.0,
-      "quantity_prior": null,
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 475000.0,
       "quantity_pct_change": null,
-      "pct_of_fund_today": 0.0036,
-      "pct_of_fund_prior": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.0036,
       "pct_of_fund_change": null,
       "market_value_today": null
     },
@@ -278,9 +278,9 @@
       "quantity_today": 1200000.0,
       "quantity_prior": 1200000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0,
+      "pct_of_fund_today": -0.0001,
       "pct_of_fund_prior": 0,
-      "pct_of_fund_change": 0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -302,13 +302,13 @@
       "name": "WELLTOWER OP LLC COMPANY GUAR 144A 05/28 2.75",
       "identifier": "WLTR5585487",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 79000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 79000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0015,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0015,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     }
   ]
