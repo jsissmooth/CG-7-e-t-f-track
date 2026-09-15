@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "ticker": "CGCP",
-  "prior_date": "2026-09-11",
+  "prior_date": "2026-09-14",
   "diff": [
     {
       "ticker": "AULZ26",
@@ -37,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 9332993.12,
-      "quantity_prior": 9607350.56,
-      "quantity_pct_change": -2.8557,
-      "pct_of_fund_today": 0.109,
-      "pct_of_fund_prior": 0.1121,
-      "pct_of_fund_change": -0.0031,
+      "quantity_today": 9275201.56,
+      "quantity_prior": 9332993.12,
+      "quantity_pct_change": -0.6192,
+      "pct_of_fund_today": 0.1093,
+      "pct_of_fund_prior": 0.109,
+      "pct_of_fund_change": 0.0003,
       "market_value_today": null
     },
     {
@@ -83,22 +83,8 @@
       "quantity_prior": 933900000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": -0.0018,
-      "pct_of_fund_prior": -0.0016,
-      "pct_of_fund_change": -0.0002,
-      "market_value_today": null
-    },
-    {
-      "ticker": "IQV6509734",
-      "name": "IQVIA INC COMPANY GUAR 144A 03/34 6.375",
-      "identifier": "IQV6509734",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 8815000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.001,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": -0.0018,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -124,9 +110,9 @@
       "quantity_today": 12000000.0,
       "quantity_prior": 12000000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0014,
+      "pct_of_fund_today": 0.0015,
       "pct_of_fund_prior": 0.0014,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -144,20 +130,6 @@
       "market_value_today": null
     },
     {
-      "ticker": "NFE",
-      "name": "NEW FORTRESS ENERGY INC COMMON STOCK USD.01",
-      "identifier": "NFE",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 89859.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "NFE6448216",
       "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
       "identifier": "NFE6448216",
@@ -167,8 +139,8 @@
       "quantity_prior": 7341271.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0008,
-      "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0008,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -256,34 +228,6 @@
       "market_value_today": null
     },
     {
-      "ticker": "TEVA6509736",
-      "name": "TEVA PHARMACEUTICALS NE COMPANY GUAR 01/37 5.75",
-      "identifier": "TEVA6509736",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 2847000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
-      "ticker": "TEVA6509737",
-      "name": "TEVA PHARMACEUTICALS NE SR UNSECURED 01/34 5.5",
-      "identifier": "TEVA6509737",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 2327000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "TNZ26",
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
@@ -292,9 +236,9 @@
       "quantity_today": -671700000.0,
       "quantity_prior": -671700000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0.0017,
-      "pct_of_fund_prior": 0.0015,
-      "pct_of_fund_change": 0.0002,
+      "pct_of_fund_today": 0.0016,
+      "pct_of_fund_prior": 0.0017,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -302,13 +246,13 @@
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 1256600000.0,
-      "quantity_prior": 2416600000.0,
-      "quantity_pct_change": -48.0013,
+      "quantity_prior": 1256600000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": -0.0011,
-      "pct_of_fund_prior": -0.0017,
-      "pct_of_fund_change": 0.0006,
+      "pct_of_fund_prior": -0.0011,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -316,13 +260,13 @@
       "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
       "identifier": "TYZ26",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 603900000.0,
-      "quantity_prior": 233900000.0,
-      "quantity_pct_change": 158.1873,
-      "pct_of_fund_today": -0.0008,
-      "pct_of_fund_prior": -0.0006,
-      "pct_of_fund_change": -0.0002,
+      "quantity_prior": 603900000.0,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": -0.0007,
+      "pct_of_fund_prior": -0.0008,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
