@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "ticker": "CGMS",
-  "prior_date": "2026-09-16",
+  "prior_date": "2026-09-17",
   "diff": [
     {
       "ticker": "AULZ26",
@@ -13,22 +13,8 @@
       "quantity_prior": 32900000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": -0.0001,
-      "pct_of_fund_prior": -0.0002,
-      "pct_of_fund_change": 0.0001,
-      "market_value_today": null
-    },
-    {
-      "ticker": "CLYX6513633",
-      "name": "CLYDESDALE ACQUISITION SR SECURED 144A 04/32 7.875",
-      "identifier": "CLYX6513633",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 2000000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0004,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": -0.0001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -37,12 +23,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 1538277.96,
-      "quantity_prior": 1733587.02,
-      "quantity_pct_change": -11.2662,
-      "pct_of_fund_today": 0.0285,
-      "pct_of_fund_prior": 0.0322,
-      "pct_of_fund_change": -0.0037,
+      "quantity_today": 1568143.93,
+      "quantity_prior": 1538277.96,
+      "quantity_pct_change": 1.9415,
+      "pct_of_fund_today": 0.029,
+      "pct_of_fund_prior": 0.0285,
+      "pct_of_fund_change": 0.0005,
       "market_value_today": null
     },
     {
@@ -83,8 +69,8 @@
       "quantity_prior": 3946348.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0007,
-      "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0007,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -186,6 +172,20 @@
       "market_value_today": null
     },
     {
+      "ticker": "NFE",
+      "name": "NEW FORTRESS ENERGY INC COMMON STOCK USD.01",
+      "identifier": "NFE",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 52614.54,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0004,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
       "ticker": "NFE6448216",
       "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
       "identifier": "NFE6448216",
@@ -204,26 +204,26 @@
       "name": "NFE FINANCING LLC SR SECURED 144A 11/29 12",
       "identifier": "NFEF5953646",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 32947714.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 32947714.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0013,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0.0013,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
-      "ticker": "NWXX6513522",
-      "name": "NEWCASTLE COAL INFRASTRU SR SECURED 144A 09/36 6.47",
-      "identifier": "NWXX6513522",
+      "ticker": "NFEGP",
+      "name": "NEW FORTRESS ENERGY INC PREFERRED STOCK 09/29 3",
+      "identifier": "NFEGP",
       "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 171000.0,
+      "status": "added",
+      "quantity_today": 12180.4,
+      "quantity_prior": null,
       "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0,
+      "pct_of_fund_today": 0.0039,
+      "pct_of_fund_prior": null,
       "pct_of_fund_change": null,
       "market_value_today": null
     },
@@ -279,8 +279,22 @@
       "quantity_prior": 147600.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0013,
-      "pct_of_fund_prior": 0.0012,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0013,
+      "pct_of_fund_change": 0.0,
+      "market_value_today": null
+    },
+    {
+      "ticker": "RWEO6517927",
+      "name": "RWE FINANCE US LLC COMPANY GUAR 144A 09/36 6",
+      "identifier": "RWEO6517927",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 1375000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0003,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -340,34 +354,6 @@
       "market_value_today": null
     },
     {
-      "ticker": "SXST6513389",
-      "name": "SIXTH STREET LENDING PAR SR UNSECURED 144A 12/31 6.5",
-      "identifier": "SXST6513389",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 1534000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
-      "ticker": "TDG6513641",
-      "name": "TRANSDIGM INC SR SECURED 144A 01/35 6.75",
-      "identifier": "TDG6513641",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 4655000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0009,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "TNZ26",
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
@@ -391,8 +377,8 @@
       "quantity_prior": -359400000.0,
       "quantity_pct_change": -0.0,
       "pct_of_fund_today": 0.0005,
-      "pct_of_fund_prior": 0.0004,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0005,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -419,8 +405,8 @@
       "quantity_prior": 32700000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": -0.0001,
-      "pct_of_fund_prior": -0.0002,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": -0.0001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -435,6 +421,20 @@
       "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0,
       "pct_of_fund_change": 0,
+      "market_value_today": null
+    },
+    {
+      "ticker": "WFC6518236",
+      "name": "WELLS FARGO + COMPANY SR UNSECURED 09/37 VAR",
+      "identifier": "WFC6518236",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 1800000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0003,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
