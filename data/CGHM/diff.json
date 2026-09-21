@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-21",
   "ticker": "CGHM",
-  "prior_date": "2026-09-17",
+  "prior_date": "2026-09-18",
   "diff": [
     {
       "ticker": "FVZ26",
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": -400000.0,
-      "quantity_prior": 2400000.0,
-      "quantity_pct_change": -116.6667,
+      "quantity_prior": -400000.0,
+      "quantity_pct_change": -0.0,
       "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0,
       "pct_of_fund_change": 0,
