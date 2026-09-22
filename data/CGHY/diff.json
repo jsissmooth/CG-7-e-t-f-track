@@ -1,8 +1,22 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "ticker": "CGHY",
-  "prior_date": "2026-09-18",
+  "prior_date": "2026-09-21",
   "diff": [
+    {
+      "ticker": "ALLVF6195589",
+      "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
+      "identifier": "ALLVF6195589",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 267387.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0019,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
     {
       "ticker": "BApA",
       "name": "BOEING CO/THE PREFERRED STOCK 10/27 6",
@@ -36,12 +50,12 @@
       "name": "CLEAN HARBORS INC SR UNSECURED 144A 09/34 6.25",
       "identifier": "CLH6518304",
       "sector": "",
-      "status": "added",
-      "quantity_today": 550000.0,
-      "quantity_prior": null,
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 550000.0,
       "quantity_pct_change": null,
-      "pct_of_fund_today": 0.0042,
-      "pct_of_fund_prior": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.0042,
       "pct_of_fund_change": null,
       "market_value_today": null
     },
@@ -51,12 +65,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 53277.26,
-      "quantity_prior": 57267.66,
-      "quantity_pct_change": -6.968,
-      "pct_of_fund_today": 0.0401,
-      "pct_of_fund_prior": 0.0431,
-      "pct_of_fund_change": -0.003,
+      "quantity_today": 56537.91,
+      "quantity_prior": 53277.26,
+      "quantity_pct_change": 6.1202,
+      "pct_of_fund_today": 0.0425,
+      "pct_of_fund_prior": 0.0401,
+      "pct_of_fund_change": 0.0024,
       "market_value_today": null
     },
     {
@@ -148,13 +162,13 @@
       "name": "NEW FORTRESS ENERGY INC COMMON STOCK USD.01",
       "identifier": "NFE",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 556.81,
+      "status": "changed",
+      "quantity_today": 556.8,
       "quantity_prior": 556.81,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0001,
+      "quantity_pct_change": -0.0018,
+      "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0.0001,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -181,8 +195,8 @@
       "quantity_prior": 128.9,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0005,
-      "pct_of_fund_prior": 0.0008,
-      "pct_of_fund_change": -0.0003,
+      "pct_of_fund_prior": 0.0005,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -194,9 +208,9 @@
       "quantity_today": 2400.0,
       "quantity_prior": 2400.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0009,
+      "pct_of_fund_today": 0.0008,
       "pct_of_fund_prior": 0.0009,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -250,9 +264,9 @@
       "quantity_today": 23168.0,
       "quantity_prior": 23168.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0011,
+      "pct_of_fund_today": 0.0012,
       "pct_of_fund_prior": 0.0011,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -278,9 +292,9 @@
       "quantity_today": 689.0,
       "quantity_prior": 689.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0004,
-      "pct_of_fund_prior": 0.0005,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.0005,
+      "pct_of_fund_prior": 0.0004,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     }
   ]

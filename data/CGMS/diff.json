@@ -1,8 +1,22 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "ticker": "CGMS",
-  "prior_date": "2026-09-18",
+  "prior_date": "2026-09-21",
   "diff": [
+    {
+      "ticker": "ALLVF6195589",
+      "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
+      "identifier": "ALLVF6195589",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 6339736.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0011,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
     {
       "ticker": "AULZ26",
       "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
@@ -23,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 1538871.0,
-      "quantity_prior": 1568143.93,
-      "quantity_pct_change": -1.8667,
-      "pct_of_fund_today": 0.0284,
-      "pct_of_fund_prior": 0.029,
-      "pct_of_fund_change": -0.0006,
+      "quantity_today": 1720437.32,
+      "quantity_prior": 1538871.0,
+      "quantity_pct_change": 11.7987,
+      "pct_of_fund_today": 0.0316,
+      "pct_of_fund_prior": 0.0284,
+      "pct_of_fund_change": 0.0032,
       "market_value_today": null
     },
     {
@@ -69,8 +83,8 @@
       "quantity_prior": 3946348.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0006,
-      "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0006,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -181,8 +195,8 @@
       "quantity_prior": 52614.54,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0001,
-      "pct_of_fund_prior": 0.0004,
-      "pct_of_fund_change": -0.0003,
+      "pct_of_fund_prior": 0.0001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -194,9 +208,9 @@
       "quantity_today": 12286818.0,
       "quantity_prior": 12286818.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0021,
+      "pct_of_fund_today": 0.002,
       "pct_of_fund_prior": 0.0021,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -209,8 +223,8 @@
       "quantity_prior": 12180.4,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0011,
-      "pct_of_fund_prior": 0.0039,
-      "pct_of_fund_change": -0.0028,
+      "pct_of_fund_prior": 0.0011,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -274,13 +288,13 @@
       "name": "RWE FINANCE US LLC COMPANY GUAR 144A 09/36 6",
       "identifier": "RWEO6517927",
       "sector": "",
-      "status": "changed",
-      "quantity_today": 5425000.0,
-      "quantity_prior": 1375000.0,
-      "quantity_pct_change": 294.5455,
-      "pct_of_fund_today": 0.001,
-      "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": 0.0007,
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 5425000.0,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.001,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -288,12 +302,12 @@
       "name": "RWE FINANCE US LLC COMPANY GUAR 144A 09/31 5.625",
       "identifier": "RWEO6517929",
       "sector": "",
-      "status": "added",
-      "quantity_today": 1580000.0,
-      "quantity_prior": null,
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 1580000.0,
       "quantity_pct_change": null,
-      "pct_of_fund_today": 0.0003,
-      "pct_of_fund_prior": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.0003,
       "pct_of_fund_change": null,
       "market_value_today": null
     },
@@ -428,13 +442,13 @@
       "name": "WELLS FARGO + COMPANY SR UNSECURED 09/37 VAR",
       "identifier": "WFC6518236",
       "sector": "",
-      "status": "changed",
-      "quantity_today": 2900000.0,
-      "quantity_prior": 1800000.0,
-      "quantity_pct_change": 61.1111,
-      "pct_of_fund_today": 0.0005,
-      "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": 0.0002,
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 2900000.0,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.0005,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
