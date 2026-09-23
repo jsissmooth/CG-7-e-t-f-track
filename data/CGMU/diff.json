@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "ticker": "CGMU",
-  "prior_date": "2026-09-21",
+  "prior_date": "2026-09-22",
   "diff": [
     {
       "ticker": "TNZ26",
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": -11000000.0,
+      "status": "changed",
+      "quantity_today": -14000000.0,
       "quantity_prior": -11000000.0,
-      "quantity_pct_change": -0.0,
+      "quantity_pct_change": 27.2727,
       "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0,
       "pct_of_fund_change": 0,

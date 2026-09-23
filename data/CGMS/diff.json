@@ -1,20 +1,20 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "ticker": "CGMS",
-  "prior_date": "2026-09-21",
+  "prior_date": "2026-09-22",
   "diff": [
     {
       "ticker": "ALLVF6195589",
       "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
       "identifier": "ALLVF6195589",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 6339736.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 6339736.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0011,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0011,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -37,12 +37,26 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 1720437.32,
-      "quantity_prior": 1538871.0,
-      "quantity_pct_change": 11.7987,
-      "pct_of_fund_today": 0.0316,
-      "pct_of_fund_prior": 0.0284,
-      "pct_of_fund_change": 0.0032,
+      "quantity_today": 1742691.77,
+      "quantity_prior": 1720437.32,
+      "quantity_pct_change": 1.2935,
+      "pct_of_fund_today": 0.032,
+      "pct_of_fund_prior": 0.0316,
+      "pct_of_fund_change": 0.0004,
+      "market_value_today": null
+    },
+    {
+      "ticker": "CNP6520324",
+      "name": "CENTERPOINT ENER HOUSTON GENL REF MOR 10/31 5.4",
+      "identifier": "CNP6520324",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 2000000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0004,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -204,13 +218,13 @@
       "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
       "identifier": "NFE6448216",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 12286818.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 12286818.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.002,
-      "pct_of_fund_prior": 0.0021,
-      "pct_of_fund_change": -0.0001,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.002,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -284,34 +298,6 @@
       "market_value_today": null
     },
     {
-      "ticker": "RWEO6517927",
-      "name": "RWE FINANCE US LLC COMPANY GUAR 144A 09/36 6",
-      "identifier": "RWEO6517927",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 5425000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.001,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
-      "ticker": "RWEO6517929",
-      "name": "RWE FINANCE US LLC COMPANY GUAR 144A 09/31 5.625",
-      "identifier": "RWEO6517929",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 1580000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "SATS4486277",
       "name": "HUGHES SATELLITE SYSTEMS COMPANY GUAR 08/26 6.625",
       "identifier": "SATS4486277",
@@ -354,6 +340,20 @@
       "market_value_today": null
     },
     {
+      "ticker": "SSRA6521665",
+      "name": "THREE PILLARS FUNDING COMPANY GUAR 144A 08/37 VAR",
+      "identifier": "SSRA6521665",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 1526000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0003,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
       "ticker": "SVC",
       "name": "SERVICE PROPERTIES TRUST REIT USD.01",
       "identifier": "SVC",
@@ -365,6 +365,20 @@
       "pct_of_fund_today": 0.0004,
       "pct_of_fund_prior": 0.0004,
       "pct_of_fund_change": 0.0,
+      "market_value_today": null
+    },
+    {
+      "ticker": "SYYH6521884",
+      "name": "SYSCO HOLD/SYSC CORP COMPANY GUAR 06/36 5.95",
+      "identifier": "SYYH6521884",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 5842000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0011,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -435,20 +449,6 @@
       "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0,
       "pct_of_fund_change": 0,
-      "market_value_today": null
-    },
-    {
-      "ticker": "WFC6518236",
-      "name": "WELLS FARGO + COMPANY SR UNSECURED 09/37 VAR",
-      "identifier": "WFC6518236",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 2900000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0005,
-      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
