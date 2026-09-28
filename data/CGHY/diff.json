@@ -1,20 +1,20 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-28",
   "ticker": "CGHY",
-  "prior_date": "2026-09-24",
+  "prior_date": "2026-09-25",
   "diff": [
     {
       "ticker": "ACMX6523276",
       "name": "ALCHEMY MERGER SUB CORP SR SECURED 144A 10/33 7.375",
       "identifier": "ACMX6523276",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 250000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 250000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0019,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0019,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -54,9 +54,9 @@
       "quantity_today": 4580.0,
       "quantity_prior": 4580.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0007,
+      "pct_of_fund_today": 0.0008,
       "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -65,12 +65,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 68702.37,
-      "quantity_prior": 66051.57,
-      "quantity_pct_change": 4.0132,
-      "pct_of_fund_today": 0.051,
-      "pct_of_fund_prior": 0.0489,
-      "pct_of_fund_change": 0.0021,
+      "quantity_today": 69172.41,
+      "quantity_prior": 68702.37,
+      "quantity_pct_change": 0.6842,
+      "pct_of_fund_today": 0.0514,
+      "pct_of_fund_prior": 0.051,
+      "pct_of_fund_change": 0.0004,
       "market_value_today": null
     },
     {
@@ -96,9 +96,9 @@
       "quantity_today": 3700.0,
       "quantity_prior": 3700.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0014,
-      "pct_of_fund_prior": 0.0013,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": 0.0013,
+      "pct_of_fund_prior": 0.0014,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -158,34 +158,6 @@
       "market_value_today": null
     },
     {
-      "ticker": "MRP6521896",
-      "name": "MILLROSE PROPERTIES INC SR UNSECURED 144A 10/31 6.75",
-      "identifier": "MRP6521896",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 75000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
-      "ticker": "MRP6521898",
-      "name": "MILLROSE PROPERTIES INC SR UNSECURED 144A 10/29 6.5",
-      "identifier": "MRP6521898",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 175000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0013,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "NEE-PS",
       "name": "NEXTERA ENERGY INC PREFFERD STOCK",
       "identifier": "NEE-PS",
@@ -225,20 +197,6 @@
       "pct_of_fund_today": 0.0004,
       "pct_of_fund_prior": 0.0004,
       "pct_of_fund_change": 0.0,
-      "market_value_today": null
-    },
-    {
-      "ticker": "OGGWZ6521837",
-      "name": "OSISKO GOLD GROUP INC SR SECURED 144A 10/31 9.25",
-      "identifier": "OGGWZ6521837",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 330000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0024,
-      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
