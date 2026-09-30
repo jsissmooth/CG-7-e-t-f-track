@@ -1,22 +1,8 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "ticker": "CGHY",
-  "prior_date": "2026-09-28",
+  "prior_date": "2026-09-29",
   "diff": [
-    {
-      "ticker": "ACMX6523276",
-      "name": "ALCHEMY MERGER SUB CORP SR SECURED 144A 10/33 7.375",
-      "identifier": "ACMX6523276",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 250000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0019,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
     {
       "ticker": "ALLVF6195589",
       "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
@@ -54,9 +40,9 @@
       "quantity_today": 4580.0,
       "quantity_prior": 4580.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0008,
+      "pct_of_fund_today": 0.0009,
       "pct_of_fund_prior": 0.0008,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -65,26 +51,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 62480.41,
-      "quantity_prior": 69172.41,
-      "quantity_pct_change": -9.6744,
-      "pct_of_fund_today": 0.0469,
-      "pct_of_fund_prior": 0.0514,
-      "pct_of_fund_change": -0.0045,
-      "market_value_today": null
-    },
-    {
-      "ticker": "COIN6034335",
-      "name": "COINBASE GLOBAL INC SR UNSECURED 04/30 0.25",
-      "identifier": "COIN6034335",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 95000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": null,
+      "quantity_today": 50476.81,
+      "quantity_prior": 62480.41,
+      "quantity_pct_change": -19.2118,
+      "pct_of_fund_today": 0.0379,
+      "pct_of_fund_prior": 0.0469,
+      "pct_of_fund_change": -0.009,
       "market_value_today": null
     },
     {
@@ -148,12 +120,12 @@
       "name": "ISOTOPE FINCO SARL/2 LLC SR SECURED 144A 10/33 7.125",
       "identifier": "ISOX6527353",
       "sector": "",
-      "status": "added",
-      "quantity_today": 240000.0,
-      "quantity_prior": null,
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 240000.0,
       "quantity_pct_change": null,
-      "pct_of_fund_today": 0.0018,
-      "pct_of_fund_prior": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.0018,
       "pct_of_fund_change": null,
       "market_value_today": null
     },
@@ -197,6 +169,20 @@
       "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0,
       "pct_of_fund_change": 0,
+      "market_value_today": null
+    },
+    {
+      "ticker": "NFEF5953646",
+      "name": "NFE FINANCING LLC SR SECURED 144A 11/29 12",
+      "identifier": "NFEF5953646",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 348677.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0009,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {

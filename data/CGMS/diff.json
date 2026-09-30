@@ -1,22 +1,8 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "ticker": "CGMS",
-  "prior_date": "2026-09-28",
+  "prior_date": "2026-09-29",
   "diff": [
-    {
-      "ticker": "ACMX6523276",
-      "name": "ALCHEMY MERGER SUB CORP SR SECURED 144A 10/33 7.375",
-      "identifier": "ACMX6523276",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 1625000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
     {
       "ticker": "ALLVF6195589",
       "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
@@ -54,9 +40,9 @@
       "quantity_today": 32900000.0,
       "quantity_prior": 32900000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0003,
+      "pct_of_fund_today": -0.0004,
       "pct_of_fund_prior": -0.0003,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -65,12 +51,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 2031582.36,
-      "quantity_prior": 1775695.6,
-      "quantity_pct_change": 14.4105,
-      "pct_of_fund_today": 0.0378,
-      "pct_of_fund_prior": 0.0328,
-      "pct_of_fund_change": 0.005,
+      "quantity_today": 2233472.93,
+      "quantity_prior": 2031582.36,
+      "quantity_pct_change": 9.9376,
+      "pct_of_fund_today": 0.0417,
+      "pct_of_fund_prior": 0.0378,
+      "pct_of_fund_change": 0.0039,
       "market_value_today": null
     },
     {
@@ -176,12 +162,12 @@
       "name": "ISOTOPE FINCO SARL/2 LLC SR SECURED 144A 10/33 7.125",
       "identifier": "ISOX6527353",
       "sector": "",
-      "status": "added",
-      "quantity_today": 880000.0,
-      "quantity_prior": null,
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 880000.0,
       "quantity_pct_change": null,
-      "pct_of_fund_today": 0.0002,
-      "pct_of_fund_prior": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.0002,
       "pct_of_fund_change": null,
       "market_value_today": null
     },
@@ -256,6 +242,20 @@
       "market_value_today": null
     },
     {
+      "ticker": "NFEF5953646",
+      "name": "NFE FINANCING LLC SR SECURED 144A 11/29 12",
+      "identifier": "NFEF5953646",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 32947714.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0044,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
       "ticker": "NFEGP",
       "name": "NEW FORTRESS ENERGY INC PREFERRED STOCK 09/29 3",
       "identifier": "NFEGP",
@@ -264,9 +264,9 @@
       "quantity_today": 12180.0,
       "quantity_prior": 12180.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.001,
+      "pct_of_fund_today": 0.0009,
       "pct_of_fund_prior": 0.001,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -302,13 +302,13 @@
       "name": "ACCENDRA HEALTH INC SECURED 144A 06/33 9.75",
       "identifier": "OMI6438243",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 986320.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 986320.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0001,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0.0001,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -368,20 +368,6 @@
       "market_value_today": null
     },
     {
-      "ticker": "SSRA6521665",
-      "name": "THREE PILLARS FUNDING COMPANY GUAR 144A 08/37 VAR",
-      "identifier": "SSRA6521665",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 1619000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "SVC",
       "name": "SERVICE PROPERTIES TRUST REIT USD.01",
       "identifier": "SVC",
@@ -400,10 +386,10 @@
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 40700000.0,
-      "quantity_prior": 23700000.0,
-      "quantity_pct_change": 71.73,
+      "quantity_prior": 40700000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": -0.0001,
       "pct_of_fund_prior": -0.0001,
       "pct_of_fund_change": 0.0,
@@ -419,8 +405,8 @@
       "quantity_prior": -359400000.0,
       "quantity_pct_change": -0.0,
       "pct_of_fund_today": 0.0007,
-      "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0007,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -447,8 +433,8 @@
       "quantity_prior": 53700000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": -0.0004,
-      "pct_of_fund_prior": -0.0003,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": -0.0004,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
