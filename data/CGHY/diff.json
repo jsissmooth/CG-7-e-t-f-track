@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "ticker": "CGHY",
-  "prior_date": "2026-09-30",
+  "prior_date": "2026-10-01",
   "diff": [
     {
       "ticker": "ALLVF6195589",
@@ -40,9 +40,9 @@
       "quantity_today": 4580.0,
       "quantity_prior": 4580.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0008,
-      "pct_of_fund_prior": 0.0009,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.0009,
+      "pct_of_fund_prior": 0.0008,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -51,12 +51,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 44075.53,
-      "quantity_prior": 50476.81,
-      "quantity_pct_change": -12.6816,
-      "pct_of_fund_today": 0.0331,
-      "pct_of_fund_prior": 0.0379,
-      "pct_of_fund_change": -0.0048,
+      "quantity_today": 37049.15,
+      "quantity_prior": 44075.53,
+      "quantity_pct_change": -15.9417,
+      "pct_of_fund_today": 0.0279,
+      "pct_of_fund_prior": 0.0331,
+      "pct_of_fund_change": -0.0052,
       "market_value_today": null
     },
     {
@@ -96,9 +96,9 @@
       "quantity_today": 1500.0,
       "quantity_prior": 1500.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0006,
-      "pct_of_fund_prior": 0.0005,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": 0.0005,
+      "pct_of_fund_prior": 0.0006,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -130,6 +130,20 @@
       "market_value_today": null
     },
     {
+      "ticker": "NCLH6532461",
+      "name": "NCL CORPORATION LTD SR UNSECURED 144A 10/31 8.75",
+      "identifier": "NCLH6532461",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 115000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0009,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
       "ticker": "NEE-PS",
       "name": "NEXTERA ENERGY INC PREFFERD STOCK",
       "identifier": "NEE-PS",
@@ -155,20 +169,6 @@
       "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0,
       "pct_of_fund_change": 0,
-      "market_value_today": null
-    },
-    {
-      "ticker": "NFEF5953646",
-      "name": "NFE FINANCING LLC SR SECURED 144A 11/29 12",
-      "identifier": "NFEF5953646",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 348677.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0009,
-      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -204,11 +204,25 @@
       "name": "PARAMOUNT SKYDANCE CORP SR SECURED 144A 10/29 6.55",
       "identifier": "PSKY6531939",
       "sector": "",
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 279000.0,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.0021,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
+      "ticker": "PSKY6532413",
+      "name": "PARAMOUNT SKYDANCE CORP SR SECURED 144A 10/31 7.05",
+      "identifier": "PSKY6532413",
+      "sector": "",
       "status": "added",
-      "quantity_today": 279000.0,
+      "quantity_today": 214000.0,
       "quantity_prior": null,
       "quantity_pct_change": null,
-      "pct_of_fund_today": 0.0021,
+      "pct_of_fund_today": 0.0016,
       "pct_of_fund_prior": null,
       "pct_of_fund_change": null,
       "market_value_today": null
