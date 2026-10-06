@@ -1,22 +1,8 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "ticker": "CGHY",
-  "prior_date": "2026-10-02",
+  "prior_date": "2026-10-05",
   "diff": [
-    {
-      "ticker": "ALLVF6195589",
-      "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
-      "identifier": "ALLVF6195589",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 267387.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0019,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
     {
       "ticker": "BApA",
       "name": "BOEING CO/THE PREFERRED STOCK 10/27 6",
@@ -51,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 38499.15,
-      "quantity_prior": 37049.15,
-      "quantity_pct_change": 3.9137,
-      "pct_of_fund_today": 0.0289,
-      "pct_of_fund_prior": 0.0279,
-      "pct_of_fund_change": 0.001,
+      "quantity_today": 34328.32,
+      "quantity_prior": 38499.15,
+      "quantity_pct_change": -10.8336,
+      "pct_of_fund_today": 0.0255,
+      "pct_of_fund_prior": 0.0289,
+      "pct_of_fund_change": -0.0034,
       "market_value_today": null
     },
     {
@@ -96,9 +82,9 @@
       "quantity_today": 1500.0,
       "quantity_prior": 1500.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0006,
-      "pct_of_fund_prior": 0.0005,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": 0.0005,
+      "pct_of_fund_prior": 0.0006,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -127,20 +113,6 @@
       "pct_of_fund_today": 0.0009,
       "pct_of_fund_prior": 0.0009,
       "pct_of_fund_change": 0.0,
-      "market_value_today": null
-    },
-    {
-      "ticker": "NCLH6532461",
-      "name": "NCL CORPORATION LTD SR UNSECURED 144A 10/31 8.75",
-      "identifier": "NCLH6532461",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 115000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0009,
-      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -200,20 +172,6 @@
       "market_value_today": null
     },
     {
-      "ticker": "PSKY6532413",
-      "name": "PARAMOUNT SKYDANCE CORP SR SECURED 144A 10/31 7.05",
-      "identifier": "PSKY6532413",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 214000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0016,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "SATS4486277",
       "name": "HUGHES SATELLITE SYSTEMS COMPANY GUAR 08/26 6.625",
       "identifier": "SATS4486277",
@@ -251,8 +209,8 @@
       "quantity_prior": 71502.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0016,
-      "pct_of_fund_prior": 0.0015,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0016,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
