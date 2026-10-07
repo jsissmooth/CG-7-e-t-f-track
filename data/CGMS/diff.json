@@ -1,22 +1,8 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "ticker": "CGMS",
-  "prior_date": "2026-10-05",
+  "prior_date": "2026-10-06",
   "diff": [
-    {
-      "ticker": "ALLVF6195644",
-      "name": "ALTICE FRANCE SA SR SECURED 144A 07/32 6.875",
-      "identifier": "ALLVF6195644",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 5429326.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0009,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
     {
       "ticker": "AULZ26",
       "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
@@ -26,9 +12,9 @@
       "quantity_today": 42900000.0,
       "quantity_prior": 42900000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0005,
-      "pct_of_fund_prior": -0.0004,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": -0.0004,
+      "pct_of_fund_prior": -0.0005,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -37,12 +23,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 2653529.67,
-      "quantity_prior": 2648748.71,
-      "quantity_pct_change": 0.1805,
-      "pct_of_fund_today": 0.0491,
-      "pct_of_fund_prior": 0.049,
-      "pct_of_fund_change": 0.0001,
+      "quantity_today": 2414531.87,
+      "quantity_prior": 2653529.67,
+      "quantity_pct_change": -9.0068,
+      "pct_of_fund_today": 0.0445,
+      "pct_of_fund_prior": 0.0491,
+      "pct_of_fund_change": -0.0046,
       "market_value_today": null
     },
     {
@@ -153,8 +139,8 @@
       "quantity_prior": 16500000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.003,
-      "pct_of_fund_prior": 0.0031,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.003,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -167,8 +153,8 @@
       "quantity_prior": 15200000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0028,
-      "pct_of_fund_prior": 0.0029,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0028,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -180,9 +166,9 @@
       "quantity_today": 6250000.0,
       "quantity_prior": 6250000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0012,
+      "pct_of_fund_today": 0.0011,
       "pct_of_fund_prior": 0.0012,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -214,6 +200,20 @@
       "market_value_today": null
     },
     {
+      "ticker": "NFE6448216",
+      "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
+      "identifier": "NFE6448216",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 12286818.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0021,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
       "ticker": "NFEGP",
       "name": "NEW FORTRESS ENERGY INC PREFERRED STOCK 09/29 3",
       "identifier": "NFEGP",
@@ -222,8 +222,8 @@
       "quantity_today": 12180.0,
       "quantity_prior": 12180.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0008,
-      "pct_of_fund_prior": 0.0009,
+      "pct_of_fund_today": 0.0007,
+      "pct_of_fund_prior": 0.0008,
       "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
@@ -306,9 +306,9 @@
       "quantity_today": 1663000.0,
       "quantity_prior": 1663000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0003,
+      "pct_of_fund_today": 0.0002,
       "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -362,9 +362,9 @@
       "quantity_today": -359400000.0,
       "quantity_prior": -359400000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0.0006,
+      "pct_of_fund_today": 0.0005,
       "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {

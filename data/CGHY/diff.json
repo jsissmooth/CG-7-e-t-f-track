@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "ticker": "CGHY",
-  "prior_date": "2026-10-05",
+  "prior_date": "2026-10-06",
   "diff": [
     {
       "ticker": "BApA",
@@ -37,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 34328.32,
-      "quantity_prior": 38499.15,
-      "quantity_pct_change": -10.8336,
-      "pct_of_fund_today": 0.0255,
-      "pct_of_fund_prior": 0.0289,
-      "pct_of_fund_change": -0.0034,
+      "quantity_today": 34618.37,
+      "quantity_prior": 34328.32,
+      "quantity_pct_change": 0.8449,
+      "pct_of_fund_today": 0.0256,
+      "pct_of_fund_prior": 0.0255,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -83,8 +83,8 @@
       "quantity_prior": 1500.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0005,
-      "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0005,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -144,6 +144,20 @@
       "market_value_today": null
     },
     {
+      "ticker": "NFE6448216",
+      "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
+      "identifier": "NFE6448216",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 130028.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0009,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
       "ticker": "NFEGP",
       "name": "NEW FORTRESS ENERGY INC PREFERRED STOCK 09/29 3",
       "identifier": "NFEGP",
@@ -152,9 +166,9 @@
       "quantity_today": 128.0,
       "quantity_prior": 128.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0004,
+      "pct_of_fund_today": 0.0003,
       "pct_of_fund_prior": 0.0004,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {

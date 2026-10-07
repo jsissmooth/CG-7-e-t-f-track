@@ -1,34 +1,20 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "ticker": "CGCP",
-  "prior_date": "2026-10-05",
+  "prior_date": "2026-10-06",
   "diff": [
-    {
-      "ticker": "ALLVF6195644",
-      "name": "ALTICE FRANCE SA SR SECURED 144A 07/32 6.875",
-      "identifier": "ALLVF6195644",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 2622801.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
     {
       "ticker": "AULZ26",
       "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
       "identifier": "AULZ26",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": -325900000.0,
-      "quantity_prior": -105900000.0,
-      "quantity_pct_change": 207.7432,
-      "pct_of_fund_today": 0.0009,
-      "pct_of_fund_prior": 0.0008,
-      "pct_of_fund_change": 0.0001,
+      "quantity_prior": -325900000.0,
+      "quantity_pct_change": -0.0,
+      "pct_of_fund_today": 0.0008,
+      "pct_of_fund_prior": 0.0009,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -37,12 +23,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 10115189.76,
-      "quantity_prior": 10234723.67,
-      "quantity_pct_change": -1.1679,
-      "pct_of_fund_today": 0.1218,
-      "pct_of_fund_prior": 0.1231,
-      "pct_of_fund_change": -0.0013,
+      "quantity_today": 9887684.26,
+      "quantity_prior": 10115189.76,
+      "quantity_pct_change": -2.2491,
+      "pct_of_fund_today": 0.1189,
+      "pct_of_fund_prior": 0.1218,
+      "pct_of_fund_change": -0.0029,
       "market_value_today": null
     },
     {
@@ -82,9 +68,9 @@
       "quantity_today": 914900000.0,
       "quantity_prior": 914900000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0029,
+      "pct_of_fund_today": -0.0027,
       "pct_of_fund_prior": -0.0029,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0002,
       "market_value_today": null
     },
     {
@@ -111,8 +97,8 @@
       "quantity_prior": 12000000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0014,
-      "pct_of_fund_prior": 0.0015,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0014,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -125,8 +111,8 @@
       "quantity_prior": 6250000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0007,
-      "pct_of_fund_prior": 0.0008,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0007,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -158,6 +144,20 @@
       "market_value_today": null
     },
     {
+      "ticker": "NFE6448216",
+      "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
+      "identifier": "NFE6448216",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 7341271.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0008,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
       "ticker": "NFEGP",
       "name": "NEW FORTRESS ENERGY INC PREFERRED STOCK 09/29 3",
       "identifier": "NFEGP",
@@ -167,8 +167,8 @@
       "quantity_prior": 7277.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0003,
-      "pct_of_fund_prior": 0.0004,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0003,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -247,12 +247,12 @@
       "identifier": "TNZ26",
       "sector": "",
       "status": "changed",
-      "quantity_today": -543700000.0,
-      "quantity_prior": -729700000.0,
-      "quantity_pct_change": -25.4899,
-      "pct_of_fund_today": 0.003,
-      "pct_of_fund_prior": 0.0038,
-      "pct_of_fund_change": -0.0008,
+      "quantity_today": -608700000.0,
+      "quantity_prior": -543700000.0,
+      "quantity_pct_change": 11.9551,
+      "pct_of_fund_today": 0.0028,
+      "pct_of_fund_prior": 0.003,
+      "pct_of_fund_change": -0.0002,
       "market_value_today": null
     },
     {
@@ -264,9 +264,9 @@
       "quantity_today": 1256600000.0,
       "quantity_prior": 1256600000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0016,
+      "pct_of_fund_today": -0.0015,
       "pct_of_fund_prior": -0.0016,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -275,12 +275,12 @@
       "identifier": "TYZ26",
       "sector": "",
       "status": "changed",
-      "quantity_today": 786900000.0,
-      "quantity_prior": 626900000.0,
-      "quantity_pct_change": 25.5224,
-      "pct_of_fund_today": -0.0022,
-      "pct_of_fund_prior": -0.0021,
-      "pct_of_fund_change": -0.0001,
+      "quantity_today": 847900000.0,
+      "quantity_prior": 786900000.0,
+      "quantity_pct_change": 7.7519,
+      "pct_of_fund_today": -0.0019,
+      "pct_of_fund_prior": -0.0022,
+      "pct_of_fund_change": 0.0003,
       "market_value_today": null
     },
     {
@@ -288,10 +288,10 @@
       "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
       "identifier": "USZ26",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 65500000.0,
-      "quantity_prior": -11500000.0,
-      "quantity_pct_change": -669.5652,
+      "quantity_prior": 65500000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0,
       "pct_of_fund_change": 0,

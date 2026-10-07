@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "ticker": "CGHM",
-  "prior_date": "2026-10-05",
+  "prior_date": "2026-10-06",
   "diff": [
     {
       "ticker": "FVZ26",
@@ -15,6 +15,20 @@
       "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0,
       "pct_of_fund_change": 0,
+      "market_value_today": null
+    },
+    {
+      "ticker": "TUZ26",
+      "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
+      "identifier": "TUZ26",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 70000000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     }
   ]
