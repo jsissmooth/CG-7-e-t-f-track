@@ -1,20 +1,20 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "ticker": "CGMS",
-  "prior_date": "2026-10-07",
+  "prior_date": "2026-10-08",
   "diff": [
     {
       "ticker": "ABPL5991856",
       "name": "AMBIPAR LUX SARL COMPANY GUAR 144A 02/33 10.875",
       "identifier": "ABPL5991856",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 925000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 925000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0001,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -26,9 +26,9 @@
       "quantity_today": 42900000.0,
       "quantity_prior": 42900000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0005,
-      "pct_of_fund_prior": -0.0004,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": -0.0004,
+      "pct_of_fund_prior": -0.0005,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -37,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 2182685.5,
-      "quantity_prior": 2414531.87,
-      "quantity_pct_change": -9.6021,
-      "pct_of_fund_today": 0.0403,
-      "pct_of_fund_prior": 0.0445,
-      "pct_of_fund_change": -0.0042,
+      "quantity_today": 1817502.46,
+      "quantity_prior": 2182685.5,
+      "quantity_pct_change": -16.7309,
+      "pct_of_fund_today": 0.0335,
+      "pct_of_fund_prior": 0.0403,
+      "pct_of_fund_change": -0.0068,
       "market_value_today": null
     },
     {
@@ -78,13 +78,13 @@
       "name": "FXI HOLDINGS INC SR SECURED 144A 11/30 11",
       "identifier": "FMXL6251498",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 3946348.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 3946348.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0006,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -110,9 +110,9 @@
       "quantity_today": -51600000.0,
       "quantity_prior": -51600000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0.0002,
+      "pct_of_fund_today": 0.0001,
       "pct_of_fund_prior": 0.0002,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -144,6 +144,20 @@
       "market_value_today": null
     },
     {
+      "ticker": "HBFL6540099",
+      "name": "H.B. FULLER CO SR UNSECURED 144A 10/34 7.625",
+      "identifier": "HBFL6540099",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 580000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0001,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
       "ticker": "JNSTT6482354",
       "name": "JANE STREET GRP/JSG FIN SR SECURED 144A 08/31 7.294",
       "identifier": "JNSTT6482354",
@@ -152,9 +166,9 @@
       "quantity_today": 16500000.0,
       "quantity_prior": 16500000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0031,
-      "pct_of_fund_prior": 0.003,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": 0.003,
+      "pct_of_fund_prior": 0.0031,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -186,20 +200,6 @@
       "market_value_today": null
     },
     {
-      "ticker": "KRON5842154",
-      "name": "KRONOS ACQUISITION HOLDI SR UNSECURED 144A 06/32 10.75",
-      "identifier": "KRON5842154",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 535000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "NFE",
       "name": "NEW FORTRESS ENERGY INC COMMON STOCK USD.01",
       "identifier": "NFE",
@@ -209,8 +209,8 @@
       "quantity_prior": 52614.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0,
-      "pct_of_fund_prior": 0.0001,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0,
+      "pct_of_fund_change": 0,
       "market_value_today": null
     },
     {
@@ -222,9 +222,9 @@
       "quantity_today": 12286818.0,
       "quantity_prior": 12286818.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0021,
+      "pct_of_fund_today": 0.002,
       "pct_of_fund_prior": 0.0021,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -236,9 +236,9 @@
       "quantity_today": 12180.0,
       "quantity_prior": 12180.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0007,
+      "pct_of_fund_today": 0.0005,
       "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0002,
       "market_value_today": null
     },
     {
@@ -253,34 +253,6 @@
       "pct_of_fund_today": 0.0009,
       "pct_of_fund_prior": 0.0009,
       "pct_of_fund_change": 0.0,
-      "market_value_today": null
-    },
-    {
-      "ticker": "OMI6432138",
-      "name": "ACCENDRA HEALTH INC SECURED 144A 06/33 9.75",
-      "identifier": "OMI6432138",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 8939775.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
-      "ticker": "OMI6438243",
-      "name": "ACCENDRA HEALTH INC SECURED 144A 06/33 9.75",
-      "identifier": "OMI6438243",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 986320.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0001,
-      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {

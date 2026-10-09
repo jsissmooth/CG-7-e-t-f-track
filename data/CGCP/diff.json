@@ -1,20 +1,20 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "ticker": "CGCP",
-  "prior_date": "2026-10-07",
+  "prior_date": "2026-10-08",
   "diff": [
     {
       "ticker": "ABPL5991856",
       "name": "AMBIPAR LUX SARL COMPANY GUAR 144A 02/33 10.875",
       "identifier": "ABPL5991856",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 1575000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 1575000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0001,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -26,9 +26,9 @@
       "quantity_today": -325900000.0,
       "quantity_prior": -325900000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0.0009,
-      "pct_of_fund_prior": 0.0008,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": 0.0005,
+      "pct_of_fund_prior": 0.0009,
+      "pct_of_fund_change": -0.0004,
       "market_value_today": null
     },
     {
@@ -37,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 10243835.49,
-      "quantity_prior": 9887684.26,
-      "quantity_pct_change": 3.602,
-      "pct_of_fund_today": 0.1232,
-      "pct_of_fund_prior": 0.1189,
-      "pct_of_fund_change": 0.0043,
+      "quantity_today": 10156197.96,
+      "quantity_prior": 10243835.49,
+      "quantity_pct_change": -0.8555,
+      "pct_of_fund_today": 0.1217,
+      "pct_of_fund_prior": 0.1232,
+      "pct_of_fund_change": -0.0015,
       "market_value_today": null
     },
     {
@@ -50,13 +50,13 @@
       "name": "FXI HOLDINGS INC SR SECURED 144A 11/30 11",
       "identifier": "FMXL6251498",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 3620428.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 3620428.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0004,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0.0004,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -82,9 +82,9 @@
       "quantity_today": 914900000.0,
       "quantity_prior": 914900000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0027,
+      "pct_of_fund_today": -0.0026,
       "pct_of_fund_prior": -0.0027,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -130,20 +130,6 @@
       "market_value_today": null
     },
     {
-      "ticker": "KRON5842154",
-      "name": "KRONOS ACQUISITION HOLDI SR UNSECURED 144A 06/32 10.75",
-      "identifier": "KRON5842154",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 905000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "NFE",
       "name": "NEW FORTRESS ENERGY INC COMMON STOCK USD.01",
       "identifier": "NFE",
@@ -180,9 +166,9 @@
       "quantity_today": 7277.0,
       "quantity_prior": 7277.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0003,
+      "pct_of_fund_today": 0.0002,
       "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -197,34 +183,6 @@
       "pct_of_fund_today": 0.0005,
       "pct_of_fund_prior": 0.0005,
       "pct_of_fund_change": 0.0,
-      "market_value_today": null
-    },
-    {
-      "ticker": "OMI6432138",
-      "name": "ACCENDRA HEALTH INC SECURED 144A 06/33 9.75",
-      "identifier": "OMI6432138",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 7218425.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
-      "ticker": "OMI6438243",
-      "name": "ACCENDRA HEALTH INC SECURED 144A 06/33 9.75",
-      "identifier": "OMI6438243",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 907415.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -264,9 +222,9 @@
       "quantity_today": -608700000.0,
       "quantity_prior": -608700000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0.0028,
+      "pct_of_fund_today": 0.0025,
       "pct_of_fund_prior": 0.0028,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0003,
       "market_value_today": null
     },
     {
@@ -279,8 +237,8 @@
       "quantity_prior": 1256600000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": -0.0014,
-      "pct_of_fund_prior": -0.0015,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": -0.0014,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -292,9 +250,9 @@
       "quantity_today": 847900000.0,
       "quantity_prior": 847900000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0019,
+      "pct_of_fund_today": -0.0017,
       "pct_of_fund_prior": -0.0019,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0002,
       "market_value_today": null
     },
     {
@@ -306,9 +264,9 @@
       "quantity_today": 65500000.0,
       "quantity_prior": 65500000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0,
+      "pct_of_fund_today": 0.0001,
       "pct_of_fund_prior": 0,
-      "pct_of_fund_change": 0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
