@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-12",
   "ticker": "CGCP",
-  "prior_date": "2026-10-08",
+  "prior_date": "2026-10-09",
   "diff": [
     {
       "ticker": "ABPL5991856",
@@ -27,8 +27,8 @@
       "quantity_prior": -325900000.0,
       "quantity_pct_change": -0.0,
       "pct_of_fund_today": 0.0005,
-      "pct_of_fund_prior": 0.0009,
-      "pct_of_fund_change": -0.0004,
+      "pct_of_fund_prior": 0.0005,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -37,26 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 10156197.96,
-      "quantity_prior": 10243835.49,
-      "quantity_pct_change": -0.8555,
-      "pct_of_fund_today": 0.1217,
-      "pct_of_fund_prior": 0.1232,
-      "pct_of_fund_change": -0.0015,
-      "market_value_today": null
-    },
-    {
-      "ticker": "FMXL6251498",
-      "name": "FXI HOLDINGS INC SR SECURED 144A 11/30 11",
-      "identifier": "FMXL6251498",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 3620428.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0004,
-      "pct_of_fund_change": null,
+      "quantity_today": 10128237.96,
+      "quantity_prior": 10156197.96,
+      "quantity_pct_change": -0.2753,
+      "pct_of_fund_today": 0.121,
+      "pct_of_fund_prior": 0.1217,
+      "pct_of_fund_change": -0.0007,
       "market_value_today": null
     },
     {
@@ -82,9 +68,9 @@
       "quantity_today": 914900000.0,
       "quantity_prior": 914900000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0026,
-      "pct_of_fund_prior": -0.0027,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": -0.0027,
+      "pct_of_fund_prior": -0.0026,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -167,8 +153,8 @@
       "quantity_prior": 7277.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0002,
-      "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0002,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -200,6 +186,20 @@
       "market_value_today": null
     },
     {
+      "ticker": "PSKY6538523",
+      "name": "SKYDANCE CORP SECURED 144A 03/42 5.05",
+      "identifier": "PSKY6538523",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 3038000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0003,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
       "ticker": "SVC",
       "name": "SERVICE PROPERTIES TRUST REIT USD.01",
       "identifier": "SVC",
@@ -222,9 +222,9 @@
       "quantity_today": -608700000.0,
       "quantity_prior": -608700000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0.0025,
-      "pct_of_fund_prior": 0.0028,
-      "pct_of_fund_change": -0.0003,
+      "pct_of_fund_today": 0.0026,
+      "pct_of_fund_prior": 0.0025,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -236,9 +236,9 @@
       "quantity_today": 1256600000.0,
       "quantity_prior": 1256600000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0014,
+      "pct_of_fund_today": -0.0015,
       "pct_of_fund_prior": -0.0014,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -250,9 +250,9 @@
       "quantity_today": 847900000.0,
       "quantity_prior": 847900000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0017,
-      "pct_of_fund_prior": -0.0019,
-      "pct_of_fund_change": 0.0002,
+      "pct_of_fund_today": -0.0018,
+      "pct_of_fund_prior": -0.0017,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -265,8 +265,8 @@
       "quantity_prior": 65500000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0001,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {

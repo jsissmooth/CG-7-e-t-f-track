@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-12",
   "ticker": "CGCP",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.1217,
-      "quantity": 10156197.96,
+      "pct_of_fund": 0.121,
+      "quantity": 10128237.96,
       "market_value": null,
       "sector": ""
     },
@@ -15,7 +15,7 @@
       "ticker": "TNZ26",
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
-      "pct_of_fund": 0.0025,
+      "pct_of_fund": 0.0026,
       "quantity": -608700000.0,
       "market_value": null,
       "sector": ""
@@ -80,6 +80,15 @@
       "identifier": "ORCL-PD",
       "pct_of_fund": 0.0004,
       "quantity": 71600.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "PSKY6538523",
+      "name": "SKYDANCE CORP SECURED 144A 03/42 5.05",
+      "identifier": "PSKY6538523",
+      "pct_of_fund": 0.0003,
+      "quantity": 3038000.0,
       "market_value": null,
       "sector": ""
     },
@@ -150,7 +159,7 @@
       "ticker": "TUZ26",
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
-      "pct_of_fund": -0.0014,
+      "pct_of_fund": -0.0015,
       "quantity": 1256600000.0,
       "market_value": null,
       "sector": ""
@@ -159,7 +168,7 @@
       "ticker": "TYZ26",
       "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
       "identifier": "TYZ26",
-      "pct_of_fund": -0.0017,
+      "pct_of_fund": -0.0018,
       "quantity": 847900000.0,
       "market_value": null,
       "sector": ""
@@ -168,7 +177,7 @@
       "ticker": "FVZ26",
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
-      "pct_of_fund": -0.0026,
+      "pct_of_fund": -0.0027,
       "quantity": 914900000.0,
       "market_value": null,
       "sector": ""

@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-12",
   "ticker": "CGMS",
-  "prior_date": "2026-10-08",
+  "prior_date": "2026-10-09",
   "diff": [
     {
       "ticker": "ABPL5991856",
@@ -27,8 +27,8 @@
       "quantity_prior": 42900000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": -0.0004,
-      "pct_of_fund_prior": -0.0005,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": -0.0004,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -37,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 1817502.46,
-      "quantity_prior": 2182685.5,
-      "quantity_pct_change": -16.7309,
-      "pct_of_fund_today": 0.0335,
-      "pct_of_fund_prior": 0.0403,
-      "pct_of_fund_change": -0.0068,
+      "quantity_today": 1793572.46,
+      "quantity_prior": 1817502.46,
+      "quantity_pct_change": -1.3166,
+      "pct_of_fund_today": 0.0328,
+      "pct_of_fund_prior": 0.0335,
+      "pct_of_fund_change": -0.0007,
       "market_value_today": null
     },
     {
@@ -74,20 +74,6 @@
       "market_value_today": null
     },
     {
-      "ticker": "FMXL6251498",
-      "name": "FXI HOLDINGS INC SR SECURED 144A 11/30 11",
-      "identifier": "FMXL6251498",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 3946348.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "FMXL6257004",
       "name": "FXI HOLDINGS INC SR SECURED 144A 11/29 14",
       "identifier": "FMXL6257004",
@@ -110,9 +96,9 @@
       "quantity_today": -51600000.0,
       "quantity_prior": -51600000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0.0001,
-      "pct_of_fund_prior": 0.0002,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.0002,
+      "pct_of_fund_prior": 0.0001,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -148,13 +134,13 @@
       "name": "H.B. FULLER CO SR UNSECURED 144A 10/34 7.625",
       "identifier": "HBFL6540099",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 580000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 580000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0001,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -167,8 +153,8 @@
       "quantity_prior": 16500000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.003,
-      "pct_of_fund_prior": 0.0031,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.003,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -223,8 +209,8 @@
       "quantity_prior": 12286818.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.002,
-      "pct_of_fund_prior": 0.0021,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.002,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -237,8 +223,8 @@
       "quantity_prior": 12180.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0005,
-      "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": -0.0002,
+      "pct_of_fund_prior": 0.0005,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -270,14 +256,28 @@
       "market_value_today": null
     },
     {
+      "ticker": "PSKY6538523",
+      "name": "SKYDANCE CORP SECURED 144A 03/42 5.05",
+      "identifier": "PSKY6538523",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 13582000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.002,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
       "ticker": "SATS4486277",
       "name": "HUGHES SATELLITE SYSTEMS COMPANY GUAR 08/26 6.625",
       "identifier": "SATS4486277",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 3952000.0,
+      "status": "changed",
+      "quantity_today": 4152000.0,
       "quantity_prior": 3952000.0,
-      "quantity_pct_change": 0.0,
+      "quantity_pct_change": 5.0607,
       "pct_of_fund_today": 0.0004,
       "pct_of_fund_prior": 0.0004,
       "pct_of_fund_change": 0.0,
@@ -376,9 +376,9 @@
       "quantity_today": 46700000.0,
       "quantity_prior": 46700000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0004,
+      "pct_of_fund_today": -0.0003,
       "pct_of_fund_prior": -0.0004,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
