@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "ticker": "CGCP",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.121,
+      "pct_of_fund": 0.1209,
       "quantity": 10128237.96,
       "market_value": null,
       "sector": ""
@@ -84,15 +84,6 @@
       "sector": ""
     },
     {
-      "ticker": "PSKY6538523",
-      "name": "SKYDANCE CORP SECURED 144A 03/42 5.05",
-      "identifier": "PSKY6538523",
-      "pct_of_fund": 0.0003,
-      "quantity": 3038000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "NFEGP",
       "name": "NEW FORTRESS ENERGY INC PREFERRED STOCK 09/29 3",
       "identifier": "NFEGP",
@@ -107,6 +98,15 @@
       "identifier": "SVC",
       "pct_of_fund": 0.0002,
       "quantity": 283333.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "PSKY6538523",
+      "name": "SKYDANCE CORP SECURED 144A 03/42 5.05",
+      "identifier": "PSKY6538523",
+      "pct_of_fund": 0.0002,
+      "quantity": 3038000.0,
       "market_value": null,
       "sector": ""
     },
@@ -159,7 +159,7 @@
       "ticker": "TUZ26",
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
-      "pct_of_fund": -0.0015,
+      "pct_of_fund": -0.0016,
       "quantity": 1256600000.0,
       "market_value": null,
       "sector": ""

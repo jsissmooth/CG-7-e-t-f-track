@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "ticker": "CGMS",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0328,
+      "pct_of_fund": 0.0327,
       "quantity": 1793572.46,
       "market_value": null,
       "sector": ""
@@ -42,7 +42,7 @@
       "ticker": "PSKY6538523",
       "name": "SKYDANCE CORP SECURED 144A 03/42 5.05",
       "identifier": "PSKY6538523",
-      "pct_of_fund": 0.002,
+      "pct_of_fund": 0.0016,
       "quantity": 13582000.0,
       "market_value": null,
       "sector": ""
@@ -75,6 +75,15 @@
       "sector": ""
     },
     {
+      "ticker": "TUZ26",
+      "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
+      "identifier": "TUZ26",
+      "pct_of_fund": 0.0006,
+      "quantity": -359400000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "GOOGM",
       "name": "ALPHABET INC PREFERRED STOCK 05/29 6.25",
       "identifier": "GOOGM",
@@ -98,15 +107,6 @@
       "identifier": "NFEGP",
       "pct_of_fund": 0.0005,
       "quantity": 12180.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "TUZ26",
-      "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
-      "identifier": "TUZ26",
-      "pct_of_fund": 0.0005,
-      "quantity": -359400000.0,
       "market_value": null,
       "sector": ""
     },
