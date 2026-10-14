@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "ticker": "CGMS",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0327,
-      "quantity": 1793572.46,
+      "pct_of_fund": 0.0353,
+      "quantity": 1934340.61,
       "market_value": null,
       "sector": ""
     },
@@ -24,7 +24,7 @@
       "ticker": "JNSTT6482355",
       "name": "JANE STREET GRP/JSG FIN SR SECURED 144A 08/33 7.686",
       "identifier": "JNSTT6482355",
-      "pct_of_fund": 0.0028,
+      "pct_of_fund": 0.0027,
       "quantity": 15200000.0,
       "market_value": null,
       "sector": ""
@@ -42,7 +42,7 @@
       "ticker": "PSKY6538523",
       "name": "SKYDANCE CORP SECURED 144A 03/42 5.05",
       "identifier": "PSKY6538523",
-      "pct_of_fund": 0.0016,
+      "pct_of_fund": 0.0015,
       "quantity": 13582000.0,
       "market_value": null,
       "sector": ""
@@ -53,6 +53,15 @@
       "identifier": "ORCL-PD",
       "pct_of_fund": 0.0012,
       "quantity": 147600.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "ALLVF6195589",
+      "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
+      "identifier": "ALLVF6195589",
+      "pct_of_fund": 0.0011,
+      "quantity": 6339736.0,
       "market_value": null,
       "sector": ""
     },
@@ -71,15 +80,6 @@
       "identifier": "OMI6430341",
       "pct_of_fund": 0.0009,
       "quantity": 5791578.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "TUZ26",
-      "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
-      "identifier": "TUZ26",
-      "pct_of_fund": 0.0006,
-      "quantity": -359400000.0,
       "market_value": null,
       "sector": ""
     },
@@ -107,6 +107,15 @@
       "identifier": "NFEGP",
       "pct_of_fund": 0.0005,
       "quantity": 12180.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "TUZ26",
+      "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
+      "identifier": "TUZ26",
+      "pct_of_fund": 0.0005,
+      "quantity": -359400000.0,
       "market_value": null,
       "sector": ""
     },
@@ -147,29 +156,11 @@
       "sector": ""
     },
     {
-      "ticker": "ABPL5991856",
-      "name": "AMBIPAR LUX SARL COMPANY GUAR 144A 02/33 10.875",
-      "identifier": "ABPL5991856",
-      "pct_of_fund": 0.0001,
-      "quantity": 925000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "FMXL6257004",
       "name": "FXI HOLDINGS INC SR SECURED 144A 11/29 14",
       "identifier": "FMXL6257004",
       "pct_of_fund": 0.0001,
       "quantity": 2485800.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "HBFL6540099",
-      "name": "H.B. FULLER CO SR UNSECURED 144A 10/34 7.625",
-      "identifier": "HBFL6540099",
-      "pct_of_fund": 0.0001,
-      "quantity": 580000.0,
       "market_value": null,
       "sector": ""
     },
@@ -241,7 +232,7 @@
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
       "pct_of_fund": -0.0001,
-      "quantity": 51700000.0,
+      "quantity": 68700000.0,
       "market_value": null,
       "sector": ""
     },
@@ -258,7 +249,7 @@
       "ticker": "AULZ26",
       "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
       "identifier": "AULZ26",
-      "pct_of_fund": -0.0004,
+      "pct_of_fund": -0.0003,
       "quantity": 42900000.0,
       "market_value": null,
       "sector": ""

@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "ticker": "CGCP",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.1209,
-      "quantity": 10128237.96,
+      "pct_of_fund": 0.1179,
+      "quantity": 9886669.65,
       "market_value": null,
       "sector": ""
     },
@@ -15,7 +15,7 @@
       "ticker": "TNZ26",
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
-      "pct_of_fund": 0.0026,
+      "pct_of_fund": 0.0024,
       "quantity": -608700000.0,
       "market_value": null,
       "sector": ""
@@ -66,15 +66,6 @@
       "sector": ""
     },
     {
-      "ticker": "AULZ26",
-      "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
-      "identifier": "AULZ26",
-      "pct_of_fund": 0.0005,
-      "quantity": -325900000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "ORCL-PD",
       "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
       "identifier": "ORCL-PD",
@@ -111,11 +102,11 @@
       "sector": ""
     },
     {
-      "ticker": "ABPL5991856",
-      "name": "AMBIPAR LUX SARL COMPANY GUAR 144A 02/33 10.875",
-      "identifier": "ABPL5991856",
-      "pct_of_fund": 0.0001,
-      "quantity": 1575000.0,
+      "ticker": "AULZ26",
+      "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
+      "identifier": "AULZ26",
+      "pct_of_fund": 0.0002,
+      "quantity": -325900000.0,
       "market_value": null,
       "sector": ""
     },
@@ -147,6 +138,15 @@
       "sector": ""
     },
     {
+      "ticker": "ALLVF6195589",
+      "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
+      "identifier": "ALLVF6195589",
+      "pct_of_fund": 0.0,
+      "quantity": 346408.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "NFE",
       "name": "NEW FORTRESS ENERGY INC COMMON STOCK USD.01",
       "identifier": "NFE",
@@ -159,7 +159,7 @@
       "ticker": "TUZ26",
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
-      "pct_of_fund": -0.0016,
+      "pct_of_fund": -0.0015,
       "quantity": 1256600000.0,
       "market_value": null,
       "sector": ""
@@ -168,7 +168,7 @@
       "ticker": "TYZ26",
       "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
       "identifier": "TYZ26",
-      "pct_of_fund": -0.0018,
+      "pct_of_fund": -0.0016,
       "quantity": 847900000.0,
       "market_value": null,
       "sector": ""
@@ -177,7 +177,7 @@
       "ticker": "FVZ26",
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
-      "pct_of_fund": -0.0027,
+      "pct_of_fund": -0.0026,
       "quantity": 914900000.0,
       "market_value": null,
       "sector": ""
