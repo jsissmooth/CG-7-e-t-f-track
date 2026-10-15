@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-15",
+  "ticker": "CGHM",
+  "holdings": [
+    {
+      "ticker": "TUZ26",
+      "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
+      "identifier": "TUZ26",
+      "pct_of_fund": 0.0,
+      "quantity": 70000000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "FVZ26",
+      "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
+      "identifier": "FVZ26",
+      "pct_of_fund": 0.0,
+      "quantity": -400000.0,
+      "market_value": null,
+      "sector": ""
+    }
+  ]
+}

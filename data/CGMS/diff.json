@@ -1,33 +1,19 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "ticker": "CGMS",
-  "prior_date": "2026-10-13",
+  "prior_date": "2026-10-14",
   "diff": [
-    {
-      "ticker": "ABPL5991856",
-      "name": "AMBIPAR LUX SARL COMPANY GUAR 144A 02/33 10.875",
-      "identifier": "ABPL5991856",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 925000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0001,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
     {
       "ticker": "ALLVF6195589",
       "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
       "identifier": "ALLVF6195589",
       "sector": "",
-      "status": "added",
-      "quantity_today": 6339736.0,
-      "quantity_prior": null,
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 6339736.0,
       "quantity_pct_change": null,
-      "pct_of_fund_today": 0.0011,
-      "pct_of_fund_prior": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.0011,
       "pct_of_fund_change": null,
       "market_value_today": null
     },
@@ -41,8 +27,8 @@
       "quantity_prior": 42900000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": -0.0003,
-      "pct_of_fund_prior": -0.0004,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": -0.0003,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -51,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 1934340.61,
-      "quantity_prior": 1793572.46,
-      "quantity_pct_change": 7.8485,
-      "pct_of_fund_today": 0.0353,
-      "pct_of_fund_prior": 0.0327,
-      "pct_of_fund_change": 0.0026,
+      "quantity_today": 1927099.17,
+      "quantity_prior": 1934340.61,
+      "quantity_pct_change": -0.3744,
+      "pct_of_fund_today": 0.0352,
+      "pct_of_fund_prior": 0.0353,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -110,9 +96,9 @@
       "quantity_today": -51600000.0,
       "quantity_prior": -51600000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0.0002,
+      "pct_of_fund_today": 0.0001,
       "pct_of_fund_prior": 0.0002,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -144,20 +130,6 @@
       "market_value_today": null
     },
     {
-      "ticker": "HBFL6540099",
-      "name": "H.B. FULLER CO SR UNSECURED 144A 10/34 7.625",
-      "identifier": "HBFL6540099",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 580000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0001,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "JNSTT6482354",
       "name": "JANE STREET GRP/JSG FIN SR SECURED 144A 08/31 7.294",
       "identifier": "JNSTT6482354",
@@ -180,9 +152,9 @@
       "quantity_today": 15200000.0,
       "quantity_prior": 15200000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0027,
-      "pct_of_fund_prior": 0.0028,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.0028,
+      "pct_of_fund_prior": 0.0027,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -246,13 +218,13 @@
       "name": "ACCENDRA HEALTH INC SR SECURED 144A 06/32 9",
       "identifier": "OMI6430341",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 5791578.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 5791578.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0009,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0.0009,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -264,9 +236,9 @@
       "quantity_today": 147600.0,
       "quantity_prior": 147600.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0012,
+      "pct_of_fund_today": 0.0011,
       "pct_of_fund_prior": 0.0012,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -274,13 +246,13 @@
       "name": "SKYDANCE CORP SECURED 144A 03/42 5.05",
       "identifier": "PSKY6538523",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 13582000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 13582000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0015,
-      "pct_of_fund_prior": 0.0016,
-      "pct_of_fund_change": -0.0001,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.0015,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -344,13 +316,13 @@
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 68700000.0,
-      "quantity_prior": 51700000.0,
-      "quantity_pct_change": 32.882,
-      "pct_of_fund_today": -0.0001,
+      "quantity_prior": 68700000.0,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": 0,
       "pct_of_fund_prior": -0.0001,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -363,8 +335,8 @@
       "quantity_prior": -359400000.0,
       "quantity_pct_change": -0.0,
       "pct_of_fund_today": 0.0005,
-      "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0005,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {

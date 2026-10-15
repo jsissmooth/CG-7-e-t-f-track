@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "ticker": "CGMS",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0353,
-      "quantity": 1934340.61,
+      "pct_of_fund": 0.0352,
+      "quantity": 1927099.17,
       "market_value": null,
       "sector": ""
     },
@@ -24,7 +24,7 @@
       "ticker": "JNSTT6482355",
       "name": "JANE STREET GRP/JSG FIN SR SECURED 144A 08/33 7.686",
       "identifier": "JNSTT6482355",
-      "pct_of_fund": 0.0027,
+      "pct_of_fund": 0.0028,
       "quantity": 15200000.0,
       "market_value": null,
       "sector": ""
@@ -39,33 +39,6 @@
       "sector": ""
     },
     {
-      "ticker": "PSKY6538523",
-      "name": "SKYDANCE CORP SECURED 144A 03/42 5.05",
-      "identifier": "PSKY6538523",
-      "pct_of_fund": 0.0015,
-      "quantity": 13582000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "ORCL-PD",
-      "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
-      "identifier": "ORCL-PD",
-      "pct_of_fund": 0.0012,
-      "quantity": 147600.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "ALLVF6195589",
-      "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
-      "identifier": "ALLVF6195589",
-      "pct_of_fund": 0.0011,
-      "quantity": 6339736.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "JNSTT6482358",
       "name": "JANE STREET GRP/JSG FIN SR SECURED 144A 08/36 8.088",
       "identifier": "JNSTT6482358",
@@ -75,11 +48,11 @@
       "sector": ""
     },
     {
-      "ticker": "OMI6430341",
-      "name": "ACCENDRA HEALTH INC SR SECURED 144A 06/32 9",
-      "identifier": "OMI6430341",
-      "pct_of_fund": 0.0009,
-      "quantity": 5791578.0,
+      "ticker": "ORCL-PD",
+      "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
+      "identifier": "ORCL-PD",
+      "pct_of_fund": 0.0011,
+      "quantity": 147600.0,
       "market_value": null,
       "sector": ""
     },
@@ -147,20 +120,20 @@
       "sector": ""
     },
     {
-      "ticker": "FVZ26",
-      "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
-      "identifier": "FVZ26",
-      "pct_of_fund": 0.0002,
-      "quantity": -51600000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "FMXL6257004",
       "name": "FXI HOLDINGS INC SR SECURED 144A 11/29 14",
       "identifier": "FMXL6257004",
       "pct_of_fund": 0.0001,
       "quantity": 2485800.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "FVZ26",
+      "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
+      "identifier": "FVZ26",
+      "pct_of_fund": 0.0001,
+      "quantity": -51600000.0,
       "market_value": null,
       "sector": ""
     },
@@ -219,20 +192,20 @@
       "sector": ""
     },
     {
+      "ticker": "TNZ26",
+      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
+      "identifier": "TNZ26",
+      "pct_of_fund": 0.0,
+      "quantity": 68700000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "VNTRF",
       "name": "VENATOR MATERIALS PLC COMMON STOCK USD.001",
       "identifier": "VNTRF",
       "pct_of_fund": 0.0,
       "quantity": 90.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "TNZ26",
-      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
-      "identifier": "TNZ26",
-      "pct_of_fund": -0.0001,
-      "quantity": 68700000.0,
       "market_value": null,
       "sector": ""
     },

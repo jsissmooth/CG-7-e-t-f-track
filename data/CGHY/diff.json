@@ -1,19 +1,19 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "ticker": "CGHY",
-  "prior_date": "2026-10-13",
+  "prior_date": "2026-10-14",
   "diff": [
     {
       "ticker": "ALLVF6195589",
       "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
       "identifier": "ALLVF6195589",
       "sector": "",
-      "status": "added",
-      "quantity_today": 267387.0,
-      "quantity_prior": null,
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 267387.0,
       "quantity_pct_change": null,
-      "pct_of_fund_today": 0.0016,
-      "pct_of_fund_prior": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.0016,
       "pct_of_fund_change": null,
       "market_value_today": null
     },
@@ -27,8 +27,22 @@
       "quantity_prior": 2000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0007,
-      "pct_of_fund_prior": 0.0008,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0007,
+      "pct_of_fund_change": 0.0,
+      "market_value_today": null
+    },
+    {
+      "ticker": "BPL6542025",
+      "name": "BUCKEYE PARTNERS LP SR UNSECURED 144A 11/31 6.875",
+      "identifier": "BPL6542025",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 400000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0026,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -51,26 +65,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 81198.25,
-      "quantity_prior": 30838.18,
-      "quantity_pct_change": 163.3043,
-      "pct_of_fund_today": 0.0517,
-      "pct_of_fund_prior": 0.0196,
-      "pct_of_fund_change": 0.0321,
-      "market_value_today": null
-    },
-    {
-      "ticker": "COIN6034335",
-      "name": "COINBASE GLOBAL INC SR UNSECURED 04/30 0.25",
-      "identifier": "COIN6034335",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 95000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": null,
+      "quantity_today": 81188.25,
+      "quantity_prior": 81198.25,
+      "quantity_pct_change": -0.0123,
+      "pct_of_fund_today": 0.0518,
+      "pct_of_fund_prior": 0.0517,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -82,9 +82,9 @@
       "quantity_today": 3700.0,
       "quantity_prior": 3700.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0012,
+      "pct_of_fund_today": 0.0011,
       "pct_of_fund_prior": 0.0012,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -130,20 +130,6 @@
       "market_value_today": null
     },
     {
-      "ticker": "HBFL6540099",
-      "name": "H.B. FULLER CO SR UNSECURED 144A 10/34 7.625",
-      "identifier": "HBFL6540099",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 125000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0008,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "MGLL6111140",
       "name": "DISCOVERY HOLDINGS INC COMPANY GUAR 03/32 4.279",
       "identifier": "MGLL6111140",
@@ -152,9 +138,9 @@
       "quantity_today": 145000.0,
       "quantity_prior": 145000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0007,
+      "pct_of_fund_today": 0.0008,
       "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -195,8 +181,8 @@
       "quantity_prior": 130028.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0008,
-      "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0008,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -222,9 +208,9 @@
       "quantity_today": 2400.0,
       "quantity_prior": 2400.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0007,
+      "pct_of_fund_today": 0.0006,
       "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -264,9 +250,9 @@
       "quantity_today": 71502.0,
       "quantity_prior": 71502.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0013,
+      "pct_of_fund_today": 0.0012,
       "pct_of_fund_prior": 0.0013,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
