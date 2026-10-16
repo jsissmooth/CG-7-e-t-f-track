@@ -1,22 +1,8 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "ticker": "CGHY",
-  "prior_date": "2026-10-14",
+  "prior_date": "2026-10-15",
   "diff": [
-    {
-      "ticker": "ALLVF6195589",
-      "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
-      "identifier": "ALLVF6195589",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 267387.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0016,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
     {
       "ticker": "BApA",
       "name": "BOEING CO/THE PREFERRED STOCK 10/27 6",
@@ -36,12 +22,12 @@
       "name": "BUCKEYE PARTNERS LP SR UNSECURED 144A 11/31 6.875",
       "identifier": "BPL6542025",
       "sector": "",
-      "status": "added",
-      "quantity_today": 400000.0,
-      "quantity_prior": null,
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 400000.0,
       "quantity_pct_change": null,
-      "pct_of_fund_today": 0.0026,
-      "pct_of_fund_prior": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.0026,
       "pct_of_fund_change": null,
       "market_value_today": null
     },
@@ -65,12 +51,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 81188.25,
-      "quantity_prior": 81198.25,
-      "quantity_pct_change": -0.0123,
-      "pct_of_fund_today": 0.0518,
-      "pct_of_fund_prior": 0.0517,
-      "pct_of_fund_change": 0.0001,
+      "quantity_today": 79557.93,
+      "quantity_prior": 81188.25,
+      "quantity_pct_change": -2.0081,
+      "pct_of_fund_today": 0.0506,
+      "pct_of_fund_prior": 0.0518,
+      "pct_of_fund_change": -0.0012,
       "market_value_today": null
     },
     {
@@ -83,8 +69,8 @@
       "quantity_prior": 3700.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0011,
-      "pct_of_fund_prior": 0.0012,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0011,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -92,13 +78,13 @@
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 600000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 600000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0001,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": -0.0001,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -138,9 +124,9 @@
       "quantity_today": 145000.0,
       "quantity_prior": 145000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0008,
-      "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": 0.0007,
+      "pct_of_fund_prior": 0.0008,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -180,9 +166,9 @@
       "quantity_today": 130028.0,
       "quantity_prior": 130028.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0008,
+      "pct_of_fund_today": 0.0007,
       "pct_of_fund_prior": 0.0008,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -209,8 +195,8 @@
       "quantity_prior": 2400.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0006,
-      "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0006,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -251,8 +237,8 @@
       "quantity_prior": 71502.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0012,
-      "pct_of_fund_prior": 0.0013,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0012,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -274,13 +260,13 @@
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 1200000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 1200000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0001,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": -0.0001,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {

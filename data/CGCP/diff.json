@@ -1,22 +1,8 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "ticker": "CGCP",
-  "prior_date": "2026-10-14",
+  "prior_date": "2026-10-15",
   "diff": [
-    {
-      "ticker": "ALLVF6195589",
-      "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
-      "identifier": "ALLVF6195589",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 346408.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
     {
       "ticker": "AULZ26",
       "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
@@ -26,9 +12,9 @@
       "quantity_today": -325900000.0,
       "quantity_prior": -325900000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": -0.0001,
-      "pct_of_fund_prior": 0.0002,
-      "pct_of_fund_change": -0.0003,
+      "pct_of_fund_today": -0.0007,
+      "pct_of_fund_prior": -0.0001,
+      "pct_of_fund_change": -0.0006,
       "market_value_today": null
     },
     {
@@ -37,12 +23,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 9887869.89,
-      "quantity_prior": 9886669.65,
-      "quantity_pct_change": 0.0121,
-      "pct_of_fund_today": 0.1177,
-      "pct_of_fund_prior": 0.1179,
-      "pct_of_fund_change": -0.0002,
+      "quantity_today": 9565155.35,
+      "quantity_prior": 9887869.89,
+      "quantity_pct_change": -3.2637,
+      "pct_of_fund_today": 0.1132,
+      "pct_of_fund_prior": 0.1177,
+      "pct_of_fund_change": -0.0045,
       "market_value_today": null
     },
     {
@@ -68,9 +54,23 @@
       "quantity_today": 914900000.0,
       "quantity_prior": 914900000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0026,
+      "pct_of_fund_today": -0.0021,
       "pct_of_fund_prior": -0.0026,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0005,
+      "market_value_today": null
+    },
+    {
+      "ticker": "IONN6206780",
+      "name": "ION PLAT FIN US/SARL SR SECURED 144A 08/29 9",
+      "identifier": "IONN6206780",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 10350000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0012,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -158,16 +158,16 @@
       "market_value_today": null
     },
     {
-      "ticker": "OMI6430341",
-      "name": "ACCENDRA HEALTH INC SR SECURED 144A 06/32 9",
-      "identifier": "OMI6430341",
+      "ticker": "OMI6438243",
+      "name": "ACCENDRA HEALTH INC SECURED 144A 06/33 9.75",
+      "identifier": "OMI6438243",
       "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 4924170.0,
+      "status": "added",
+      "quantity_today": 907415.0,
+      "quantity_prior": null,
       "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0005,
+      "pct_of_fund_today": 0,
+      "pct_of_fund_prior": null,
       "pct_of_fund_change": null,
       "market_value_today": null
     },
@@ -183,20 +183,6 @@
       "pct_of_fund_today": 0.0004,
       "pct_of_fund_prior": 0.0004,
       "pct_of_fund_change": 0.0,
-      "market_value_today": null
-    },
-    {
-      "ticker": "PSKY6538523",
-      "name": "SKYDANCE CORP SECURED 144A 03/42 5.05",
-      "identifier": "PSKY6538523",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 3038000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0002,
-      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -222,9 +208,9 @@
       "quantity_today": -608700000.0,
       "quantity_prior": -608700000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0.0022,
-      "pct_of_fund_prior": 0.0024,
-      "pct_of_fund_change": -0.0002,
+      "pct_of_fund_today": 0.0016,
+      "pct_of_fund_prior": 0.0022,
+      "pct_of_fund_change": -0.0006,
       "market_value_today": null
     },
     {
@@ -236,9 +222,9 @@
       "quantity_today": 1256600000.0,
       "quantity_prior": 1256600000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0015,
+      "pct_of_fund_today": -0.0013,
       "pct_of_fund_prior": -0.0015,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0002,
       "market_value_today": null
     },
     {
@@ -250,9 +236,9 @@
       "quantity_today": 847900000.0,
       "quantity_prior": 847900000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0015,
-      "pct_of_fund_prior": -0.0016,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": -0.0008,
+      "pct_of_fund_prior": -0.0015,
+      "pct_of_fund_change": 0.0007,
       "market_value_today": null
     },
     {
@@ -265,8 +251,8 @@
       "quantity_prior": 65500000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0002,
-      "pct_of_fund_prior": 0.0001,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0002,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
