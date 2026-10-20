@@ -1,13 +1,22 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "ticker": "CGHY",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0506,
-      "quantity": 79557.93,
+      "pct_of_fund": 0.0739,
+      "quantity": 116158.28,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "MDAS6546876",
+      "name": "RADIOLOGY PARTNERS INC SECURED 144A 02/30 VAR",
+      "identifier": "MDAS6546876",
+      "pct_of_fund": 0.0022,
+      "quantity": 359214.0,
       "market_value": null,
       "sector": ""
     },
@@ -48,6 +57,15 @@
       "sector": ""
     },
     {
+      "ticker": "BApA",
+      "name": "BOEING CO/THE PREFERRED STOCK 10/27 6",
+      "identifier": "BApA",
+      "pct_of_fund": 0.0008,
+      "quantity": 2000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "CCL",
       "name": "CARNIVAL CORP LTD COMMON STOCK USD.01",
       "identifier": "CCL",
@@ -57,19 +75,10 @@
       "sector": ""
     },
     {
-      "ticker": "BApA",
-      "name": "BOEING CO/THE PREFERRED STOCK 10/27 6",
-      "identifier": "BApA",
-      "pct_of_fund": 0.0007,
-      "quantity": 2000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "MGLL6111140",
       "name": "DISCOVERY HOLDINGS INC COMPANY GUAR 03/32 4.279",
       "identifier": "MGLL6111140",
-      "pct_of_fund": 0.0007,
+      "pct_of_fund": 0.0008,
       "quantity": 145000.0,
       "market_value": null,
       "sector": ""
@@ -78,7 +87,7 @@
       "ticker": "NFE6448216",
       "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
       "identifier": "NFE6448216",
-      "pct_of_fund": 0.0007,
+      "pct_of_fund": 0.0008,
       "quantity": 130028.0,
       "market_value": null,
       "sector": ""
