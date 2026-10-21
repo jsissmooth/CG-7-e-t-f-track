@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "ticker": "CGMS",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0279,
-      "quantity": 1537669.12,
+      "pct_of_fund": 0.0271,
+      "quantity": 1494170.42,
       "market_value": null,
       "sector": ""
     },
@@ -24,7 +24,7 @@
       "ticker": "JNSTT6482355",
       "name": "JANE STREET GRP/JSG FIN SR SECURED 144A 08/33 7.686",
       "identifier": "JNSTT6482355",
-      "pct_of_fund": 0.0028,
+      "pct_of_fund": 0.0027,
       "quantity": 15200000.0,
       "market_value": null,
       "sector": ""
@@ -66,6 +66,24 @@
       "sector": ""
     },
     {
+      "ticker": "ALLVF6195589",
+      "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
+      "identifier": "ALLVF6195589",
+      "pct_of_fund": 0.001,
+      "quantity": 6339736.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "OMI6430341",
+      "name": "ACCENDRA HEALTH INC SR SECURED 144A 06/32 9",
+      "identifier": "OMI6430341",
+      "pct_of_fund": 0.0009,
+      "quantity": 5791578.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "NFEGP",
       "name": "NEW FORTRESS ENERGY INC PREFERRED STOCK 09/29 3",
       "identifier": "NFEGP",
@@ -89,15 +107,6 @@
       "identifier": "GOOGN",
       "pct_of_fund": 0.0005,
       "quantity": 53000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "BAC6546950",
-      "name": "BANK OF AMERICA CORP SR UNSECURED 10/32 VAR",
-      "identifier": "BAC6546950",
-      "pct_of_fund": 0.0004,
-      "quantity": 2325000.0,
       "market_value": null,
       "sector": ""
     },
@@ -165,6 +174,15 @@
       "sector": ""
     },
     {
+      "ticker": "TNZ26",
+      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
+      "identifier": "TNZ26",
+      "pct_of_fund": 0.0001,
+      "quantity": 65400000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "WOLF6194878",
       "name": "WOLFSPEED INC SR SECURED 144A 06/30 VAR",
       "identifier": "WOLF6194878",
@@ -219,20 +237,20 @@
       "sector": ""
     },
     {
-      "ticker": "TNZ26",
-      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
-      "identifier": "TNZ26",
-      "pct_of_fund": 0.0,
-      "quantity": 65400000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "FVZ26",
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
       "pct_of_fund": 0.0,
       "quantity": -2700000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "AULZ26",
+      "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
+      "identifier": "AULZ26",
+      "pct_of_fund": 0.0,
+      "quantity": 25100000.0,
       "market_value": null,
       "sector": ""
     },
@@ -246,19 +264,10 @@
       "sector": ""
     },
     {
-      "ticker": "AULZ26",
-      "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
-      "identifier": "AULZ26",
-      "pct_of_fund": -0.0001,
-      "quantity": 25100000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "USZ26",
       "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
       "identifier": "USZ26",
-      "pct_of_fund": -0.0002,
+      "pct_of_fund": -0.0001,
       "quantity": 60700000.0,
       "market_value": null,
       "sector": ""

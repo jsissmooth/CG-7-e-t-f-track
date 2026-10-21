@@ -1,8 +1,22 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "ticker": "CGCP",
-  "prior_date": "2026-10-19",
+  "prior_date": "2026-10-20",
   "diff": [
+    {
+      "ticker": "ALLVF6195589",
+      "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
+      "identifier": "ALLVF6195589",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 346408.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
     {
       "ticker": "AULZ26",
       "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
@@ -12,9 +26,9 @@
       "quantity_today": -325900000.0,
       "quantity_prior": -325900000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": -0.0004,
-      "pct_of_fund_prior": -0.0007,
-      "pct_of_fund_change": 0.0003,
+      "pct_of_fund_today": -0.0007,
+      "pct_of_fund_prior": -0.0004,
+      "pct_of_fund_change": -0.0003,
       "market_value_today": null
     },
     {
@@ -23,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 9632910.55,
-      "quantity_prior": 9565155.35,
-      "quantity_pct_change": 0.7084,
-      "pct_of_fund_today": 0.1137,
-      "pct_of_fund_prior": 0.1132,
-      "pct_of_fund_change": 0.0005,
+      "quantity_today": 9492412.46,
+      "quantity_prior": 9632910.55,
+      "quantity_pct_change": -1.4585,
+      "pct_of_fund_today": 0.1117,
+      "pct_of_fund_prior": 0.1137,
+      "pct_of_fund_change": -0.002,
       "market_value_today": null
     },
     {
@@ -55,22 +69,8 @@
       "quantity_prior": 914900000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": -0.0023,
-      "pct_of_fund_prior": -0.0021,
-      "pct_of_fund_change": -0.0002,
-      "market_value_today": null
-    },
-    {
-      "ticker": "IONN6206780",
-      "name": "ION PLAT FIN US/SARL SR SECURED 144A 08/29 9",
-      "identifier": "IONN6206780",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 10350000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0012,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": -0.0023,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -158,6 +158,20 @@
       "market_value_today": null
     },
     {
+      "ticker": "OMI6430341",
+      "name": "ACCENDRA HEALTH INC SR SECURED 144A 06/32 9",
+      "identifier": "OMI6430341",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 4924170.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0005,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
       "ticker": "OMI6438243",
       "name": "ACCENDRA HEALTH INC SECURED 144A 06/33 9.75",
       "identifier": "OMI6438243",
@@ -181,8 +195,8 @@
       "quantity_prior": 71600.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0003,
-      "pct_of_fund_prior": 0.0004,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0003,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -204,13 +218,13 @@
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": -594700000.0,
-      "quantity_prior": -608700000.0,
-      "quantity_pct_change": -2.3,
-      "pct_of_fund_today": 0.0018,
-      "pct_of_fund_prior": 0.0016,
-      "pct_of_fund_change": 0.0002,
+      "quantity_prior": -594700000.0,
+      "quantity_pct_change": -0.0,
+      "pct_of_fund_today": 0.0017,
+      "pct_of_fund_prior": 0.0018,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -222,9 +236,9 @@
       "quantity_today": 1256600000.0,
       "quantity_prior": 1256600000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0013,
+      "pct_of_fund_today": -0.0014,
       "pct_of_fund_prior": -0.0013,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -236,9 +250,9 @@
       "quantity_today": 847900000.0,
       "quantity_prior": 847900000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": -0.0011,
-      "pct_of_fund_prior": -0.0008,
-      "pct_of_fund_change": -0.0003,
+      "pct_of_fund_today": -0.001,
+      "pct_of_fund_prior": -0.0011,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -246,13 +260,13 @@
       "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
       "identifier": "USZ26",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 74500000.0,
-      "quantity_prior": 65500000.0,
-      "quantity_pct_change": 13.7405,
-      "pct_of_fund_today": 0.0002,
+      "quantity_prior": 74500000.0,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": 0.0003,
       "pct_of_fund_prior": 0.0002,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
