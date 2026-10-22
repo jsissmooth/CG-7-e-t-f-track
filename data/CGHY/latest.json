@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "ticker": "CGHY",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0749,
-      "quantity": 117548.56,
+      "pct_of_fund": 0.074,
+      "quantity": 116298.31,
       "market_value": null,
       "sector": ""
     },
@@ -30,29 +30,20 @@
       "sector": ""
     },
     {
-      "ticker": "DUKU",
-      "name": "DUKE ENERGY CORP PREFERRED STOCK 08/29 7.75",
-      "identifier": "DUKU",
-      "pct_of_fund": 0.0012,
-      "quantity": 3700.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "SATS5938585",
       "name": "ECHOSTAR CORP SR SECURED 11/30 3.875",
       "identifier": "SATS5938585",
-      "pct_of_fund": 0.0012,
+      "pct_of_fund": 0.0013,
       "quantity": 71502.0,
       "market_value": null,
       "sector": ""
     },
     {
-      "ticker": "EVLLF6404679",
-      "name": "FMC CORP SR SECURED 144A 06/31 8",
-      "identifier": "EVLLF6404679",
-      "pct_of_fund": 0.0011,
-      "quantity": 225000.0,
+      "ticker": "DUKU",
+      "name": "DUKE ENERGY CORP PREFERRED STOCK 08/29 7.75",
+      "identifier": "DUKU",
+      "pct_of_fund": 0.0012,
+      "quantity": 3700.0,
       "market_value": null,
       "sector": ""
     },
@@ -116,6 +107,15 @@
       "identifier": "ORCL-PD",
       "pct_of_fund": 0.0006,
       "quantity": 2400.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "RPEX6549379",
+      "name": "RADPAR ESCROW ISSUER SR SECURED 144A 07/32 9.75",
+      "identifier": "RPEX6549379",
+      "pct_of_fund": 0.0006,
+      "quantity": 100000.0,
       "market_value": null,
       "sector": ""
     },

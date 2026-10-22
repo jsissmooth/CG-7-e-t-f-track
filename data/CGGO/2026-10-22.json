@@ -1,0 +1,906 @@
+{
+  "date": "2026-10-22",
+  "ticker": "CGGO",
+  "holdings": [
+    {
+      "ticker": "TSM",
+      "name": "TAIWAN SEMICONDUCTOR SP ADR ADR",
+      "identifier": "TSM",
+      "pct_of_fund": 0.0624,
+      "quantity": 1713123.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "AVGO",
+      "name": "BROADCOM INC COMMON STOCK",
+      "identifier": "AVGO",
+      "pct_of_fund": 0.0346,
+      "quantity": 1214490.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "ALPHABET INC CL A COMMON STOCK USD.001",
+      "identifier": "GOOGL",
+      "pct_of_fund": 0.0333,
+      "quantity": 1179494.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "AMZN",
+      "name": "AMAZON.COM INC COMMON STOCK USD.01",
+      "identifier": "AMZN",
+      "pct_of_fund": 0.0317,
+      "quantity": 1433927.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "MSFT",
+      "name": "MICROSOFT CORP COMMON STOCK USD.00000625",
+      "identifier": "MSFT",
+      "pct_of_fund": 0.0305,
+      "quantity": 678377.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML HOLDING NV COMMON STOCK EUR.09",
+      "identifier": "ASML",
+      "pct_of_fund": 0.0292,
+      "quantity": 206392.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "A000660",
+      "name": "SK HYNIX INC COMMON STOCK KRW5000.0",
+      "identifier": "A000660",
+      "pct_of_fund": 0.0271,
+      "quantity": 329036.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "CMQXX",
+      "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
+      "identifier": "CMQXX",
+      "pct_of_fund": 0.0262,
+      "quantity": 3103804.11,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "A005930",
+      "name": "SAMSUNG ELECTRONICS CO LTD COMMON STOCK KRW100.0",
+      "identifier": "A005930",
+      "pct_of_fund": 0.0255,
+      "quantity": 1795864.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "AAPL",
+      "name": "APPLE INC COMMON STOCK USD.00001",
+      "identifier": "AAPL",
+      "pct_of_fund": 0.0194,
+      "quantity": 668161.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "WDC",
+      "name": "WESTERN DIGITAL CORP COMMON STOCK USD.01",
+      "identifier": "WDC",
+      "pct_of_fund": 0.0187,
+      "quantity": 586150.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "MU",
+      "name": "MICRON TECHNOLOGY INC COMMON STOCK USD.1",
+      "identifier": "MU",
+      "pct_of_fund": 0.0178,
+      "quantity": 231078.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "VRTX",
+      "name": "VERTEX PHARMACEUTICALS INC COMMON STOCK USD.01",
+      "identifier": "VRTX",
+      "pct_of_fund": 0.0161,
+      "quantity": 364358.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "META",
+      "name": "META PLATFORMS INC CLASS A COMMON STOCK USD.000006",
+      "identifier": "META",
+      "pct_of_fund": 0.0158,
+      "quantity": 269100.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "LLY",
+      "name": "ELI LILLY + CO COMMON STOCK",
+      "identifier": "LLY",
+      "pct_of_fund": 0.0155,
+      "quantity": 144999.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "CNQ",
+      "name": "CANADIAN NATURAL RESOURCES COMMON STOCK",
+      "identifier": "CNQ",
+      "pct_of_fund": 0.0152,
+      "quantity": 3329984.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "SBUX",
+      "name": "STARBUCKS CORP COMMON STOCK USD.001",
+      "identifier": "SBUX",
+      "pct_of_fund": 0.0148,
+      "quantity": 1772793.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "SIE",
+      "name": "SIEMENS AG REG COMMON STOCK",
+      "identifier": "SIE",
+      "pct_of_fund": 0.0141,
+      "quantity": 557195.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "C",
+      "name": "CITIGROUP INC COMMON STOCK USD.01",
+      "identifier": "C",
+      "pct_of_fund": 0.0135,
+      "quantity": 1292441.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA CORP COMMON STOCK USD.001",
+      "identifier": "NVDA",
+      "pct_of_fund": 0.0123,
+      "quantity": 658363.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "SHOP",
+      "name": "SHOPIFY INC   CLASS A COMMON STOCK",
+      "identifier": "SHOP",
+      "pct_of_fund": 0.0121,
+      "quantity": 821263.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "SWKS",
+      "name": "SKYWORKS SOLUTIONS INC COMMON STOCK USD.25",
+      "identifier": "SWKS",
+      "pct_of_fund": 0.0119,
+      "quantity": 1718492.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "BBVA",
+      "name": "BANCO BILBAO VIZCAYA ARGENTA COMMON STOCK EUR.49",
+      "identifier": "BBVA",
+      "pct_of_fund": 0.0115,
+      "quantity": 5247838.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "III",
+      "name": "3I GROUP PLC COMMON STOCK GBP.738636",
+      "identifier": "III",
+      "pct_of_fund": 0.0113,
+      "quantity": 4299676.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "INTC",
+      "name": "INTEL CORP COMMON STOCK USD.001",
+      "identifier": "INTC",
+      "pct_of_fund": 0.0108,
+      "quantity": 1374856.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "MRNA",
+      "name": "MODERNA INC COMMON STOCK USD.0001",
+      "identifier": "MRNA",
+      "pct_of_fund": 0.0104,
+      "quantity": 492604.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "V",
+      "name": "VISA INC CLASS A SHARES COMMON STOCK USD.0001",
+      "identifier": "V",
+      "pct_of_fund": 0.0103,
+      "quantity": 298652.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "NET",
+      "name": "CLOUDFLARE INC   CLASS A COMMON STOCK USD.001",
+      "identifier": "NET",
+      "pct_of_fund": 0.0102,
+      "quantity": 395061.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE VERNOVA INC COMMON STOCK USD.01",
+      "identifier": "GEV",
+      "pct_of_fund": 0.0101,
+      "quantity": 129944.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "ATI",
+      "name": "ATI INC COMMON STOCK USD.1",
+      "identifier": "ATI",
+      "pct_of_fund": 0.0095,
+      "quantity": 626565.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "ARGX",
+      "name": "ARGENX SE   ADR ADR",
+      "identifier": "ARGX",
+      "pct_of_fund": 0.0094,
+      "quantity": 124850.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "REGN",
+      "name": "REGENERON PHARMACEUTICALS COMMON STOCK USD.001",
+      "identifier": "REGN",
+      "pct_of_fund": 0.0094,
+      "quantity": 138587.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "PRU",
+      "name": "PRUDENTIAL PLC COMMON STOCK GBP.05",
+      "identifier": "PRU",
+      "pct_of_fund": 0.0091,
+      "quantity": 8886131.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "PRX",
+      "name": "PROSUS NV COMMON STOCK EUR.05",
+      "identifier": "PRX",
+      "pct_of_fund": 0.0089,
+      "quantity": 2704407.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "TTE",
+      "name": "TOTALENERGIES SE COMMON STOCK EUR2.5",
+      "identifier": "TTE",
+      "pct_of_fund": 0.0089,
+      "quantity": 1156065.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "BSX",
+      "name": "BOSTON SCIENTIFIC CORP COMMON STOCK USD.01",
+      "identifier": "BSX",
+      "pct_of_fund": 0.0085,
+      "quantity": 2276817.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "SAAB B",
+      "name": "SAAB AB B COMMON STOCK",
+      "identifier": "SAAB B",
+      "pct_of_fund": 0.0082,
+      "quantity": 1501354.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "GLE",
+      "name": "SOCIETE GENERALE SA COMMON STOCK EUR1.25",
+      "identifier": "GLE",
+      "pct_of_fund": 0.0081,
+      "quantity": 1360022.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "669",
+      "name": "TECHTRONIC INDUSTRIES CO LTD COMMON STOCK",
+      "identifier": "669",
+      "pct_of_fund": 0.0081,
+      "quantity": 5699100.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "FIX",
+      "name": "COMFORT SYSTEMS USA INC COMMON STOCK USD.01",
+      "identifier": "FIX",
+      "pct_of_fund": 0.008,
+      "quantity": 67983.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "APP",
+      "name": "APPLOVIN CORP CLASS A COMMON STOCK USD.00003",
+      "identifier": "APP",
+      "pct_of_fund": 0.0078,
+      "quantity": 346575.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "QSR",
+      "name": "RESTAURANT BRANDS INTERN COMMON STOCK",
+      "identifier": "QSR",
+      "pct_of_fund": 0.0078,
+      "quantity": 1245507.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "AEM",
+      "name": "AGNICO EAGLE MINES LTD COMMON STOCK",
+      "identifier": "AEM",
+      "pct_of_fund": 0.0077,
+      "quantity": 487093.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "AIR",
+      "name": "AIRBUS SE COMMON STOCK EUR1.0",
+      "identifier": "AIR",
+      "pct_of_fund": 0.0077,
+      "quantity": 406310.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "ONC",
+      "name": "BEONE MEDICINES LTD ADR ADR USD.0001",
+      "identifier": "ONC",
+      "pct_of_fund": 0.0077,
+      "quantity": 235811.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "RI",
+      "name": "PERNOD RICARD SA COMMON STOCK EUR1.55",
+      "identifier": "RI",
+      "pct_of_fund": 0.0076,
+      "quantity": 1225695.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "GE",
+      "name": "GENERAL ELECTRIC COMMON STOCK USD.01",
+      "identifier": "GE",
+      "pct_of_fund": 0.0075,
+      "quantity": 302472.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "AV/",
+      "name": "AVIVA PLC COMMON STOCK GBP.3289474",
+      "identifier": "AV/",
+      "pct_of_fund": 0.0074,
+      "quantity": 9112594.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "SAF",
+      "name": "SAFRAN SA COMMON STOCK EUR.2",
+      "identifier": "SAF",
+      "pct_of_fund": 0.0073,
+      "quantity": 243886.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "SAN",
+      "name": "SANOFI COMMON STOCK EUR2.0",
+      "identifier": "SAN",
+      "pct_of_fund": 0.0072,
+      "quantity": 1033223.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "CI",
+      "name": "THE CIGNA GROUP COMMON STOCK USD.01",
+      "identifier": "CI",
+      "pct_of_fund": 0.0072,
+      "quantity": 278660.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "CNM",
+      "name": "CORE + MAIN INC CLASS A COMMON STOCK USD.01",
+      "identifier": "CNM",
+      "pct_of_fund": 0.0071,
+      "quantity": 2040938.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "LIN",
+      "name": "LINDE PLC COMMON STOCK",
+      "identifier": "LIN",
+      "pct_of_fund": 0.007,
+      "quantity": 164835.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "FISV",
+      "name": "FISERV INC COMMON STOCK USD.01",
+      "identifier": "FISV",
+      "pct_of_fund": 0.0068,
+      "quantity": 1670615.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "GLW",
+      "name": "CORNING INC COMMON STOCK USD.5",
+      "identifier": "GLW",
+      "pct_of_fund": 0.0066,
+      "quantity": 580568.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "PFE",
+      "name": "PFIZER INC COMMON STOCK USD.05",
+      "identifier": "PFE",
+      "pct_of_fund": 0.0066,
+      "quantity": 2616398.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "BA",
+      "name": "BOEING CO/THE COMMON STOCK USD5.0",
+      "identifier": "BA",
+      "pct_of_fund": 0.0065,
+      "quantity": 397961.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "BHARTI",
+      "name": "BHARTI AIRTEL LTD COMMON STOCK INR5.0",
+      "identifier": "BHARTI",
+      "pct_of_fund": 0.0064,
+      "quantity": 3763160.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "DSY",
+      "name": "DASSAULT SYSTEMES SE COMMON STOCK EUR.1",
+      "identifier": "DSY",
+      "pct_of_fund": 0.0063,
+      "quantity": 2822258.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "ANET",
+      "name": "ARISTA NETWORKS INC COMMON STOCK USD.0001",
+      "identifier": "ANET",
+      "pct_of_fund": 0.0062,
+      "quantity": 398391.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "4004",
+      "name": "RESONAC HOLDINGS CORP COMMON STOCK",
+      "identifier": "4004",
+      "pct_of_fund": 0.0062,
+      "quantity": 801600.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "ADYEN",
+      "name": "ADYEN NV COMMON STOCK EUR.01",
+      "identifier": "ADYEN",
+      "pct_of_fund": 0.0061,
+      "quantity": 68216.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "AON",
+      "name": "AON PLC CLASS A COMMON STOCK",
+      "identifier": "AON",
+      "pct_of_fund": 0.0061,
+      "quantity": 245120.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "CNC",
+      "name": "CENTENE CORP COMMON STOCK USD.001",
+      "identifier": "CNC",
+      "pct_of_fund": 0.0061,
+      "quantity": 1029202.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "CA",
+      "name": "CARREFOUR SA COMMON STOCK EUR2.5",
+      "identifier": "CA",
+      "pct_of_fund": 0.0059,
+      "quantity": 4405408.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "UNH",
+      "name": "UNITEDHEALTH GROUP INC COMMON STOCK USD.01",
+      "identifier": "UNH",
+      "pct_of_fund": 0.0059,
+      "quantity": 168811.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "BN",
+      "name": "BROOKFIELD CORP COMMON STOCK",
+      "identifier": "BN",
+      "pct_of_fund": 0.0058,
+      "quantity": 1839123.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "LYC",
+      "name": "LYNAS RARE EARTHS LTD COMMON STOCK",
+      "identifier": "LYC",
+      "pct_of_fund": 0.0058,
+      "quantity": 8459215.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "BBD.B",
+      "name": "BOMBARDIER INC B COMMON STOCK",
+      "identifier": "BBD.B",
+      "pct_of_fund": 0.0057,
+      "quantity": 286964.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "RYAAY",
+      "name": "RYANAIR HOLDINGS PLC SP ADR ADR",
+      "identifier": "RYAAY",
+      "pct_of_fund": 0.0057,
+      "quantity": 1256553.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "ITX",
+      "name": "INDUSTRIA DE DISENO TEXTIL COMMON STOCK EUR.03",
+      "identifier": "ITX",
+      "pct_of_fund": 0.0056,
+      "quantity": 1047798.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "TCOM",
+      "name": "TRIP.COM GROUP LTD ADR ADR USD.01",
+      "identifier": "TCOM",
+      "pct_of_fund": 0.0056,
+      "quantity": 1679101.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "CAP",
+      "name": "CAPGEMINI SE COMMON STOCK EUR8.0",
+      "identifier": "CAP",
+      "pct_of_fund": 0.0055,
+      "quantity": 461389.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "COST",
+      "name": "COSTCO WHOLESALE CORP COMMON STOCK USD.005",
+      "identifier": "COST",
+      "pct_of_fund": 0.0055,
+      "quantity": 65248.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "STAN",
+      "name": "STANDARD CHARTERED PLC COMMON STOCK USD.5",
+      "identifier": "STAN",
+      "pct_of_fund": 0.0055,
+      "quantity": 2346331.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "CFR",
+      "name": "CIE FINANCIERE RICHEMO A REG COMMON STOCK CHF1.0",
+      "identifier": "CFR",
+      "pct_of_fund": 0.0053,
+      "quantity": 295004.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "EPAM",
+      "name": "EPAM SYSTEMS INC COMMON STOCK USD.001",
+      "identifier": "EPAM",
+      "pct_of_fund": 0.0053,
+      "quantity": 468861.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "TDG",
+      "name": "TRANSDIGM GROUP INC COMMON STOCK USD.01",
+      "identifier": "TDG",
+      "pct_of_fund": 0.0053,
+      "quantity": 55131.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "BAYN",
+      "name": "BAYER AG REG COMMON STOCK",
+      "identifier": "BAYN",
+      "pct_of_fund": 0.0052,
+      "quantity": 1232352.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "DSV",
+      "name": "DSV A/S COMMON STOCK DKK1.0",
+      "identifier": "DSV",
+      "pct_of_fund": 0.0052,
+      "quantity": 296869.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "NOVOB",
+      "name": "NOVO NORDISK A/S B COMMON STOCK DKK.1",
+      "identifier": "NOVOB",
+      "pct_of_fund": 0.0052,
+      "quantity": 1575061.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "2282",
+      "name": "MGM CHINA HOLDINGS LTD COMMON STOCK HKD1.0",
+      "identifier": "2282",
+      "pct_of_fund": 0.0051,
+      "quantity": 48822188.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "PM",
+      "name": "PHILIP MORRIS INTERNATIONAL COMMON STOCK",
+      "identifier": "PM",
+      "pct_of_fund": 0.0051,
+      "quantity": 304923.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "STX",
+      "name": "SEAGATE TECHNOLOGY HOLDINGS COMMON STOCK USD.00001",
+      "identifier": "STX",
+      "pct_of_fund": 0.0051,
+      "quantity": 87271.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "EL",
+      "name": "ESSILORLUXOTTICA COMMON STOCK EUR.18",
+      "identifier": "EL",
+      "pct_of_fund": 0.005,
+      "quantity": 304129.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "HPE",
+      "name": "HEWLETT PACKARD ENTERPRISE COMMON STOCK USD.01",
+      "identifier": "HPE",
+      "pct_of_fund": 0.0049,
+      "quantity": 994988.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "MNST",
+      "name": "MONSTER BEVERAGE CORP COMMON STOCK USD.005",
+      "identifier": "MNST",
+      "pct_of_fund": 0.0046,
+      "quantity": 1157400.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "DE",
+      "name": "DEERE + CO COMMON STOCK USD1.0",
+      "identifier": "DE",
+      "pct_of_fund": 0.0043,
+      "quantity": 80315.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "BE",
+      "name": "BLOOM ENERGY CORP  A COMMON STOCK USD.0001",
+      "identifier": "BE",
+      "pct_of_fund": 0.0042,
+      "quantity": 206423.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA CORP COMMON STOCK USD.001",
+      "identifier": "KLAC",
+      "pct_of_fund": 0.0042,
+      "quantity": 304969.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "GTCAP",
+      "name": "GT CAPITAL HOLDINGS INC COMMON STOCK PHP10.0",
+      "identifier": "GTCAP",
+      "pct_of_fund": 0.0041,
+      "quantity": 7070510.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "CRS",
+      "name": "CARPENTER TECHNOLOGY COMMON STOCK USD5.0",
+      "identifier": "CRS",
+      "pct_of_fund": 0.004,
+      "quantity": 129678.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "SPCX",
+      "name": "SPACE EXPLORATION TECHN CL A COMMON STOCK USD.001",
+      "identifier": "SPCX",
+      "pct_of_fund": 0.0039,
+      "quantity": 292323.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "RNO",
+      "name": "RENAULT SA COMMON STOCK EUR3.81",
+      "identifier": "RNO",
+      "pct_of_fund": 0.0037,
+      "quantity": 1462190.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "FTAI",
+      "name": "FTAI AVIATION LTD COMMON STOCK USD1.0",
+      "identifier": "FTAI",
+      "pct_of_fund": 0.0035,
+      "quantity": 254969.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "RKLB",
+      "name": "ROCKET LAB CORP COMMON STOCK",
+      "identifier": "RKLB",
+      "pct_of_fund": 0.0033,
+      "quantity": 728633.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "KNSL",
+      "name": "KINSALE CAPITAL GROUP INC COMMON STOCK USD.01",
+      "identifier": "KNSL",
+      "pct_of_fund": 0.003,
+      "quantity": 92949.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "CVC",
+      "name": "CVC CAPITAL PARTNERS PLC COMMON STOCK",
+      "identifier": "CVC",
+      "pct_of_fund": 0.0028,
+      "quantity": 2381034.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "A012450",
+      "name": "HANWHA AEROSPACE CO LTD COMMON STOCK KRW5000.0",
+      "identifier": "A012450",
+      "pct_of_fund": 0.0025,
+      "quantity": 49039.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "AGI",
+      "name": "ALLIANCE GLOBAL GROUP INC COMMON STOCK PHP1.0",
+      "identifier": "AGI",
+      "pct_of_fund": 0.001,
+      "quantity": 79922900.0,
+      "market_value": null,
+      "sector": ""
+    }
+  ]
+}

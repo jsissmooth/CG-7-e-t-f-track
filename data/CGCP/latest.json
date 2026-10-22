@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "ticker": "CGCP",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.1117,
-      "quantity": 9492412.46,
+      "pct_of_fund": 0.1104,
+      "quantity": 9381790.33,
       "market_value": null,
       "sector": ""
     },
@@ -15,7 +15,7 @@
       "ticker": "TNZ26",
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
-      "pct_of_fund": 0.0017,
+      "pct_of_fund": 0.0019,
       "quantity": -594700000.0,
       "market_value": null,
       "sector": ""
@@ -62,6 +62,15 @@
       "identifier": "OMI6430341",
       "pct_of_fund": 0.0005,
       "quantity": 4924170.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "ALLVF6195644",
+      "name": "ALTICE FRANCE SA SR SECURED 144A 07/32 6.875",
+      "identifier": "ALLVF6195644",
+      "pct_of_fund": 0.0003,
+      "quantity": 2622801.0,
       "market_value": null,
       "sector": ""
     },
@@ -150,7 +159,7 @@
       "ticker": "AULZ26",
       "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
       "identifier": "AULZ26",
-      "pct_of_fund": -0.0007,
+      "pct_of_fund": -0.0006,
       "quantity": -325900000.0,
       "market_value": null,
       "sector": ""
@@ -159,7 +168,7 @@
       "ticker": "TYZ26",
       "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
       "identifier": "TYZ26",
-      "pct_of_fund": -0.001,
+      "pct_of_fund": -0.0012,
       "quantity": 847900000.0,
       "market_value": null,
       "sector": ""
@@ -168,7 +177,7 @@
       "ticker": "TUZ26",
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
-      "pct_of_fund": -0.0014,
+      "pct_of_fund": -0.0015,
       "quantity": 1256600000.0,
       "market_value": null,
       "sector": ""
@@ -177,7 +186,7 @@
       "ticker": "FVZ26",
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
-      "pct_of_fund": -0.0023,
+      "pct_of_fund": -0.0024,
       "quantity": 914900000.0,
       "market_value": null,
       "sector": ""
