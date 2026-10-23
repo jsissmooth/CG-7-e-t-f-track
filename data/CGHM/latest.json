@@ -1,21 +1,12 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "ticker": "CGHM",
   "holdings": [
-    {
-      "ticker": "TYZ26",
-      "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
-      "identifier": "TYZ26",
-      "pct_of_fund": 0.0,
-      "quantity": -25000000.0,
-      "market_value": null,
-      "sector": ""
-    },
     {
       "ticker": "TUZ26",
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
-      "pct_of_fund": 0.0,
+      "pct_of_fund": 0.0001,
       "quantity": 70000000.0,
       "market_value": null,
       "sector": ""
@@ -26,6 +17,15 @@
       "identifier": "FVZ26",
       "pct_of_fund": 0.0,
       "quantity": -400000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "TYZ26",
+      "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
+      "identifier": "TYZ26",
+      "pct_of_fund": -0.0001,
+      "quantity": -25000000.0,
       "market_value": null,
       "sector": ""
     }

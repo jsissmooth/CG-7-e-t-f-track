@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "ticker": "CGHY",
-  "prior_date": "2026-10-21",
+  "prior_date": "2026-10-22",
   "diff": [
     {
       "ticker": "ALLVF6195589",
@@ -26,9 +26,9 @@
       "quantity_today": 2000.0,
       "quantity_prior": 2000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0008,
+      "pct_of_fund_today": 0.0007,
       "pct_of_fund_prior": 0.0008,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -51,12 +51,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 116298.31,
-      "quantity_prior": 117548.56,
-      "quantity_pct_change": -1.0636,
-      "pct_of_fund_today": 0.074,
-      "pct_of_fund_prior": 0.0749,
-      "pct_of_fund_change": -0.0009,
+      "quantity_today": 112537.93,
+      "quantity_prior": 116298.31,
+      "quantity_pct_change": -3.2334,
+      "pct_of_fund_today": 0.0715,
+      "pct_of_fund_prior": 0.074,
+      "pct_of_fund_change": -0.0025,
       "market_value_today": null
     },
     {
@@ -74,20 +74,6 @@
       "market_value_today": null
     },
     {
-      "ticker": "EVLLF6404679",
-      "name": "FMC CORP SR SECURED 144A 06/31 8",
-      "identifier": "EVLLF6404679",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 225000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0011,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "GOOGM",
       "name": "ALPHABET INC PREFERRED STOCK 05/29 6.25",
       "identifier": "GOOGM",
@@ -96,9 +82,9 @@
       "quantity_today": 1500.0,
       "quantity_prior": 1500.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0005,
+      "pct_of_fund_today": 0.0004,
       "pct_of_fund_prior": 0.0005,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -110,9 +96,23 @@
       "quantity_today": 1500.0,
       "quantity_prior": 1500.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0005,
+      "pct_of_fund_today": 0.0004,
       "pct_of_fund_prior": 0.0005,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
+      "market_value_today": null
+    },
+    {
+      "ticker": "GRRT6551101",
+      "name": "GRANT THORNTON ADVISORS SR SECURED 144A 11/31 10.5",
+      "identifier": "GRRT6551101",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 550000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.0035,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -124,9 +124,9 @@
       "quantity_today": 359214.0,
       "quantity_prior": 359214.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0022,
+      "pct_of_fund_today": 0.0021,
       "pct_of_fund_prior": 0.0022,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -152,9 +152,9 @@
       "quantity_today": 3600.0,
       "quantity_prior": 3600.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0011,
+      "pct_of_fund_today": 0.0012,
       "pct_of_fund_prior": 0.0011,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -176,13 +176,13 @@
       "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
       "identifier": "NFE6448216",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 130028.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 130028.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0007,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -218,13 +218,13 @@
       "name": "RADPAR ESCROW ISSUER SR SECURED 144A 07/32 9.75",
       "identifier": "RPEX6549379",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 100000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 100000.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0006,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0006,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -264,9 +264,9 @@
       "quantity_today": 71502.0,
       "quantity_prior": 71502.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0013,
-      "pct_of_fund_prior": 0.0012,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": 0.0012,
+      "pct_of_fund_prior": 0.0013,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {

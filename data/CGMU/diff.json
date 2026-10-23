@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "ticker": "CGMU",
-  "prior_date": "2026-10-21",
+  "prior_date": "2026-10-22",
   "diff": [
     {
       "ticker": "FVZ26",
@@ -26,9 +26,9 @@
       "quantity_today": -23700000.0,
       "quantity_prior": -23700000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0,
+      "pct_of_fund_today": -0.0001,
       "pct_of_fund_prior": 0,
-      "pct_of_fund_change": 0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -36,13 +36,13 @@
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 198400000.0,
-      "quantity_prior": 185200000.0,
-      "quantity_pct_change": 7.1274,
-      "pct_of_fund_today": 0,
+      "quantity_prior": 198400000.0,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": 0.0001,
       "pct_of_fund_prior": 0,
-      "pct_of_fund_change": 0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     }
   ]

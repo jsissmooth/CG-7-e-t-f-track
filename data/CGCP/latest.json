@@ -1,22 +1,13 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "ticker": "CGCP",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.1104,
-      "quantity": 9381790.33,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "TNZ26",
-      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
-      "identifier": "TNZ26",
-      "pct_of_fund": 0.0019,
-      "quantity": -594700000.0,
+      "pct_of_fund": 0.1097,
+      "quantity": 9396641.82,
       "market_value": null,
       "sector": ""
     },
@@ -39,15 +30,6 @@
       "sector": ""
     },
     {
-      "ticker": "NFE6448216",
-      "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
-      "identifier": "NFE6448216",
-      "pct_of_fund": 0.0008,
-      "quantity": 7341271.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "JNSTT6482358",
       "name": "JANE STREET GRP/JSG FIN SR SECURED 144A 08/36 8.088",
       "identifier": "JNSTT6482358",
@@ -57,11 +39,29 @@
       "sector": ""
     },
     {
+      "ticker": "TNZ26",
+      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
+      "identifier": "TNZ26",
+      "pct_of_fund": 0.0007,
+      "quantity": -594700000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "OMI6430341",
       "name": "ACCENDRA HEALTH INC SR SECURED 144A 06/32 9",
       "identifier": "OMI6430341",
       "pct_of_fund": 0.0005,
       "quantity": 4924170.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "USZ26",
+      "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
+      "identifier": "USZ26",
+      "pct_of_fund": 0.0004,
+      "quantity": 74500000.0,
       "market_value": null,
       "sector": ""
     },
@@ -80,15 +80,6 @@
       "identifier": "ORCL-PD",
       "pct_of_fund": 0.0003,
       "quantity": 71600.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "USZ26",
-      "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
-      "identifier": "USZ26",
-      "pct_of_fund": 0.0003,
-      "quantity": 74500000.0,
       "market_value": null,
       "sector": ""
     },
@@ -147,20 +138,20 @@
       "sector": ""
     },
     {
-      "ticker": "NFE",
-      "name": "NEW FORTRESS ENERGY INC COMMON STOCK USD.01",
-      "identifier": "NFE",
+      "ticker": "KRON5842154",
+      "name": "KRONOS ACQUISITION HOLDI SR UNSECURED 144A 06/32 10.75",
+      "identifier": "KRON5842154",
       "pct_of_fund": 0.0,
-      "quantity": 33233.18,
+      "quantity": 905000.0,
       "market_value": null,
       "sector": ""
     },
     {
-      "ticker": "AULZ26",
-      "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
-      "identifier": "AULZ26",
-      "pct_of_fund": -0.0006,
-      "quantity": -325900000.0,
+      "ticker": "NFE",
+      "name": "NEW FORTRESS ENERGY INC COMMON STOCK USD.01",
+      "identifier": "NFE",
+      "pct_of_fund": 0.0,
+      "quantity": 33233.0,
       "market_value": null,
       "sector": ""
     },
@@ -168,7 +159,7 @@
       "ticker": "TYZ26",
       "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
       "identifier": "TYZ26",
-      "pct_of_fund": -0.0012,
+      "pct_of_fund": 0.0,
       "quantity": 847900000.0,
       "market_value": null,
       "sector": ""
@@ -177,7 +168,7 @@
       "ticker": "TUZ26",
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
-      "pct_of_fund": -0.0015,
+      "pct_of_fund": -0.001,
       "quantity": 1256600000.0,
       "market_value": null,
       "sector": ""
@@ -186,8 +177,17 @@
       "ticker": "FVZ26",
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
-      "pct_of_fund": -0.0024,
+      "pct_of_fund": -0.0015,
       "quantity": 914900000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "AULZ26",
+      "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
+      "identifier": "AULZ26",
+      "pct_of_fund": -0.0016,
+      "quantity": -325900000.0,
       "market_value": null,
       "sector": ""
     }

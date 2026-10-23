@@ -1,13 +1,22 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "ticker": "CGHY",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.074,
-      "quantity": 116298.31,
+      "pct_of_fund": 0.0715,
+      "quantity": 112537.93,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "GRRT6551101",
+      "name": "GRANT THORNTON ADVISORS SR SECURED 144A 11/31 10.5",
+      "identifier": "GRRT6551101",
+      "pct_of_fund": 0.0035,
+      "quantity": 550000.0,
       "market_value": null,
       "sector": ""
     },
@@ -15,7 +24,7 @@
       "ticker": "MDAS6546876",
       "name": "RADIOLOGY PARTNERS INC SECURED 144A 02/30 VAR",
       "identifier": "MDAS6546876",
-      "pct_of_fund": 0.0022,
+      "pct_of_fund": 0.0021,
       "quantity": 359214.0,
       "market_value": null,
       "sector": ""
@@ -30,15 +39,6 @@
       "sector": ""
     },
     {
-      "ticker": "SATS5938585",
-      "name": "ECHOSTAR CORP SR SECURED 11/30 3.875",
-      "identifier": "SATS5938585",
-      "pct_of_fund": 0.0013,
-      "quantity": 71502.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "DUKU",
       "name": "DUKE ENERGY CORP PREFERRED STOCK 08/29 7.75",
       "identifier": "DUKU",
@@ -48,10 +48,19 @@
       "sector": ""
     },
     {
+      "ticker": "SATS5938585",
+      "name": "ECHOSTAR CORP SR SECURED 11/30 3.875",
+      "identifier": "SATS5938585",
+      "pct_of_fund": 0.0012,
+      "quantity": 71502.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "NEE-PS",
       "name": "NEXTERA ENERGY INC PREFFERD STOCK",
       "identifier": "NEE-PS",
-      "pct_of_fund": 0.0011,
+      "pct_of_fund": 0.0012,
       "quantity": 3600.0,
       "market_value": null,
       "sector": ""
@@ -66,15 +75,6 @@
       "sector": ""
     },
     {
-      "ticker": "BApA",
-      "name": "BOEING CO/THE PREFERRED STOCK 10/27 6",
-      "identifier": "BApA",
-      "pct_of_fund": 0.0008,
-      "quantity": 2000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "CCL",
       "name": "CARNIVAL CORP LTD COMMON STOCK USD.01",
       "identifier": "CCL",
@@ -84,20 +84,20 @@
       "sector": ""
     },
     {
+      "ticker": "BApA",
+      "name": "BOEING CO/THE PREFERRED STOCK 10/27 6",
+      "identifier": "BApA",
+      "pct_of_fund": 0.0007,
+      "quantity": 2000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "MGLL6111140",
       "name": "DISCOVERY HOLDINGS INC COMPANY GUAR 03/32 4.279",
       "identifier": "MGLL6111140",
       "pct_of_fund": 0.0007,
       "quantity": 145000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "NFE6448216",
-      "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
-      "identifier": "NFE6448216",
-      "pct_of_fund": 0.0007,
-      "quantity": 130028.0,
       "market_value": null,
       "sector": ""
     },
@@ -123,7 +123,7 @@
       "ticker": "GOOGM",
       "name": "ALPHABET INC PREFERRED STOCK 05/29 6.25",
       "identifier": "GOOGM",
-      "pct_of_fund": 0.0005,
+      "pct_of_fund": 0.0004,
       "quantity": 1500.0,
       "market_value": null,
       "sector": ""
@@ -132,7 +132,7 @@
       "ticker": "GOOGN",
       "name": "ALPHABET INC PREFERRED STOCK 05/29 6.25",
       "identifier": "GOOGN",
-      "pct_of_fund": 0.0005,
+      "pct_of_fund": 0.0004,
       "quantity": 1500.0,
       "market_value": null,
       "sector": ""
