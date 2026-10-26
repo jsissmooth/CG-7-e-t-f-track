@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-26",
   "ticker": "CGMS",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0239,
-      "quantity": 1319326.87,
+      "pct_of_fund": 0.0242,
+      "quantity": 1350046.87,
       "market_value": null,
       "sector": ""
     },
@@ -66,19 +66,10 @@
       "sector": ""
     },
     {
-      "ticker": "ALLVF6195644",
-      "name": "ALTICE FRANCE SA SR SECURED 144A 07/32 6.875",
-      "identifier": "ALLVF6195644",
-      "pct_of_fund": 0.001,
-      "quantity": 6429326.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "OMI6430341",
       "name": "ACCENDRA HEALTH INC SR SECURED 144A 06/32 9",
       "identifier": "OMI6430341",
-      "pct_of_fund": 0.0009,
+      "pct_of_fund": 0.0008,
       "quantity": 5791578.0,
       "market_value": null,
       "sector": ""
@@ -129,11 +120,11 @@
       "sector": ""
     },
     {
-      "ticker": "ASOZ6292916",
-      "name": "ASURION LLC/ASURION CO SECURED 144A 02/34 8.375",
-      "identifier": "ASOZ6292916",
-      "pct_of_fund": 0.0002,
-      "quantity": 1750000.0,
+      "ticker": "TUZ26",
+      "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
+      "identifier": "TUZ26",
+      "pct_of_fund": 0.0003,
+      "quantity": -292200000.0,
       "market_value": null,
       "sector": ""
     },
@@ -165,15 +156,6 @@
       "sector": ""
     },
     {
-      "ticker": "TUZ26",
-      "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
-      "identifier": "TUZ26",
-      "pct_of_fund": 0.0002,
-      "quantity": -292200000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "OMI6438243",
       "name": "ACCENDRA HEALTH INC SECURED 144A 06/33 9.75",
       "identifier": "OMI6438243",
@@ -183,29 +165,11 @@
       "sector": ""
     },
     {
-      "ticker": "AWNS6550482",
-      "name": "AMWINS GROUP INC SR SECURED 144A 11/33 7.375",
-      "identifier": "AWNS6550482",
-      "pct_of_fund": 0.0001,
-      "quantity": 765000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "FMXL6257004",
       "name": "FXI HOLDINGS INC SR SECURED 144A 11/29 14",
       "identifier": "FMXL6257004",
       "pct_of_fund": 0.0001,
       "quantity": 2485800.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "USZ26",
-      "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
-      "identifier": "USZ26",
-      "pct_of_fund": 0.0001,
-      "quantity": 60700000.0,
       "market_value": null,
       "sector": ""
     },
@@ -273,6 +237,15 @@
       "sector": ""
     },
     {
+      "ticker": "TYZ26",
+      "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
+      "identifier": "TYZ26",
+      "pct_of_fund": 0.0,
+      "quantity": -1300000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "FVZ26",
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
@@ -282,20 +255,20 @@
       "sector": ""
     },
     {
+      "ticker": "USZ26",
+      "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
+      "identifier": "USZ26",
+      "pct_of_fund": 0.0,
+      "quantity": 65700000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "VNTRF",
       "name": "VENATOR MATERIALS PLC COMMON STOCK USD.001",
       "identifier": "VNTRF",
       "pct_of_fund": 0.0,
       "quantity": 90.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "TYZ26",
-      "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
-      "identifier": "TYZ26",
-      "pct_of_fund": -0.0001,
-      "quantity": -45300000.0,
       "market_value": null,
       "sector": ""
     }

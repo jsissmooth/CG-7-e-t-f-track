@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-26",
   "ticker": "CGHM",
-  "prior_date": "2026-10-22",
+  "prior_date": "2026-10-23",
   "diff": [
     {
       "ticker": "FVZ26",
@@ -26,9 +26,9 @@
       "quantity_today": 70000000.0,
       "quantity_prior": 70000000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0001,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": 0,
+      "pct_of_fund_prior": 0.0001,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -36,13 +36,13 @@
       "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
       "identifier": "TYZ26",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": -25000000.0,
+      "status": "changed",
+      "quantity_today": -37500000.0,
       "quantity_prior": -25000000.0,
-      "quantity_pct_change": -0.0,
-      "pct_of_fund_today": -0.0001,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": -0.0001,
+      "quantity_pct_change": 50.0,
+      "pct_of_fund_today": 0,
+      "pct_of_fund_prior": -0.0001,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     }
   ]
