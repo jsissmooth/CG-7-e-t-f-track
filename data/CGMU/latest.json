@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "ticker": "CGMU",
   "holdings": [
     {
       "ticker": "TUZ26",
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
-      "pct_of_fund": 0.0001,
+      "pct_of_fund": 0.0,
       "quantity": 198400000.0,
       "market_value": null,
       "sector": ""
@@ -16,7 +16,7 @@
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
       "pct_of_fund": 0.0,
-      "quantity": 10600000.0,
+      "quantity": 20600000.0,
       "market_value": null,
       "sector": ""
     },
@@ -25,7 +25,7 @@
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
       "pct_of_fund": -0.0001,
-      "quantity": -23700000.0,
+      "quantity": -28700000.0,
       "market_value": null,
       "sector": ""
     }

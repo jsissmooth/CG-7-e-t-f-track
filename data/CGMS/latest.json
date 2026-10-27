@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "ticker": "CGMS",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0242,
-      "quantity": 1350046.87,
+      "pct_of_fund": 0.0332,
+      "quantity": 1854057.27,
       "market_value": null,
       "sector": ""
     },
@@ -15,7 +15,7 @@
       "ticker": "JNSTT6482354",
       "name": "JANE STREET GRP/JSG FIN SR SECURED 144A 08/31 7.294",
       "identifier": "JNSTT6482354",
-      "pct_of_fund": 0.003,
+      "pct_of_fund": 0.0029,
       "quantity": 16500000.0,
       "market_value": null,
       "sector": ""
@@ -39,15 +39,6 @@
       "sector": ""
     },
     {
-      "ticker": "ORCL-PD",
-      "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
-      "identifier": "ORCL-PD",
-      "pct_of_fund": 0.0011,
-      "quantity": 147600.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "MDAS6546876",
       "name": "RADIOLOGY PARTNERS INC SECURED 144A 02/30 VAR",
       "identifier": "MDAS6546876",
@@ -57,11 +48,11 @@
       "sector": ""
     },
     {
-      "ticker": "ALLVF6195589",
-      "name": "ALTICE FRANCE SA SR SECURED 144A 04/32 6.5",
-      "identifier": "ALLVF6195589",
+      "ticker": "ORCL",
+      "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
+      "identifier": "ORCL",
       "pct_of_fund": 0.001,
-      "quantity": 6339736.0,
+      "quantity": 147600.0,
       "market_value": null,
       "sector": ""
     },
@@ -69,7 +60,7 @@
       "ticker": "OMI6430341",
       "name": "ACCENDRA HEALTH INC SR SECURED 144A 06/32 9",
       "identifier": "OMI6430341",
-      "pct_of_fund": 0.0008,
+      "pct_of_fund": 0.0009,
       "quantity": 5791578.0,
       "market_value": null,
       "sector": ""
@@ -174,6 +165,15 @@
       "sector": ""
     },
     {
+      "ticker": "USZ26",
+      "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
+      "identifier": "USZ26",
+      "pct_of_fund": 0.0001,
+      "quantity": 65700000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "AULZ26",
       "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
       "identifier": "AULZ26",
@@ -251,15 +251,6 @@
       "identifier": "FVZ26",
       "pct_of_fund": 0.0,
       "quantity": -2700000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "USZ26",
-      "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
-      "identifier": "USZ26",
-      "pct_of_fund": 0.0,
-      "quantity": 65700000.0,
       "market_value": null,
       "sector": ""
     },
