@@ -1,22 +1,13 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "ticker": "CGHY",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0752,
-      "quantity": 123129.02,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "GRRT6551101",
-      "name": "GRANT THORNTON ADVISORS SR SECURED 144A 11/31 10.5",
-      "identifier": "GRRT6551101",
-      "pct_of_fund": 0.0034,
-      "quantity": 550000.0,
+      "pct_of_fund": 0.073,
+      "quantity": 119888.69,
       "market_value": null,
       "sector": ""
     },
@@ -102,6 +93,15 @@
       "sector": ""
     },
     {
+      "ticker": "NFE6448216",
+      "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
+      "identifier": "NFE6448216",
+      "pct_of_fund": 0.0006,
+      "quantity": 130028.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "ORCL",
       "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
       "identifier": "ORCL",
@@ -129,11 +129,11 @@
       "sector": ""
     },
     {
-      "ticker": "SATS4486279",
-      "name": "HUGHES SATELLITE SYSTEMS SR SECURED 08/26 5.25",
-      "identifier": "SATS4486279",
-      "pct_of_fund": 0.0004,
-      "quantity": 75000.0,
+      "ticker": "SATS4486277",
+      "name": "HUGHES SATELLITE SYSTEMS COMPANY GUAR 08/26 6.625",
+      "identifier": "SATS4486277",
+      "pct_of_fund": 0.0003,
+      "quantity": 98000.0,
       "market_value": null,
       "sector": ""
     },
@@ -141,17 +141,8 @@
       "ticker": "VTR",
       "name": "VENTAS INC REIT USD.25",
       "identifier": "VTR",
-      "pct_of_fund": 0.0004,
-      "quantity": 689.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "SATS4486277",
-      "name": "HUGHES SATELLITE SYSTEMS COMPANY GUAR 08/26 6.625",
-      "identifier": "SATS4486277",
       "pct_of_fund": 0.0003,
-      "quantity": 98000.0,
+      "quantity": 689.0,
       "market_value": null,
       "sector": ""
     },

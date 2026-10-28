@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "ticker": "CGMS",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0332,
-      "quantity": 1854057.27,
+      "pct_of_fund": 0.0348,
+      "quantity": 1951417.01,
       "market_value": null,
       "sector": ""
     },
@@ -15,7 +15,7 @@
       "ticker": "JNSTT6482354",
       "name": "JANE STREET GRP/JSG FIN SR SECURED 144A 08/31 7.294",
       "identifier": "JNSTT6482354",
-      "pct_of_fund": 0.0029,
+      "pct_of_fund": 0.003,
       "quantity": 16500000.0,
       "market_value": null,
       "sector": ""
@@ -30,6 +30,15 @@
       "sector": ""
     },
     {
+      "ticker": "NFE6448216",
+      "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
+      "identifier": "NFE6448216",
+      "pct_of_fund": 0.0017,
+      "quantity": 12286818.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "JNSTT6482358",
       "name": "JANE STREET GRP/JSG FIN SR SECURED 144A 08/36 8.088",
       "identifier": "JNSTT6482358",
@@ -39,20 +48,20 @@
       "sector": ""
     },
     {
+      "ticker": "ORCL",
+      "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
+      "identifier": "ORCL",
+      "pct_of_fund": 0.0011,
+      "quantity": 147600.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "MDAS6546876",
       "name": "RADIOLOGY PARTNERS INC SECURED 144A 02/30 VAR",
       "identifier": "MDAS6546876",
       "pct_of_fund": 0.0011,
       "quantity": 6429931.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "ORCL",
-      "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
-      "identifier": "ORCL",
-      "pct_of_fund": 0.001,
-      "quantity": 147600.0,
       "market_value": null,
       "sector": ""
     },
@@ -120,15 +129,6 @@
       "sector": ""
     },
     {
-      "ticker": "SATS4486279",
-      "name": "HUGHES SATELLITE SYSTEMS SR SECURED 08/26 5.25",
-      "identifier": "SATS4486279",
-      "pct_of_fund": 0.0002,
-      "quantity": 1663000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "RPEX6549379",
       "name": "RADPAR ESCROW ISSUER SR SECURED 144A 07/32 9.75",
       "identifier": "RPEX6549379",
@@ -142,7 +142,7 @@
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
       "pct_of_fund": 0.0002,
-      "quantity": 65400000.0,
+      "quantity": 83900000.0,
       "market_value": null,
       "sector": ""
     },
@@ -178,7 +178,7 @@
       "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
       "identifier": "AULZ26",
       "pct_of_fund": 0.0001,
-      "quantity": 25100000.0,
+      "quantity": 33100000.0,
       "market_value": null,
       "sector": ""
     },
