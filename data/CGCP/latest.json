@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "ticker": "CGCP",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.1138,
-      "quantity": 9818106.82,
+      "pct_of_fund": 0.1169,
+      "quantity": 10074702.48,
       "market_value": null,
       "sector": ""
     },
@@ -33,7 +33,7 @@
       "ticker": "TNZ26",
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
-      "pct_of_fund": 0.0009,
+      "pct_of_fund": 0.0012,
       "quantity": -580700000.0,
       "market_value": null,
       "sector": ""
@@ -66,20 +66,20 @@
       "sector": ""
     },
     {
+      "ticker": "ORCL",
+      "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
+      "identifier": "ORCL",
+      "pct_of_fund": 0.0004,
+      "quantity": 71600.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "USZ26",
       "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
       "identifier": "USZ26",
       "pct_of_fund": 0.0004,
       "quantity": 74500000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "ORCL",
-      "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
-      "identifier": "ORCL",
-      "pct_of_fund": 0.0003,
-      "quantity": 71600.0,
       "market_value": null,
       "sector": ""
     },
@@ -150,8 +150,17 @@
       "ticker": "TYZ26",
       "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
       "identifier": "TYZ26",
-      "pct_of_fund": -0.0003,
+      "pct_of_fund": -0.0006,
       "quantity": 868900000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "AULZ26",
+      "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
+      "identifier": "AULZ26",
+      "pct_of_fund": -0.0011,
+      "quantity": -325900000.0,
       "market_value": null,
       "sector": ""
     },
@@ -165,19 +174,10 @@
       "sector": ""
     },
     {
-      "ticker": "AULZ26",
-      "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
-      "identifier": "AULZ26",
-      "pct_of_fund": -0.0014,
-      "quantity": -325900000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "FVZ26",
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
-      "pct_of_fund": -0.0018,
+      "pct_of_fund": -0.0019,
       "quantity": 889900000.0,
       "market_value": null,
       "sector": ""

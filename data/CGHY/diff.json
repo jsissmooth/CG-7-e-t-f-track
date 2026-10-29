@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "ticker": "CGHY",
-  "prior_date": "2026-10-27",
+  "prior_date": "2026-10-28",
   "diff": [
     {
       "ticker": "BApA",
@@ -12,9 +12,23 @@
       "quantity_today": 2000.0,
       "quantity_prior": 2000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0007,
+      "pct_of_fund_today": 0.0006,
       "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
+      "market_value_today": null
+    },
+    {
+      "ticker": "BSNO6555712",
+      "name": "BISON OIL + GAS IV LLC COMPANY GUAR 144A 12/31 8.5",
+      "identifier": "BSNO6555712",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 650000.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 0.004,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -37,12 +51,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 119888.69,
-      "quantity_prior": 123129.02,
-      "quantity_pct_change": -2.6317,
-      "pct_of_fund_today": 0.073,
-      "pct_of_fund_prior": 0.0752,
-      "pct_of_fund_change": -0.0022,
+      "quantity_today": 136840.39,
+      "quantity_prior": 119888.69,
+      "quantity_pct_change": 14.1395,
+      "pct_of_fund_today": 0.0833,
+      "pct_of_fund_prior": 0.073,
+      "pct_of_fund_change": 0.0103,
       "market_value_today": null
     },
     {
@@ -85,20 +99,6 @@
       "pct_of_fund_today": 0.0004,
       "pct_of_fund_prior": 0.0004,
       "pct_of_fund_change": 0.0,
-      "market_value_today": null
-    },
-    {
-      "ticker": "GRRT6551101",
-      "name": "GRANT THORNTON ADVISORS SR SECURED 144A 11/31 10.5",
-      "identifier": "GRRT6551101",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 550000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0034,
-      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -162,13 +162,13 @@
       "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
       "identifier": "NFE6448216",
       "sector": "",
-      "status": "added",
+      "status": "unchanged",
       "quantity_today": 130028.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "quantity_prior": 130028.0,
+      "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0006,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0.0006,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -194,9 +194,9 @@
       "quantity_today": 2400.0,
       "quantity_prior": 2400.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0006,
+      "pct_of_fund_today": 0.0007,
       "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -204,13 +204,13 @@
       "name": "RADPAR ESCROW ISSUER SR SECURED 144A 07/32 9.75",
       "identifier": "RPEX6549379",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 110000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 110000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0007,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -228,20 +228,6 @@
       "market_value_today": null
     },
     {
-      "ticker": "SATS4486279",
-      "name": "HUGHES SATELLITE SYSTEMS SR SECURED 08/26 5.25",
-      "identifier": "SATS4486279",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 75000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0004,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "SATS5938585",
       "name": "ECHOSTAR CORP SR SECURED 11/30 3.875",
       "identifier": "SATS5938585",
@@ -250,9 +236,9 @@
       "quantity_today": 71502.0,
       "quantity_prior": 71502.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0012,
+      "pct_of_fund_today": 0.0013,
       "pct_of_fund_prior": 0.0012,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -279,8 +265,8 @@
       "quantity_prior": 689.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0003,
-      "pct_of_fund_prior": 0.0004,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": 0.0003,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     }
   ]
