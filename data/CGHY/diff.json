@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "ticker": "CGHY",
-  "prior_date": "2026-10-28",
+  "prior_date": "2026-10-29",
   "diff": [
     {
       "ticker": "BApA",
@@ -12,9 +12,9 @@
       "quantity_today": 2000.0,
       "quantity_prior": 2000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0006,
-      "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.0007,
+      "pct_of_fund_prior": 0.0006,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -22,11 +22,25 @@
       "name": "BISON OIL + GAS IV LLC COMPANY GUAR 144A 12/31 8.5",
       "identifier": "BSNO6555712",
       "sector": "",
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 650000.0,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.004,
+      "pct_of_fund_change": null,
+      "market_value_today": null
+    },
+    {
+      "ticker": "BSP6558090",
+      "name": "BENDING SPOONS US INC SR SECURED 144A 01/32 9.625",
+      "identifier": "BSP6558090",
+      "sector": "",
       "status": "added",
-      "quantity_today": 650000.0,
+      "quantity_today": 270000.0,
       "quantity_prior": null,
       "quantity_pct_change": null,
-      "pct_of_fund_today": 0.004,
+      "pct_of_fund_today": 0.0017,
       "pct_of_fund_prior": null,
       "pct_of_fund_change": null,
       "market_value_today": null
@@ -51,12 +65,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 136840.39,
-      "quantity_prior": 119888.69,
-      "quantity_pct_change": 14.1395,
-      "pct_of_fund_today": 0.0833,
-      "pct_of_fund_prior": 0.073,
-      "pct_of_fund_change": 0.0103,
+      "quantity_today": 131359.84,
+      "quantity_prior": 136840.39,
+      "quantity_pct_change": -4.0051,
+      "pct_of_fund_today": 0.0803,
+      "pct_of_fund_prior": 0.0833,
+      "pct_of_fund_change": -0.003,
       "market_value_today": null
     },
     {
@@ -166,9 +180,9 @@
       "quantity_today": 130028.0,
       "quantity_prior": 130028.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0006,
+      "pct_of_fund_today": 0.0007,
       "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -194,23 +208,9 @@
       "quantity_today": 2400.0,
       "quantity_prior": 2400.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0007,
-      "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": 0.0001,
-      "market_value_today": null
-    },
-    {
-      "ticker": "RPEX6549379",
-      "name": "RADPAR ESCROW ISSUER SR SECURED 144A 07/32 9.75",
-      "identifier": "RPEX6549379",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 110000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
+      "pct_of_fund_today": 0.0006,
       "pct_of_fund_prior": 0.0007,
-      "pct_of_fund_change": null,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -218,13 +218,13 @@
       "name": "HUGHES SATELLITE SYSTEMS COMPANY GUAR 08/26 6.625",
       "identifier": "SATS4486277",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 98000.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 98000.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0003,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
       "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -237,8 +237,8 @@
       "quantity_prior": 71502.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0013,
-      "pct_of_fund_prior": 0.0012,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0013,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -264,9 +264,9 @@
       "quantity_today": 689.0,
       "quantity_prior": 689.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0003,
+      "pct_of_fund_today": 0.0004,
       "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     }
   ]

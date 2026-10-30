@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "ticker": "CGIE",
   "holdings": [
     {
       "ticker": "ASML",
       "name": "ASML HOLDING NV COMMON STOCK EUR.09",
       "identifier": "ASML",
-      "pct_of_fund": 0.0494,
+      "pct_of_fund": 0.0498,
       "quantity": 72810.0,
       "market_value": null,
       "sector": ""
@@ -15,7 +15,7 @@
       "ticker": "TTE",
       "name": "TOTALENERGIES SE COMMON STOCK EUR2.5",
       "identifier": "TTE",
-      "pct_of_fund": 0.0295,
+      "pct_of_fund": 0.0298,
       "quantity": 774684.0,
       "market_value": null,
       "sector": ""
@@ -24,7 +24,7 @@
       "ticker": "SAP",
       "name": "SAP SE COMMON STOCK",
       "identifier": "SAP",
-      "pct_of_fund": 0.0261,
+      "pct_of_fund": 0.0257,
       "quantity": 270911.0,
       "market_value": null,
       "sector": ""
@@ -33,7 +33,7 @@
       "ticker": "TSM",
       "name": "TAIWAN SEMICONDUCTOR SP ADR ADR",
       "identifier": "TSM",
-      "pct_of_fund": 0.0259,
+      "pct_of_fund": 0.0254,
       "quantity": 144422.0,
       "market_value": null,
       "sector": ""
@@ -42,7 +42,7 @@
       "ticker": "SEB A",
       "name": "SKANDINAVISKA ENSKILDA BAN A COMMON STOCK SEK10.0",
       "identifier": "SEB A",
-      "pct_of_fund": 0.0227,
+      "pct_of_fund": 0.0228,
       "quantity": 2646318.0,
       "market_value": null,
       "sector": ""
@@ -51,7 +51,7 @@
       "ticker": "RR.",
       "name": "ROLLS ROYCE HOLDINGS PLC COMMON STOCK GBP.2",
       "identifier": "RR.",
-      "pct_of_fund": 0.0217,
+      "pct_of_fund": 0.022,
       "quantity": 3159020.0,
       "market_value": null,
       "sector": ""
@@ -69,7 +69,7 @@
       "ticker": "AIR",
       "name": "AIRBUS SE COMMON STOCK EUR1.0",
       "identifier": "AIR",
-      "pct_of_fund": 0.0193,
+      "pct_of_fund": 0.0197,
       "quantity": 220776.0,
       "market_value": null,
       "sector": ""
@@ -84,6 +84,15 @@
       "sector": ""
     },
     {
+      "ticker": "RWE",
+      "name": "RWE AG COMMON STOCK",
+      "identifier": "RWE",
+      "pct_of_fund": 0.0193,
+      "quantity": 724619.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "UCG",
       "name": "UNICREDIT SPA COMMON STOCK",
       "identifier": "UCG",
@@ -93,38 +102,29 @@
       "sector": ""
     },
     {
-      "ticker": "CMQXX",
-      "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
-      "identifier": "CMQXX",
-      "pct_of_fund": 0.0192,
-      "quantity": 469480.88,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "RWE",
-      "name": "RWE AG COMMON STOCK",
-      "identifier": "RWE",
-      "pct_of_fund": 0.0192,
-      "quantity": 724619.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "BA.",
       "name": "BAE SYSTEMS PLC COMMON STOCK GBP.025",
       "identifier": "BA.",
-      "pct_of_fund": 0.0187,
+      "pct_of_fund": 0.0192,
       "quantity": 1701147.0,
       "market_value": null,
       "sector": ""
     },
     {
-      "ticker": "6501",
-      "name": "HITACHI LTD COMMON STOCK",
-      "identifier": "6501",
+      "ticker": "CMQXX",
+      "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
+      "identifier": "CMQXX",
+      "pct_of_fund": 0.0191,
+      "quantity": 469480.88,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "8308",
+      "name": "RESONA HOLDINGS INC COMMON STOCK",
+      "identifier": "8308",
       "pct_of_fund": 0.0184,
-      "quantity": 1270700.0,
+      "quantity": 3135900.0,
       "market_value": null,
       "sector": ""
     },
@@ -138,19 +138,10 @@
       "sector": ""
     },
     {
-      "ticker": "8308",
-      "name": "RESONA HOLDINGS INC COMMON STOCK",
-      "identifier": "8308",
-      "pct_of_fund": 0.0181,
-      "quantity": 3135900.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "ENGI",
       "name": "ENGIE COMMON STOCK EUR1.0",
       "identifier": "ENGI",
-      "pct_of_fund": 0.017,
+      "pct_of_fund": 0.0171,
       "quantity": 1591213.0,
       "market_value": null,
       "sector": ""
@@ -159,8 +150,17 @@
       "ticker": "8058",
       "name": "MITSUBISHI CORP COMMON STOCK",
       "identifier": "8058",
-      "pct_of_fund": 0.0169,
+      "pct_of_fund": 0.0171,
       "quantity": 1353300.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "SAF",
+      "name": "SAFRAN SA COMMON STOCK EUR.2",
+      "identifier": "SAF",
+      "pct_of_fund": 0.0169,
+      "quantity": 133426.0,
       "market_value": null,
       "sector": ""
     },
@@ -168,8 +168,17 @@
       "ticker": "D05",
       "name": "DBS GROUP HOLDINGS LTD COMMON STOCK",
       "identifier": "D05",
-      "pct_of_fund": 0.0167,
+      "pct_of_fund": 0.0166,
       "quantity": 707300.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "6501",
+      "name": "HITACHI LTD COMMON STOCK",
+      "identifier": "6501",
+      "pct_of_fund": 0.0166,
+      "quantity": 1270700.0,
       "market_value": null,
       "sector": ""
     },
@@ -183,11 +192,11 @@
       "sector": ""
     },
     {
-      "ticker": "SAF",
-      "name": "SAFRAN SA COMMON STOCK EUR.2",
-      "identifier": "SAF",
-      "pct_of_fund": 0.0165,
-      "quantity": 133426.0,
+      "ticker": "DSV",
+      "name": "DSV A/S COMMON STOCK DKK1.0",
+      "identifier": "DSV",
+      "pct_of_fund": 0.0156,
+      "quantity": 182742.0,
       "market_value": null,
       "sector": ""
     },
@@ -195,26 +204,8 @@
       "ticker": "MC",
       "name": "LVMH MOET HENNESSY LOUIS VUI COMMON STOCK EUR.3",
       "identifier": "MC",
-      "pct_of_fund": 0.0156,
+      "pct_of_fund": 0.0155,
       "quantity": 89095.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "DSV",
-      "name": "DSV A/S COMMON STOCK DKK1.0",
-      "identifier": "DSV",
-      "pct_of_fund": 0.0155,
-      "quantity": 182742.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "SHOP",
-      "name": "SHOPIFY INC   CLASS A COMMON STOCK",
-      "identifier": "SHOP",
-      "pct_of_fund": 0.0155,
-      "quantity": 225808.0,
       "market_value": null,
       "sector": ""
     },
@@ -222,17 +213,17 @@
       "ticker": "388",
       "name": "HONG KONG EXCHANGES + CLEAR COMMON STOCK",
       "identifier": "388",
-      "pct_of_fund": 0.0154,
+      "pct_of_fund": 0.0153,
       "quantity": 810600.0,
       "market_value": null,
       "sector": ""
     },
     {
-      "ticker": "8002",
-      "name": "MARUBENI CORP COMMON STOCK",
-      "identifier": "8002",
-      "pct_of_fund": 0.0143,
-      "quantity": 1095600.0,
+      "ticker": "SHOP",
+      "name": "SHOPIFY INC   CLASS A COMMON STOCK",
+      "identifier": "SHOP",
+      "pct_of_fund": 0.0153,
+      "quantity": 225808.0,
       "market_value": null,
       "sector": ""
     },
@@ -240,8 +231,17 @@
       "ticker": "8035",
       "name": "TOKYO ELECTRON LTD COMMON STOCK",
       "identifier": "8035",
-      "pct_of_fund": 0.0141,
+      "pct_of_fund": 0.0144,
       "quantity": 555500.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "8002",
+      "name": "MARUBENI CORP COMMON STOCK",
+      "identifier": "8002",
+      "pct_of_fund": 0.0141,
+      "quantity": 1095600.0,
       "market_value": null,
       "sector": ""
     },
@@ -258,7 +258,7 @@
       "ticker": "ITX",
       "name": "INDUSTRIA DE DISENO TEXTIL COMMON STOCK EUR.03",
       "identifier": "ITX",
-      "pct_of_fund": 0.0137,
+      "pct_of_fund": 0.0139,
       "quantity": 542866.0,
       "market_value": null,
       "sector": ""
@@ -273,10 +273,19 @@
       "sector": ""
     },
     {
+      "ticker": "SIE",
+      "name": "SIEMENS AG REG COMMON STOCK",
+      "identifier": "SIE",
+      "pct_of_fund": 0.0133,
+      "quantity": 106669.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "6758",
       "name": "SONY GROUP CORP COMMON STOCK",
       "identifier": "6758",
-      "pct_of_fund": 0.0134,
+      "pct_of_fund": 0.0133,
       "quantity": 1311600.0,
       "market_value": null,
       "sector": ""
@@ -291,11 +300,29 @@
       "sector": ""
     },
     {
-      "ticker": "SIE",
-      "name": "SIEMENS AG REG COMMON STOCK",
-      "identifier": "SIE",
-      "pct_of_fund": 0.0131,
-      "quantity": 106669.0,
+      "ticker": "AMS",
+      "name": "AMADEUS IT GROUP SA COMMON STOCK EUR.01",
+      "identifier": "AMS",
+      "pct_of_fund": 0.0128,
+      "quantity": 492875.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "8766",
+      "name": "TOKIO MARINE HOLDINGS INC COMMON STOCK",
+      "identifier": "8766",
+      "pct_of_fund": 0.0128,
+      "quantity": 8773500.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "BNP",
+      "name": "BNP PARIBAS COMMON STOCK EUR2.0",
+      "identifier": "BNP",
+      "pct_of_fund": 0.0127,
+      "quantity": 318047.0,
       "market_value": null,
       "sector": ""
     },
@@ -303,7 +330,7 @@
       "ticker": "BBVA",
       "name": "BANCO BILBAO VIZCAYA ARGENTA COMMON STOCK EUR.49",
       "identifier": "BBVA",
-      "pct_of_fund": 0.0129,
+      "pct_of_fund": 0.0126,
       "quantity": 1266010.0,
       "market_value": null,
       "sector": ""
@@ -312,44 +339,8 @@
       "ticker": "NWG",
       "name": "NATWEST GROUP PLC COMMON STOCK GBP1.0769",
       "identifier": "NWG",
-      "pct_of_fund": 0.0129,
+      "pct_of_fund": 0.0126,
       "quantity": 3657306.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "AMS",
-      "name": "AMADEUS IT GROUP SA COMMON STOCK EUR.01",
-      "identifier": "AMS",
-      "pct_of_fund": 0.0127,
-      "quantity": 492875.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "BNP",
-      "name": "BNP PARIBAS COMMON STOCK EUR2.0",
-      "identifier": "BNP",
-      "pct_of_fund": 0.0126,
-      "quantity": 318047.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "6861",
-      "name": "KEYENCE CORP COMMON STOCK",
-      "identifier": "6861",
-      "pct_of_fund": 0.0126,
-      "quantity": 61400.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "8766",
-      "name": "TOKIO MARINE HOLDINGS INC COMMON STOCK",
-      "identifier": "8766",
-      "pct_of_fund": 0.0126,
-      "quantity": 8773500.0,
       "market_value": null,
       "sector": ""
     },
@@ -363,20 +354,20 @@
       "sector": ""
     },
     {
-      "ticker": "B",
-      "name": "BARRICK MINING CORP COMMON STOCK",
-      "identifier": "B",
+      "ticker": "6861",
+      "name": "KEYENCE CORP COMMON STOCK",
+      "identifier": "6861",
       "pct_of_fund": 0.0121,
-      "quantity": 750069.0,
+      "quantity": 61400.0,
       "market_value": null,
       "sector": ""
     },
     {
-      "ticker": "SAN",
-      "name": "BANCO SANTANDER SA COMMON STOCK EUR.5",
-      "identifier": "SAN",
-      "pct_of_fund": 0.0115,
-      "quantity": 2387467.0,
+      "ticker": "B",
+      "name": "BARRICK MINING CORP COMMON STOCK",
+      "identifier": "B",
+      "pct_of_fund": 0.0118,
+      "quantity": 750069.0,
       "market_value": null,
       "sector": ""
     },
@@ -384,8 +375,17 @@
       "ticker": "RYAAY",
       "name": "RYANAIR HOLDINGS PLC SP ADR ADR",
       "identifier": "RYAAY",
-      "pct_of_fund": 0.0115,
+      "pct_of_fund": 0.0117,
       "quantity": 538642.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "SAN",
+      "name": "BANCO SANTANDER SA COMMON STOCK EUR.5",
+      "identifier": "SAN",
+      "pct_of_fund": 0.0114,
+      "quantity": 2387467.0,
       "market_value": null,
       "sector": ""
     },
@@ -399,20 +399,20 @@
       "sector": ""
     },
     {
-      "ticker": "4519",
-      "name": "CHUGAI PHARMACEUTICAL CO LTD COMMON STOCK",
-      "identifier": "4519",
-      "pct_of_fund": 0.0107,
-      "quantity": 628100.0,
+      "ticker": "AZN",
+      "name": "ASTRAZENECA PLC COMMON STOCK USD.25",
+      "identifier": "AZN",
+      "pct_of_fund": 0.0108,
+      "quantity": 152316.0,
       "market_value": null,
       "sector": ""
     },
     {
-      "ticker": "AZN",
-      "name": "ASTRAZENECA PLC COMMON STOCK USD.25",
-      "identifier": "AZN",
-      "pct_of_fund": 0.0106,
-      "quantity": 152316.0,
+      "ticker": "4519",
+      "name": "CHUGAI PHARMACEUTICAL CO LTD COMMON STOCK",
+      "identifier": "4519",
+      "pct_of_fund": 0.0108,
+      "quantity": 628100.0,
       "market_value": null,
       "sector": ""
     },
@@ -420,17 +420,17 @@
       "ticker": "IMB",
       "name": "IMPERIAL BRANDS PLC COMMON STOCK GBP.1",
       "identifier": "IMB",
-      "pct_of_fund": 0.0105,
+      "pct_of_fund": 0.0106,
       "quantity": 668690.0,
       "market_value": null,
       "sector": ""
     },
     {
-      "ticker": "GLEN",
-      "name": "GLENCORE PLC COMMON STOCK USD.01",
-      "identifier": "GLEN",
+      "ticker": "REL",
+      "name": "RELX PLC COMMON STOCK GBP.00144397",
+      "identifier": "REL",
       "pct_of_fund": 0.0103,
-      "quantity": 3493603.0,
+      "quantity": 646530.0,
       "market_value": null,
       "sector": ""
     },
@@ -444,11 +444,20 @@
       "sector": ""
     },
     {
-      "ticker": "REL",
-      "name": "RELX PLC COMMON STOCK GBP.00144397",
-      "identifier": "REL",
-      "pct_of_fund": 0.0102,
-      "quantity": 646530.0,
+      "ticker": "GLEN",
+      "name": "GLENCORE PLC COMMON STOCK USD.01",
+      "identifier": "GLEN",
+      "pct_of_fund": 0.0101,
+      "quantity": 3493603.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "HLMA",
+      "name": "HALMA PLC COMMON STOCK GBP.1",
+      "identifier": "HLMA",
+      "pct_of_fund": 0.0099,
+      "quantity": 517577.0,
       "market_value": null,
       "sector": ""
     },
@@ -458,15 +467,6 @@
       "identifier": "NESN",
       "pct_of_fund": 0.0099,
       "quantity": 243158.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "HLMA",
-      "name": "HALMA PLC COMMON STOCK GBP.1",
-      "identifier": "HLMA",
-      "pct_of_fund": 0.0097,
-      "quantity": 517577.0,
       "market_value": null,
       "sector": ""
     },
@@ -483,7 +483,7 @@
       "ticker": "ABI",
       "name": "ANHEUSER BUSCH INBEV SA/NV COMMON STOCK",
       "identifier": "ABI",
-      "pct_of_fund": 0.0095,
+      "pct_of_fund": 0.0092,
       "quantity": 286782.0,
       "market_value": null,
       "sector": ""
@@ -492,8 +492,17 @@
       "ticker": "7974",
       "name": "NINTENDO CO LTD COMMON STOCK",
       "identifier": "7974",
-      "pct_of_fund": 0.0093,
+      "pct_of_fund": 0.0091,
       "quantity": 433300.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "NOVOB",
+      "name": "NOVO NORDISK A/S B COMMON STOCK DKK.1",
+      "identifier": "NOVOB",
+      "pct_of_fund": 0.0091,
+      "quantity": 576507.0,
       "market_value": null,
       "sector": ""
     },
@@ -507,20 +516,29 @@
       "sector": ""
     },
     {
-      "ticker": "NOVOB",
-      "name": "NOVO NORDISK A/S B COMMON STOCK DKK.1",
-      "identifier": "NOVOB",
-      "pct_of_fund": 0.009,
-      "quantity": 576507.0,
+      "ticker": "SU",
+      "name": "SCHNEIDER ELECTRIC SE COMMON STOCK EUR4.0",
+      "identifier": "SU",
+      "pct_of_fund": 0.0088,
+      "quantity": 77951.0,
       "market_value": null,
       "sector": ""
     },
     {
-      "ticker": "SU",
-      "name": "SCHNEIDER ELECTRIC SE COMMON STOCK EUR4.0",
-      "identifier": "SU",
+      "ticker": "A000660",
+      "name": "SK HYNIX INC COMMON STOCK KRW5000.0",
+      "identifier": "A000660",
       "pct_of_fund": 0.0087,
-      "quantity": 77951.0,
+      "quantity": 18652.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "BN",
+      "name": "DANONE COMMON STOCK EUR.25",
+      "identifier": "BN",
+      "pct_of_fund": 0.0085,
+      "quantity": 290333.0,
       "market_value": null,
       "sector": ""
     },
@@ -537,26 +555,8 @@
       "ticker": "6752",
       "name": "PANASONIC HOLDINGS CORP COMMON STOCK",
       "identifier": "6752",
-      "pct_of_fund": 0.0085,
+      "pct_of_fund": 0.0082,
       "quantity": 866400.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "A000660",
-      "name": "SK HYNIX INC COMMON STOCK KRW5000.0",
-      "identifier": "A000660",
-      "pct_of_fund": 0.0085,
-      "quantity": 18652.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "BN",
-      "name": "DANONE COMMON STOCK EUR.25",
-      "identifier": "BN",
-      "pct_of_fund": 0.0084,
-      "quantity": 290333.0,
       "market_value": null,
       "sector": ""
     },
@@ -564,17 +564,8 @@
       "ticker": "SGO",
       "name": "COMPAGNIE DE SAINT GOBAIN COMMON STOCK EUR4.0",
       "identifier": "SGO",
-      "pct_of_fund": 0.0074,
+      "pct_of_fund": 0.0075,
       "quantity": 242774.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "ANTO",
-      "name": "ANTOFAGASTA PLC COMMON STOCK",
-      "identifier": "ANTO",
-      "pct_of_fund": 0.007,
-      "quantity": 389994.0,
       "market_value": null,
       "sector": ""
     },
@@ -582,17 +573,17 @@
       "ticker": "6857",
       "name": "ADVANTEST CORP COMMON STOCK",
       "identifier": "6857",
-      "pct_of_fund": 0.0069,
+      "pct_of_fund": 0.0073,
       "quantity": 76100.0,
       "market_value": null,
       "sector": ""
     },
     {
-      "ticker": "6367",
-      "name": "DAIKIN INDUSTRIES LTD COMMON STOCK",
-      "identifier": "6367",
-      "pct_of_fund": 0.0068,
-      "quantity": 122000.0,
+      "ticker": "ANTO",
+      "name": "ANTOFAGASTA PLC COMMON STOCK",
+      "identifier": "ANTO",
+      "pct_of_fund": 0.0069,
+      "quantity": 389994.0,
       "market_value": null,
       "sector": ""
     },
@@ -609,8 +600,17 @@
       "ticker": "STAN",
       "name": "STANDARD CHARTERED PLC COMMON STOCK USD.5",
       "identifier": "STAN",
-      "pct_of_fund": 0.0067,
+      "pct_of_fund": 0.0068,
       "quantity": 594891.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "6367",
+      "name": "DAIKIN INDUSTRIES LTD COMMON STOCK",
+      "identifier": "6367",
+      "pct_of_fund": 0.0066,
+      "quantity": 122000.0,
       "market_value": null,
       "sector": ""
     },
@@ -627,7 +627,7 @@
       "ticker": "ONC",
       "name": "BEONE MEDICINES LTD ADR ADR USD.0001",
       "identifier": "ONC",
-      "pct_of_fund": 0.0063,
+      "pct_of_fund": 0.0062,
       "quantity": 41231.0,
       "market_value": null,
       "sector": ""
@@ -636,7 +636,7 @@
       "ticker": "700",
       "name": "TENCENT HOLDINGS LTD COMMON STOCK HKD.00002",
       "identifier": "700",
-      "pct_of_fund": 0.0059,
+      "pct_of_fund": 0.0058,
       "quantity": 294500.0,
       "market_value": null,
       "sector": ""
@@ -645,7 +645,7 @@
       "ticker": "4004",
       "name": "RESONAC HOLDINGS CORP COMMON STOCK",
       "identifier": "4004",
-      "pct_of_fund": 0.005,
+      "pct_of_fund": 0.0051,
       "quantity": 141800.0,
       "market_value": null,
       "sector": ""
@@ -654,7 +654,7 @@
       "ticker": "RHM",
       "name": "RHEINMETALL AG COMMON STOCK",
       "identifier": "RHM",
-      "pct_of_fund": 0.0049,
+      "pct_of_fund": 0.0051,
       "quantity": 10645.0,
       "market_value": null,
       "sector": ""

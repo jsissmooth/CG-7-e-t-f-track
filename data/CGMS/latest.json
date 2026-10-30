@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "ticker": "CGMS",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0395,
-      "quantity": 2211172.98,
+      "pct_of_fund": 0.0391,
+      "quantity": 2196221.49,
       "market_value": null,
       "sector": ""
     },
@@ -15,7 +15,7 @@
       "ticker": "JNSTT6482354",
       "name": "JANE STREET GRP/JSG FIN SR SECURED 144A 08/31 7.294",
       "identifier": "JNSTT6482354",
-      "pct_of_fund": 0.003,
+      "pct_of_fund": 0.0029,
       "quantity": 16500000.0,
       "market_value": null,
       "sector": ""
@@ -30,6 +30,15 @@
       "sector": ""
     },
     {
+      "ticker": "IONN6206780",
+      "name": "ION PLAT FIN US/SARL SR SECURED 144A 08/29 9",
+      "identifier": "IONN6206780",
+      "pct_of_fund": 0.0021,
+      "quantity": 11912000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "NFE6448216",
       "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
       "identifier": "NFE6448216",
@@ -39,20 +48,20 @@
       "sector": ""
     },
     {
-      "ticker": "ORCL",
-      "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
-      "identifier": "ORCL",
-      "pct_of_fund": 0.0012,
-      "quantity": 147600.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "JNSTT6482358",
       "name": "JANE STREET GRP/JSG FIN SR SECURED 144A 08/36 8.088",
       "identifier": "JNSTT6482358",
       "pct_of_fund": 0.0011,
       "quantity": 6250000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "ORCL",
+      "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
+      "identifier": "ORCL",
+      "pct_of_fund": 0.0011,
+      "quantity": 147600.0,
       "market_value": null,
       "sector": ""
     },
@@ -69,8 +78,17 @@
       "ticker": "OMI6430341",
       "name": "ACCENDRA HEALTH INC SR SECURED 144A 06/32 9",
       "identifier": "OMI6430341",
-      "pct_of_fund": 0.0008,
+      "pct_of_fund": 0.0009,
       "quantity": 5791578.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "BSP6558090",
+      "name": "BENDING SPOONS US INC SR SECURED 144A 01/32 9.625",
+      "identifier": "BSP6558090",
+      "pct_of_fund": 0.0005,
+      "quantity": 2905000.0,
       "market_value": null,
       "sector": ""
     },
@@ -78,7 +96,7 @@
       "ticker": "NFEGP",
       "name": "NEW FORTRESS ENERGY INC PREFERRED STOCK 09/29 3",
       "identifier": "NFEGP",
-      "pct_of_fund": 0.0006,
+      "pct_of_fund": 0.0005,
       "quantity": 12180.0,
       "market_value": null,
       "sector": ""
@@ -98,15 +116,6 @@
       "identifier": "GOOGN",
       "pct_of_fund": 0.0004,
       "quantity": 53000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "SATS4486277",
-      "name": "HUGHES SATELLITE SYSTEMS COMPANY GUAR 08/26 6.625",
-      "identifier": "SATS4486277",
-      "pct_of_fund": 0.0004,
-      "quantity": 4152000.0,
       "market_value": null,
       "sector": ""
     },
@@ -138,6 +147,15 @@
       "sector": ""
     },
     {
+      "ticker": "TNZ26",
+      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
+      "identifier": "TNZ26",
+      "pct_of_fund": 0.0002,
+      "quantity": 83900000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "OMI6438243",
       "name": "ACCENDRA HEALTH INC SECURED 144A 06/33 9.75",
       "identifier": "OMI6438243",
@@ -156,11 +174,11 @@
       "sector": ""
     },
     {
-      "ticker": "TNZ26",
-      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
-      "identifier": "TNZ26",
+      "ticker": "USZ26",
+      "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
+      "identifier": "USZ26",
       "pct_of_fund": 0.0001,
-      "quantity": 83900000.0,
+      "quantity": 65700000.0,
       "market_value": null,
       "sector": ""
     },
@@ -233,15 +251,6 @@
       "identifier": "FVZ26",
       "pct_of_fund": 0.0,
       "quantity": -2700000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "USZ26",
-      "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
-      "identifier": "USZ26",
-      "pct_of_fund": 0.0,
-      "quantity": 65700000.0,
       "market_value": null,
       "sector": ""
     },

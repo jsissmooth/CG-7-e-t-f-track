@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "ticker": "CGCP",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.1169,
-      "quantity": 10074702.48,
+      "pct_of_fund": 0.1166,
+      "quantity": 10032778.29,
       "market_value": null,
       "sector": ""
     },
@@ -30,10 +30,19 @@
       "sector": ""
     },
     {
+      "ticker": "IONN6206780",
+      "name": "ION PLAT FIN US/SARL SR SECURED 144A 08/29 9",
+      "identifier": "IONN6206780",
+      "pct_of_fund": 0.0012,
+      "quantity": 10350000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "TNZ26",
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
-      "pct_of_fund": 0.0012,
+      "pct_of_fund": 0.0009,
       "quantity": -580700000.0,
       "market_value": null,
       "sector": ""
@@ -80,6 +89,15 @@
       "identifier": "USZ26",
       "pct_of_fund": 0.0004,
       "quantity": 74500000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "BSP6558090",
+      "name": "BENDING SPOONS US INC SR SECURED 144A 01/32 9.625",
+      "identifier": "BSP6558090",
+      "pct_of_fund": 0.0002,
+      "quantity": 1535000.0,
       "market_value": null,
       "sector": ""
     },
@@ -150,17 +168,8 @@
       "ticker": "TYZ26",
       "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
       "identifier": "TYZ26",
-      "pct_of_fund": -0.0006,
+      "pct_of_fund": -0.0002,
       "quantity": 868900000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "AULZ26",
-      "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
-      "identifier": "AULZ26",
-      "pct_of_fund": -0.0011,
-      "quantity": -325900000.0,
       "market_value": null,
       "sector": ""
     },
@@ -168,8 +177,17 @@
       "ticker": "TUZ26",
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
-      "pct_of_fund": -0.0012,
+      "pct_of_fund": -0.001,
       "quantity": 1364600000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "AULZ26",
+      "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
+      "identifier": "AULZ26",
+      "pct_of_fund": -0.0013,
+      "quantity": -325900000.0,
       "market_value": null,
       "sector": ""
     },
@@ -177,7 +195,7 @@
       "ticker": "FVZ26",
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
-      "pct_of_fund": -0.0019,
+      "pct_of_fund": -0.0016,
       "quantity": 889900000.0,
       "market_value": null,
       "sector": ""
