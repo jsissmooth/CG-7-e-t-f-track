@@ -1,22 +1,13 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "ticker": "CGHY",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0743,
-      "quantity": 121209.84,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "RPGH6559410",
-      "name": "RESPIGHI HOLDCO SR SECURED 144A 10/31 7.625",
-      "identifier": "RPGH6559410",
-      "pct_of_fund": 0.0025,
-      "quantity": 400000.0,
+      "pct_of_fund": 0.0691,
+      "quantity": 112855.64,
       "market_value": null,
       "sector": ""
     },
@@ -51,8 +42,17 @@
       "ticker": "NEE-PS",
       "name": "NEXTERA ENERGY INC PREFFERD STOCK",
       "identifier": "NEE-PS",
-      "pct_of_fund": 0.0011,
+      "pct_of_fund": 0.0012,
       "quantity": 3600.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "NFE6448216",
+      "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
+      "identifier": "NFE6448216",
+      "pct_of_fund": 0.0009,
+      "quantity": 164572.0,
       "market_value": null,
       "sector": ""
     },
@@ -71,15 +71,6 @@
       "identifier": "CCL",
       "pct_of_fund": 0.0008,
       "quantity": 4580.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "NFE6448216",
-      "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
-      "identifier": "NFE6448216",
-      "pct_of_fund": 0.0008,
-      "quantity": 164572.0,
       "market_value": null,
       "sector": ""
     },

@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "ticker": "CGMU",
   "holdings": [
     {
@@ -25,7 +25,16 @@
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
       "pct_of_fund": 0.0,
-      "quantity": 20600000.0,
+      "quantity": 86400000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "AULZ26",
+      "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
+      "identifier": "AULZ26",
+      "pct_of_fund": 0.0,
+      "quantity": -16700000.0,
       "market_value": null,
       "sector": ""
     },

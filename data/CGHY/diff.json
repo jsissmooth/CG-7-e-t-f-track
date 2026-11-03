@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "ticker": "CGHY",
-  "prior_date": "2026-10-30",
+  "prior_date": "2026-11-02",
   "diff": [
     {
       "ticker": "BApA",
@@ -15,20 +15,6 @@
       "pct_of_fund_today": 0.0007,
       "pct_of_fund_prior": 0.0007,
       "pct_of_fund_change": 0.0,
-      "market_value_today": null
-    },
-    {
-      "ticker": "BSP6558090",
-      "name": "BENDING SPOONS US INC SR SECURED 144A 01/32 9.625",
-      "identifier": "BSP6558090",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 270000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0017,
-      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -51,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 121209.84,
-      "quantity_prior": 131359.84,
-      "quantity_pct_change": -7.7269,
-      "pct_of_fund_today": 0.0743,
-      "pct_of_fund_prior": 0.0803,
-      "pct_of_fund_change": -0.006,
+      "quantity_today": 112855.64,
+      "quantity_prior": 121209.84,
+      "quantity_pct_change": -6.8923,
+      "pct_of_fund_today": 0.0691,
+      "pct_of_fund_prior": 0.0743,
+      "pct_of_fund_change": -0.0052,
       "market_value_today": null
     },
     {
@@ -69,8 +55,8 @@
       "quantity_prior": 3700.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0012,
-      "pct_of_fund_prior": 0.0011,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0012,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -125,8 +111,8 @@
       "quantity_prior": 145000.0,
       "quantity_pct_change": 0.0,
       "pct_of_fund_today": 0.0007,
-      "pct_of_fund_prior": 0.0006,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_prior": 0.0007,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -138,9 +124,9 @@
       "quantity_today": 3600.0,
       "quantity_prior": 3600.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0011,
+      "pct_of_fund_today": 0.0012,
       "pct_of_fund_prior": 0.0011,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -162,12 +148,12 @@
       "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
       "identifier": "NFE6448216",
       "sector": "",
-      "status": "changed",
+      "status": "unchanged",
       "quantity_today": 164572.0,
-      "quantity_prior": 130028.0,
-      "quantity_pct_change": 26.5666,
-      "pct_of_fund_today": 0.0008,
-      "pct_of_fund_prior": 0.0007,
+      "quantity_prior": 164572.0,
+      "quantity_pct_change": 0.0,
+      "pct_of_fund_today": 0.0009,
+      "pct_of_fund_prior": 0.0008,
       "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
@@ -204,12 +190,12 @@
       "name": "RESPIGHI HOLDCO SR SECURED 144A 10/31 7.625",
       "identifier": "RPGH6559410",
       "sector": "",
-      "status": "added",
-      "quantity_today": 400000.0,
-      "quantity_prior": null,
+      "status": "removed",
+      "quantity_today": null,
+      "quantity_prior": 400000.0,
       "quantity_pct_change": null,
-      "pct_of_fund_today": 0.0025,
-      "pct_of_fund_prior": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 0.0025,
       "pct_of_fund_change": null,
       "market_value_today": null
     },

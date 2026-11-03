@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "ticker": "CGMS",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0445,
-      "quantity": 2493631.49,
+      "pct_of_fund": 0.0401,
+      "quantity": 2250820.36,
       "market_value": null,
       "sector": ""
     },
@@ -15,7 +15,7 @@
       "ticker": "JNSTT6482354",
       "name": "JANE STREET GRP/JSG FIN SR SECURED 144A 08/31 7.294",
       "identifier": "JNSTT6482354",
-      "pct_of_fund": 0.003,
+      "pct_of_fund": 0.0029,
       "quantity": 16500000.0,
       "market_value": null,
       "sector": ""
@@ -33,7 +33,7 @@
       "ticker": "NFE6448216",
       "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
       "identifier": "NFE6448216",
-      "pct_of_fund": 0.0023,
+      "pct_of_fund": 0.0024,
       "quantity": 15551114.0,
       "market_value": null,
       "sector": ""
@@ -48,15 +48,6 @@
       "sector": ""
     },
     {
-      "ticker": "ORCL",
-      "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
-      "identifier": "ORCL",
-      "pct_of_fund": 0.0011,
-      "quantity": 147600.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "MDAS6546876",
       "name": "RADIOLOGY PARTNERS INC SECURED 144A 02/30 VAR",
       "identifier": "MDAS6546876",
@@ -66,20 +57,11 @@
       "sector": ""
     },
     {
-      "ticker": "OMI6430341",
-      "name": "ACCENDRA HEALTH INC SR SECURED 144A 06/32 9",
-      "identifier": "OMI6430341",
-      "pct_of_fund": 0.0009,
-      "quantity": 5791578.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "HBC6559101",
-      "name": "HSBC HOLDINGS PLC SR UNSECURED 11/37 VAR",
-      "identifier": "HBC6559101",
-      "pct_of_fund": 0.0007,
-      "quantity": 4000000.0,
+      "ticker": "ORCL",
+      "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
+      "identifier": "ORCL",
+      "pct_of_fund": 0.001,
+      "quantity": 147600.0,
       "market_value": null,
       "sector": ""
     },
@@ -87,7 +69,7 @@
       "ticker": "NFEGP",
       "name": "NEW FORTRESS ENERGY INC PREFERRED STOCK 09/29 3",
       "identifier": "NFEGP",
-      "pct_of_fund": 0.0006,
+      "pct_of_fund": 0.0005,
       "quantity": 12180.0,
       "market_value": null,
       "sector": ""
@@ -120,20 +102,11 @@
       "sector": ""
     },
     {
-      "ticker": "TNZ26",
-      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
-      "identifier": "TNZ26",
-      "pct_of_fund": 0.0003,
-      "quantity": 83900000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "TUZ26",
-      "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
-      "identifier": "TUZ26",
+      "ticker": "USZ26",
+      "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
+      "identifier": "USZ26",
       "pct_of_fund": 0.0002,
-      "quantity": -292200000.0,
+      "quantity": 65700000.0,
       "market_value": null,
       "sector": ""
     },
@@ -147,29 +120,11 @@
       "sector": ""
     },
     {
-      "ticker": "BCS6558981",
-      "name": "BARCLAYS PLC SR UNSECURED 11/37 VAR",
-      "identifier": "BCS6558981",
-      "pct_of_fund": 0.0001,
-      "quantity": 800000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "FMXL6257004",
       "name": "FXI HOLDINGS INC SR SECURED 144A 11/29 14",
       "identifier": "FMXL6257004",
       "pct_of_fund": 0.0001,
       "quantity": 2485800.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "USZ26",
-      "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
-      "identifier": "USZ26",
-      "pct_of_fund": 0.0001,
-      "quantity": 65700000.0,
       "market_value": null,
       "sector": ""
     },
@@ -233,6 +188,24 @@
       "identifier": "TYZ26",
       "pct_of_fund": 0.0,
       "quantity": -1300000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "TNZ26",
+      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
+      "identifier": "TNZ26",
+      "pct_of_fund": 0.0,
+      "quantity": 16600000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "TUZ26",
+      "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
+      "identifier": "TUZ26",
+      "pct_of_fund": 0.0,
+      "quantity": -3200000.0,
       "market_value": null,
       "sector": ""
     },
