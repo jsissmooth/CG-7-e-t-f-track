@@ -1,13 +1,22 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "ticker": "CGHY",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0691,
-      "quantity": 112855.64,
+      "pct_of_fund": 0.0736,
+      "quantity": 120236.38,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "FFTA6562159",
+      "name": "FTAI AVIATION INVESTORS COMPANY GUAR 144A 11/34 7.125",
+      "identifier": "FFTA6562159",
+      "pct_of_fund": 0.0051,
+      "quantity": 825000.0,
       "market_value": null,
       "sector": ""
     },
@@ -21,11 +30,38 @@
       "sector": ""
     },
     {
+      "ticker": "AIR6562158",
+      "name": "AAR CORP COMPANY GUAR 144A 11/31 7.125",
+      "identifier": "AIR6562158",
+      "pct_of_fund": 0.002,
+      "quantity": 325000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "SAIC6562150",
+      "name": "SCIENCE APPLICATIONS INT COMPANY GUAR 144A 12/34 6.75",
+      "identifier": "SAIC6562150",
+      "pct_of_fund": 0.0016,
+      "quantity": 255000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "SATS5938585",
       "name": "ECHOSTAR CORP SR SECURED 11/30 3.875",
       "identifier": "SATS5938585",
-      "pct_of_fund": 0.0013,
+      "pct_of_fund": 0.0014,
       "quantity": 71502.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "AIR6562156",
+      "name": "AAR CORP COMPANY GUAR 144A 11/34 7.375",
+      "identifier": "AIR6562156",
+      "pct_of_fund": 0.0011,
+      "quantity": 170000.0,
       "market_value": null,
       "sector": ""
     },
@@ -33,7 +69,7 @@
       "ticker": "DUKU",
       "name": "DUKE ENERGY CORP PREFERRED STOCK 08/29 7.75",
       "identifier": "DUKU",
-      "pct_of_fund": 0.0012,
+      "pct_of_fund": 0.0011,
       "quantity": 3700.0,
       "market_value": null,
       "sector": ""
@@ -42,7 +78,7 @@
       "ticker": "NEE-PS",
       "name": "NEXTERA ENERGY INC PREFFERD STOCK",
       "identifier": "NEE-PS",
-      "pct_of_fund": 0.0012,
+      "pct_of_fund": 0.0011,
       "quantity": 3600.0,
       "market_value": null,
       "sector": ""
@@ -51,8 +87,8 @@
       "ticker": "NFE6448216",
       "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
       "identifier": "NFE6448216",
-      "pct_of_fund": 0.0009,
-      "quantity": 164572.0,
+      "pct_of_fund": 0.0011,
+      "quantity": 200372.0,
       "market_value": null,
       "sector": ""
     },
@@ -116,6 +152,15 @@
       "identifier": "GOOGN",
       "pct_of_fund": 0.0004,
       "quantity": 1500.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "SATS4486279",
+      "name": "HUGHES SATELLITE SYSTEMS SR SECURED 08/26 5.25",
+      "identifier": "SATS4486279",
+      "pct_of_fund": 0.0004,
+      "quantity": 75000.0,
       "market_value": null,
       "sector": ""
     },

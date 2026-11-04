@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "ticker": "CGCP",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.1144,
-      "quantity": 9880041.59,
+      "pct_of_fund": 0.1132,
+      "quantity": 9756999.29,
       "market_value": null,
       "sector": ""
     },
@@ -33,8 +33,17 @@
       "ticker": "NFE6448216",
       "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
       "identifier": "NFE6448216",
+      "pct_of_fund": 0.0011,
+      "quantity": 11312909.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "FB6563341",
+      "name": "META PLATFORMS INC SR UNSECURED 11/36 6.55",
+      "identifier": "FB6563341",
       "pct_of_fund": 0.0009,
-      "quantity": 9291662.0,
+      "quantity": 7680000.0,
       "market_value": null,
       "sector": ""
     },
@@ -48,11 +57,11 @@
       "sector": ""
     },
     {
-      "ticker": "TYZ26",
-      "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
-      "identifier": "TYZ26",
-      "pct_of_fund": 0.0005,
-      "quantity": 889900000.0,
+      "ticker": "TNZ26",
+      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
+      "identifier": "TNZ26",
+      "pct_of_fund": 0.0006,
+      "quantity": -560700000.0,
       "market_value": null,
       "sector": ""
     },
@@ -60,7 +69,7 @@
       "ticker": "USZ26",
       "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
       "identifier": "USZ26",
-      "pct_of_fund": 0.0005,
+      "pct_of_fund": 0.0004,
       "quantity": 74500000.0,
       "market_value": null,
       "sector": ""
@@ -75,11 +84,20 @@
       "sector": ""
     },
     {
-      "ticker": "TNZ26",
-      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
-      "identifier": "TNZ26",
+      "ticker": "ORCL6561992",
+      "name": "ORACLE CORP SR UNSECURED 11/33 7.85",
+      "identifier": "ORCL6561992",
       "pct_of_fund": 0.0003,
-      "quantity": -560700000.0,
+      "quantity": 2840000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "AIR6562158",
+      "name": "AAR CORP COMPANY GUAR 144A 11/31 7.125",
+      "identifier": "AIR6562158",
+      "pct_of_fund": 0.0002,
+      "quantity": 1370000.0,
       "market_value": null,
       "sector": ""
     },
@@ -102,11 +120,29 @@
       "sector": ""
     },
     {
+      "ticker": "AIR6562156",
+      "name": "AAR CORP COMPANY GUAR 144A 11/34 7.375",
+      "identifier": "AIR6562156",
+      "pct_of_fund": 0.0001,
+      "quantity": 1235000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "FMXL6257004",
       "name": "FXI HOLDINGS INC SR SECURED 144A 11/29 14",
       "identifier": "FMXL6257004",
       "pct_of_fund": 0.0001,
       "quantity": 2280503.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "TYZ26",
+      "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
+      "identifier": "TYZ26",
+      "pct_of_fund": 0.0001,
+      "quantity": 889900000.0,
       "market_value": null,
       "sector": ""
     },
@@ -141,7 +177,7 @@
       "ticker": "TUZ26",
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
-      "pct_of_fund": -0.0008,
+      "pct_of_fund": -0.0009,
       "quantity": 1364600000.0,
       "market_value": null,
       "sector": ""
@@ -150,7 +186,7 @@
       "ticker": "FVZ26",
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
-      "pct_of_fund": -0.0011,
+      "pct_of_fund": -0.0013,
       "quantity": 903900000.0,
       "market_value": null,
       "sector": ""
@@ -159,7 +195,7 @@
       "ticker": "AULZ26",
       "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
       "identifier": "AULZ26",
-      "pct_of_fund": -0.0017,
+      "pct_of_fund": -0.0013,
       "quantity": -331900000.0,
       "market_value": null,
       "sector": ""
