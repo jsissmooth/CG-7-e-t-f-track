@@ -1,22 +1,13 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "ticker": "CGHY",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0736,
-      "quantity": 120236.38,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "FFTA6562159",
-      "name": "FTAI AVIATION INVESTORS COMPANY GUAR 144A 11/34 7.125",
-      "identifier": "FFTA6562159",
-      "pct_of_fund": 0.0051,
-      "quantity": 825000.0,
+      "pct_of_fund": 0.0677,
+      "quantity": 110975.45,
       "market_value": null,
       "sector": ""
     },
@@ -24,17 +15,8 @@
       "ticker": "MDAS6546876",
       "name": "RADIOLOGY PARTNERS INC SECURED 144A 02/30 VAR",
       "identifier": "MDAS6546876",
-      "pct_of_fund": 0.0021,
-      "quantity": 359214.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "AIR6562158",
-      "name": "AAR CORP COMPANY GUAR 144A 11/31 7.125",
-      "identifier": "AIR6562158",
       "pct_of_fund": 0.002,
-      "quantity": 325000.0,
+      "quantity": 359214.0,
       "market_value": null,
       "sector": ""
     },
@@ -51,17 +33,8 @@
       "ticker": "SATS5938585",
       "name": "ECHOSTAR CORP SR SECURED 11/30 3.875",
       "identifier": "SATS5938585",
-      "pct_of_fund": 0.0014,
+      "pct_of_fund": 0.0013,
       "quantity": 71502.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "AIR6562156",
-      "name": "AAR CORP COMPANY GUAR 144A 11/34 7.375",
-      "identifier": "AIR6562156",
-      "pct_of_fund": 0.0011,
-      "quantity": 170000.0,
       "market_value": null,
       "sector": ""
     },
@@ -69,7 +42,7 @@
       "ticker": "DUKU",
       "name": "DUKE ENERGY CORP PREFERRED STOCK 08/29 7.75",
       "identifier": "DUKU",
-      "pct_of_fund": 0.0011,
+      "pct_of_fund": 0.0012,
       "quantity": 3700.0,
       "market_value": null,
       "sector": ""
@@ -78,7 +51,7 @@
       "ticker": "NEE-PS",
       "name": "NEXTERA ENERGY INC PREFFERD STOCK",
       "identifier": "NEE-PS",
-      "pct_of_fund": 0.0011,
+      "pct_of_fund": 0.0012,
       "quantity": 3600.0,
       "market_value": null,
       "sector": ""
@@ -93,20 +66,20 @@
       "sector": ""
     },
     {
+      "ticker": "CCL",
+      "name": "CARNIVAL CORP LTD COMMON STOCK USD.01",
+      "identifier": "CCL",
+      "pct_of_fund": 0.0009,
+      "quantity": 4580.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "SVC",
       "name": "SERVICE PROPERTIES TRUST REIT USD.01",
       "identifier": "SVC",
       "pct_of_fund": 0.0009,
       "quantity": 23168.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "CCL",
-      "name": "CARNIVAL CORP LTD COMMON STOCK USD.01",
-      "identifier": "CCL",
-      "pct_of_fund": 0.0008,
-      "quantity": 4580.0,
       "market_value": null,
       "sector": ""
     },
@@ -123,7 +96,7 @@
       "ticker": "MGLL6111140",
       "name": "DISCOVERY HOLDINGS INC COMPANY GUAR 03/32 4.279",
       "identifier": "MGLL6111140",
-      "pct_of_fund": 0.0007,
+      "pct_of_fund": 0.0006,
       "quantity": 145000.0,
       "market_value": null,
       "sector": ""

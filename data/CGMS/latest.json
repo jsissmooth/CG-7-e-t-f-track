@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "ticker": "CGMS",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0373,
-      "quantity": 2092574.54,
+      "pct_of_fund": 0.0364,
+      "quantity": 2051620.44,
       "market_value": null,
       "sector": ""
     },
@@ -15,7 +15,7 @@
       "ticker": "JNSTT6482354",
       "name": "JANE STREET GRP/JSG FIN SR SECURED 144A 08/31 7.294",
       "identifier": "JNSTT6482354",
-      "pct_of_fund": 0.003,
+      "pct_of_fund": 0.0029,
       "quantity": 16500000.0,
       "market_value": null,
       "sector": ""
@@ -48,15 +48,6 @@
       "sector": ""
     },
     {
-      "ticker": "ORCL",
-      "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
-      "identifier": "ORCL",
-      "pct_of_fund": 0.0011,
-      "quantity": 147600.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "MDAS6546876",
       "name": "RADIOLOGY PARTNERS INC SECURED 144A 02/30 VAR",
       "identifier": "MDAS6546876",
@@ -75,29 +66,20 @@
       "sector": ""
     },
     {
+      "ticker": "ORCL",
+      "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
+      "identifier": "ORCL",
+      "pct_of_fund": 0.001,
+      "quantity": 147600.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "NFEGP",
       "name": "NEW FORTRESS ENERGY INC PREFERRED STOCK 09/29 3",
       "identifier": "NFEGP",
       "pct_of_fund": 0.0005,
       "quantity": 12180.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "ORCL6561992",
-      "name": "ORACLE CORP SR UNSECURED 11/33 7.85",
-      "identifier": "ORCL6561992",
-      "pct_of_fund": 0.0005,
-      "quantity": 2550000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "AIR6562158",
-      "name": "AAR CORP COMPANY GUAR 144A 11/31 7.125",
-      "identifier": "AIR6562158",
-      "pct_of_fund": 0.0004,
-      "quantity": 2055000.0,
       "market_value": null,
       "sector": ""
     },
@@ -129,15 +111,6 @@
       "sector": ""
     },
     {
-      "ticker": "AIR6562156",
-      "name": "AAR CORP COMPANY GUAR 144A 11/34 7.375",
-      "identifier": "AIR6562156",
-      "pct_of_fund": 0.0003,
-      "quantity": 1855000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "SATS4486279",
       "name": "HUGHES SATELLITE SYSTEMS SR SECURED 08/26 5.25",
       "identifier": "SATS4486279",
@@ -156,6 +129,15 @@
       "sector": ""
     },
     {
+      "ticker": "USZ26",
+      "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
+      "identifier": "USZ26",
+      "pct_of_fund": 0.0002,
+      "quantity": 65700000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "OMI6438243",
       "name": "ACCENDRA HEALTH INC SECURED 144A 06/33 9.75",
       "identifier": "OMI6438243",
@@ -170,15 +152,6 @@
       "identifier": "FMXL6257004",
       "pct_of_fund": 0.0001,
       "quantity": 2485800.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "USZ26",
-      "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
-      "identifier": "USZ26",
-      "pct_of_fund": 0.0001,
-      "quantity": 65700000.0,
       "market_value": null,
       "sector": ""
     },
