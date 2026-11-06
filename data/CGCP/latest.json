@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "ticker": "CGCP",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.1118,
-      "quantity": 9684412.03,
+      "pct_of_fund": 0.1133,
+      "quantity": 9826586.25,
       "market_value": null,
       "sector": ""
     },
@@ -39,6 +39,15 @@
       "sector": ""
     },
     {
+      "ticker": "TYZ26",
+      "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
+      "identifier": "TYZ26",
+      "pct_of_fund": 0.001,
+      "quantity": 923900000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "FB6563341",
       "name": "META PLATFORMS INC SR UNSECURED 11/36 6.55",
       "identifier": "FB6563341",
@@ -57,15 +66,6 @@
       "sector": ""
     },
     {
-      "ticker": "TYZ26",
-      "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
-      "identifier": "TYZ26",
-      "pct_of_fund": 0.0005,
-      "quantity": 923900000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "USZ26",
       "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
       "identifier": "USZ26",
@@ -80,15 +80,6 @@
       "identifier": "ORCL",
       "pct_of_fund": 0.0003,
       "quantity": 71600.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "TNZ26",
-      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
-      "identifier": "TNZ26",
-      "pct_of_fund": 0.0003,
-      "quantity": -560700000.0,
       "market_value": null,
       "sector": ""
     },
@@ -129,15 +120,6 @@
       "sector": ""
     },
     {
-      "ticker": "OMI6438243",
-      "name": "ACCENDRA HEALTH INC SECURED 144A 06/33 9.75",
-      "identifier": "OMI6438243",
-      "pct_of_fund": 0.0,
-      "quantity": 907415.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "NFE",
       "name": "NEW FORTRESS ENERGY INC COMMON STOCK USD.01",
       "identifier": "NFE",
@@ -147,10 +129,19 @@
       "sector": ""
     },
     {
+      "ticker": "TNZ26",
+      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
+      "identifier": "TNZ26",
+      "pct_of_fund": 0.0,
+      "quantity": -560700000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "TUZ26",
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
-      "pct_of_fund": -0.0008,
+      "pct_of_fund": -0.0005,
       "quantity": 1364600000.0,
       "market_value": null,
       "sector": ""
@@ -159,7 +150,7 @@
       "ticker": "FVZ26",
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
-      "pct_of_fund": -0.0011,
+      "pct_of_fund": -0.0007,
       "quantity": 903900000.0,
       "market_value": null,
       "sector": ""
@@ -168,7 +159,7 @@
       "ticker": "AULZ26",
       "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
       "identifier": "AULZ26",
-      "pct_of_fund": -0.0016,
+      "pct_of_fund": -0.0018,
       "quantity": -331900000.0,
       "market_value": null,
       "sector": ""

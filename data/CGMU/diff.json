@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "ticker": "CGMU",
-  "prior_date": "2026-11-04",
+  "prior_date": "2026-11-05",
   "diff": [
     {
       "ticker": "AULZ26",
@@ -26,9 +26,9 @@
       "quantity_today": 86400000.0,
       "quantity_prior": 86400000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0,
+      "pct_of_fund_today": 0.0001,
       "pct_of_fund_prior": 0,
-      "pct_of_fund_change": 0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -37,9 +37,9 @@
       "identifier": "TNZ26",
       "sector": "",
       "status": "changed",
-      "quantity_today": -43800000.0,
-      "quantity_prior": -38700000.0,
-      "quantity_pct_change": 13.1783,
+      "quantity_today": -49900000.0,
+      "quantity_prior": -43800000.0,
+      "quantity_pct_change": 13.9269,
       "pct_of_fund_today": -0.0001,
       "pct_of_fund_prior": -0.0001,
       "pct_of_fund_change": 0.0,
@@ -51,9 +51,9 @@
       "identifier": "TUZ26",
       "sector": "",
       "status": "changed",
-      "quantity_today": 141600000.0,
-      "quantity_prior": 198400000.0,
-      "quantity_pct_change": -28.629,
+      "quantity_today": 168800000.0,
+      "quantity_prior": 141600000.0,
+      "quantity_pct_change": 19.209,
       "pct_of_fund_today": 0.0001,
       "pct_of_fund_prior": 0.0001,
       "pct_of_fund_change": 0.0,

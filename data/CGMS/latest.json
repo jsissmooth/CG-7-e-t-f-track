@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "ticker": "CGMS",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0364,
-      "quantity": 2051620.44,
+      "pct_of_fund": 0.0368,
+      "quantity": 2067782.06,
       "market_value": null,
       "sector": ""
     },
@@ -75,6 +75,15 @@
       "sector": ""
     },
     {
+      "ticker": "CRH6564307",
+      "name": "CRH AMERICA FINANCE INC COMPANY GUAR 02/37 5.75",
+      "identifier": "CRH6564307",
+      "pct_of_fund": 0.0005,
+      "quantity": 3080000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "NFEGP",
       "name": "NEW FORTRESS ENERGY INC PREFERRED STOCK 09/29 3",
       "identifier": "NFEGP",
@@ -105,7 +114,7 @@
       "ticker": "SVC",
       "name": "SERVICE PROPERTIES TRUST REIT USD.01",
       "identifier": "SVC",
-      "pct_of_fund": 0.0004,
+      "pct_of_fund": 0.0003,
       "quantity": 340377.0,
       "market_value": null,
       "sector": ""
@@ -120,29 +129,11 @@
       "sector": ""
     },
     {
-      "ticker": "SAIC6562150",
-      "name": "SCIENCE APPLICATIONS INT COMPANY GUAR 144A 12/34 6.75",
-      "identifier": "SAIC6562150",
-      "pct_of_fund": 0.0002,
-      "quantity": 1175000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "USZ26",
       "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
       "identifier": "USZ26",
       "pct_of_fund": 0.0002,
       "quantity": 65700000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "OMI6438243",
-      "name": "ACCENDRA HEALTH INC SECURED 144A 06/33 9.75",
-      "identifier": "OMI6438243",
-      "pct_of_fund": 0.0001,
-      "quantity": 986320.0,
       "market_value": null,
       "sector": ""
     },
@@ -223,7 +214,7 @@
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
       "pct_of_fund": 0.0,
-      "quantity": 16600000.0,
+      "quantity": 36600000.0,
       "market_value": null,
       "sector": ""
     },
