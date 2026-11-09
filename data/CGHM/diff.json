@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-09",
   "ticker": "CGHM",
-  "prior_date": "2026-11-05",
+  "prior_date": "2026-11-06",
   "diff": [
     {
       "ticker": "FVZ26",
@@ -40,9 +40,9 @@
       "quantity_today": 140000000.0,
       "quantity_prior": 140000000.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0002,
-      "pct_of_fund_prior": 0.0001,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": 0.0001,
+      "pct_of_fund_prior": 0.0002,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -54,9 +54,9 @@
       "quantity_today": -37500000.0,
       "quantity_prior": -37500000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": -0.0002,
-      "pct_of_fund_prior": -0.0001,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": -0.0001,
+      "pct_of_fund_prior": -0.0002,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     }
   ]
