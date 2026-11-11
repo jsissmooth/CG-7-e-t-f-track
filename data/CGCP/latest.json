@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "ticker": "CGCP",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.1148,
-      "quantity": 10007882.45,
+      "pct_of_fund": 0.1181,
+      "quantity": 10243842.45,
       "market_value": null,
       "sector": ""
     },
@@ -39,6 +39,15 @@
       "sector": ""
     },
     {
+      "ticker": "TNZ26",
+      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
+      "identifier": "TNZ26",
+      "pct_of_fund": 0.0008,
+      "quantity": -560700000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "JNSTT6482358",
       "name": "JANE STREET GRP/JSG FIN SR SECURED 144A 08/36 8.088",
       "identifier": "JNSTT6482358",
@@ -48,19 +57,10 @@
       "sector": ""
     },
     {
-      "ticker": "TYZ26",
-      "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
-      "identifier": "TYZ26",
-      "pct_of_fund": 0.0007,
-      "quantity": 923900000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "USZ26",
       "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
       "identifier": "USZ26",
-      "pct_of_fund": 0.0005,
+      "pct_of_fund": 0.0004,
       "quantity": 74500000.0,
       "market_value": null,
       "sector": ""
@@ -102,15 +102,6 @@
       "sector": ""
     },
     {
-      "ticker": "TNZ26",
-      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
-      "identifier": "TNZ26",
-      "pct_of_fund": 0.0001,
-      "quantity": -560700000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "WOLF6194878",
       "name": "WOLFSPEED INC SR SECURED 144A 06/30 VAR",
       "identifier": "WOLF6194878",
@@ -129,20 +120,20 @@
       "sector": ""
     },
     {
-      "ticker": "TUZ26",
-      "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
-      "identifier": "TUZ26",
-      "pct_of_fund": -0.0007,
-      "quantity": 1364600000.0,
+      "ticker": "TYZ26",
+      "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
+      "identifier": "TYZ26",
+      "pct_of_fund": -0.0001,
+      "quantity": 923900000.0,
       "market_value": null,
       "sector": ""
     },
     {
-      "ticker": "FVZ26",
-      "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
-      "identifier": "FVZ26",
-      "pct_of_fund": -0.0009,
-      "quantity": 903900000.0,
+      "ticker": "TUZ26",
+      "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
+      "identifier": "TUZ26",
+      "pct_of_fund": -0.0012,
+      "quantity": 1364600000.0,
       "market_value": null,
       "sector": ""
     },
@@ -150,8 +141,17 @@
       "ticker": "AULZ26",
       "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
       "identifier": "AULZ26",
-      "pct_of_fund": -0.0018,
+      "pct_of_fund": -0.0012,
       "quantity": -331900000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "FVZ26",
+      "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
+      "identifier": "FVZ26",
+      "pct_of_fund": -0.0016,
+      "quantity": 903900000.0,
       "market_value": null,
       "sector": ""
     }

@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "ticker": "CGMS",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0393,
-      "quantity": 2232633.51,
+      "pct_of_fund": 0.0413,
+      "quantity": 2334543.51,
       "market_value": null,
       "sector": ""
     },
@@ -48,20 +48,20 @@
       "sector": ""
     },
     {
+      "ticker": "MDAS6546876",
+      "name": "RADIOLOGY PARTNERS INC SECURED 144A 02/30 VAR",
+      "identifier": "MDAS6546876",
+      "pct_of_fund": 0.0011,
+      "quantity": 6429931.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "ORCL",
       "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
       "identifier": "ORCL",
       "pct_of_fund": 0.001,
       "quantity": 147600.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "MDAS6546876",
-      "name": "RADIOLOGY PARTNERS INC SECURED 144A 02/30 VAR",
-      "identifier": "MDAS6546876",
-      "pct_of_fund": 0.001,
-      "quantity": 6429931.0,
       "market_value": null,
       "sector": ""
     },
@@ -102,11 +102,11 @@
       "sector": ""
     },
     {
-      "ticker": "USZ26",
-      "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
-      "identifier": "USZ26",
+      "ticker": "TNZ26",
+      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
+      "identifier": "TNZ26",
       "pct_of_fund": 0.0002,
-      "quantity": 57400000.0,
+      "quantity": -97300000.0,
       "market_value": null,
       "sector": ""
     },
@@ -116,6 +116,15 @@
       "identifier": "FMXL6257004",
       "pct_of_fund": 0.0001,
       "quantity": 2485800.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "USZ26",
+      "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
+      "identifier": "USZ26",
+      "pct_of_fund": 0.0001,
+      "quantity": 57400000.0,
       "market_value": null,
       "sector": ""
     },
@@ -174,33 +183,6 @@
       "sector": ""
     },
     {
-      "ticker": "TNZ26",
-      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
-      "identifier": "TNZ26",
-      "pct_of_fund": 0.0,
-      "quantity": -97300000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "TUZ26",
-      "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
-      "identifier": "TUZ26",
-      "pct_of_fund": 0.0,
-      "quantity": 441200000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "FVZ26",
-      "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
-      "identifier": "FVZ26",
-      "pct_of_fund": 0.0,
-      "quantity": 122600000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "AULZ26",
       "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
       "identifier": "AULZ26",
@@ -215,6 +197,24 @@
       "identifier": "VNTRF",
       "pct_of_fund": 0.0,
       "quantity": 90.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "FVZ26",
+      "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
+      "identifier": "FVZ26",
+      "pct_of_fund": -0.0001,
+      "quantity": 122600000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "TUZ26",
+      "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
+      "identifier": "TUZ26",
+      "pct_of_fund": -0.0003,
+      "quantity": 441200000.0,
       "market_value": null,
       "sector": ""
     }
