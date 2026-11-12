@@ -1,22 +1,13 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "ticker": "CGHY",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0601,
+      "pct_of_fund": 0.06,
       "quantity": 101047.63,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "TKOW6565733",
-      "name": "TKO WORLDWIDE HOLDINGS SR SECURED 144A 11/31 6.5",
-      "identifier": "TKOW6565733",
-      "pct_of_fund": 0.0051,
-      "quantity": 850000.0,
       "market_value": null,
       "sector": ""
     },
@@ -39,10 +30,19 @@
       "sector": ""
     },
     {
+      "ticker": "PTON6569482",
+      "name": "PELOTON INTERACTIVE INC SR SECURED 144A 02/32 8.625",
+      "identifier": "PTON6569482",
+      "pct_of_fund": 0.0017,
+      "quantity": 275000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "SATS5938585",
       "name": "ECHOSTAR CORP SR SECURED 11/30 3.875",
       "identifier": "SATS5938585",
-      "pct_of_fund": 0.0014,
+      "pct_of_fund": 0.0013,
       "quantity": 71502.0,
       "market_value": null,
       "sector": ""
@@ -84,20 +84,20 @@
       "sector": ""
     },
     {
-      "ticker": "SVC",
-      "name": "SERVICE PROPERTIES TRUST REIT USD.01",
-      "identifier": "SVC",
-      "pct_of_fund": 0.0008,
-      "quantity": 23168.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "BApA",
       "name": "BOEING CO/THE PREFERRED STOCK 10/27 6",
       "identifier": "BApA",
       "pct_of_fund": 0.0007,
       "quantity": 2000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "SVC",
+      "name": "SERVICE PROPERTIES TRUST REIT USD.01",
+      "identifier": "SVC",
+      "pct_of_fund": 0.0007,
+      "quantity": 23168.0,
       "market_value": null,
       "sector": ""
     },
@@ -114,7 +114,7 @@
       "ticker": "ORCL",
       "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
       "identifier": "ORCL",
-      "pct_of_fund": 0.0005,
+      "pct_of_fund": 0.0006,
       "quantity": 2400.0,
       "market_value": null,
       "sector": ""

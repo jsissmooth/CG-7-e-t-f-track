@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "ticker": "CGCP",
   "holdings": [
     {
@@ -42,7 +42,7 @@
       "ticker": "TNZ26",
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
-      "pct_of_fund": 0.0008,
+      "pct_of_fund": 0.0009,
       "quantity": -560700000.0,
       "market_value": null,
       "sector": ""
@@ -53,6 +53,15 @@
       "identifier": "JNSTT6482358",
       "pct_of_fund": 0.0007,
       "quantity": 6250000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "OMI6430341",
+      "name": "ACCENDRA HEALTH INC SR SECURED 144A 06/32 9",
+      "identifier": "OMI6430341",
+      "pct_of_fund": 0.0004,
+      "quantity": 4924170.0,
       "market_value": null,
       "sector": ""
     },
@@ -123,17 +132,8 @@
       "ticker": "TYZ26",
       "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
       "identifier": "TYZ26",
-      "pct_of_fund": -0.0001,
+      "pct_of_fund": -0.0004,
       "quantity": 923900000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "TUZ26",
-      "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
-      "identifier": "TUZ26",
-      "pct_of_fund": -0.0012,
-      "quantity": 1364600000.0,
       "market_value": null,
       "sector": ""
     },
@@ -147,10 +147,19 @@
       "sector": ""
     },
     {
+      "ticker": "TUZ26",
+      "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
+      "identifier": "TUZ26",
+      "pct_of_fund": -0.0014,
+      "quantity": 1364600000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "FVZ26",
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
-      "pct_of_fund": -0.0016,
+      "pct_of_fund": -0.0018,
       "quantity": 903900000.0,
       "market_value": null,
       "sector": ""

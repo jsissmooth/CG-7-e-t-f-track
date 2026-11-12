@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "ticker": "CGMS",
   "holdings": [
     {
@@ -48,6 +48,15 @@
       "sector": ""
     },
     {
+      "ticker": "ORCL",
+      "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
+      "identifier": "ORCL",
+      "pct_of_fund": 0.0011,
+      "quantity": 147600.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "MDAS6546876",
       "name": "RADIOLOGY PARTNERS INC SECURED 144A 02/30 VAR",
       "identifier": "MDAS6546876",
@@ -57,11 +66,11 @@
       "sector": ""
     },
     {
-      "ticker": "ORCL",
-      "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
-      "identifier": "ORCL",
-      "pct_of_fund": 0.001,
-      "quantity": 147600.0,
+      "ticker": "OMI6430341",
+      "name": "ACCENDRA HEALTH INC SR SECURED 144A 06/32 9",
+      "identifier": "OMI6430341",
+      "pct_of_fund": 0.0008,
+      "quantity": 5791578.0,
       "market_value": null,
       "sector": ""
     },
@@ -93,6 +102,15 @@
       "sector": ""
     },
     {
+      "ticker": "ENGIY6569494",
+      "name": "ENGIE SA SR UNSECURED 144A 11/36 6.15",
+      "identifier": "ENGIY6569494",
+      "pct_of_fund": 0.0003,
+      "quantity": 1875000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "SVC",
       "name": "SERVICE PROPERTIES TRUST REIT USD.01",
       "identifier": "SVC",
@@ -116,6 +134,15 @@
       "identifier": "FMXL6257004",
       "pct_of_fund": 0.0001,
       "quantity": 2485800.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "PTON6569482",
+      "name": "PELOTON INTERACTIVE INC SR SECURED 144A 02/32 8.625",
+      "identifier": "PTON6569482",
+      "pct_of_fund": 0.0001,
+      "quantity": 610000.0,
       "market_value": null,
       "sector": ""
     },
@@ -204,7 +231,7 @@
       "ticker": "FVZ26",
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
-      "pct_of_fund": -0.0001,
+      "pct_of_fund": -0.0002,
       "quantity": 122600000.0,
       "market_value": null,
       "sector": ""
@@ -213,7 +240,7 @@
       "ticker": "TUZ26",
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
-      "pct_of_fund": -0.0003,
+      "pct_of_fund": -0.0004,
       "quantity": 441200000.0,
       "market_value": null,
       "sector": ""
