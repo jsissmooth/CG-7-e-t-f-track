@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "ticker": "CGMS",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0413,
-      "quantity": 2334543.51,
+      "pct_of_fund": 0.0383,
+      "quantity": 2159686.02,
       "market_value": null,
       "sector": ""
     },
@@ -60,7 +60,7 @@
       "ticker": "MDAS6546876",
       "name": "RADIOLOGY PARTNERS INC SECURED 144A 02/30 VAR",
       "identifier": "MDAS6546876",
-      "pct_of_fund": 0.0011,
+      "pct_of_fund": 0.001,
       "quantity": 6429931.0,
       "market_value": null,
       "sector": ""
@@ -69,7 +69,7 @@
       "ticker": "OMI6430341",
       "name": "ACCENDRA HEALTH INC SR SECURED 144A 06/32 9",
       "identifier": "OMI6430341",
-      "pct_of_fund": 0.0008,
+      "pct_of_fund": 0.0007,
       "quantity": 5791578.0,
       "market_value": null,
       "sector": ""
@@ -105,8 +105,8 @@
       "ticker": "ENGIY6569494",
       "name": "ENGIE SA SR UNSECURED 144A 11/36 6.15",
       "identifier": "ENGIY6569494",
-      "pct_of_fund": 0.0003,
-      "quantity": 1875000.0,
+      "pct_of_fund": 0.0004,
+      "quantity": 2475000.0,
       "market_value": null,
       "sector": ""
     },
@@ -123,7 +123,7 @@
       "ticker": "TNZ26",
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
-      "pct_of_fund": 0.0002,
+      "pct_of_fund": 0.0003,
       "quantity": -97300000.0,
       "market_value": null,
       "sector": ""
@@ -143,15 +143,6 @@
       "identifier": "PTON6569482",
       "pct_of_fund": 0.0001,
       "quantity": 610000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "USZ26",
-      "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
-      "identifier": "USZ26",
-      "pct_of_fund": 0.0001,
-      "quantity": 57400000.0,
       "market_value": null,
       "sector": ""
     },
@@ -228,10 +219,19 @@
       "sector": ""
     },
     {
+      "ticker": "USZ26",
+      "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
+      "identifier": "USZ26",
+      "pct_of_fund": -0.0001,
+      "quantity": 57400000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "FVZ26",
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
-      "pct_of_fund": -0.0002,
+      "pct_of_fund": -0.0003,
       "quantity": 122600000.0,
       "market_value": null,
       "sector": ""
@@ -240,7 +240,7 @@
       "ticker": "TUZ26",
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
-      "pct_of_fund": -0.0004,
+      "pct_of_fund": -0.0005,
       "quantity": 441200000.0,
       "market_value": null,
       "sector": ""

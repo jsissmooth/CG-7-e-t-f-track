@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "ticker": "CGMU",
-  "prior_date": "2026-11-11",
+  "prior_date": "2026-11-12",
   "diff": [
     {
       "ticker": "AULZ26",
@@ -12,9 +12,9 @@
       "quantity_today": -16700000.0,
       "quantity_prior": -16700000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0,
+      "pct_of_fund_today": 0.0001,
       "pct_of_fund_prior": 0,
-      "pct_of_fund_change": 0,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -22,13 +22,13 @@
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 75800000.0,
+      "status": "changed",
+      "quantity_today": 82000000.0,
       "quantity_prior": 75800000.0,
-      "quantity_pct_change": 0.0,
+      "quantity_pct_change": 8.1794,
       "pct_of_fund_today": -0.0001,
-      "pct_of_fund_prior": 0,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_prior": -0.0001,
+      "pct_of_fund_change": 0.0,
       "market_value_today": null
     },
     {
@@ -50,10 +50,10 @@
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 58200000.0,
+      "status": "changed",
+      "quantity_today": 29200000.0,
       "quantity_prior": 58200000.0,
-      "quantity_pct_change": 0.0,
+      "quantity_pct_change": -49.8282,
       "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0,
       "pct_of_fund_change": 0,
