@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-16",
   "ticker": "CGHY",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0598,
-      "quantity": 100527.58,
+      "pct_of_fund": 0.05,
+      "quantity": 83857.58,
       "market_value": null,
       "sector": ""
     },
@@ -26,15 +26,6 @@
       "identifier": "MDAS6546876",
       "pct_of_fund": 0.002,
       "quantity": 359214.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "PTON6569482",
-      "name": "PELOTON INTERACTIVE INC SR SECURED 144A 02/32 8.625",
-      "identifier": "PTON6569482",
-      "pct_of_fund": 0.0017,
-      "quantity": 275000.0,
       "market_value": null,
       "sector": ""
     },
@@ -62,15 +53,6 @@
       "identifier": "NEE-PS",
       "pct_of_fund": 0.0011,
       "quantity": 3600.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "NFE6448216",
-      "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
-      "identifier": "NFE6448216",
-      "pct_of_fund": 0.001,
-      "quantity": 200372.0,
       "market_value": null,
       "sector": ""
     },
@@ -143,6 +125,15 @@
       "identifier": "VTR",
       "pct_of_fund": 0.0004,
       "quantity": 689.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "SATS4486277",
+      "name": "HUGHES SATELLITE SYSTEMS COMPANY GUAR 08/26 6.625",
+      "identifier": "SATS4486277",
+      "pct_of_fund": 0.0003,
+      "quantity": 98000.0,
       "market_value": null,
       "sector": ""
     },
