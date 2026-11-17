@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "ticker": "CGMS",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0372,
-      "quantity": 2105226.02,
+      "pct_of_fund": 0.0433,
+      "quantity": 2448640.36,
       "market_value": null,
       "sector": ""
     },
@@ -42,7 +42,7 @@
       "ticker": "ORCL",
       "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
       "identifier": "ORCL",
-      "pct_of_fund": 0.0011,
+      "pct_of_fund": 0.001,
       "quantity": 147600.0,
       "market_value": null,
       "sector": ""
@@ -62,15 +62,6 @@
       "identifier": "OMI6430341",
       "pct_of_fund": 0.0007,
       "quantity": 5791578.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "UNCRY6571121",
-      "name": "UNICREDIT SPA SR UNSECURED 144A 11/32 VAR",
-      "identifier": "UNCRY6571121",
-      "pct_of_fund": 0.0006,
-      "quantity": 3326000.0,
       "market_value": null,
       "sector": ""
     },
@@ -133,7 +124,7 @@
       "name": "FXI HOLDINGS INC SR SECURED 144A 11/29 14",
       "identifier": "FMXL6257004",
       "pct_of_fund": 0.0001,
-      "quantity": 2485800.0,
+      "quantity": 2684664.0,
       "market_value": null,
       "sector": ""
     },
@@ -201,6 +192,15 @@
       "sector": ""
     },
     {
+      "ticker": "FVH27",
+      "name": "US 5YR NOTE (CBT) MAR27 XCBT 20270331",
+      "identifier": "FVH27",
+      "pct_of_fund": 0.0,
+      "quantity": 2100000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "AULZ26",
       "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
       "identifier": "AULZ26",
@@ -231,8 +231,8 @@
       "ticker": "FVZ26",
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
-      "pct_of_fund": -0.0003,
-      "quantity": 149600000.0,
+      "pct_of_fund": -0.0002,
+      "quantity": 147500000.0,
       "market_value": null,
       "sector": ""
     },
@@ -240,7 +240,7 @@
       "ticker": "TUZ26",
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
-      "pct_of_fund": -0.0005,
+      "pct_of_fund": -0.0004,
       "quantity": 481200000.0,
       "market_value": null,
       "sector": ""

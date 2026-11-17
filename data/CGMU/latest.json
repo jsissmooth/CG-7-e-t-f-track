@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "ticker": "CGMU",
   "holdings": [
     {
@@ -25,7 +25,16 @@
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
       "pct_of_fund": 0.0,
-      "quantity": 16200000.0,
+      "quantity": 16000000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "FVH27",
+      "name": "US 5YR NOTE (CBT) MAR27 XCBT 20270331",
+      "identifier": "FVH27",
+      "pct_of_fund": 0.0,
+      "quantity": 200000.0,
       "market_value": null,
       "sector": ""
     }
