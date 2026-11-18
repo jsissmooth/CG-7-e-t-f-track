@@ -1,20 +1,20 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "ticker": "CGMU",
-  "prior_date": "2026-11-16",
+  "prior_date": "2026-11-17",
   "diff": [
     {
       "ticker": "FVH27",
       "name": "US 5YR NOTE (CBT) MAR27 XCBT 20270331",
       "identifier": "FVH27",
       "sector": "",
-      "status": "added",
-      "quantity_today": 200000.0,
-      "quantity_prior": null,
-      "quantity_pct_change": null,
+      "status": "changed",
+      "quantity_today": 300000.0,
+      "quantity_prior": 200000.0,
+      "quantity_pct_change": 50.0,
       "pct_of_fund_today": 0,
-      "pct_of_fund_prior": null,
-      "pct_of_fund_change": null,
+      "pct_of_fund_prior": 0,
+      "pct_of_fund_change": 0,
       "market_value_today": null
     },
     {
@@ -23,9 +23,9 @@
       "identifier": "FVZ26",
       "sector": "",
       "status": "changed",
-      "quantity_today": 16000000.0,
-      "quantity_prior": 16200000.0,
-      "quantity_pct_change": -1.2346,
+      "quantity_today": 5900000.0,
+      "quantity_prior": 16000000.0,
+      "quantity_pct_change": -63.125,
       "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0,
       "pct_of_fund_change": 0,
@@ -40,9 +40,9 @@
       "quantity_today": -33800000.0,
       "quantity_prior": -33800000.0,
       "quantity_pct_change": -0.0,
-      "pct_of_fund_today": 0.0001,
+      "pct_of_fund_today": 0,
       "pct_of_fund_prior": 0.0001,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {

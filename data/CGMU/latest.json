@@ -1,16 +1,7 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "ticker": "CGMU",
   "holdings": [
-    {
-      "ticker": "TNZ26",
-      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
-      "identifier": "TNZ26",
-      "pct_of_fund": 0.0001,
-      "quantity": -33800000.0,
-      "market_value": null,
-      "sector": ""
-    },
     {
       "ticker": "TYZ26",
       "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
@@ -21,11 +12,20 @@
       "sector": ""
     },
     {
+      "ticker": "TNZ26",
+      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
+      "identifier": "TNZ26",
+      "pct_of_fund": 0.0,
+      "quantity": -33800000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "FVZ26",
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
       "pct_of_fund": 0.0,
-      "quantity": 16000000.0,
+      "quantity": 5900000.0,
       "market_value": null,
       "sector": ""
     },
@@ -34,7 +34,7 @@
       "name": "US 5YR NOTE (CBT) MAR27 XCBT 20270331",
       "identifier": "FVH27",
       "pct_of_fund": 0.0,
-      "quantity": 200000.0,
+      "quantity": 300000.0,
       "market_value": null,
       "sector": ""
     }
