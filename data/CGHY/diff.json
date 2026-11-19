@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "ticker": "CGHY",
-  "prior_date": "2026-11-17",
+  "prior_date": "2026-11-18",
   "diff": [
     {
       "ticker": "BApA",
@@ -26,9 +26,9 @@
       "quantity_today": 4580.0,
       "quantity_prior": 4580.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0008,
-      "pct_of_fund_prior": 0.0009,
-      "pct_of_fund_change": -0.0001,
+      "pct_of_fund_today": 0.0009,
+      "pct_of_fund_prior": 0.0008,
+      "pct_of_fund_change": 0.0001,
       "market_value_today": null
     },
     {
@@ -37,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 92028.4,
-      "quantity_prior": 104819.68,
-      "quantity_pct_change": -12.2031,
-      "pct_of_fund_today": 0.0592,
-      "pct_of_fund_prior": 0.0673,
-      "pct_of_fund_change": -0.0081,
+      "quantity_today": 91528.35,
+      "quantity_prior": 92028.4,
+      "quantity_pct_change": -0.5434,
+      "pct_of_fund_today": 0.0589,
+      "pct_of_fund_prior": 0.0592,
+      "pct_of_fund_change": -0.0003,
       "market_value_today": null
     },
     {
@@ -85,20 +85,6 @@
       "pct_of_fund_today": 0.0004,
       "pct_of_fund_prior": 0.0004,
       "pct_of_fund_change": 0.0,
-      "market_value_today": null
-    },
-    {
-      "ticker": "MDAS6546876",
-      "name": "RADIOLOGY PARTNERS INC SECURED 144A 02/30 VAR",
-      "identifier": "MDAS6546876",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 359214.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0021,
-      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
@@ -172,20 +158,6 @@
       "market_value_today": null
     },
     {
-      "ticker": "SATS4486277",
-      "name": "HUGHES SATELLITE SYSTEMS COMPANY GUAR 08/26 6.625",
-      "identifier": "SATS4486277",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 98000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0003,
-      "pct_of_fund_change": null,
-      "market_value_today": null
-    },
-    {
       "ticker": "SATS5938585",
       "name": "ECHOSTAR CORP SR SECURED 11/30 3.875",
       "identifier": "SATS5938585",
@@ -197,20 +169,6 @@
       "pct_of_fund_today": 0.0014,
       "pct_of_fund_prior": 0.0014,
       "pct_of_fund_change": 0.0,
-      "market_value_today": null
-    },
-    {
-      "ticker": "SPN6565485",
-      "name": "SESI LLC SR UNSECURED 144A 12/33 9.5",
-      "identifier": "SPN6565485",
-      "sector": "",
-      "status": "removed",
-      "quantity_today": null,
-      "quantity_prior": 400000.0,
-      "quantity_pct_change": null,
-      "pct_of_fund_today": null,
-      "pct_of_fund_prior": 0.0025,
-      "pct_of_fund_change": null,
       "market_value_today": null
     },
     {
