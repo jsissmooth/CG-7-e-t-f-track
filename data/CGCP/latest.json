@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "ticker": "CGCP",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.1217,
-      "quantity": 10480712.96,
+      "pct_of_fund": 0.1168,
+      "quantity": 10065201.41,
       "market_value": null,
       "sector": ""
     },
@@ -33,8 +33,8 @@
       "ticker": "TNZ26",
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
-      "pct_of_fund": 0.0012,
-      "quantity": -571400000.0,
+      "pct_of_fund": 0.0011,
+      "quantity": -552900000.0,
       "market_value": null,
       "sector": ""
     },
@@ -44,6 +44,15 @@
       "identifier": "JNSTT6482358",
       "pct_of_fund": 0.0007,
       "quantity": 6250000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "MIICF6576030",
+      "name": "MILLICOM INTL CELLULAR SR UNSECURED 144A 12/33 7.5",
+      "identifier": "MIICF6576030",
+      "pct_of_fund": 0.0006,
+      "quantity": 5170000.0,
       "market_value": null,
       "sector": ""
     },
@@ -62,6 +71,15 @@
       "identifier": "ORCL",
       "pct_of_fund": 0.0003,
       "quantity": 71600.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "TYZ26",
+      "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
+      "identifier": "TYZ26",
+      "pct_of_fund": 0.0003,
+      "quantity": 530900000.0,
       "market_value": null,
       "sector": ""
     },
@@ -88,7 +106,7 @@
       "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
       "identifier": "USZ26",
       "pct_of_fund": 0.0002,
-      "quantity": 53800000.0,
+      "quantity": 46000000.0,
       "market_value": null,
       "sector": ""
     },
@@ -98,6 +116,24 @@
       "identifier": "FMXL6257004",
       "pct_of_fund": 0.0001,
       "quantity": 2462943.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "TYH27",
+      "name": "US 10YR NOTE (CBT)MAR27 XCBT 20270319",
+      "identifier": "TYH27",
+      "pct_of_fund": 0.0001,
+      "quantity": 405800000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "FVH27",
+      "name": "US 5YR NOTE (CBT) MAR27 XCBT 20270331",
+      "identifier": "FVH27",
+      "pct_of_fund": 0.0001,
+      "quantity": 326700000.0,
       "market_value": null,
       "sector": ""
     },
@@ -129,20 +165,11 @@
       "sector": ""
     },
     {
-      "ticker": "TYH27",
-      "name": "US 10YR NOTE (CBT)MAR27 XCBT 20270319",
-      "identifier": "TYH27",
-      "pct_of_fund": 0.0,
-      "quantity": 191200000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "TNH27",
       "name": "US 10YR ULTRA FUT MAR27 XCBT 20270319",
       "identifier": "TNH27",
       "pct_of_fund": 0.0,
-      "quantity": -19100000.0,
+      "quantity": -37400000.0,
       "market_value": null,
       "sector": ""
     },
@@ -151,16 +178,7 @@
       "name": "US 2YR NOTE (CBT) MAR27 XCBT 20270331",
       "identifier": "TUH27",
       "pct_of_fund": 0.0,
-      "quantity": 389200000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "FVH27",
-      "name": "US 5YR NOTE (CBT) MAR27 XCBT 20270331",
-      "identifier": "FVH27",
-      "pct_of_fund": 0.0,
-      "quantity": 143300000.0,
+      "quantity": 608400000.0,
       "market_value": null,
       "sector": ""
     },
@@ -169,16 +187,7 @@
       "name": "US LONG BOND(CBT) MAR27 XCBT 20270319",
       "identifier": "USH27",
       "pct_of_fund": 0.0,
-      "quantity": 700000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "TYZ26",
-      "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
-      "identifier": "TYZ26",
-      "pct_of_fund": -0.0001,
-      "quantity": 750900000.0,
+      "quantity": 8500000.0,
       "market_value": null,
       "sector": ""
     },
@@ -187,7 +196,7 @@
       "name": "US ULTRA BOND CBT MAR27 XCBT 20270319",
       "identifier": "AULH27",
       "pct_of_fund": -0.0001,
-      "quantity": -81600000.0,
+      "quantity": -160600000.0,
       "market_value": null,
       "sector": ""
     },
@@ -195,8 +204,8 @@
       "ticker": "TUZ26",
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
-      "pct_of_fund": -0.0009,
-      "quantity": 984600000.0,
+      "pct_of_fund": -0.0006,
+      "quantity": 736800000.0,
       "market_value": null,
       "sector": ""
     },
@@ -204,8 +213,8 @@
       "ticker": "AULZ26",
       "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
       "identifier": "AULZ26",
-      "pct_of_fund": -0.0011,
-      "quantity": -239300000.0,
+      "pct_of_fund": -0.0008,
+      "quantity": -160300000.0,
       "market_value": null,
       "sector": ""
     },
@@ -213,8 +222,8 @@
       "ticker": "FVZ26",
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
-      "pct_of_fund": -0.0014,
-      "quantity": 694900000.0,
+      "pct_of_fund": -0.001,
+      "quantity": 504200000.0,
       "market_value": null,
       "sector": ""
     }

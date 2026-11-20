@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "ticker": "CGMS",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0447,
-      "quantity": 2525148.01,
+      "pct_of_fund": 0.0437,
+      "quantity": 2471952.69,
       "market_value": null,
       "sector": ""
     },
@@ -57,6 +57,15 @@
       "sector": ""
     },
     {
+      "ticker": "MIICF6576030",
+      "name": "MILLICOM INTL CELLULAR SR UNSECURED 144A 12/33 7.5",
+      "identifier": "MIICF6576030",
+      "pct_of_fund": 0.0007,
+      "quantity": 3875000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "NFEGP",
       "name": "NEW FORTRESS ENERGY INC PREFERRED STOCK 09/29 3",
       "identifier": "NFEGP",
@@ -87,7 +96,7 @@
       "ticker": "SVC",
       "name": "SERVICE PROPERTIES TRUST REIT USD.01",
       "identifier": "SVC",
-      "pct_of_fund": 0.0004,
+      "pct_of_fund": 0.0003,
       "quantity": 340377.0,
       "market_value": null,
       "sector": ""
@@ -96,8 +105,8 @@
       "ticker": "TNZ26",
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
-      "pct_of_fund": 0.0003,
-      "quantity": -112300000.0,
+      "pct_of_fund": 0.0002,
+      "quantity": -108700000.0,
       "market_value": null,
       "sector": ""
     },
@@ -169,7 +178,16 @@
       "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
       "identifier": "TYZ26",
       "pct_of_fund": 0.0,
-      "quantity": -1300000.0,
+      "quantity": -1200000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "TYH27",
+      "name": "US 10YR NOTE (CBT)MAR27 XCBT 20270319",
+      "identifier": "TYH27",
+      "pct_of_fund": 0.0,
+      "quantity": -100000.0,
       "market_value": null,
       "sector": ""
     },
@@ -178,7 +196,7 @@
       "name": "US 10YR ULTRA FUT MAR27 XCBT 20270319",
       "identifier": "TNH27",
       "pct_of_fund": 0.0,
-      "quantity": -4000000.0,
+      "quantity": -7600000.0,
       "market_value": null,
       "sector": ""
     },
@@ -187,7 +205,7 @@
       "name": "US 2YR NOTE (CBT) MAR27 XCBT 20270331",
       "identifier": "TUH27",
       "pct_of_fund": 0.0,
-      "quantity": 137200000.0,
+      "quantity": 209800000.0,
       "market_value": null,
       "sector": ""
     },
@@ -196,7 +214,7 @@
       "name": "US 5YR NOTE (CBT) MAR27 XCBT 20270331",
       "identifier": "FVH27",
       "pct_of_fund": 0.0,
-      "quantity": 23800000.0,
+      "quantity": 56800000.0,
       "market_value": null,
       "sector": ""
     },
@@ -205,7 +223,7 @@
       "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
       "identifier": "USZ26",
       "pct_of_fund": 0.0,
-      "quantity": 62800000.0,
+      "quantity": 53700000.0,
       "market_value": null,
       "sector": ""
     },
@@ -214,7 +232,7 @@
       "name": "US LONG BOND(CBT) MAR27 XCBT 20270319",
       "identifier": "USH27",
       "pct_of_fund": 0.0,
-      "quantity": 600000.0,
+      "quantity": 9700000.0,
       "market_value": null,
       "sector": ""
     },
@@ -223,7 +241,7 @@
       "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
       "identifier": "AULZ26",
       "pct_of_fund": 0.0,
-      "quantity": 9700000.0,
+      "quantity": 6700000.0,
       "market_value": null,
       "sector": ""
     },
@@ -232,7 +250,7 @@
       "name": "US ULTRA BOND CBT MAR27 XCBT 20270319",
       "identifier": "AULH27",
       "pct_of_fund": 0.0,
-      "quantity": 3200000.0,
+      "quantity": 6200000.0,
       "market_value": null,
       "sector": ""
     },
@@ -250,7 +268,7 @@
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
       "pct_of_fund": -0.0001,
-      "quantity": 125000000.0,
+      "quantity": 90700000.0,
       "market_value": null,
       "sector": ""
     },
@@ -259,7 +277,7 @@
       "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "TUZ26",
       "pct_of_fund": -0.0002,
-      "quantity": 326000000.0,
+      "quantity": 244000000.0,
       "market_value": null,
       "sector": ""
     }

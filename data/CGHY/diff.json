@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "ticker": "CGHY",
-  "prior_date": "2026-11-18",
+  "prior_date": "2026-11-19",
   "diff": [
     {
       "ticker": "BApA",
@@ -26,9 +26,9 @@
       "quantity_today": 4580.0,
       "quantity_prior": 4580.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0009,
-      "pct_of_fund_prior": 0.0008,
-      "pct_of_fund_change": 0.0001,
+      "pct_of_fund_today": 0.0008,
+      "pct_of_fund_prior": 0.0009,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -37,12 +37,12 @@
       "identifier": "CMQXX",
       "sector": "",
       "status": "changed",
-      "quantity_today": 91528.35,
-      "quantity_prior": 92028.4,
-      "quantity_pct_change": -0.5434,
-      "pct_of_fund_today": 0.0589,
-      "pct_of_fund_prior": 0.0592,
-      "pct_of_fund_change": -0.0003,
+      "quantity_today": 90718.27,
+      "quantity_prior": 91528.35,
+      "quantity_pct_change": -0.8851,
+      "pct_of_fund_today": 0.0584,
+      "pct_of_fund_prior": 0.0589,
+      "pct_of_fund_change": -0.0005,
       "market_value_today": null
     },
     {
@@ -166,9 +166,9 @@
       "quantity_today": 71502.0,
       "quantity_prior": 71502.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0014,
+      "pct_of_fund_today": 0.0013,
       "pct_of_fund_prior": 0.0014,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {
@@ -180,9 +180,9 @@
       "quantity_today": 23168.0,
       "quantity_prior": 23168.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 0.0009,
+      "pct_of_fund_today": 0.0008,
       "pct_of_fund_prior": 0.0009,
-      "pct_of_fund_change": 0.0,
+      "pct_of_fund_change": -0.0001,
       "market_value_today": null
     },
     {

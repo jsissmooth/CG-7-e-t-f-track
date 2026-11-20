@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "ticker": "CGMU",
   "holdings": [
     {
@@ -7,7 +7,16 @@
       "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
       "identifier": "TYZ26",
       "pct_of_fund": 0.0,
-      "quantity": -10000000.0,
+      "quantity": -9000000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "TYH27",
+      "name": "US 10YR NOTE (CBT)MAR27 XCBT 20270319",
+      "identifier": "TYH27",
+      "pct_of_fund": 0.0,
+      "quantity": -1000000.0,
       "market_value": null,
       "sector": ""
     },
@@ -16,7 +25,7 @@
       "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
       "identifier": "TNZ26",
       "pct_of_fund": 0.0,
-      "quantity": -32600000.0,
+      "quantity": -25400000.0,
       "market_value": null,
       "sector": ""
     },
@@ -25,7 +34,7 @@
       "name": "US 10YR ULTRA FUT MAR27 XCBT 20270319",
       "identifier": "TNH27",
       "pct_of_fund": 0.0,
-      "quantity": -1200000.0,
+      "quantity": -800000.0,
       "market_value": null,
       "sector": ""
     },
@@ -34,7 +43,7 @@
       "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
       "identifier": "FVZ26",
       "pct_of_fund": 0.0,
-      "quantity": 5200000.0,
+      "quantity": 3800000.0,
       "market_value": null,
       "sector": ""
     },
@@ -43,7 +52,7 @@
       "name": "US 5YR NOTE (CBT) MAR27 XCBT 20270331",
       "identifier": "FVH27",
       "pct_of_fund": 0.0,
-      "quantity": 1000000.0,
+      "quantity": 2400000.0,
       "market_value": null,
       "sector": ""
     }
