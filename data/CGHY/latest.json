@@ -1,22 +1,13 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-23",
   "ticker": "CGHY",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0584,
-      "quantity": 90718.27,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "SATS5938585",
-      "name": "ECHOSTAR CORP SR SECURED 11/30 3.875",
-      "identifier": "SATS5938585",
-      "pct_of_fund": 0.0013,
-      "quantity": 71502.0,
+      "pct_of_fund": 0.0569,
+      "quantity": 88258.27,
       "market_value": null,
       "sector": ""
     },
@@ -26,6 +17,15 @@
       "identifier": "DUKU",
       "pct_of_fund": 0.0012,
       "quantity": 3700.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "SATS5938585",
+      "name": "ECHOSTAR CORP SR SECURED 11/30 3.875",
+      "identifier": "SATS5938585",
+      "pct_of_fund": 0.0012,
+      "quantity": 71502.0,
       "market_value": null,
       "sector": ""
     },
@@ -78,7 +78,7 @@
       "ticker": "ORCL",
       "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
       "identifier": "ORCL",
-      "pct_of_fund": 0.0006,
+      "pct_of_fund": 0.0005,
       "quantity": 2400.0,
       "market_value": null,
       "sector": ""
@@ -98,6 +98,15 @@
       "identifier": "GOOGN",
       "pct_of_fund": 0.0004,
       "quantity": 1500.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "SATS4486279",
+      "name": "HUGHES SATELLITE SYSTEMS SR SECURED 08/26 5.25",
+      "identifier": "SATS4486279",
+      "pct_of_fund": 0.0004,
+      "quantity": 75000.0,
       "market_value": null,
       "sector": ""
     },
