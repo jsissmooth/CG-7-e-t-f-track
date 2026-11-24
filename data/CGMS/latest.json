@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "ticker": "CGMS",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0418,
-      "quantity": 2368382.69,
+      "pct_of_fund": 0.0432,
+      "quantity": 2454569.93,
       "market_value": null,
       "sector": ""
     },
@@ -15,8 +15,17 @@
       "ticker": "JNSTT6482354",
       "name": "JANE STREET GRP/JSG FIN SR SECURED 144A 08/31 7.294",
       "identifier": "JNSTT6482354",
-      "pct_of_fund": 0.003,
+      "pct_of_fund": 0.0029,
       "quantity": 16500000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "NFE6448216",
+      "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
+      "identifier": "NFE6448216",
+      "pct_of_fund": 0.0029,
+      "quantity": 18934004.0,
       "market_value": null,
       "sector": ""
     },
@@ -42,7 +51,7 @@
       "ticker": "ORCL",
       "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
       "identifier": "ORCL",
-      "pct_of_fund": 0.0009,
+      "pct_of_fund": 0.001,
       "quantity": 147600.0,
       "market_value": null,
       "sector": ""
@@ -75,6 +84,15 @@
       "sector": ""
     },
     {
+      "ticker": "OMI6432138",
+      "name": "ACCENDRA HEALTH INC SECURED 144A 06/33 9.75",
+      "identifier": "OMI6432138",
+      "pct_of_fund": 0.0003,
+      "quantity": 8939775.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "SVC",
       "name": "SERVICE PROPERTIES TRUST REIT USD.01",
       "identifier": "SVC",
@@ -84,29 +102,11 @@
       "sector": ""
     },
     {
-      "ticker": "SATS4486279",
-      "name": "HUGHES SATELLITE SYSTEMS SR SECURED 08/26 5.25",
-      "identifier": "SATS4486279",
-      "pct_of_fund": 0.0002,
-      "quantity": 1663000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "TUH27",
       "name": "US 2YR NOTE (CBT) MAR27 XCBT 20270331",
       "identifier": "TUH27",
-      "pct_of_fund": 0.0002,
-      "quantity": 305000000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "FVZ26",
-      "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
-      "identifier": "FVZ26",
       "pct_of_fund": 0.0001,
-      "quantity": 44500000.0,
+      "quantity": 425600000.0,
       "market_value": null,
       "sector": ""
     },
@@ -115,16 +115,7 @@
       "name": "US 5YR NOTE (CBT) MAR27 XCBT 20270331",
       "identifier": "FVH27",
       "pct_of_fund": 0.0001,
-      "quantity": 101200000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "USZ26",
-      "name": "US LONG BOND(CBT) DEC26 XCBT 20261221",
-      "identifier": "USZ26",
-      "pct_of_fund": 0.0001,
-      "quantity": 30800000.0,
+      "quantity": 125300000.0,
       "market_value": null,
       "sector": ""
     },
@@ -133,7 +124,7 @@
       "name": "US LONG BOND(CBT) MAR27 XCBT 20270319",
       "identifier": "USH27",
       "pct_of_fund": 0.0001,
-      "quantity": 32600000.0,
+      "quantity": 63400000.0,
       "market_value": null,
       "sector": ""
     },
@@ -143,6 +134,15 @@
       "identifier": "SRA98L26",
       "pct_of_fund": 0.0,
       "quantity": 495000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "OMI6438243",
+      "name": "ACCENDRA HEALTH INC SECURED 144A 06/33 9.75",
+      "identifier": "OMI6438243",
+      "pct_of_fund": 0.0,
+      "quantity": 986320.0,
       "market_value": null,
       "sector": ""
     },
@@ -174,56 +174,20 @@
       "sector": ""
     },
     {
-      "ticker": "TYZ26",
-      "name": "US 10YR NOTE (CBT)DEC26 XCBT 20261221",
-      "identifier": "TYZ26",
-      "pct_of_fund": 0.0,
-      "quantity": -600000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "TYH27",
       "name": "US 10YR NOTE (CBT)MAR27 XCBT 20270319",
       "identifier": "TYH27",
       "pct_of_fund": 0.0,
-      "quantity": -700000.0,
+      "quantity": -1300000.0,
       "market_value": null,
       "sector": ""
     },
     {
-      "ticker": "TNZ26",
-      "name": "US 10YR ULTRA FUT DEC26 XCBT 20261221",
-      "identifier": "TNZ26",
+      "ticker": "FVZ26",
+      "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
+      "identifier": "FVZ26",
       "pct_of_fund": 0.0,
-      "quantity": -69900000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "TNH27",
-      "name": "US 10YR ULTRA FUT MAR27 XCBT 20270319",
-      "identifier": "TNH27",
-      "pct_of_fund": 0.0,
-      "quantity": -45900000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "TUZ26",
-      "name": "US 2YR NOTE (CBT) DEC26 XCBT 20261231",
-      "identifier": "TUZ26",
-      "pct_of_fund": 0.0,
-      "quantity": 136400000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "AULZ26",
-      "name": "US ULTRA BOND CBT DEC26 XCBT 20261221",
-      "identifier": "AULZ26",
-      "pct_of_fund": 0.0,
-      "quantity": 3500000.0,
+      "quantity": 19400000.0,
       "market_value": null,
       "sector": ""
     },
@@ -232,7 +196,7 @@
       "name": "US ULTRA BOND CBT MAR27 XCBT 20270319",
       "identifier": "AULH27",
       "pct_of_fund": 0.0,
-      "quantity": 9400000.0,
+      "quantity": 12900000.0,
       "market_value": null,
       "sector": ""
     },
@@ -242,6 +206,15 @@
       "identifier": "VNTRF",
       "pct_of_fund": 0.0,
       "quantity": 90.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "TNH27",
+      "name": "US 10YR ULTRA FUT MAR27 XCBT 20270319",
+      "identifier": "TNH27",
+      "pct_of_fund": -0.0001,
+      "quantity": -115000000.0,
       "market_value": null,
       "sector": ""
     }
