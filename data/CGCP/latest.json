@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "ticker": "CGCP",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.1175,
-      "quantity": 10206076.51,
+      "pct_of_fund": 0.1615,
+      "quantity": 14017988.9,
       "market_value": null,
       "sector": ""
     },
@@ -33,17 +33,8 @@
       "ticker": "NFE6448216",
       "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
       "identifier": "NFE6448216",
-      "pct_of_fund": 0.0011,
-      "quantity": 11312909.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "TYH27",
-      "name": "US 10YR NOTE (CBT)MAR27 XCBT 20270319",
-      "identifier": "TYH27",
-      "pct_of_fund": 0.0008,
-      "quantity": 923700000.0,
+      "pct_of_fund": 0.0012,
+      "quantity": 11670184.0,
       "market_value": null,
       "sector": ""
     },
@@ -57,20 +48,11 @@
       "sector": ""
     },
     {
-      "ticker": "ORCL",
-      "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
-      "identifier": "ORCL",
-      "pct_of_fund": 0.0003,
-      "quantity": 71600.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "TUH27",
-      "name": "US 2YR NOTE (CBT) MAR27 XCBT 20270331",
-      "identifier": "TUH27",
-      "pct_of_fund": 0.0003,
-      "quantity": 1260000000.0,
+      "ticker": "TYH27",
+      "name": "US 10YR NOTE (CBT)MAR27 XCBT 20270319",
+      "identifier": "TYH27",
+      "pct_of_fund": 0.0007,
+      "quantity": 813700000.0,
       "market_value": null,
       "sector": ""
     },
@@ -78,8 +60,26 @@
       "ticker": "FVH27",
       "name": "US 5YR NOTE (CBT) MAR27 XCBT 20270331",
       "identifier": "FVH27",
+      "pct_of_fund": 0.0004,
+      "quantity": 811100000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "NFEGP",
+      "name": "NEW FORTRESS ENERGY INC PREFERRED STOCK 09/29 3",
+      "identifier": "NFEGP",
       "pct_of_fund": 0.0003,
-      "quantity": 707400000.0,
+      "quantity": 7277.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "ORCL",
+      "name": "ORACLE CORP PREFERRED STOCK 01/29 6.5",
+      "identifier": "ORCL",
+      "pct_of_fund": 0.0003,
+      "quantity": 71600.0,
       "market_value": null,
       "sector": ""
     },
@@ -93,15 +93,6 @@
       "sector": ""
     },
     {
-      "ticker": "NFEGP",
-      "name": "NEW FORTRESS ENERGY INC PREFERRED STOCK 09/29 3",
-      "identifier": "NFEGP",
-      "pct_of_fund": 0.0002,
-      "quantity": 7277.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "SVC",
       "name": "SERVICE PROPERTIES TRUST REIT USD.01",
       "identifier": "SVC",
@@ -111,11 +102,20 @@
       "sector": ""
     },
     {
+      "ticker": "TUH27",
+      "name": "US 2YR NOTE (CBT) MAR27 XCBT 20270331",
+      "identifier": "TUH27",
+      "pct_of_fund": 0.0002,
+      "quantity": 1336000000.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
       "ticker": "USH27",
       "name": "US LONG BOND(CBT) MAR27 XCBT 20270319",
       "identifier": "USH27",
       "pct_of_fund": 0.0001,
-      "quantity": 54500000.0,
+      "quantity": 69500000.0,
       "market_value": null,
       "sector": ""
     },
@@ -138,20 +138,11 @@
       "sector": ""
     },
     {
-      "ticker": "FVZ26",
-      "name": "US 5YR NOTE (CBT) DEC26 XCBT 20261231",
-      "identifier": "FVZ26",
-      "pct_of_fund": 0.0,
-      "quantity": 107900000.0,
-      "market_value": null,
-      "sector": ""
-    },
-    {
       "ticker": "TNH27",
       "name": "US 10YR ULTRA FUT MAR27 XCBT 20270319",
       "identifier": "TNH27",
       "pct_of_fund": -0.0002,
-      "quantity": -584200000.0,
+      "quantity": -528200000.0,
       "market_value": null,
       "sector": ""
     },
@@ -159,7 +150,7 @@
       "ticker": "AULH27",
       "name": "US ULTRA BOND CBT MAR27 XCBT 20270319",
       "identifier": "AULH27",
-      "pct_of_fund": -0.0007,
+      "pct_of_fund": -0.0006,
       "quantity": -320900000.0,
       "market_value": null,
       "sector": ""

@@ -1,22 +1,13 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "ticker": "CGHY",
   "holdings": [
     {
       "ticker": "CMQXX",
       "name": "CAPITAL GROUP CENTRAL CASH FUN CAPITAL GROUP CNTRL CSH M",
       "identifier": "CMQXX",
-      "pct_of_fund": 0.0587,
-      "quantity": 91448.91,
-      "market_value": null,
-      "sector": ""
-    },
-    {
-      "ticker": "SATS5938585",
-      "name": "ECHOSTAR CORP SR SECURED 11/30 3.875",
-      "identifier": "SATS5938585",
-      "pct_of_fund": 0.0013,
-      "quantity": 71502.0,
+      "pct_of_fund": 0.0569,
+      "quantity": 88458.31,
       "market_value": null,
       "sector": ""
     },
@@ -26,6 +17,15 @@
       "identifier": "DUKU",
       "pct_of_fund": 0.0012,
       "quantity": 3700.0,
+      "market_value": null,
+      "sector": ""
+    },
+    {
+      "ticker": "SATS5938585",
+      "name": "ECHOSTAR CORP SR SECURED 11/30 3.875",
+      "identifier": "SATS5938585",
+      "pct_of_fund": 0.0012,
+      "quantity": 71502.0,
       "market_value": null,
       "sector": ""
     },
@@ -42,8 +42,8 @@
       "ticker": "NFE6448216",
       "name": "NFE BRAZIL FINANCING LTD COMPANY GUAR 144A 06/29 12",
       "identifier": "NFE6448216",
-      "pct_of_fund": 0.0011,
-      "quantity": 200372.0,
+      "pct_of_fund": 0.0012,
+      "quantity": 206700.0,
       "market_value": null,
       "sector": ""
     },
@@ -123,7 +123,7 @@
       "ticker": "NFEGP",
       "name": "NEW FORTRESS ENERGY INC PREFERRED STOCK 09/29 3",
       "identifier": "NFEGP",
-      "pct_of_fund": 0.0002,
+      "pct_of_fund": 0.0003,
       "quantity": 128.0,
       "market_value": null,
       "sector": ""
